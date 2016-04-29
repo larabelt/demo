@@ -744,12 +744,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/base.git",
-                "reference": "16774dac0b1c789108c3c7f8a78236166e4a2973"
+                "reference": "7ba3e30412b353e788842fe512285189356ce11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/base/zipball/16774dac0b1c789108c3c7f8a78236166e4a2973",
-                "reference": "16774dac0b1c789108c3c7f8a78236166e4a2973",
+                "url": "https://api.github.com/repos/ohiocms/base/zipball/7ba3e30412b353e788842fe512285189356ce11e",
+                "reference": "7ba3e30412b353e788842fe512285189356ce11e",
                 "shasum": ""
             },
             "require": {
@@ -761,6 +761,11 @@
                 "raveren/kint": "0.9.*@dev"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\Base\\": "src/"
+                }
+            },
             "authors": [
                 {
                     "name": "Matt Crowe",
@@ -776,7 +781,7 @@
                 "source": "https://github.com/ohiocms/base/tree/master",
                 "issues": "https://github.com/ohiocms/base/issues"
             },
-            "time": "2016-04-29 17:34:58"
+            "time": "2016-04-29 18:47:41"
         },
         {
             "name": "paragonie/random_compat",
