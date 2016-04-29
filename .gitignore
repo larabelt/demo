@@ -38,9 +38,9 @@ ehthumbs.db
 Thumbs.db
 
 #MORE
-/vendor
 /node_modules
-/public/storage
+/packages
+/vendor
 Homestead.yaml
 Homestead.json
 .env
