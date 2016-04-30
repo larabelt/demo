@@ -7,7 +7,9 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "ohiocms/base": "dev-master"
+        "ohiocms/content": "dev-master",
+        "ohiocms/fileable": "dev-master",
+        "ohiocms/user": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -19,7 +21,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ohiocms/base"
+            "url": "https://github.com/ohiocms/content"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ohiocms/fileable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ohiocms/user"
         }
     ],
     "autoload": {

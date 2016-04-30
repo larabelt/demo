@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    s(111);
-    s(Ohio\Base\Hello::run());
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});

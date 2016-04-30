@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76a5431dbc998a321e4161a66a45126c",
-    "content-hash": "435687baeb816e32f380789e6c58ae39",
+    "hash": "8c65952f8b9df59fc23a75625df79b96",
+    "content-hash": "5911beccda1e66bae99a2379fcecf13e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -744,12 +744,54 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/base.git",
-                "reference": "97d06d095c1bce432f62c47aea568d9e8bf01094"
+                "reference": "97022f7c6a8465ced56b1569464099eefb9cabf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/base/zipball/97d06d095c1bce432f62c47aea568d9e8bf01094",
-                "reference": "97d06d095c1bce432f62c47aea568d9e8bf01094",
+                "url": "https://api.github.com/repos/ohiocms/base/zipball/97022f7c6a8465ced56b1569464099eefb9cabf0",
+                "reference": "97022f7c6a8465ced56b1569464099eefb9cabf0",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.2.31",
+                "php": ">=5.5.9",
+                "raveren/kint": "0.9.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\Base\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                },
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                }
+            ],
+            "description": "Baseline package for all Ohio CMS packages.",
+            "support": {
+                "source": "https://github.com/ohiocms/base/tree/master",
+                "issues": "https://github.com/ohiocms/base/issues"
+            },
+            "time": "2016-04-29 21:42:10"
+        },
+        {
+            "name": "ohiocms/content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/content.git",
+                "reference": "3bb2243b16882cb1eabfa7025d560dc19f366d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/3bb2243b16882cb1eabfa7025d560dc19f366d4c",
+                "reference": "3bb2243b16882cb1eabfa7025d560dc19f366d4c",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +805,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Base\\": "src/"
+                    "Ohio\\Content\\": "src/"
                 }
             },
             "authors": [
@@ -776,12 +818,102 @@
                     "email": "rob.lasota@gmail.com"
                 }
             ],
-            "description": "Base package for all other Ohio CMS packages.",
+            "description": "Content package for all other Ohio CMS packages.",
             "support": {
-                "source": "https://github.com/ohiocms/base/tree/master",
-                "issues": "https://github.com/ohiocms/base/issues"
+                "source": "https://github.com/ohiocms/content/tree/master",
+                "issues": "https://github.com/ohiocms/content/issues"
             },
-            "time": "2016-04-29 19:16:57"
+            "time": "2016-04-29 21:06:31"
+        },
+        {
+            "name": "ohiocms/fileable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/fileable.git",
+                "reference": "4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/fileable/zipball/4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8",
+                "reference": "4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.2.31",
+                "php": ">=5.5.9",
+                "raveren/kint": "0.9.*@dev"
+            },
+            "require-dev": {
+                "raveren/kint": "0.9.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\Fileable\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Matt Crowe",
+                    "email": "matt@zym.me"
+                },
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                }
+            ],
+            "description": "Fileable package for all other Ohio CMS packages.",
+            "support": {
+                "source": "https://github.com/ohiocms/fileable/tree/master",
+                "issues": "https://github.com/ohiocms/fileable/issues"
+            },
+            "time": "2016-04-29 21:06:40"
+        },
+        {
+            "name": "ohiocms/user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/user.git",
+                "reference": "b2fa99e843e80837d8b9b2959b1ce8a47783744e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/user/zipball/b2fa99e843e80837d8b9b2959b1ce8a47783744e",
+                "reference": "b2fa99e843e80837d8b9b2959b1ce8a47783744e",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.2.31",
+                "php": ">=5.5.9",
+                "raveren/kint": "0.9.*@dev"
+            },
+            "require-dev": {
+                "raveren/kint": "0.9.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\User\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Matt Crowe",
+                    "email": "matt@zym.me"
+                },
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                }
+            ],
+            "description": "User package for all other Ohio CMS packages.",
+            "support": {
+                "source": "https://github.com/ohiocms/user/tree/master",
+                "issues": "https://github.com/ohiocms/user/issues"
+            },
+            "time": "2016-04-29 21:06:47"
         },
         {
             "name": "paragonie/random_compat",
@@ -3100,7 +3232,10 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ohiocms/base": 20
+        "ohiocms/base": 20,
+        "ohiocms/content": 20,
+        "ohiocms/fileable": 20,
+        "ohiocms/user": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
