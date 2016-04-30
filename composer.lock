@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8c65952f8b9df59fc23a75625df79b96",
-    "content-hash": "5911beccda1e66bae99a2379fcecf13e",
+    "hash": "1526c9178711b9f1d463fb37b40fe350",
+    "content-hash": "d174e044c37e4d908388ed0099f4235f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,52 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "illuminate/html",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/html.git",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~5.0",
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Html\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2015-01-01 16:31:18"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -434,6 +480,60 @@
                 "laravel"
             ],
             "time": "2016-04-27 13:02:09"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "3a312d39ffe37da0f57b602618b61fd07c1fcec5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/3a312d39ffe37da0f57b602618b61fd07c1fcec5",
+                "reference": "3a312d39ffe37da0f57b602618b61fd07c1fcec5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.2.*",
+                "illuminate/routing": "5.2.*",
+                "illuminate/session": "5.2.*",
+                "illuminate/support": "5.2.*",
+                "illuminate/view": "5.2.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "illuminate/database": "5.2.*",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2016-01-27 22:29:54"
         },
         {
             "name": "league/flysystem",
@@ -744,16 +844,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/base.git",
-                "reference": "97022f7c6a8465ced56b1569464099eefb9cabf0"
+                "reference": "a5bea9d6085516b6a44ee9db467ac55e2d6a37ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/base/zipball/97022f7c6a8465ced56b1569464099eefb9cabf0",
-                "reference": "97022f7c6a8465ced56b1569464099eefb9cabf0",
+                "url": "https://api.github.com/repos/ohiocms/base/zipball/a5bea9d6085516b6a44ee9db467ac55e2d6a37ba",
+                "reference": "a5bea9d6085516b6a44ee9db467ac55e2d6a37ba",
                 "shasum": ""
             },
             "require": {
+                "illuminate/html": ">=5.0",
                 "laravel/framework": ">=5.2.31",
+                "laravelcollective/html": ">=5.2.4",
                 "php": ">=5.5.9",
                 "raveren/kint": "0.9.*@dev"
             },
@@ -773,12 +875,12 @@
                     "email": "rob.lasota@gmail.com"
                 }
             ],
-            "description": "Baseline package for all Ohio CMS packages.",
+            "description": "Baseline package for all OhioCMS packages.",
             "support": {
                 "source": "https://github.com/ohiocms/base/tree/master",
                 "issues": "https://github.com/ohiocms/base/issues"
             },
-            "time": "2016-04-29 21:42:10"
+            "time": "2016-04-30 15:49:56"
         },
         {
             "name": "ohiocms/content",
@@ -786,12 +888,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "3bb2243b16882cb1eabfa7025d560dc19f366d4c"
+                "reference": "8229ada67cbf61e9798a10c4188fac53ea6d771f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/3bb2243b16882cb1eabfa7025d560dc19f366d4c",
-                "reference": "3bb2243b16882cb1eabfa7025d560dc19f366d4c",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/8229ada67cbf61e9798a10c4188fac53ea6d771f",
+                "reference": "8229ada67cbf61e9798a10c4188fac53ea6d771f",
                 "shasum": ""
             },
             "require": {
@@ -823,7 +925,7 @@
                 "source": "https://github.com/ohiocms/content/tree/master",
                 "issues": "https://github.com/ohiocms/content/issues"
             },
-            "time": "2016-04-29 21:06:31"
+            "time": "2016-04-30 15:43:17"
         },
         {
             "name": "ohiocms/fileable",
@@ -831,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/fileable.git",
-                "reference": "4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8"
+                "reference": "fb8d90088c99b4f07794149e96a9a2d834814888"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/fileable/zipball/4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8",
-                "reference": "4ee63aa77a22f41054f1fa9d3d3d8333a4fd79e8",
+                "url": "https://api.github.com/repos/ohiocms/fileable/zipball/fb8d90088c99b4f07794149e96a9a2d834814888",
+                "reference": "fb8d90088c99b4f07794149e96a9a2d834814888",
                 "shasum": ""
             },
             "require": {
@@ -868,7 +970,7 @@
                 "source": "https://github.com/ohiocms/fileable/tree/master",
                 "issues": "https://github.com/ohiocms/fileable/issues"
             },
-            "time": "2016-04-29 21:06:40"
+            "time": "2016-04-30 15:43:26"
         },
         {
             "name": "ohiocms/user",
@@ -876,21 +978,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/user.git",
-                "reference": "b2fa99e843e80837d8b9b2959b1ce8a47783744e"
+                "reference": "da7bceefc3030a3bc38c54b66343e511e75bdc06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/user/zipball/b2fa99e843e80837d8b9b2959b1ce8a47783744e",
-                "reference": "b2fa99e843e80837d8b9b2959b1ce8a47783744e",
+                "url": "https://api.github.com/repos/ohiocms/user/zipball/da7bceefc3030a3bc38c54b66343e511e75bdc06",
+                "reference": "da7bceefc3030a3bc38c54b66343e511e75bdc06",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": ">=5.2.31",
-                "php": ">=5.5.9",
-                "raveren/kint": "0.9.*@dev"
-            },
-            "require-dev": {
-                "raveren/kint": "0.9.*@dev"
+                "ohiocms/base": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -908,12 +1005,12 @@
                     "email": "rob.lasota@gmail.com"
                 }
             ],
-            "description": "User package for all other Ohio CMS packages.",
+            "description": "User package for OhioCMS",
             "support": {
                 "source": "https://github.com/ohiocms/user/tree/master",
                 "issues": "https://github.com/ohiocms/user/issues"
             },
-            "time": "2016-04-29 21:06:47"
+            "time": "2016-04-30 15:31:35"
         },
         {
             "name": "paragonie/random_compat",

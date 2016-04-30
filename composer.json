@@ -7,6 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
+        "laravelcollective/html": "5.2.*",
+        "ohiocms/base": "dev-master",
         "ohiocms/content": "dev-master",
         "ohiocms/fileable": "dev-master",
         "ohiocms/user": "dev-master"
@@ -19,6 +21,10 @@
         "symfony/dom-crawler": "2.8.*|3.0.*"
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ohiocms/base"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/ohiocms/content"
