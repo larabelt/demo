@@ -38,13 +38,12 @@ ehthumbs.db
 Thumbs.db
 
 #MORE
+/database/factories/Ohio*
+/database/seeds/Ohio*
 /node_modules
 /packages
 /vendor
-Homestead.yaml
-Homestead.json
 .env
 .idea
-.phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
