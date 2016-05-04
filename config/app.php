@@ -167,6 +167,11 @@ return [
         Ohio\Base\BaseServiceProvider::class,
         Ohio\User\UserServiceProvider::class,
 
+        /*
+         * Dev Tools
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
     ],
 
     /*
