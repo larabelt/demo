@@ -67,6 +67,11 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+
+            /**
+             * @ohio specify ohio user instead
+             */
+
             'model' => Ohio\User\User\Domain\User::class,
         ],
 

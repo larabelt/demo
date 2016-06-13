@@ -6,6 +6,7 @@ use Exception;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Ohio\Base\Helper\StrHelper;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
@@ -45,6 +46,20 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
+
+        /**
+         * @ohio convert api expceptiosn to JSON
+         */
+        $middleware = $request->route()->middleware();
+        if (in_array('api', $middleware)) {
+
+            $msg = $e->getMessage();
+            $msg = StrHelper::isJson($msg) ? json_decode($msg, true) : $msg;
+
+            return response()->json(['message' => $msg], $e->getStatusCode());
+            //return response()->json(['message'=> $e->getMessage()], $e->getStatusCode());
+        }
+
         return parent::render($request, $e);
     }
 }

@@ -13,6 +13,7 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     //mix.sass('app.scss');
-    mix.sass('ohio/admin.scss');
+    mix.copy('bower_components/fontawesome/fonts/', 'public/fonts/');
+    mix.sass('admin.scss');
     mix.sass('ohio/front.scss');
 });

@@ -40,6 +40,7 @@ Thumbs.db
 #MORE
 /database/factories/Ohio*
 /database/seeds/Ohio*
+/bower_components
 /node_modules
 /packages
 /vendor
