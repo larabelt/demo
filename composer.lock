@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d43d50b645b4ccf3e8c42cefa256670",
-    "content-hash": "c7fcff320ffc7623e338500100d03985",
+    "hash": "b323782b70dd69b9c1e474b9e95586f1",
+    "content-hash": "319ba3156d757e13f5968cc23d1ab8aa",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -358,12 +358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e742751f6bad291e0cf714528768e1f120314da2"
+                "reference": "89894705047d66923f1b3f0364d2bdb2dd2ab649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e742751f6bad291e0cf714528768e1f120314da2",
-                "reference": "e742751f6bad291e0cf714528768e1f120314da2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/89894705047d66923f1b3f0364d2bdb2dd2ab649",
+                "reference": "89894705047d66923f1b3f0364d2bdb2dd2ab649",
                 "shasum": ""
             },
             "require": {
@@ -480,7 +480,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-23 13:05:31"
+            "time": "2016-06-24 15:40:04"
         },
         {
             "name": "laravelcollective/html",
@@ -908,12 +908,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/admin.git",
-                "reference": "10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0"
+                "reference": "b31b0fa95f752a035dda3d271a5ffbd10bf9b562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/admin/zipball/10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0",
-                "reference": "10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0",
+                "url": "https://api.github.com/repos/ohiocms/admin/zipball/b31b0fa95f752a035dda3d271a5ffbd10bf9b562",
+                "reference": "b31b0fa95f752a035dda3d271a5ffbd10bf9b562",
                 "shasum": ""
             },
             "require": {
@@ -922,7 +922,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\User\\": "src/"
+                    "Ohio\\Admin\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -937,7 +937,7 @@
                 }
             ],
             "description": "Admin package for OhioCMS",
-            "time": "2016-06-23 23:10:16"
+            "time": "2016-06-24 20:17:10"
         },
         {
             "name": "ohiocms/base",
@@ -945,12 +945,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/base.git",
-                "reference": "8e2a4c2fa3d069f2a0ad04f859890a2deb8bea74"
+                "reference": "8069bbd18ff218ac3537232d14ff6f8d0054dc12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/base/zipball/8e2a4c2fa3d069f2a0ad04f859890a2deb8bea74",
-                "reference": "8e2a4c2fa3d069f2a0ad04f859890a2deb8bea74",
+                "url": "https://api.github.com/repos/ohiocms/base/zipball/8069bbd18ff218ac3537232d14ff6f8d0054dc12",
+                "reference": "8069bbd18ff218ac3537232d14ff6f8d0054dc12",
                 "shasum": ""
             },
             "require": {
@@ -979,7 +979,7 @@
                 }
             ],
             "description": "Baseline package for all OhioCMS packages.",
-            "time": "2016-06-20 21:21:14"
+            "time": "2016-06-24 20:27:13"
         },
         {
             "name": "ohiocms/content",
@@ -3818,9 +3818,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "ohiocms/base": 20,
+        "ohiocms/admin": 20,
         "ohiocms/content": 20,
-        "ohiocms/fileable": 20,
-        "ohiocms/admin": 20
+        "ohiocms/fileable": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

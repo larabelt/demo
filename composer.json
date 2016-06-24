@@ -10,9 +10,9 @@
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "5.2.*",
         "ohiocms/base": "dev-master",
+        "ohiocms/admin": "dev-master",
         "ohiocms/content": "dev-master",
-        "ohiocms/fileable": "dev-master",
-        "ohiocms/admin": "dev-master"
+        "ohiocms/fileable": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "~2.0",

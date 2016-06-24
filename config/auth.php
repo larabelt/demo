@@ -72,7 +72,7 @@ return [
              * @ohio specify ohio user instead
              */
 
-            'model' => Ohio\User\User\Domain\User::class,
+            'model' => Ohio\Admin\User\Domain\User::class,
         ],
 
         // 'users' => [
