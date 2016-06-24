@@ -12,7 +12,7 @@
         "ohiocms/base": "dev-master",
         "ohiocms/content": "dev-master",
         "ohiocms/fileable": "dev-master",
-        "ohiocms/user": "dev-master"
+        "ohiocms/admin": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "~2.0",

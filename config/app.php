@@ -168,7 +168,7 @@ return [
          * OhioCms Service Providers...
          */
         Ohio\Base\BaseServiceProvider::class,
-        Ohio\User\BaseServiceProvider::class,
+        Ohio\Admin\BaseServiceProvider::class,
 
         /*
          * Dev Tools

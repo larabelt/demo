@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "310b86c75f4a764dddeaef4191dfe30d",
-    "content-hash": "ffc966085dfa68147d26f3cb8786ff1a",
+    "hash": "0d43d50b645b4ccf3e8c42cefa256670",
+    "content-hash": "c7fcff320ffc7623e338500100d03985",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -903,6 +903,43 @@
             "time": "2016-04-20 14:47:50"
         },
         {
+            "name": "ohiocms/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/admin.git",
+                "reference": "10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/admin/zipball/10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0",
+                "reference": "10f5bb53ee4df3e82ae1dbf0bec8d8992538e3d0",
+                "shasum": ""
+            },
+            "require": {
+                "ohiocms/base": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\User\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Admin package for OhioCMS",
+            "time": "2016-06-23 23:10:16"
+        },
+        {
             "name": "ohiocms/base",
             "version": "dev-master",
             "source": {
@@ -1017,66 +1054,6 @@
             ],
             "description": "Fileable package for all other Ohio CMS packages.",
             "time": "2016-05-04 21:05:33"
-        },
-        {
-            "name": "ohiocms/template",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ohiocms/template.git",
-                "reference": "371f6272d2e21a344a31d385284965ff7d7f28d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/template/zipball/371f6272d2e21a344a31d385284965ff7d7f28d7",
-                "reference": "371f6272d2e21a344a31d385284965ff7d7f28d7",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "AdminLTE clone/fork/mirror",
-            "time": "2016-06-13 14:36:29"
-        },
-        {
-            "name": "ohiocms/user",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ohiocms/user.git",
-                "reference": "b04b9ca49b7e37f87bbd69611c8a16849d12b3cd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/user/zipball/b04b9ca49b7e37f87bbd69611c8a16849d12b3cd",
-                "reference": "b04b9ca49b7e37f87bbd69611c8a16849d12b3cd",
-                "shasum": ""
-            },
-            "require": {
-                "ohiocms/base": "dev-master",
-                "ohiocms/template": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ohio\\User\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "User package for OhioCMS",
-            "time": "2016-06-20 21:21:32"
         },
         {
             "name": "paragonie/random_compat",
@@ -3843,7 +3820,7 @@
         "ohiocms/base": 20,
         "ohiocms/content": 20,
         "ohiocms/fileable": 20,
-        "ohiocms/user": 20
+        "ohiocms/admin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
