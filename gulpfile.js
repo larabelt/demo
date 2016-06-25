@@ -36,4 +36,8 @@ elixir(function(mix) {
         'AdminLTE/dist/js/demo.js'
     ], 'public/js/adminlib.js', 'bower_components/');
 
+    mix.copy('bower_components/angular/angular.min.js', 'public/app/lib/angular');
+    mix.copy('bower_components/angular-bootstrap/ui-bootstrap.min.js', 'public/app/lib/angular');
+    mix.copy('resources/assets/app', 'public/app');
+
 });
