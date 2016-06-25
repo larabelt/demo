@@ -1,5 +1,5 @@
 {
-  "name": "OhioCMS",
+  "name": "ohiocms-app",
   "version": "0.0.0",
   "authors": [
 
@@ -7,10 +7,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "jquery": "~1.11",
-    "jquery-ui": "~1.11.2",
-    "bootstrap-sass-official": "~3.3.4",
-    "startbootstrap-simple-sidebar": "~1.0.4",
-    "fontawesome": "~4.4.0"
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.11.4",
+    "bootstrap-sass-official": "^3.3.6",
+    "fontawesome": "^4.6.3",
+    "AdminLTE": "admin-lte#^2.3.3"
   }
 }
