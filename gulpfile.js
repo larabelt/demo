@@ -48,11 +48,7 @@ elixir(function(mix) {
         'AdminLTE/dist/js/demo.js'
     ], 'public/js/admin-footer-lib.js', 'bower_components/');
 
-    // // App JS
-    // mix.scripts([
-    //     'app/app.js',
-    //     'app/*.js',
-    //     'app/**/*.js'
-    // ], 'public/app/app.js');
+    // App JS
+    mix.scriptsIn('resources/assets/js/ng/users', 'public/ng/users.js');
 
 });
