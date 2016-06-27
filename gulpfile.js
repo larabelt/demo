@@ -12,11 +12,23 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
+
+    // copy
     mix.copy('bower_components/fontawesome/fonts/', 'public/fonts/');
     mix.copy('bower_components/bootstrap-sass-official/assets/fonts/', 'public/fonts/');
+    mix.copy('resources/assets/js/ng/**/*', 'public/ng/');
+
+    // css
     mix.sass('admin.scss');
 
-    // Admin JS Library
+    // Admin JS Head Library
+    mix.scripts([
+        'angular/angular.js',
+        'angular-route/angular-route.js',
+        'angular-bootstrap/ui-bootstrap.js'
+    ], 'public/js/admin-head-lib.js', 'bower_components/');
+
+    // Admin JS Footer Library
     mix.scripts([
         'jquery/dist/jquery.min.js',
         'jquery-ui/jquery-ui.min.js',
@@ -34,10 +46,13 @@ elixir(function(mix) {
         'AdminLTE/dist/js/app.min.js',
         'AdminLTE/dist/js/pages/dashboard.js',
         'AdminLTE/dist/js/demo.js'
-    ], 'public/js/adminlib.js', 'bower_components/');
+    ], 'public/js/admin-footer-lib.js', 'bower_components/');
 
-    mix.copy('bower_components/angular/angular.min.js', 'public/app/lib/angular');
-    mix.copy('bower_components/angular-bootstrap/ui-bootstrap.min.js', 'public/app/lib/angular');
-    mix.copy('resources/assets/app', 'public/app');
+    // // App JS
+    // mix.scripts([
+    //     'app/app.js',
+    //     'app/*.js',
+    //     'app/**/*.js'
+    // ], 'public/app/app.js');
 
 });
