@@ -16,7 +16,7 @@ elixir(function(mix) {
     // copy
     mix.copy('bower_components/fontawesome/fonts/', 'public/fonts/');
     mix.copy('bower_components/bootstrap-sass-official/assets/fonts/', 'public/fonts/');
-    mix.copy('resources/assets/js/ng/**/*', 'public/ng/');
+    //mix.copy('resources/assets/js/ng/**/*', 'public/ng/');
 
     // css
     mix.sass('admin.scss');
@@ -48,7 +48,8 @@ elixir(function(mix) {
         'AdminLTE/dist/js/demo.js'
     ], 'public/js/admin-footer-lib.js', 'bower_components/');
 
-    // App JS
-    mix.scriptsIn('resources/assets/js/ng/users', 'public/ng/users.js');
+    // ohiocms/admin/users
+    mix.copy('vendor/ohiocms/admin/resources/assets/ng/users/views', 'public/ng/users/views');
+    mix.scriptsIn('vendor/ohiocms/admin/resources/assets/ng/users', 'public/ng/users.js');
 
 });
