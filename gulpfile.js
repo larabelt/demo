@@ -1,3 +1,5 @@
+var gulp = require('gulp');
+var include = require('gulp-include');
 var elixir = require('laravel-elixir');
 
 /*
@@ -11,45 +13,71 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
+function mixWithIncludes(source, target) {
+    gulp.src(source)
+        .pipe(include())
+        .on('error', console.log)
+        .pipe(gulp.dest(target));
+}
 
-    // copy
-    mix.copy('bower_components/fontawesome/fonts/', 'public/fonts/');
-    mix.copy('bower_components/bootstrap-sass-official/assets/fonts/', 'public/fonts/');
-    //mix.copy('resources/assets/js/ng/**/*', 'public/ng/');
-
-    // css
-    mix.sass('admin.scss');
-
-    // Admin JS Head Library
-    mix.scripts([
-        'angular/angular.js',
-        'angular-route/angular-route.js',
-        'angular-bootstrap/ui-bootstrap.js'
-    ], 'public/js/admin-head-lib.js', 'bower_components/');
-
-    // Admin JS Footer Library
-    mix.scripts([
-        'jquery/dist/jquery.min.js',
-        'jquery-ui/jquery-ui.min.js',
-        'bootstrap-sass-official/assets/javascripts/bootstrap.min.js',
-        'AdminLTE/plugins/morris/morris.min.js',
-        'AdminLTE/plugins/sparkline/jquery.sparkline.min.js',
-        'AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
-        'AdminLTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
-        'AdminLTE/plugins/knob/jquery.knob.js',
-        'AdminLTE/plugins/daterangepicker/daterangepicker.js',
-        'AdminLTE/plugins/datepicker/bootstrap-datepicker.js',
-        'AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
-        'AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js',
-        'AdminLTE/plugins/fastclick/fastclick.js',
-        'AdminLTE/dist/js/app.min.js',
-        'AdminLTE/dist/js/pages/dashboard.js',
-        'AdminLTE/dist/js/demo.js'
-    ], 'public/js/admin-footer-lib.js', 'bower_components/');
-
-    // ohiocms/admin/users
-    mix.copy('vendor/ohiocms/admin/resources/assets/ng/users/views', 'public/ng/users/views');
-    mix.scriptsIn('vendor/ohiocms/admin/resources/assets/ng/users', 'public/ng/users.js');
-
+gulp.task('fonts', function () {
+    elixir(function(mix) {
+        console.info('copying font files');
+        mix.copy('bower_components/fontawesome/fonts/', 'public/fonts/');
+        mix.copy('bower_components/bootstrap-sass-official/assets/fonts/', 'public/fonts/');
+    });
 });
+
+gulp.task('scss', function () {
+    elixir(function(mix) {
+        console.info('mixing sass files');
+        mix.sass('admin.scss');
+    });
+});
+
+gulp.task('js', function () {
+    elixir(function(mix) {
+        console.info('mixing js files');
+        // Admin JS Head Library
+        mix.scripts([
+            'angular/angular.js',
+            'angular-route/angular-route.js',
+            'angular-bootstrap/ui-bootstrap.js'
+        ], 'public/js/admin-head-lib.js', 'bower_components/');
+        // Admin JS Footer Library
+        mix.scripts([
+            'jquery/dist/jquery.min.js',
+            'jquery-ui/jquery-ui.min.js',
+            'bootstrap-sass-official/assets/javascripts/bootstrap.min.js',
+            'AdminLTE/plugins/morris/morris.min.js',
+            'AdminLTE/plugins/sparkline/jquery.sparkline.min.js',
+            'AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
+            'AdminLTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
+            'AdminLTE/plugins/knob/jquery.knob.js',
+            'AdminLTE/plugins/daterangepicker/daterangepicker.js',
+            'AdminLTE/plugins/datepicker/bootstrap-datepicker.js',
+            'AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
+            'AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js',
+            'AdminLTE/plugins/fastclick/fastclick.js',
+            'AdminLTE/dist/js/app.min.js',
+            'AdminLTE/dist/js/pages/dashboard.js',
+            'AdminLTE/dist/js/demo.js'
+        ], 'public/js/admin-footer-lib.js', 'bower_components/');
+    });
+});
+
+gulp.task('angular', function () {
+    elixir(function(mix) {
+        console.info('mixing angular files');
+        // ohiocms/admin/users
+        mix.copy('vendor/ohiocms/admin/resources/assets/ng/users/views', 'public/ng/users/views');
+        mixWithIncludes('./vendor/ohiocms/admin/resources/assets/ng/users/app.js', './public/ng/users');
+    });
+});
+
+gulp.task('watch-angular', function () {
+    gulp.watch('vendor/ohiocms/admin/resources/assets/ng/**/*', ['angular']);
+});
+
+gulp.task('default', ['fonts', 'scss', 'js', 'angular']);
+gulp.task('watch', ['watch-angular']);
