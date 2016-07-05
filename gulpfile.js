@@ -24,18 +24,19 @@ function copy(source, target) {
     gulp.src(source).pipe(gulp.dest(target));
 }
 
+gulp.task('sass', function () {
+    elixir(function(mix) {
+        console.info('mixing sass files');
+        copy('./bower_components/fontawesome/fonts/**/*', './public/fonts/');
+        mix.sass('admin.scss');
+    });
+});
+
 gulp.task('vendor-copy', function () {
     console.info('copying font files');
     copy('./bower_components/fontawesome/fonts/**/*', './public/fonts/');
     copy('./bower_components/bootstrap-sass-official/assets/fonts/**/*', './public/fonts/');
     copy('./node_modules/angular-ui-bootstrap/template/**/*', './public/ng/vendor/angular-ui-bootstrap/template/');
-});
-
-gulp.task('scss', function () {
-    elixir(function(mix) {
-        console.info('mixing sass files');
-        mix.sass('admin.scss');
-    });
 });
 
 gulp.task('js', function () {
@@ -80,5 +81,9 @@ gulp.task('watch-angular', function () {
     gulp.watch('vendor/ohiocms/admin/resources/assets/ng/**/*', ['angular', 'js']);
 });
 
-gulp.task('default', ['vendor-copy', 'scss', 'js', 'angular']);
-gulp.task('watch', ['watch-angular']);
+gulp.task('watch-sass', function () {
+    gulp.watch('vendor/ohiocms/admin/resources/assets/sass/**/*', ['sass']);
+});
+
+gulp.task('default', ['sass', 'vendor-copy', 'js', 'angular']);
+gulp.task('watch', ['watch-angular', 'watch-sass']);
