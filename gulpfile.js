@@ -1,10 +1,12 @@
-var concat = require('gulp-concat');
-var gulp = require('gulp');
-var include = require('gulp-include');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var uglify = require('gulp-uglify');
+const babel = require('babelify');
+const browserify = require('browserify');
+const concat = require('gulp-concat');
+const gulp = require('gulp');
+const include = require('gulp-include');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps');
+const uglify = require('gulp-uglify');
 
 function copy_files(input, output) {
     gulp.src(input).pipe(gulp.dest(output));
@@ -19,10 +21,11 @@ function mix_sass(input, output) {
         .pipe(gulp.dest(output));
 }
 
-function mix_js(input, output) {
+function mix_js(input, output, filename) {
     gulp.src(input)
         .pipe(include())
         .on('error', console.log)
+        .pipe(concat(filename))
         .pipe(gulp.dest(output));
 }
 
@@ -37,7 +40,11 @@ gulp.task('sass', function () {
 gulp.task('ng', function () {
     copy_files('./vendor/ohiocms/admin/resources/ng/base/views/**/*', './public/ng/base/views');
     copy_files('./vendor/ohiocms/admin/resources/ng/users/views/**/*', './public/ng/users/views');
-    mix_js(['./vendor/ohiocms/admin/resources/ng/users/app.js'], './public/ng/users', 'app');
+    mix_js(['./vendor/ohiocms/admin/resources/ng/users/app.js'], './public/ng/users', 'app.js');
+});
+
+gulp.task('vue', function () {
+    mix_js(['./vendor/ohiocms/admin/resources/vue/app.js'], './public/vue', 'app.js');
 });
 
 gulp.task('js', function () {
@@ -57,7 +64,12 @@ gulp.task('js', function () {
         './bower_components/AdminLTE/dist/js/app.min.js',
         './bower_components/AdminLTE/dist/js/pages/dashboard.js',
         './bower_components/AdminLTE/dist/js/demo.js'
-    ], './public/js/', 'admin-footer-lib');
+    ], './public/js/', 'admin-footer-lib.js');
+
+    mix_js([
+        './node_modules/vue/dist/vue.js',
+        './node_modules/vue-resource/dist/vue-resource.js',
+    ], './public/js/', 'vue-lib.js');
 
 });
 
@@ -65,6 +77,7 @@ gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 
 gulp.task('watch', function () {
     gulp.watch('./vendor/ohiocms/admin/resources/ng/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/admin/resources/vue/**/*', ['vue']);
     gulp.watch('./resources/sass/**/*', ['sass']);
     gulp.watch('./vendor/ohiocms/admin/resources/sass/**/*', ['sass']);
 });
