@@ -1,5 +1,3 @@
-const babel = require('babelify');
-const browserify = require('browserify');
 const concat = require('gulp-concat');
 const gulp = require('gulp');
 const include = require('gulp-include');
@@ -43,10 +41,6 @@ gulp.task('ng', function () {
     mix_js(['./vendor/ohiocms/admin/resources/ng/users/app.js'], './public/ng/users', 'app.js');
 });
 
-gulp.task('vue', function () {
-    mix_js(['./vendor/ohiocms/admin/resources/vue/app.js'], './public/vue', 'app.js');
-});
-
 gulp.task('js', function () {
 
     //mix_js(['./node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js'], './public/js/', 'admin-head-lib');
@@ -66,18 +60,12 @@ gulp.task('js', function () {
         './bower_components/AdminLTE/dist/js/demo.js'
     ], './public/js/', 'admin-footer-lib.js');
 
-    mix_js([
-        './node_modules/vue/dist/vue.js',
-        './node_modules/vue-resource/dist/vue-resource.js',
-    ], './public/js/', 'vue-lib.js');
-
 });
 
 gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 
 gulp.task('watch', function () {
     gulp.watch('./vendor/ohiocms/admin/resources/ng/**/*', ['ng']);
-    gulp.watch('./vendor/ohiocms/admin/resources/vue/**/*', ['vue']);
     gulp.watch('./resources/sass/**/*', ['sass']);
     gulp.watch('./vendor/ohiocms/admin/resources/sass/**/*', ['sass']);
 });
