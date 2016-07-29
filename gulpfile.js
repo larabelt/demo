@@ -39,12 +39,18 @@ gulp.task('sass', function () {
 });
 
 gulp.task('ng', function () {
+
     copy_files('./vendor/ohiocms/admin/resources/ng/base/views/**/*', './public/ng/base/views');
+
     copy_files('./vendor/ohiocms/admin/resources/ng/roles/views/**/*', './public/ng/roles/views');
     copy_files('./vendor/ohiocms/admin/resources/ng/users/views/**/*', './public/ng/users/views');
+    copy_files('./vendor/ohiocms/admin/resources/ng/users-roles/views/**/*', './public/ng/users-roles/views');
 
     mix_js(['./vendor/ohiocms/admin/resources/ng/users/app.js'], './public/ng/users', 'app.js');
     mix_js(['./vendor/ohiocms/admin/resources/ng/roles/app.js'], './public/ng/roles', 'app.js');
+    //mix_js(['./vendor/ohiocms/admin/resources/ng/users-roles/app.js'], './public/ng/users-roles', 'app.js');
+
+    mix_js(['./vendor/ohiocms/admin/resources/ng/admin-app.js'], './public/ng', 'admin-app.js');
 });
 
 gulp.task('js', function () {
