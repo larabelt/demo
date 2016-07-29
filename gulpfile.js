@@ -1,13 +1,15 @@
-const concat = require('gulp-concat');
-const gulp = require('gulp');
-const include = require('gulp-include');
-const rename = require('gulp-rename');
-const sass = require('gulp-sass');
-const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify');
+var concat = require('gulp-concat');
+var gulp = require('gulp');
+var include = require('gulp-include');
+var rename = require('gulp-rename');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
+var uglify = require('gulp-uglify');
 
 function copy_files(input, output) {
-    gulp.src(input).pipe(gulp.dest(output));
+    return gulp
+        .src(input)
+        .pipe(gulp.dest(output));
 }
 
 function mix_sass(input, output) {
@@ -20,10 +22,11 @@ function mix_sass(input, output) {
 }
 
 function mix_js(input, output, filename) {
-    gulp.src(input)
+    return gulp
+        .src(input)
+        .pipe(concat(filename))
         .pipe(include())
         .on('error', console.log)
-        .pipe(concat(filename))
         .pipe(gulp.dest(output));
 }
 
@@ -32,19 +35,19 @@ gulp.task('copy', function () {
 });
 
 gulp.task('sass', function () {
-    mix_sass('./resources/sass/admin.scss', './public/css');
+    mix_sass('./resources/assets/sass/admin.scss', './public/css');
 });
 
 gulp.task('ng', function () {
     copy_files('./vendor/ohiocms/admin/resources/ng/base/views/**/*', './public/ng/base/views');
+    copy_files('./vendor/ohiocms/admin/resources/ng/roles/views/**/*', './public/ng/roles/views');
     copy_files('./vendor/ohiocms/admin/resources/ng/users/views/**/*', './public/ng/users/views');
+
     mix_js(['./vendor/ohiocms/admin/resources/ng/users/app.js'], './public/ng/users', 'app.js');
+    mix_js(['./vendor/ohiocms/admin/resources/ng/roles/app.js'], './public/ng/roles', 'app.js');
 });
 
 gulp.task('js', function () {
-
-    //mix_js(['./node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js'], './public/js/', 'admin-head-lib');
-
     mix_js([
         './bower_components/AdminLTE/plugins/sparkline/jquery.sparkline.min.js',
         './bower_components/AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
@@ -59,13 +62,12 @@ gulp.task('js', function () {
         './bower_components/AdminLTE/dist/js/pages/dashboard.js',
         './bower_components/AdminLTE/dist/js/demo.js'
     ], './public/js/', 'admin-footer-lib.js');
-
 });
 
 gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 
 gulp.task('watch', function () {
-    gulp.watch('./vendor/ohiocms/admin/resources/ng/**/*', ['ng']);
     gulp.watch('./resources/sass/**/*', ['sass']);
     gulp.watch('./vendor/ohiocms/admin/resources/sass/**/*', ['sass']);
+    gulp.watch('./vendor/ohiocms/admin/resources/ng/**/*', ['ng']);
 });
