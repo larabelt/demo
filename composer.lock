@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b323782b70dd69b9c1e474b9e95586f1",
-    "content-hash": "319ba3156d757e13f5968cc23d1ab8aa",
+    "hash": "1b1b7aaed749528bbfe4561700415ac6",
+    "content-hash": "26c7b68207599fd1199cfe1b1f12fe88",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -205,6 +205,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
+            "abandoned": "laravelcollective/html",
             "time": "2015-01-01 16:31:18"
         },
         {
@@ -358,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a01a102f1522da0d617ff53cc399f2e476cc6569"
+                "reference": "83fcb3b155d229d8f756c367bfe82527fd3e3307"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a01a102f1522da0d617ff53cc399f2e476cc6569",
-                "reference": "a01a102f1522da0d617ff53cc399f2e476cc6569",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/83fcb3b155d229d8f756c367bfe82527fd3e3307",
+                "reference": "83fcb3b155d229d8f756c367bfe82527fd3e3307",
                 "shasum": ""
             },
             "require": {
@@ -480,7 +481,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-07-28 13:41:35"
+            "time": "2016-07-29 13:52:21"
         },
         {
             "name": "laravelcollective/html",
@@ -908,100 +909,21 @@
             "time": "2016-07-06 00:21:48"
         },
         {
-            "name": "ohiocms/admin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ohiocms/admin.git",
-                "reference": "bfdc6ff0f2097d53573c1a96cafdcf98757da7cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/admin/zipball/bfdc6ff0f2097d53573c1a96cafdcf98757da7cc",
-                "reference": "bfdc6ff0f2097d53573c1a96cafdcf98757da7cc",
-                "shasum": ""
-            },
-            "require": {
-                "ohiocms/base": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ohio\\Admin\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Admin package for OhioCMS",
-            "time": "2016-07-28 18:34:07"
-        },
-        {
-            "name": "ohiocms/base",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ohiocms/base.git",
-                "reference": "2d0482dfbde8878c8acab4c9ec356eb1149a2694"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/base/zipball/2d0482dfbde8878c8acab4c9ec356eb1149a2694",
-                "reference": "2d0482dfbde8878c8acab4c9ec356eb1149a2694",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/html": ">=5.0",
-                "laravel/framework": ">=5.2.31",
-                "laravelcollective/html": ">=5.2.4",
-                "league/fractal": "0.12.*",
-                "php": ">=5.5.9",
-                "prettus/l5-repository": "2.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ohio\\Base\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Baseline package for all OhioCMS packages.",
-            "time": "2016-07-28 18:30:33"
-        },
-        {
             "name": "ohiocms/content",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "5b78543004eef5160abbd0ea268b28bc82e295df"
+                "reference": "27c595ed09bb1082dbd1a9162a72a0487455f118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/5b78543004eef5160abbd0ea268b28bc82e295df",
-                "reference": "5b78543004eef5160abbd0ea268b28bc82e295df",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/27c595ed09bb1082dbd1a9162a72a0487455f118",
+                "reference": "27c595ed09bb1082dbd1a9162a72a0487455f118",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/base": "dev-master"
+                "ohiocms/core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -1021,7 +943,49 @@
                 }
             ],
             "description": "Content package for all other Ohio CMS packages.",
-            "time": "2016-05-04 21:05:26"
+            "time": "2016-07-30 19:40:51"
+        },
+        {
+            "name": "ohiocms/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/core.git",
+                "reference": "204eafc08b53990931904a61c0e01d29219f4f23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/204eafc08b53990931904a61c0e01d29219f4f23",
+                "reference": "204eafc08b53990931904a61c0e01d29219f4f23",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/html": ">=5.0",
+                "laravel/framework": ">=5.2.31",
+                "laravelcollective/html": ">=5.2.4",
+                "league/fractal": "0.12.*",
+                "php": ">=5.5.9",
+                "prettus/l5-repository": "2.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Core package for any OhioCMS app.",
+            "time": "2016-07-30 19:28:27"
         },
         {
             "name": "ohiocms/fileable",
@@ -1029,16 +993,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/fileable.git",
-                "reference": "8d8a2c87fe64ea5c62017eef22259e6c3d12975f"
+                "reference": "bcdb505e1297ece7c8ab85b30f8f7bddcb4eb5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/fileable/zipball/8d8a2c87fe64ea5c62017eef22259e6c3d12975f",
-                "reference": "8d8a2c87fe64ea5c62017eef22259e6c3d12975f",
+                "url": "https://api.github.com/repos/ohiocms/fileable/zipball/bcdb505e1297ece7c8ab85b30f8f7bddcb4eb5e8",
+                "reference": "bcdb505e1297ece7c8ab85b30f8f7bddcb4eb5e8",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/base": "dev-master"
+                "ohiocms/core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -1058,7 +1022,7 @@
                 }
             ],
             "description": "Fileable package for all other Ohio CMS packages.",
-            "time": "2016-05-04 21:05:33"
+            "time": "2016-07-30 19:40:59"
         },
         {
             "name": "paragonie/random_compat",
@@ -1386,12 +1350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "dd5bbad49ca17b6ebfdfe4d24c0d8356348b10d1"
+                "reference": "926061e74229e935d3c5b4e9ba87237316c6693f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/dd5bbad49ca17b6ebfdfe4d24c0d8356348b10d1",
-                "reference": "dd5bbad49ca17b6ebfdfe4d24c0d8356348b10d1",
+                "url": "https://api.github.com/repos/symfony/console/zipball/926061e74229e935d3c5b4e9ba87237316c6693f",
+                "reference": "926061e74229e935d3c5b4e9ba87237316c6693f",
                 "shasum": ""
             },
             "require": {
@@ -1438,7 +1402,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-30 07:22:48"
         },
         {
             "name": "symfony/debug",
@@ -1446,12 +1410,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "134a136d9af7a84f9c22be09374db22e9b1d2231"
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/134a136d9af7a84f9c22be09374db22e9b1d2231",
-                "reference": "134a136d9af7a84f9c22be09374db22e9b1d2231",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/697c527acd9ea1b2d3efac34d9806bf255278b0a",
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1459,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-30 07:22:48"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1665,12 +1629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "fedd4337f3442b2776a9a683fc71a9e09f2d8b8d"
+                "reference": "03ac7bbc8fccbf002e0bea88dbe09262b29dc2a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/fedd4337f3442b2776a9a683fc71a9e09f2d8b8d",
-                "reference": "fedd4337f3442b2776a9a683fc71a9e09f2d8b8d",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/03ac7bbc8fccbf002e0bea88dbe09262b29dc2a9",
+                "reference": "03ac7bbc8fccbf002e0bea88dbe09262b29dc2a9",
                 "shasum": ""
             },
             "require": {
@@ -1739,7 +1703,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-28 11:13:34"
+            "time": "2016-07-30 09:29:03"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2038,12 +2002,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "4d5c3edabe4a994a4105bddd1b31b4460f126f43"
+                "reference": "eee6c664853fd0576f21ae25725cfffeafe83f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/4d5c3edabe4a994a4105bddd1b31b4460f126f43",
-                "reference": "4d5c3edabe4a994a4105bddd1b31b4460f126f43",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/eee6c664853fd0576f21ae25725cfffeafe83f26",
+                "reference": "eee6c664853fd0576f21ae25725cfffeafe83f26",
                 "shasum": ""
             },
             "require": {
@@ -2094,7 +2058,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-30 07:22:48"
         },
         {
             "name": "symfony/var-dumper",
@@ -3663,12 +3627,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "8e4ca1fc602bf2670eaf2f47fa813b8d6311f6e9"
+                "reference": "dff8fecf1f56990d88058e3a1885c2a5f1b8e970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/8e4ca1fc602bf2670eaf2f47fa813b8d6311f6e9",
-                "reference": "8e4ca1fc602bf2670eaf2f47fa813b8d6311f6e9",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/dff8fecf1f56990d88058e3a1885c2a5f1b8e970",
+                "reference": "dff8fecf1f56990d88058e3a1885c2a5f1b8e970",
                 "shasum": ""
             },
             "require": {
@@ -3711,7 +3675,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-30 07:22:48"
         },
         {
             "name": "symfony/yaml",
@@ -3822,8 +3786,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "ohiocms/base": 20,
-        "ohiocms/admin": 20,
+        "ohiocms/core": 20,
         "ohiocms/content": 20,
         "ohiocms/fileable": 20
     },

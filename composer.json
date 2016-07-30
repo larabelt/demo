@@ -9,8 +9,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "5.2.*",
-        "ohiocms/base": "dev-master",
-        "ohiocms/admin": "dev-master",
+        "ohiocms/core": "dev-master",
         "ohiocms/content": "dev-master",
         "ohiocms/fileable": "dev-master"
     },
