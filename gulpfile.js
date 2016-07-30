@@ -40,17 +40,17 @@ gulp.task('sass', function () {
 
 gulp.task('ng', function () {
 
-    copy_files('./vendor/ohiocms/core/resources/client/base/views/**/*', './public/ohio/base/views');
+    copy_files('./vendor/ohiocms/core/client/base/views/**/*', './public/ohio/base/views');
 
-    copy_files('./vendor/ohiocms/core/resources/client/roles/views/**/*', './public/ohio/roles/views');
-    copy_files('./vendor/ohiocms/core/resources/client/users/views/**/*', './public/ohio/users/views');
-    copy_files('./vendor/ohiocms/core/resources/client/users-roles/views/**/*', './public/ohio/users-roles/views');
+    copy_files('./vendor/ohiocms/core/client/roles/views/**/*', './public/ohio/roles/views');
+    copy_files('./vendor/ohiocms/core/client/users/views/**/*', './public/ohio/users/views');
+    copy_files('./vendor/ohiocms/core/client/users-roles/views/**/*', './public/ohio/users-roles/views');
 
-    mix_js(['./vendor/ohiocms/core/resources/client/users/app.js'], './public/ohio/users', 'app.js');
-    mix_js(['./vendor/ohiocms/core/resources/client/roles/app.js'], './public/ohio/roles', 'app.js');
-    //mix_js(['./vendor/ohiocms/core/resources/client/users-roles/app.js'], './public/ohio/users-roles', 'app.js');
+    mix_js(['./vendor/ohiocms/core/client/users/app.js'], './public/ohio/users', 'app.js');
+    mix_js(['./vendor/ohiocms/core/client/roles/app.js'], './public/ohio/roles', 'app.js');
+    //mix_js(['./vendor/ohiocms/core/client/users-roles/app.js'], './public/ohio/users-roles', 'app.js');
 
-    mix_js(['./vendor/ohiocms/core/resources/client/admin-app.js'], './public/ohio', 'admin-app.js');
+    mix_js(['./vendor/ohiocms/core/client/admin-app.js'], './public/ohio', 'admin-app.js');
 });
 
 gulp.task('js', function () {
@@ -75,5 +75,5 @@ gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 gulp.task('watch', function () {
     gulp.watch('./resources/sass/**/*', ['sass']);
     gulp.watch('./vendor/ohiocms/core/resources/sass/**/*', ['sass']);
-    gulp.watch('./vendor/ohiocms/core/resources/client/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/core/client/**/*', ['ng']);
 });
