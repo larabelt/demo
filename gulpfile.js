@@ -12,9 +12,10 @@ function copy_files(input, output) {
         .pipe(gulp.dest(output));
 }
 
-function mix_sass(input, output) {
+function mix_sass(input, output, filename) {
     return gulp
         .src(input)
+        .pipe(concat(filename))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
@@ -32,10 +33,21 @@ function mix_js(input, output, filename) {
 
 gulp.task('copy', function () {
     copy_files('./node_modules/angular-ui-bootstrap/template/**/*', './public/ohio/vendor/angular-ui-bootstrap/template/');
+    copy_files('./node_modules/font-awesome/fonts/**/*', './public/fonts/');
 });
 
 gulp.task('sass', function () {
-    mix_sass('./resources/assets/sass/admin.scss', './public/css');
+    mix_sass([
+        './node_modules/admin-lte/bootstrap/css/bootstrap.css',
+        './node_modules/font-awesome/css/font-awesome.css',
+        './node_modules/admin-lte/dist/css/AdminLTE.css',
+        './node_modules/admin-lte/dist/css/skins/skin-blue.css',
+        './node_modules/admin-lte/plugins/datepicker/datepicker3.css',
+        './node_modules/admin-lte/plugins/daterangepicker/daterangepicker.css',
+        './node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css',
+        './node_modules/admin-lte/plugins/datatables/dataTables.bootstrap.css'
+    ], './public/css', 'admin-lib.css');
+    mix_sass(['./resources/assets/sass/admin.scss'], './public/css', 'admin.css');
 });
 
 gulp.task('ng', function () {
@@ -55,18 +67,22 @@ gulp.task('ng', function () {
 
 gulp.task('js', function () {
     mix_js([
-        './bower_components/AdminLTE/plugins/sparkline/jquery.sparkline.min.js',
-        './bower_components/AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
-        './bower_components/AdminLTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
-        './bower_components/AdminLTE/plugins/knob/jquery.knob.js',
-        './bower_components/AdminLTE/plugins/daterangepicker/daterangepicker.js',
-        './bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js',
-        './bower_components/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
-        './bower_components/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js',
-        './bower_components/AdminLTE/plugins/fastclick/fastclick.js',
-        './bower_components/AdminLTE/dist/js/app.min.js',
-        './bower_components/AdminLTE/dist/js/pages/dashboard.js',
-        './bower_components/AdminLTE/dist/js/demo.js'
+        './node_modules/angular/angular.min.js',
+        './node_modules/angular-route/angular-route.min.js',
+        './node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js'
+    ], './public/js/', 'admin-head-lib.js');
+
+    mix_js([
+        './node_modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js',
+        './node_modules/admin-lte/plugins/jQueryUI/jquery-ui.min.js',
+        './node_modules/admin-lte/bootstrap/js/bootstrap.min.js',
+        './node_modules/admin-lte/plugins/daterangepicker/moment.min.js',
+        './node_modules/admin-lte/plugins/daterangepicker/daterangepicker.js',
+        './node_modules/admin-lte/plugins/sparkline/jquery.sparkline.min.js',
+        './node_modules/admin-lte/plugins/datepicker/bootstrap-datepicker.js',
+        './node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
+        './node_modules/admin-lte/plugins/fastclick/fastclick.js',
+        './node_modules/admin-lte/dist/js/app.min.js'
     ], './public/js/', 'admin-footer-lib.js');
 });
 
