@@ -162,53 +162,6 @@
             "time": "2016-05-12 17:23:41"
         },
         {
-            "name": "illuminate/html",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/html.git",
-                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/html/zipball/3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
-                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/http": "~5.0",
-                "illuminate/session": "~5.0",
-                "illuminate/support": "~5.0",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Html\\": ""
-                },
-                "files": [
-                    "helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "abandoned": "laravelcollective/html",
-            "time": "2015-01-01 16:31:18"
-        },
-        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -951,16 +904,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "204eafc08b53990931904a61c0e01d29219f4f23"
+                "reference": "2a09347988adbc68212f40ed05d9d8d9e4194b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/204eafc08b53990931904a61c0e01d29219f4f23",
-                "reference": "204eafc08b53990931904a61c0e01d29219f4f23",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/2a09347988adbc68212f40ed05d9d8d9e4194b1e",
+                "reference": "2a09347988adbc68212f40ed05d9d8d9e4194b1e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/html": ">=5.0",
                 "laravel/framework": ">=5.2.31",
                 "laravelcollective/html": ">=5.2.4",
                 "league/fractal": "0.12.*",
@@ -985,7 +937,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-07-30 19:28:27"
+            "time": "2016-07-30 19:44:16"
         },
         {
             "name": "ohiocms/fileable",
