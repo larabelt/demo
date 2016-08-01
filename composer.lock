@@ -904,12 +904,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "2a09347988adbc68212f40ed05d9d8d9e4194b1e"
+                "reference": "cd90def321b7ac550307bfd325cd12a3e8795c11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/2a09347988adbc68212f40ed05d9d8d9e4194b1e",
-                "reference": "2a09347988adbc68212f40ed05d9d8d9e4194b1e",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/cd90def321b7ac550307bfd325cd12a3e8795c11",
+                "reference": "cd90def321b7ac550307bfd325cd12a3e8795c11",
                 "shasum": ""
             },
             "require": {
@@ -922,7 +922,10 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Core\\": "src/"
+                    "Ohio\\Core\\Base\\": "base/src/",
+                    "Ohio\\Core\\Role\\": "role/src/",
+                    "Ohio\\Core\\User\\": "user/src/",
+                    "Ohio\\Core\\UserRole\\": "user-role/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -937,7 +940,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-07-30 19:44:16"
+            "time": "2016-08-01 02:06:23"
         },
         {
             "name": "ohiocms/fileable",
