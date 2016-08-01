@@ -52,11 +52,17 @@ gulp.task('sass', function () {
 
 gulp.task('ng', function () {
 
-    copy_files('./vendor/ohiocms/core/client/**/*', './public/ohio');
+    copy_files('./vendor/ohiocms/core/base/ng/**/*', './public/ohio/base');
+    copy_files('./vendor/ohiocms/core/role/ng/**/*', './public/ohio/role');
+    copy_files('./vendor/ohiocms/core/user/ng/**/*', './public/ohio/user');
+    copy_files('./vendor/ohiocms/core/user-role/ng/**/*', './public/ohio/user-role');
 
-    mix_js(['./vendor/ohiocms/core/client/admin/users/app.js'], './public/ohio/admin/users', 'app.js');
-    mix_js(['./vendor/ohiocms/core/client/admin/roles/app.js'], './public/ohio/admin/roles', 'app.js');
-    mix_js(['./vendor/ohiocms/core/client/admin/core-gulp.js'], './public/ohio/admin', 'core.js');
+    mix_js(['./vendor/ohiocms/core/base/ng/admin/app.js'], './public/ohio/admin/base', 'app.js');
+    mix_js(['./vendor/ohiocms/core/role/ng/admin/app.js'], './public/ohio/admin/role', 'app.js');
+    mix_js(['./vendor/ohiocms/core/user/ng/admin/app.js'], './public/ohio/admin/user', 'app.js');
+    mix_js(['./vendor/ohiocms/core/user-role/ng/admin/app.js'], './public/ohio/admin/user-role', 'app.js');
+
+    mix_js(['./vendor/ohiocms/core/base/admin/core-gulp.js'], './public/ohio/admin', 'core.js');
 });
 
 gulp.task('js', function () {
@@ -83,6 +89,9 @@ gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 
 gulp.task('watch', function () {
     gulp.watch('./resources/sass/**/*', ['sass']);
-    gulp.watch('./vendor/ohiocms/core/resources/sass/**/*', ['sass']);
-    gulp.watch('./vendor/ohiocms/core/client/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/core/base/resources/sass/**/*', ['sass']);
+    gulp.watch('./vendor/ohiocms/core/base/ng/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/core/role/ng/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/core/user/ng/**/*', ['ng']);
+    gulp.watch('./vendor/ohiocms/core/user-role/ng/**/*', ['ng']);
 });
