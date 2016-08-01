@@ -167,7 +167,7 @@ return [
         /*
          * OhioCms Service Providers...
          */
-        Ohio\Core\OhioCoreServiceProvider::class,
+        Ohio\Core\Base\OhioCoreServiceProvider::class,
         //Ohio\Core\OhioAdminServiceProvider::class,
 
         /*

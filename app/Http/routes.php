@@ -10,13 +10,3 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-Route::group(['middleware' => 'guest'], function () {
-    Route::get('login2', Auth\AuthController::class . '@getLogin');
-    Route::post('login2', Auth\AuthController::class . '@postLogin');
-    //Route::get('logout', \Ohio\User\User\Http\Controllers\Front\UsersController::class . '@getLogout');
-});

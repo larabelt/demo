@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Ohio\Base\Helper\StrHelper;
+use Ohio\Core\Base\Helper\StrHelper;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
@@ -56,7 +56,12 @@ class Handler extends ExceptionHandler
             $msg = $e->getMessage();
             $msg = StrHelper::isJson($msg) ? json_decode($msg, true) : $msg;
 
-            return response()->json(['message' => $msg], $e->getStatusCode());
+            if (method_exists($e, 'getStatusCode')) {
+                return response()->json(['message' => $msg], $e->getStatusCode());
+            } else {
+                return response()->json(['message' => $msg], 400);
+            }
+
             //return response()->json(['message'=> $e->getMessage()], $e->getStatusCode());
         }
 
