@@ -11,3 +11,9 @@ Clear App & PHP cache
 
 ```php artisan cache:clear;sudo service php5-fpm restart;
 ```
+
+```gulp --gulpfile vendor/ohiocms/core/gulpfile.js
+```
+
+```gulp watch --gulpfile vendor/ohiocms/core/gulpfile.js
+```

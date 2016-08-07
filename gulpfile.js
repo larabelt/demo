@@ -32,66 +32,23 @@ function mix_js(input, output, filename) {
 }
 
 gulp.task('copy', function () {
-    copy_files('./node_modules/angular-ui-bootstrap/template/**/*', './public/ng/vendor/angular-ui-bootstrap/template/');
-    copy_files('./node_modules/font-awesome/fonts/**/*', './public/fonts/');
+
 });
 
 gulp.task('sass', function () {
-    mix_sass([
-        './node_modules/admin-lte/bootstrap/css/bootstrap.css',
-        './node_modules/font-awesome/css/font-awesome.css',
-        './node_modules/admin-lte/dist/css/AdminLTE.css',
-        './node_modules/admin-lte/dist/css/skins/skin-blue.css',
-        './node_modules/admin-lte/plugins/datepicker/datepicker3.css',
-        './node_modules/admin-lte/plugins/daterangepicker/daterangepicker.css',
-        './node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css',
-        './node_modules/admin-lte/plugins/datatables/dataTables.bootstrap.css'
-    ], './public/css', 'admin-lib.css');
     mix_sass(['./resources/assets/sass/admin.scss'], './public/css', 'admin.css');
 });
 
 gulp.task('ng', function () {
 
-    copy_files('./vendor/ohiocms/core/base/ng/**/*', './public/ng/core/base');
-    copy_files('./vendor/ohiocms/core/role/ng/**/*', './public/ng/core/role');
-    copy_files('./vendor/ohiocms/core/user/ng/**/*', './public/ng/core/user');
-    copy_files('./vendor/ohiocms/core/user-role/ng/**/*', './public/ng/core/user-role');
-
-    // mix_js(['./vendor/ohiocms/core/base/ng/admin/app.js'], './public/ng/admin/base', 'app.js');
-    // mix_js(['./vendor/ohiocms/core/role/ng/admin/app.js'], './public/ng/admin/role', 'app.js');
-    // mix_js(['./vendor/ohiocms/core/user/ng/admin/app.js'], './public/ng/admin/user', 'app.js');
-    // mix_js(['./vendor/ohiocms/core/user-role/ng/admin/app.js'], './public/ng/admin/user-role', 'app.js');
-
-    mix_js(['./vendor/ohiocms/core/base/ng/admin/core-gulp.js'], './public/ng/core/base/admin', 'core.js');
 });
 
 gulp.task('js', function () {
-    mix_js([
-        './node_modules/angular/angular.min.js',
-        './node_modules/angular-route/angular-route.min.js',
-        './node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js'
-    ], './public/js/', 'admin-head-lib.js');
-    mix_js([
-        './node_modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js',
-        './node_modules/admin-lte/plugins/jQueryUI/jquery-ui.min.js',
-        './node_modules/admin-lte/bootstrap/js/bootstrap.min.js',
-        './node_modules/admin-lte/plugins/daterangepicker/moment.min.js',
-        './node_modules/admin-lte/plugins/daterangepicker/daterangepicker.js',
-        './node_modules/admin-lte/plugins/sparkline/jquery.sparkline.min.js',
-        './node_modules/admin-lte/plugins/datepicker/bootstrap-datepicker.js',
-        './node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
-        './node_modules/admin-lte/plugins/fastclick/fastclick.js',
-        './node_modules/admin-lte/dist/js/app.min.js'
-    ], './public/js/', 'admin-footer-lib.js');
+
 });
 
 gulp.task('default', ['copy', 'sass', 'ng', 'js']);
 
 gulp.task('watch', function () {
     gulp.watch('./resources/sass/**/*', ['sass']);
-    gulp.watch('./vendor/ohiocms/core/base/resources/sass/**/*', ['sass']);
-    gulp.watch('./vendor/ohiocms/core/base/ng/**/*', ['ng']);
-    gulp.watch('./vendor/ohiocms/core/role/ng/**/*', ['ng']);
-    gulp.watch('./vendor/ohiocms/core/user/ng/**/*', ['ng']);
-    gulp.watch('./vendor/ohiocms/core/user-role/ng/**/*', ['ng']);
 });
