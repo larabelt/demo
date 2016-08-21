@@ -7,6 +7,7 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Ohio\Core\Base\Helper\StrHelper;
+use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
@@ -47,13 +48,18 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $e)
     {
 
+        if (method_exists($e, 'getResponse')) {
+            if ($e->getResponse() instanceof JsonResponse) {
+                return response()->json(['message' => $e->getResponse()->getData()], $e->getResponse()->getStatusCode());
+            }
+        }
+
         /**
          * @ohio convert api expceptiosn to JSON
          */
         $middleware = $request->route()->middleware();
         if (in_array('api', $middleware)) {
 
-            $msg = $e->getMessage();
             $msg = StrHelper::isJson($msg) ? json_decode($msg, true) : $msg;
 
             if (method_exists($e, 'getStatusCode')) {

@@ -39,7 +39,7 @@ gulp.task('sass', function () {
     mix_sass(['./resources/assets/sass/admin.scss'], './public/css', 'admin.css');
 });
 
-gulp.task('ng', function () {
+gulp.task('client', function () {
 
 });
 
@@ -47,7 +47,7 @@ gulp.task('js', function () {
 
 });
 
-gulp.task('default', ['copy', 'sass', 'ng', 'js']);
+gulp.task('default', ['copy', 'sass', 'client', 'js']);
 
 gulp.task('watch', function () {
     gulp.watch('./resources/sass/**/*', ['sass']);
