@@ -48,27 +48,13 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $e)
     {
 
+        /**
+         * @ohio convert api exceptions to JSON
+         */
         if (method_exists($e, 'getResponse')) {
             if ($e->getResponse() instanceof JsonResponse) {
                 return response()->json(['message' => $e->getResponse()->getData()], $e->getResponse()->getStatusCode());
             }
-        }
-
-        /**
-         * @ohio convert api expceptiosn to JSON
-         */
-        $middleware = $request->route()->middleware();
-        if (in_array('api', $middleware)) {
-
-            $msg = StrHelper::isJson($msg) ? json_decode($msg, true) : $msg;
-
-            if (method_exists($e, 'getStatusCode')) {
-                return response()->json(['message' => $msg], $e->getStatusCode());
-            } else {
-                return response()->json(['message' => $msg], 400);
-            }
-
-            //return response()->json(['message'=> $e->getMessage()], $e->getStatusCode());
         }
 
         return parent::render($request, $e);
