@@ -17,3 +17,6 @@ Clear App & PHP cache
 
 ```gulp watch --gulpfile vendor/ohiocms/core/gulpfile.js
 ```
+
+```php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
+```
