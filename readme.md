@@ -1,10 +1,22 @@
-Database migration
+Installation
 
+```composer install
+```
+```npm install
+```
+```cp .env.example .env
+```
+```php artisan key:generate
+```
+```php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
+```
+```php artisan ohio:assets
+```
 ```php artisan migrate
 ```
 ```php artisan db:seed
 ```
-```php artisan migrate:refresh --seed #re-run all migrations with seeds
+```gulp --gulpfile vendor/ohiocms/core/gulpfile.js
 ```
 
 Clear App & PHP cache
@@ -12,11 +24,10 @@ Clear App & PHP cache
 ```composer run-script clear; sudo service php7.0-fpm restart;
 ```
 
-```gulp --gulpfile vendor/ohiocms/core/gulpfile.js
+Misc
+
+```php artisan migrate:refresh --seed #re-run all migrations with seeds
 ```
 
 ```gulp watch --gulpfile vendor/ohiocms/core/gulpfile.js
-```
-
-```php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
 ```
