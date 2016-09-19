@@ -43,6 +43,7 @@ Thumbs.db
 /bower_components
 /node_modules
 /ohio
+/public/fonts
 /vendor
 .env
 .idea

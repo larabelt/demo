@@ -5,7 +5,7 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "admin-lte": "^2.3.5",
+    "admin-lte": "^2.3.6",
     "angular": "^1.5.8",
     "angular-route": "^1.5.8",
     "angular-ui-bootstrap": "^2.0.0",

@@ -8,6 +8,46 @@
     "content-hash": "4f3dccdf556905cc533fc4ef1442e0fd",
     "packages": [
         {
+            "name": "almasaeed2010/adminlte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdullah Almsaeed",
+                    "email": "abdullah@almsaeedstudio.com"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "http://almsaeedstudio.com/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-08-04 23:22:06"
+        },
+        {
             "name": "classpreloader/classpreloader",
             "version": "dev-master",
             "source": {
@@ -842,15 +882,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "438b1c07d663bf4179dec4e88b50a07ce54ef959"
+                "reference": "ab6e98d7ab680d25ce6121e3a00709dae58ea476"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/438b1c07d663bf4179dec4e88b50a07ce54ef959",
-                "reference": "438b1c07d663bf4179dec4e88b50a07ce54ef959",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/ab6e98d7ab680d25ce6121e3a00709dae58ea476",
+                "reference": "ab6e98d7ab680d25ce6121e3a00709dae58ea476",
                 "shasum": ""
             },
             "require": {
+                "almasaeed2010/adminlte": "~2.0",
                 "laravel/framework": ">=5.2.31",
                 "laravelcollective/html": ">=5.2.4",
                 "php": ">=5.5.9"
@@ -876,7 +917,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-09-19 20:19:47"
+            "time": "2016-09-19 20:31:25"
         },
         {
             "name": "ohiocms/fileable",
