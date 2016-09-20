@@ -42,7 +42,7 @@ Thumbs.db
 /database/seeds/Ohio*
 /bower_components
 /node_modules
-/ohio
+/ohiov
 /public/fonts
 /vendor
 .env

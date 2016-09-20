@@ -36,7 +36,7 @@ gulp.task('copy', function () {
 });
 
 gulp.task('sass', function () {
-    mix_sass(['./resources/assets/sass/admin.scss'], './public/css', 'admin.css');
+
 });
 
 gulp.task('client', function () {
