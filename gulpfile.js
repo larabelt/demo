@@ -40,8 +40,8 @@ gulp.task('sass', function () {
 });
 
 gulp.task('client', function () {
-    copy_files('./ohio/client/**/*', './public/client/');
-    mix_js(['./ohio/client/core/base/admin/uncompiled.js'], './public/client/core/base/admin', 'compiled.js');
+    copy_files('./ohio/core/client/**/*', './public/client/core/');
+    mix_js(['./ohio/core/client/base/admin/uncompiled.js'], './public/client/core/base/admin', 'compiled.js');
 });
 
 gulp.task('js', function () {
