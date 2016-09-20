@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Edit Widget</h3>
+            </div>
+            <form role="form" ng-init="init()" ng-submit="update(widget.id)">
+                <div class="box-body">
+                    <div ng-include="'/client/widget/admin/views/_form.html'"></div>
+                </div>
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -44,6 +44,11 @@ gulp.task('client', function () {
     mix_js(['./ohio/core/client/base/admin/uncompiled.js'], './public/client/core/base/admin', 'compiled.js');
 });
 
+gulp.task('widget', function () {
+    copy_files('./client/widget/**/*', './public/client/widget/');
+    mix_js(['./client/widget/admin/app.js'], './public/client/widget/admin', 'compiled.js');
+});
+
 gulp.task('js', function () {
 
 });

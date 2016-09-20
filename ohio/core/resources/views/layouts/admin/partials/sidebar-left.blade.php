@@ -34,6 +34,9 @@
                     <li><a href="/admin/ohio/core/#!/users/index"><i class="fa fa-users"></i> <span>Users</span></a></li>
                     <li><a href="/admin/ohio/core/#!/roles/index"><i class="fa fa-users"></i> <span>Roles</span></a></li>
                 </ul>
+                <a href="/admin/widgets/#!/index">
+                    <i class="fa fa-star"></i> <span>Widgets</span></i>
+                </a>
             </li>
             <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>

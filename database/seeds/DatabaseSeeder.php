@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(OhioRolesTableSeeder::class);
         $this->call(OhioUsersTableSeeder::class);
+        $this->call(WidgetsTableSeeder::class);
     }
 }
