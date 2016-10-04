@@ -1,10 +1,10 @@
 let $ = require('jquery');
-import  OhioCore  from '../../../ohio/core/client/app';
-import  Content  from '../../../ohio/content/resources/js/component';
+import  OhioCore  from '../../ohio/core/js/app';
+//import  Content  from '../../../ohio/content/js/component';
 
 $(document).ready(function() {
 
     let core = new OhioCore([
-        Content
+        //Content
     ]);
 });
