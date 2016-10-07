@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 ```
 # install composer dependencies
@@ -26,16 +26,20 @@ php artisan db:seed
 gulp
 ```
 
-# Clear App & PHP cache
+## Clear App & PHP cache
 
 ```
 composer run-script clear; 
 sudo service php7.0-fpm restart;
 ```
 
-# Misc
+## Misc
 
 ```
 #re-run all migrations with seeds
 php artisan migrate:refresh --seed 
 ```
+
+## Acknowledgments / Credits
+
+* [AdminLTE] (https://github.com/almasaeed2010/AdminLTE)
