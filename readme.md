@@ -1,33 +1,41 @@
-Installation
+# Installation
 
-```composer install
 ```
-```npm install
-```
-```cp .env.example .env
-```
-```php artisan key:generate
-```
-```php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
-```
-```php artisan ohio:assets
-```
-```php artisan migrate
-```
-```php artisan db:seed
-```
-```gulp --gulpfile vendor/ohiocms/core/gulpfile.js
-```
+# install composer dependencies
+composer install
 
-Clear App & PHP cache
+# install node dependencies
+npm install
 
-```composer run-script clear; sudo service php7.0-fpm restart;
-```
+# create .env file
+cp .env.example .env
 
-Misc
+# create app key
+php artisan key:generate
 
-```php artisan migrate:refresh --seed #re-run all migrations with seeds
+# install assets
+php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
+php artisan ohio:assets
+composer dumpautoload
+
+# migrate & seed
+php artisan migrate
+php artisan db:seed
+
+# compile assets
+gulp
 ```
 
-```gulp watch --gulpfile vendor/ohiocms/core/gulpfile.js
+# Clear App & PHP cache
+
+```
+composer run-script clear; 
+sudo service php7.0-fpm restart;
+```
+
+# Misc
+
+```
+#re-run all migrations with seeds
+php artisan migrate:refresh --seed 
 ```
