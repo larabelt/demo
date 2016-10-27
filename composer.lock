@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "587e13640a64b316ceea7e6068ec6f81",
+    "hash": "6ef30d4b3547c55aa7ad8fe4a5bfaf98",
     "content-hash": "97ef55974219a7e0f1eb3040840d4ada",
     "packages": [
         {
@@ -808,22 +808,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "5d0551762011c558c9b31cedeb9d436990c3d01e"
+                "reference": "0bddc894d3be78bb5b9ad6c9e99c50d85847e4c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/5d0551762011c558c9b31cedeb9d436990c3d01e",
-                "reference": "5d0551762011c558c9b31cedeb9d436990c3d01e",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/0bddc894d3be78bb5b9ad6c9e99c50d85847e4c3",
+                "reference": "0bddc894d3be78bb5b9ad6c9e99c50d85847e4c3",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": ">=5.3.16",
                 "laravelcollective/html": ">=5.3.0",
                 "php": ">=5.6.4"
-            },
-            "require-dev": {
-                "barryvdh/laravel-ide-helper": ">=2.2.1",
-                "raveren/kint": ">=1.0.10"
             },
             "type": "library",
             "autoload": {
@@ -846,7 +842,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-10-27 20:26:48"
+            "time": "2016-10-27 21:02:57"
         },
         {
             "name": "paragonie/random_compat",
