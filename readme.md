@@ -14,11 +14,12 @@ cp .env.example .env
 php artisan key:generate
 
 # install assets & migrate
-php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
+php artisan ohio-core:publish
 composer dumpautoload
+
+# migrate & seed
 php artisan migrate
 php artisan db:seed
-php artisan ohio-core:publish
 
 # compile assets
 gulp
