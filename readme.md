@@ -15,7 +15,7 @@ php artisan key:generate
 
 # install assets
 php artisan vendor:publish --provider="Ohio\Core\Base\OhioCoreServiceProvider"
-php artisan ohio:assets
+php artisan ohio-core:publish
 composer dumpautoload
 
 # migrate & seed

@@ -6,10 +6,10 @@ use Exception;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Ohio\Core\Base\Helper\StrHelper;
-use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+
+use Ohio\Core\Base\Exceptions\Handler as OhioHandler;
 
 class Handler extends ExceptionHandler
 {
@@ -51,12 +51,8 @@ class Handler extends ExceptionHandler
         /**
          * @ohio convert api exceptions to JSON
          */
-        if (method_exists($e, 'getResponse')) {
-            if ($e->getResponse() instanceof JsonResponse) {
-                return response()->json(['message' => $e->getResponse()->getData()], $e->getResponse()->getStatusCode());
-            }
-        }
+        $response = OhioHandler::render($request, $e);
 
-        return parent::render($request, $e);
+        return $response ?: parent::render($request, $e);
     }
 }
