@@ -194,7 +194,7 @@ return [
         /*
          * Dev Tools
          */
-        //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
     ],
 
