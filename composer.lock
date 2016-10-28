@@ -808,12 +808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "9ddb8a052954e25093251d97e693b5be1108a1ca"
+                "reference": "81b94ee7e57822992146a161b56d7a9f31c76e4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/9ddb8a052954e25093251d97e693b5be1108a1ca",
-                "reference": "9ddb8a052954e25093251d97e693b5be1108a1ca",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/81b94ee7e57822992146a161b56d7a9f31c76e4a",
+                "reference": "81b94ee7e57822992146a161b56d7a9f31c76e4a",
                 "shasum": ""
             },
             "require": {
@@ -842,7 +842,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-10-28 13:23:48"
+            "time": "2016-10-28 14:31:51"
         },
         {
             "name": "paragonie/random_compat",
