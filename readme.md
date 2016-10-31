@@ -5,7 +5,7 @@
 composer install
 
 # install node dependencies
-npm install
+yarn
 
 # create .env file
 cp .env.example .env
