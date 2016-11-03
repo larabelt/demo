@@ -190,6 +190,7 @@ return [
          * OhioCms Service Providers...
          */
         Ohio\Core\Base\OhioCoreServiceProvider::class,
+        Ohio\Content\Base\OhioContentServiceProvider::class,
 
         /*
          * Dev Tools
