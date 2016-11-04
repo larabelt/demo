@@ -808,12 +808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "6fef5eccf7efb8617a72d84fd12e26be70fa0d2a"
+                "reference": "68737c0a4fc82b94dbc51238cf0ff421b9d80676"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/6fef5eccf7efb8617a72d84fd12e26be70fa0d2a",
-                "reference": "6fef5eccf7efb8617a72d84fd12e26be70fa0d2a",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/68737c0a4fc82b94dbc51238cf0ff421b9d80676",
+                "reference": "68737c0a4fc82b94dbc51238cf0ff421b9d80676",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-11-04 19:38:12"
+            "time": "2016-11-04 21:11:10"
         },
         {
             "name": "ohiocms/core",
@@ -846,12 +846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "e5e0eef4425d66aab2d59bcb7200f95d0643d019"
+                "reference": "4d717f60e968f1788de0f03f9e26b40ea151a3a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/e5e0eef4425d66aab2d59bcb7200f95d0643d019",
-                "reference": "e5e0eef4425d66aab2d59bcb7200f95d0643d019",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/4d717f60e968f1788de0f03f9e26b40ea151a3a2",
+                "reference": "4d717f60e968f1788de0f03f9e26b40ea151a3a2",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +883,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-04 19:37:34"
+            "time": "2016-11-04 21:10:47"
         },
         {
             "name": "paragonie/random_compat",
