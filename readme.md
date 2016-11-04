@@ -15,11 +15,13 @@ php artisan key:generate
 
 # install assets & migrate
 php artisan ohio-core:publish
+php artisan ohio-content:publish
 composer dumpautoload
 
 # migrate & seed
 php artisan migrate
-php artisan db:seed
+php artisan db:seed --class=OhioCoreSeeder
+php artisan db:seed --class=OhioContentSeeder
 
 # compile assets
 gulp
