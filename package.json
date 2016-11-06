@@ -16,7 +16,8 @@
     "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.9",
     "lodash": "^4.16.1",
-    "vue": "^2.0.3",
+    "vue": "^2.0.5",
+    "vue-loader": "^9.8.0",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.1"
   }
