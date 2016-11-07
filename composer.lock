@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1badfbd4a858691b114cac1f9555f44702791842"
+                "reference": "8c8eb21546b1ae949c459c244d8188308e423f69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1badfbd4a858691b114cac1f9555f44702791842",
-                "reference": "1badfbd4a858691b114cac1f9555f44702791842",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8c8eb21546b1ae949c459c244d8188308e423f69",
+                "reference": "8c8eb21546b1ae949c459c244d8188308e423f69",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-06 22:58:49"
+            "time": "2016-11-07 16:20:06"
         },
         {
             "name": "laravelcollective/html",
@@ -847,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "c880c8c95a7ec6f54cab1a50cd980d97eb70d720"
+                "reference": "4d21956ceceb8c3cd22ddc9783bc79ea9b99142a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/c880c8c95a7ec6f54cab1a50cd980d97eb70d720",
-                "reference": "c880c8c95a7ec6f54cab1a50cd980d97eb70d720",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/4d21956ceceb8c3cd22ddc9783bc79ea9b99142a",
+                "reference": "4d21956ceceb8c3cd22ddc9783bc79ea9b99142a",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-07 14:32:28"
+            "time": "2016-11-07 21:01:50"
         },
         {
             "name": "paragonie/random_compat",
@@ -1421,12 +1421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "4973790f88b507168669dc00568ad9248ede0ddc"
+                "reference": "4b5d1a8ed0b37dab35134e2f01536cc335c9202d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4973790f88b507168669dc00568ad9248ede0ddc",
-                "reference": "4973790f88b507168669dc00568ad9248ede0ddc",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4b5d1a8ed0b37dab35134e2f01536cc335c9202d",
+                "reference": "4b5d1a8ed0b37dab35134e2f01536cc335c9202d",
                 "shasum": ""
             },
             "require": {
@@ -1466,7 +1466,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-06 16:23:47"
+            "time": "2016-11-07 19:34:53"
         },
         {
             "name": "symfony/http-kernel",
@@ -1474,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "16642f5e7ea76d4f23d289b34be1ac86546fabfd"
+                "reference": "0103f6a01e5c4d9c61bb071cefafb4e9d1dbcd69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/16642f5e7ea76d4f23d289b34be1ac86546fabfd",
-                "reference": "16642f5e7ea76d4f23d289b34be1ac86546fabfd",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/0103f6a01e5c4d9c61bb071cefafb4e9d1dbcd69",
+                "reference": "0103f6a01e5c4d9c61bb071cefafb4e9d1dbcd69",
                 "shasum": ""
             },
             "require": {
@@ -1548,7 +1548,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-28 08:18:15"
+            "time": "2016-11-07 19:34:53"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2195,12 +2195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "81f9493330d934cf0bc8fc4b58d4fbd39ffc6227"
+                "reference": "47104e5a568d5bdc57f4073dcdb030f13440088d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/81f9493330d934cf0bc8fc4b58d4fbd39ffc6227",
-                "reference": "81f9493330d934cf0bc8fc4b58d4fbd39ffc6227",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/47104e5a568d5bdc57f4073dcdb030f13440088d",
+                "reference": "47104e5a568d5bdc57f4073dcdb030f13440088d",
                 "shasum": ""
             },
             "require": {
@@ -2237,7 +2237,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-10-31 20:18:56"
+            "time": "2016-11-07 15:53:41"
         },
         {
             "name": "hamcrest/hamcrest-php",
