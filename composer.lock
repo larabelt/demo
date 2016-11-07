@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "adf7abc0b72766fa804cd6bc5e6772110f09a3e4"
+                "reference": "1badfbd4a858691b114cac1f9555f44702791842"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/adf7abc0b72766fa804cd6bc5e6772110f09a3e4",
-                "reference": "adf7abc0b72766fa804cd6bc5e6772110f09a3e4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1badfbd4a858691b114cac1f9555f44702791842",
+                "reference": "1badfbd4a858691b114cac1f9555f44702791842",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-05 16:31:53"
+            "time": "2016-11-06 22:58:49"
         },
         {
             "name": "laravelcollective/html",
@@ -808,12 +808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "fa7199866d1e9c5558545cfd44b98ef2c508247d"
+                "reference": "a1a3c3f420914798928d2a28f0e34516a13f99ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/fa7199866d1e9c5558545cfd44b98ef2c508247d",
-                "reference": "fa7199866d1e9c5558545cfd44b98ef2c508247d",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/a1a3c3f420914798928d2a28f0e34516a13f99ad",
+                "reference": "a1a3c3f420914798928d2a28f0e34516a13f99ad",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-11-06 01:03:26"
+            "time": "2016-11-07 01:47:40"
         },
         {
             "name": "ohiocms/core",
@@ -846,12 +846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "18f64efccaf9ed785ceda164422edd9c3f23265a"
+                "reference": "8c2bea0cbded0aa3be3e5921218d3941e96249f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/18f64efccaf9ed785ceda164422edd9c3f23265a",
-                "reference": "18f64efccaf9ed785ceda164422edd9c3f23265a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/8c2bea0cbded0aa3be3e5921218d3941e96249f1",
+                "reference": "8c2bea0cbded0aa3be3e5921218d3941e96249f1",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +883,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-06 01:02:55"
+            "time": "2016-11-07 01:47:08"
         },
         {
             "name": "paragonie/random_compat",
@@ -1193,12 +1193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d3a76a751c627f43791af6bfe4cb81338c8d8984"
+                "reference": "6d8d72bf47a051e012209625070df22af203af0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d3a76a751c627f43791af6bfe4cb81338c8d8984",
-                "reference": "d3a76a751c627f43791af6bfe4cb81338c8d8984",
+                "url": "https://api.github.com/repos/symfony/console/zipball/6d8d72bf47a051e012209625070df22af203af0f",
+                "reference": "6d8d72bf47a051e012209625070df22af203af0f",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1246,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:04:31"
+            "time": "2016-11-06 16:23:47"
         },
         {
             "name": "symfony/debug",
@@ -1420,12 +1420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a5ca7b2ec2a6347dd4c15af79f01568fba743fbc"
+                "reference": "4973790f88b507168669dc00568ad9248ede0ddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a5ca7b2ec2a6347dd4c15af79f01568fba743fbc",
-                "reference": "a5ca7b2ec2a6347dd4c15af79f01568fba743fbc",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4973790f88b507168669dc00568ad9248ede0ddc",
+                "reference": "4973790f88b507168669dc00568ad9248ede0ddc",
                 "shasum": ""
             },
             "require": {
@@ -1465,7 +1465,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:04:31"
+            "time": "2016-11-06 16:23:47"
         },
         {
             "name": "symfony/http-kernel",
@@ -1846,12 +1846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "c682161183c39776719ad9675883c655e66a97d5"
+                "reference": "48ad102b67e7c8a7af2993640d296abba00bafec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/c682161183c39776719ad9675883c655e66a97d5",
-                "reference": "c682161183c39776719ad9675883c655e66a97d5",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/48ad102b67e7c8a7af2993640d296abba00bafec",
+                "reference": "48ad102b67e7c8a7af2993640d296abba00bafec",
                 "shasum": ""
             },
             "require": {
@@ -1902,7 +1902,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:04:31"
+            "time": "2016-11-06 16:23:47"
         },
         {
             "name": "symfony/var-dumper",
@@ -3725,12 +3725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "b2010d5bcbec3bd960006763299432882f25b39a"
+                "reference": "e0c8bd45fdab197ccdd4723125e4ed424f54288d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/b2010d5bcbec3bd960006763299432882f25b39a",
-                "reference": "b2010d5bcbec3bd960006763299432882f25b39a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e0c8bd45fdab197ccdd4723125e4ed424f54288d",
+                "reference": "e0c8bd45fdab197ccdd4723125e4ed424f54288d",
                 "shasum": ""
             },
             "require": {
@@ -3772,7 +3772,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:11:03"
+            "time": "2016-11-06 16:24:48"
         },
         {
             "name": "webmozart/assert",

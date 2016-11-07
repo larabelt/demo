@@ -1,5 +1,5 @@
 import  OhioCore  from 'ohio/core/js/core';
-import  OhioContent  from 'ohio/content/js/content';
+import  OhioContent  from 'ohio/content/js/components/admin/content';
 import  HelloPlugin  from 'ohio/core/js/plugins/hello';
 
 window.$ = window.jQuery = require('jquery');
