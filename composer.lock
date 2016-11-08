@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8c8eb21546b1ae949c459c244d8188308e423f69"
+                "reference": "81aef51a35372b3355c77ad5d966661d05f7ff8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8c8eb21546b1ae949c459c244d8188308e423f69",
-                "reference": "8c8eb21546b1ae949c459c244d8188308e423f69",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/81aef51a35372b3355c77ad5d966661d05f7ff8f",
+                "reference": "81aef51a35372b3355c77ad5d966661d05f7ff8f",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-07 16:20:06"
+            "time": "2016-11-08 14:39:48"
         },
         {
             "name": "laravelcollective/html",
@@ -808,12 +808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "2b851befc800a5a4588d2d28e019bc25cb18ad9f"
+                "reference": "58c243f6c9245d19bca4767dfb2475a878fb9250"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/2b851befc800a5a4588d2d28e019bc25cb18ad9f",
-                "reference": "2b851befc800a5a4588d2d28e019bc25cb18ad9f",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/58c243f6c9245d19bca4767dfb2475a878fb9250",
+                "reference": "58c243f6c9245d19bca4767dfb2475a878fb9250",
                 "shasum": ""
             },
             "require": {
@@ -839,7 +839,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-11-07 14:32:58"
+            "time": "2016-11-08 16:48:38"
         },
         {
             "name": "ohiocms/core",
@@ -847,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "4d21956ceceb8c3cd22ddc9783bc79ea9b99142a"
+                "reference": "b5f5717e47a7bbacd5c030987172a5ef02533e76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/4d21956ceceb8c3cd22ddc9783bc79ea9b99142a",
-                "reference": "4d21956ceceb8c3cd22ddc9783bc79ea9b99142a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/b5f5717e47a7bbacd5c030987172a5ef02533e76",
+                "reference": "b5f5717e47a7bbacd5c030987172a5ef02533e76",
                 "shasum": ""
             },
             "require": {
@@ -884,20 +884,20 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-07 21:01:50"
+            "time": "2016-11-08 16:49:03"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
                 "shasum": ""
             },
             "require": {
@@ -932,7 +932,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-10-17 15:23:22"
+            "time": "2016-11-07 23:38:38"
         },
         {
             "name": "psr/log",
