@@ -808,12 +808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "f64bd63f952de1f9b8adc62a308d2d401f8ba2ad"
+                "reference": "527c1b350bc88359d62ed7bee1e7f02ddda6d76f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/f64bd63f952de1f9b8adc62a308d2d401f8ba2ad",
-                "reference": "f64bd63f952de1f9b8adc62a308d2d401f8ba2ad",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/527c1b350bc88359d62ed7bee1e7f02ddda6d76f",
+                "reference": "527c1b350bc88359d62ed7bee1e7f02ddda6d76f",
                 "shasum": ""
             },
             "require": {
@@ -839,7 +839,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-11-09 00:53:52"
+            "time": "2016-11-09 20:43:24"
         },
         {
             "name": "ohiocms/core",
@@ -847,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "94917b7ba232c1a577337c319e60958db39e636a"
+                "reference": "1e46059813b14fa04404cb18adb19106ffe40c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/94917b7ba232c1a577337c319e60958db39e636a",
-                "reference": "94917b7ba232c1a577337c319e60958db39e636a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/1e46059813b14fa04404cb18adb19106ffe40c80",
+                "reference": "1e46059813b14fa04404cb18adb19106ffe40c80",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-09 00:53:37"
+            "time": "2016-11-09 20:43:07"
         },
         {
             "name": "paragonie/random_compat",
@@ -2195,12 +2195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "47104e5a568d5bdc57f4073dcdb030f13440088d"
+                "reference": "70572abb2ee34c79a566dc13d016f89011f8365e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/47104e5a568d5bdc57f4073dcdb030f13440088d",
-                "reference": "47104e5a568d5bdc57f4073dcdb030f13440088d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/70572abb2ee34c79a566dc13d016f89011f8365e",
+                "reference": "70572abb2ee34c79a566dc13d016f89011f8365e",
                 "shasum": ""
             },
             "require": {
@@ -2237,7 +2237,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-11-07 15:53:41"
+            "time": "2016-11-09 08:42:27"
         },
         {
             "name": "hamcrest/hamcrest-php",
