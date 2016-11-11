@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2febb2cbb0158971ba711b7df2f6e41a5c59e1de"
+                "reference": "72def5acbe8a4a4608340b872bbf1f58ace693fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2febb2cbb0158971ba711b7df2f6e41a5c59e1de",
-                "reference": "2febb2cbb0158971ba711b7df2f6e41a5c59e1de",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/72def5acbe8a4a4608340b872bbf1f58ace693fa",
+                "reference": "72def5acbe8a4a4608340b872bbf1f58ace693fa",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-08 22:21:11"
+            "time": "2016-11-11 19:24:12"
         },
         {
             "name": "laravelcollective/html",
@@ -847,12 +847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "c816747373ab3359052548b3f2cfb2c213e2ec0b"
+                "reference": "df81b19a045ce290c262c28dc90f2df97262e8e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/c816747373ab3359052548b3f2cfb2c213e2ec0b",
-                "reference": "c816747373ab3359052548b3f2cfb2c213e2ec0b",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/df81b19a045ce290c262c28dc90f2df97262e8e9",
+                "reference": "df81b19a045ce290c262c28dc90f2df97262e8e9",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-11-09 21:57:31"
+            "time": "2016-11-11 20:57:29"
         },
         {
             "name": "paragonie/random_compat",
