@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "2597fe8722ba8ba3bdac4e963dc665a2e4c20a97"
+                "reference": "3aa1fac0742fb7a5b5dd03fefb76ad9364b860a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/2597fe8722ba8ba3bdac4e963dc665a2e4c20a97",
-                "reference": "2597fe8722ba8ba3bdac4e963dc665a2e4c20a97",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/3aa1fac0742fb7a5b5dd03fefb76ad9364b860a9",
+                "reference": "3aa1fac0742fb7a5b5dd03fefb76ad9364b860a9",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +826,8 @@
                     "Ohio\\Content\\Base\\": "src/base/",
                     "Ohio\\Content\\Block\\": "src/block/",
                     "Ohio\\Content\\Handle\\": "src/handle/",
-                    "Ohio\\Content\\Page\\": "src/page/"
+                    "Ohio\\Content\\Page\\": "src/page/",
+                    "Ohio\\Content\\Tag\\": "src/block/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -841,7 +842,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-11-22 19:19:25"
+            "time": "2016-12-21 19:15:03"
         },
         {
             "name": "ohiocms/core",
@@ -849,12 +850,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "e2a93590e06c9a5e2d342967f76cf29724a5ff4b"
+                "reference": "0683f03062dbb66c3fcda35e61f2164e71e4ff37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/e2a93590e06c9a5e2d342967f76cf29724a5ff4b",
-                "reference": "e2a93590e06c9a5e2d342967f76cf29724a5ff4b",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/0683f03062dbb66c3fcda35e61f2164e71e4ff37",
+                "reference": "0683f03062dbb66c3fcda35e61f2164e71e4ff37",
                 "shasum": ""
             },
             "require": {
@@ -888,7 +889,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-12-21 17:18:43"
+            "time": "2016-12-21 19:14:38"
         },
         {
             "name": "paragonie/random_compat",
