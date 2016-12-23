@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d8ca3e632dbde7f8233463f330c4053f4fb08f3f"
+                "reference": "96f97895c184684924b3a876056029fc3af139dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d8ca3e632dbde7f8233463f330c4053f4fb08f3f",
-                "reference": "d8ca3e632dbde7f8233463f330c4053f4fb08f3f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/96f97895c184684924b3a876056029fc3af139dd",
+                "reference": "96f97895c184684924b3a876056029fc3af139dd",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +432,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-12-23 13:41:29"
+            "time": "2016-12-23 17:52:25"
         },
         {
             "name": "laravelcollective/html",
@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "aa38628f77aa6af7287fab0fe6d3d27edc9a065d"
+                "reference": "3d693dfe09f84d04e59614f99cd601f396af2e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/aa38628f77aa6af7287fab0fe6d3d27edc9a065d",
-                "reference": "aa38628f77aa6af7287fab0fe6d3d27edc9a065d",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/3d693dfe09f84d04e59614f99cd601f396af2e80",
+                "reference": "3d693dfe09f84d04e59614f99cd601f396af2e80",
                 "shasum": ""
             },
             "require": {
@@ -842,7 +842,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2016-12-23 14:37:20"
+            "time": "2016-12-23 23:45:42"
         },
         {
             "name": "ohiocms/core",
@@ -850,12 +850,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "7dcece0e8c453862f2f96b13ecbd653a7204846a"
+                "reference": "0a50ab3f95166f240a5638138034aaf13aec43da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/7dcece0e8c453862f2f96b13ecbd653a7204846a",
-                "reference": "7dcece0e8c453862f2f96b13ecbd653a7204846a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/0a50ab3f95166f240a5638138034aaf13aec43da",
+                "reference": "0a50ab3f95166f240a5638138034aaf13aec43da",
                 "shasum": ""
             },
             "require": {
@@ -889,7 +889,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-12-23 14:23:26"
+            "time": "2016-12-23 23:51:54"
         },
         {
             "name": "paragonie/random_compat",
@@ -1200,12 +1200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "84a1ec374f263b8d04213ffc6784a743f20aaadd"
+                "reference": "d30f02ff17c56fb541eb97abc61bf94261e9376f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/84a1ec374f263b8d04213ffc6784a743f20aaadd",
-                "reference": "84a1ec374f263b8d04213ffc6784a743f20aaadd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d30f02ff17c56fb541eb97abc61bf94261e9376f",
+                "reference": "d30f02ff17c56fb541eb97abc61bf94261e9376f",
                 "shasum": ""
             },
             "require": {
@@ -1253,7 +1253,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-19 16:00:11"
+            "time": "2016-12-23 16:43:44"
         },
         {
             "name": "symfony/debug",
