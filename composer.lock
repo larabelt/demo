@@ -850,12 +850,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "ec2c79143f51782b57473125c01ca671b384b5a0"
+                "reference": "0730fd07fc9b7639121a5217294bab8a3c8b83c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/ec2c79143f51782b57473125c01ca671b384b5a0",
-                "reference": "ec2c79143f51782b57473125c01ca671b384b5a0",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/0730fd07fc9b7639121a5217294bab8a3c8b83c1",
+                "reference": "0730fd07fc9b7639121a5217294bab8a3c8b83c1",
                 "shasum": ""
             },
             "require": {
@@ -869,9 +869,7 @@
                     "Ohio\\Core\\Base\\": "src/base/",
                     "Ohio\\Core\\Role\\": "src/role/",
                     "Ohio\\Core\\Team\\": "src/team/",
-                    "Ohio\\Core\\TeamUser\\": "src/team-user/",
-                    "Ohio\\Core\\User\\": "src/user/",
-                    "Ohio\\Core\\UserRole\\": "src/user-role/"
+                    "Ohio\\Core\\User\\": "src/user/"
                 },
                 "files": [
                     "src/base/helpers.php"
@@ -889,7 +887,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2016-12-24 01:11:59"
+            "time": "2016-12-24 01:15:09"
         },
         {
             "name": "paragonie/random_compat",
