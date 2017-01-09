@@ -1,6 +1,7 @@
 <li class="header">MAIN NAVIGATION</li>
 @include('ohio-core::layouts.admin.partials.sidebar-left-nav')
 @include('ohio-content::layouts.admin.partials.sidebar-left-nav')
+@include('ohio-spot::layouts.admin.partials.sidebar-left-nav')
 <li class="treeview">
     <a href="#">
         <i class="fa fa-cog"></i> <span>Widget Admin</span> <i class="fa fa-angle-left pull-right"></i>

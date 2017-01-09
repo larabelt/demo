@@ -191,6 +191,7 @@ return [
          */
         Ohio\Core\Base\OhioCoreServiceProvider::class,
         Ohio\Content\Base\OhioContentServiceProvider::class,
+        Ohio\Spot\Base\OhioSpotServiceProvider::class,
 
         /*
          * Dev Tools
