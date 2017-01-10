@@ -10,7 +10,8 @@
         "laravel/framework": "5.3.*",
         "ohiocms/core": "dev-master",
         "ohiocms/content": "dev-master",
-        "ohiocms/spot": "dev-master"
+        "ohiocms/spot": "dev-master",
+        "ohiocms/storage": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": ">=2.2.1",

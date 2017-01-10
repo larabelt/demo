@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31ef8ae806cf10e2619584ffc0abac79",
-    "content-hash": "dcdbd7d1497dc479e8a73d868ac655a2",
+    "hash": "771e5c52ea2947f439e8ab3d7795fdac",
+    "content-hash": "6843821c41afddc13965e9e4aedf6838",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -614,12 +614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5ed2e18af8cb498684151dd984afb7575eb7add1"
+                "reference": "e480e17edadbeed75061719df184269ed38085c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5ed2e18af8cb498684151dd984afb7575eb7add1",
-                "reference": "5ed2e18af8cb498684151dd984afb7575eb7add1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e480e17edadbeed75061719df184269ed38085c4",
+                "reference": "e480e17edadbeed75061719df184269ed38085c4",
                 "shasum": ""
             },
             "require": {
@@ -734,7 +734,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-01-10 16:41:57"
+            "time": "2017-01-10 19:02:38"
         },
         {
             "name": "laravelcollective/html",
@@ -1231,6 +1231,44 @@
             ],
             "description": "Spot package for OhioCMS.",
             "time": "2017-01-10 17:20:21"
+        },
+        {
+            "name": "ohiocms/storage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ohiocms/storage.git",
+                "reference": "5486fd63a43932806f48e79c4ffd1420391346b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/5486fd63a43932806f48e79c4ffd1420391346b0",
+                "reference": "5486fd63a43932806f48e79c4ffd1420391346b0",
+                "shasum": ""
+            },
+            "require": {
+                "ohiocms/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ohio\\Storage\\Base\\": "src/base/",
+                    "Ohio\\Storage\\File\\": "src/file/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Storage package for OhioCMS.",
+            "time": "2017-01-10 22:07:02"
         },
         {
             "name": "paragonie/random_compat",
@@ -4342,7 +4380,8 @@
     "stability-flags": {
         "ohiocms/core": 20,
         "ohiocms/content": 20,
-        "ohiocms/spot": 20
+        "ohiocms/spot": 20,
+        "ohiocms/storage": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

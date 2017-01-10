@@ -192,6 +192,7 @@ return [
         Ohio\Core\Base\OhioCoreServiceProvider::class,
         Ohio\Content\Base\OhioContentServiceProvider::class,
         Ohio\Spot\Base\OhioSpotServiceProvider::class,
+        Ohio\Storage\Base\OhioStorageServiceProvider::class,
 
         /*
          * Dev Tools
