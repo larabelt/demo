@@ -614,12 +614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "58e4b1dcc07ff9d976b367ed00bf39904394c8a7"
+                "reference": "5ed2e18af8cb498684151dd984afb7575eb7add1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/58e4b1dcc07ff9d976b367ed00bf39904394c8a7",
-                "reference": "58e4b1dcc07ff9d976b367ed00bf39904394c8a7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5ed2e18af8cb498684151dd984afb7575eb7add1",
+                "reference": "5ed2e18af8cb498684151dd984afb7575eb7add1",
                 "shasum": ""
             },
             "require": {
@@ -734,7 +734,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-01-09 21:57:57"
+            "time": "2017-01-10 16:41:57"
         },
         {
             "name": "laravelcollective/html",
@@ -1111,12 +1111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "28f1ef66fcca199aba7f5d141228f60e005db8e1"
+                "reference": "8e73c7d7198c72d1b8f2197b30a5cd1df74965ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/28f1ef66fcca199aba7f5d141228f60e005db8e1",
-                "reference": "28f1ef66fcca199aba7f5d141228f60e005db8e1",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/8e73c7d7198c72d1b8f2197b30a5cd1df74965ce",
+                "reference": "8e73c7d7198c72d1b8f2197b30a5cd1df74965ce",
                 "shasum": ""
             },
             "require": {
@@ -1144,7 +1144,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-09 22:52:40"
+            "time": "2017-01-10 17:19:44"
         },
         {
             "name": "ohiocms/core",
@@ -1152,12 +1152,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "bff124a0443672ff69e26b35fcf21db366a36c1c"
+                "reference": "8198634ad83f5133a1635b62a13722ab2ab96394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/bff124a0443672ff69e26b35fcf21db366a36c1c",
-                "reference": "bff124a0443672ff69e26b35fcf21db366a36c1c",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/8198634ad83f5133a1635b62a13722ab2ab96394",
+                "reference": "8198634ad83f5133a1635b62a13722ab2ab96394",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1190,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-09 22:51:30"
+            "time": "2017-01-10 17:18:52"
         },
         {
             "name": "ohiocms/spot",
@@ -1198,12 +1198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "bf924aad2b4ed2dad1361efa5efd542a387c87bf"
+                "reference": "43970a21fecd997f579e6606c74d022a3deb7571"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/bf924aad2b4ed2dad1361efa5efd542a387c87bf",
-                "reference": "bf924aad2b4ed2dad1361efa5efd542a387c87bf",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/43970a21fecd997f579e6606c74d022a3deb7571",
+                "reference": "43970a21fecd997f579e6606c74d022a3deb7571",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1230,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-01-09 22:53:51"
+            "time": "2017-01-10 17:20:21"
         },
         {
             "name": "paragonie/random_compat",
@@ -1875,12 +1875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "3a376ef623ca26bb47413da204b04a0c4824cfcd"
+                "reference": "3910d3a87183c81c0b883a3911743883b027f153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3a376ef623ca26bb47413da204b04a0c4824cfcd",
-                "reference": "3a376ef623ca26bb47413da204b04a0c4824cfcd",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3910d3a87183c81c0b883a3911743883b027f153",
+                "reference": "3910d3a87183c81c0b883a3911743883b027f153",
                 "shasum": ""
             },
             "require": {
@@ -1949,7 +1949,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-06 07:41:29"
+            "time": "2017-01-10 14:09:41"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4072,12 +4072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/class-loader.git",
-                "reference": "473f8be39516b071cba6a3edab2afd0e63df145d"
+                "reference": "4d0a33df75d2891bc7c35e84e9faea4c23b001b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/class-loader/zipball/473f8be39516b071cba6a3edab2afd0e63df145d",
-                "reference": "473f8be39516b071cba6a3edab2afd0e63df145d",
+                "url": "https://api.github.com/repos/symfony/class-loader/zipball/4d0a33df75d2891bc7c35e84e9faea4c23b001b1",
+                "reference": "4d0a33df75d2891bc7c35e84e9faea4c23b001b1",
                 "shasum": ""
             },
             "require": {
@@ -4120,7 +4120,7 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-06 15:22:02"
+            "time": "2017-01-10 14:32:56"
         },
         {
             "name": "symfony/css-selector",
