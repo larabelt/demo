@@ -801,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "30f702679a69af1d9b6bba5695db9407450696c4"
+                "reference": "ca31a2db2f597c877840666b394e2e6a8a648ef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/30f702679a69af1d9b6bba5695db9407450696c4",
-                "reference": "30f702679a69af1d9b6bba5695db9407450696c4",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ca31a2db2f597c877840666b394e2e6a8a648ef8",
+                "reference": "ca31a2db2f597c877840666b394e2e6a8a648ef8",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +876,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-01-09 14:16:42"
+            "time": "2017-01-18 13:36:15"
         },
         {
             "name": "monolog/monolog",
@@ -1055,7 +1055,7 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "dev-master",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
@@ -1110,12 +1110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "c8bbc5e33ca7e4f728f9218fae4d5a8be99d8d39"
+                "reference": "5921dc3b056fc58f92f4c90012e0cf7989e8e76c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/c8bbc5e33ca7e4f728f9218fae4d5a8be99d8d39",
-                "reference": "c8bbc5e33ca7e4f728f9218fae4d5a8be99d8d39",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/5921dc3b056fc58f92f4c90012e0cf7989e8e76c",
+                "reference": "5921dc3b056fc58f92f4c90012e0cf7989e8e76c",
                 "shasum": ""
             },
             "require": {
@@ -1143,7 +1143,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-13 20:54:07"
+            "time": "2017-01-17 22:53:10"
         },
         {
             "name": "ohiocms/core",
@@ -1151,12 +1151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "5b5432dd98c1667b4be94ab9645a35939532a19a"
+                "reference": "ee408e423160f6d84ee5033424441e0d186b5c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/5b5432dd98c1667b4be94ab9645a35939532a19a",
-                "reference": "5b5432dd98c1667b4be94ab9645a35939532a19a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/ee408e423160f6d84ee5033424441e0d186b5c2d",
+                "reference": "ee408e423160f6d84ee5033424441e0d186b5c2d",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1190,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-17 18:05:55"
+            "time": "2017-01-19 22:25:42"
         },
         {
             "name": "ohiocms/spot",
@@ -1238,12 +1238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "19eed66b3f29259c8dc4f8cd7b55d9aaec78808e"
+                "reference": "a1734bc1dcbb8fdda12e8722e8b4cf404cb44a57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/19eed66b3f29259c8dc4f8cd7b55d9aaec78808e",
-                "reference": "19eed66b3f29259c8dc4f8cd7b55d9aaec78808e",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/a1734bc1dcbb8fdda12e8722e8b4cf404cb44a57",
+                "reference": "a1734bc1dcbb8fdda12e8722e8b4cf404cb44a57",
                 "shasum": ""
             },
             "require": {
@@ -1268,7 +1268,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-17 18:06:46"
+            "time": "2017-01-19 22:26:10"
         },
         {
             "name": "paragonie/random_compat",
@@ -3458,12 +3458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e2651d042a2efa1250ce45f85da80ac386d85be7"
+                "reference": "012aea0842560aa50b359a4332ce25f670340fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e2651d042a2efa1250ce45f85da80ac386d85be7",
-                "reference": "e2651d042a2efa1250ce45f85da80ac386d85be7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/012aea0842560aa50b359a4332ce25f670340fcf",
+                "reference": "012aea0842560aa50b359a4332ce25f670340fcf",
                 "shasum": ""
             },
             "require": {
@@ -3532,7 +3532,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-17 16:21:12"
+            "time": "2017-01-19 14:29:18"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
