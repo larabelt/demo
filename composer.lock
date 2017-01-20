@@ -1213,12 +1213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "6c7daa58675cd5d7a627f3e37eee8c9de893b97b"
+                "reference": "ce449d38fccfc723f2e2705f8deb126f8ad5733d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/6c7daa58675cd5d7a627f3e37eee8c9de893b97b",
-                "reference": "6c7daa58675cd5d7a627f3e37eee8c9de893b97b",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/ce449d38fccfc723f2e2705f8deb126f8ad5733d",
+                "reference": "ce449d38fccfc723f2e2705f8deb126f8ad5733d",
                 "shasum": ""
             },
             "require": {
@@ -1252,7 +1252,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-20 19:18:13"
+            "time": "2017-01-20 19:31:49"
         },
         {
             "name": "ohiocms/spot",
