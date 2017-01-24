@@ -2,8 +2,6 @@
 
 namespace App\Exceptions;
 
-use Ohio\Core\Base\Exceptions\Handler as OhioHandler;
-
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -46,12 +44,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        /**
-         * @ohio add exception handler
-         */
-        $response = OhioHandler::render($request, $exception);
-
-        return $response ?: parent::render($request, $exception);
+        parent::render($request, $exception);
     }
 
     /**

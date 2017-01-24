@@ -676,12 +676,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fde66bfae0b37be4ff78f7aa1f1c15d6de602f77"
+                "reference": "df011a211599a9257b36e12940d52757427e206b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fde66bfae0b37be4ff78f7aa1f1c15d6de602f77",
-                "reference": "fde66bfae0b37be4ff78f7aa1f1c15d6de602f77",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/df011a211599a9257b36e12940d52757427e206b",
+                "reference": "df011a211599a9257b36e12940d52757427e206b",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-01-23 13:54:00"
+            "time": "2017-01-24 01:22:55"
         },
         {
             "name": "laravelcollective/html",
@@ -863,12 +863,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c"
+                "reference": "ab05d19bac3309f1192f058fa8f8081cb1c68d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5c7f98498b12d47f9de90ec9186a90000125777c",
-                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ab05d19bac3309f1192f058fa8f8081cb1c68d39",
+                "reference": "ab05d19bac3309f1192f058fa8f8081cb1c68d39",
                 "shasum": ""
             },
             "require": {
@@ -938,7 +938,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-01-23 10:32:09"
+            "time": "2017-01-23 22:04:42"
         },
         {
             "name": "monolog/monolog",
@@ -1068,12 +1068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "5eab092a2fd50319d7f7ff2d4b235083cdb883d9"
+                "reference": "bad923c3253231bf03153447e8052bfe2f1e38ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5eab092a2fd50319d7f7ff2d4b235083cdb883d9",
-                "reference": "5eab092a2fd50319d7f7ff2d4b235083cdb883d9",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bad923c3253231bf03153447e8052bfe2f1e38ef",
+                "reference": "bad923c3253231bf03153447e8052bfe2f1e38ef",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1113,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-01-16 21:55:13"
+            "time": "2017-01-24 12:56:16"
         },
         {
             "name": "nikic/php-parser",
@@ -1213,12 +1213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "5d47a1bb9f8d81703c7658344aced2a4605cf55f"
+                "reference": "842729d70a20b66b6054c55f19394d8e6ffb2886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/5d47a1bb9f8d81703c7658344aced2a4605cf55f",
-                "reference": "5d47a1bb9f8d81703c7658344aced2a4605cf55f",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/842729d70a20b66b6054c55f19394d8e6ffb2886",
+                "reference": "842729d70a20b66b6054c55f19394d8e6ffb2886",
                 "shasum": ""
             },
             "require": {
@@ -1252,7 +1252,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-23 21:57:52"
+            "time": "2017-01-24 20:37:44"
         },
         {
             "name": "ohiocms/spot",
@@ -1557,12 +1557,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "41dcc417e2e093148fd85898dac319c9ccaf5a2c"
+                "reference": "a2509c5910c62532f35fb25f638ce742503d2638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/41dcc417e2e093148fd85898dac319c9ccaf5a2c",
-                "reference": "41dcc417e2e093148fd85898dac319c9ccaf5a2c",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a2509c5910c62532f35fb25f638ce742503d2638",
+                "reference": "a2509c5910c62532f35fb25f638ce742503d2638",
                 "shasum": ""
             },
             "require": {
@@ -1631,7 +1631,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-01-06 02:48:25"
+            "time": "2017-01-24 14:49:21"
         },
         {
             "name": "rutorika/sortable",
@@ -2466,12 +2466,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "d34a930421233f119fe61149ce046bb5b0b412d9"
+                "reference": "16df11647e5b992d687cb4eeeb9a882d5f5c26b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/d34a930421233f119fe61149ce046bb5b0b412d9",
-                "reference": "d34a930421233f119fe61149ce046bb5b0b412d9",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/16df11647e5b992d687cb4eeeb9a882d5f5c26b9",
+                "reference": "16df11647e5b992d687cb4eeeb9a882d5f5c26b9",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-01-02 20:31:54"
+            "time": "2017-01-24 13:02:38"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2961,12 +2961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/padraic/mockery.git",
-                "reference": "d89523ade8982c62c8698d9784f31e8726b2f043"
+                "reference": "214b8f79f115d4223de4a3ac81ebcfaf7dc6d12b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/d89523ade8982c62c8698d9784f31e8726b2f043",
-                "reference": "d89523ade8982c62c8698d9784f31e8726b2f043",
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/214b8f79f115d4223de4a3ac81ebcfaf7dc6d12b",
+                "reference": "214b8f79f115d4223de4a3ac81ebcfaf7dc6d12b",
                 "shasum": ""
             },
             "require": {
@@ -3018,7 +3018,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2017-01-06 11:35:57"
+            "time": "2017-01-24 09:34:42"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3521,12 +3521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c1551dce910a62316559fc7cd79bce82fb19f46d"
+                "reference": "e7896be1b3b5257e5b4454220736ee1ccb5cc572"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c1551dce910a62316559fc7cd79bce82fb19f46d",
-                "reference": "c1551dce910a62316559fc7cd79bce82fb19f46d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e7896be1b3b5257e5b4454220736ee1ccb5cc572",
+                "reference": "e7896be1b3b5257e5b4454220736ee1ccb5cc572",
                 "shasum": ""
             },
             "require": {
@@ -3595,7 +3595,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-22 23:52:40"
+            "time": "2017-01-24 18:35:42"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
