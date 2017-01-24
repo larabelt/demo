@@ -179,26 +179,12 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /**
-         * @ohio below are ohio & related service providers
-         */
-        /*
-         * Laravel Collective
-         */
-        Collective\Html\HtmlServiceProvider::class,
-
-        /*
-         * OhioCms Service Providers...
+         * @ohio below are ohio service providers
          */
         Ohio\Core\Base\OhioCoreServiceProvider::class,
         Ohio\Content\Base\OhioContentServiceProvider::class,
         Ohio\Spot\Base\OhioSpotServiceProvider::class,
         Ohio\Storage\Base\OhioStorageServiceProvider::class,
-
-        /*
-         * Dev Tools
-         */
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-
     ],
 
     /*
@@ -246,16 +232,6 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
-        /**
-         * @ohio below are ohio & related alias registrations
-         */
-
-        /*
-         * Laravel Collective
-         */
-        'Form' => Collective\Html\FormFacade::class,
-        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
