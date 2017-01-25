@@ -162,85 +162,6 @@
             "time": "2016-05-12 17:23:41"
         },
         {
-            "name": "egeloen/http-adapter",
-            "version": "0.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egeloen/ivory-http-adapter.git",
-                "reference": "9641f11487ec26b24c6bbcee4f267cf62f60b855"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egeloen/ivory-http-adapter/zipball/9641f11487ec26b24c6bbcee4f267cf62f60b855",
-                "reference": "9641f11487ec26b24c6bbcee4f267cf62f60b855",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.8",
-                "zendframework/zend-diactoros": "^1.1"
-            },
-            "require-dev": {
-                "cakephp/cakephp": "^3.0.3",
-                "ext-curl": "*",
-                "guzzle/guzzle": "^3.9.4@dev",
-                "guzzlehttp/guzzle": "^4.1.4|^5.0|^6.0",
-                "kriswallsmith/buzz": "^0.13",
-                "nategood/httpful": "^0.2.17",
-                "phpunit/phpunit": "^4.0",
-                "phpunit/phpunit-mock-objects": "dev-matcher-verify as 2.3.x-dev",
-                "psr/log": "^1.0",
-                "react/dns": "^0.4.1",
-                "react/http-client": "^0.4",
-                "satooshi/php-coveralls": "^0.6",
-                "symfony/event-dispatcher": "^2.0",
-                "zendframework/zend-http": "^2.3.4",
-                "zendframework/zendframework1": ">=1.12.9,<=1.12.14|^1.12.16"
-            },
-            "suggest": {
-                "ext-curl": "Allows you to use the cURL adapter",
-                "ext-http": "Allows you to use the PECL adapter",
-                "guzzle/guzzle": "Allows you to use the Guzzle 3 adapter",
-                "guzzlehttp/guzzle": "Allows you to use the Guzzle 4 adapter",
-                "kriswallsmith/buzz": "Allows you to use the Buzz adapter",
-                "nategood/httpful": "Allows you to use the httpful adapter",
-                "psr/log": "Allows you to use the logger event subscriber",
-                "symfony/event-dispatcher": "Allows you to use the event lifecycle",
-                "symfony/stopwatch": "Allows you to use the stopwatch http adapter and event subscriber",
-                "zendframework/zend-http": "Allows you to use the Zend 2 adapter",
-                "zendframework/zendframework1": "Allows you to use the Zend 1 adapter"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.8-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ivory\\HttpAdapter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Eric GELOEN",
-                    "email": "geloen.eric@gmail.com"
-                }
-            ],
-            "description": "Issue HTTP request for PHP 5.3+.",
-            "keywords": [
-                "http",
-                "http-adapter",
-                "http-client",
-                "psr-7"
-            ],
-            "abandoned": "php-http/httplug",
-            "time": "2015-08-12 09:35:40"
-        },
-        {
             "name": "guzzlehttp/guzzle",
             "version": "dev-master",
             "source": {
@@ -417,51 +338,6 @@
                 "url"
             ],
             "time": "2016-11-02 14:11:11"
-        },
-        {
-            "name": "igorw/get-in",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/igorw/get-in.git",
-                "reference": "e2bfd524906ba62fe03a80cd3efd3ec635850a1b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/igorw/get-in/zipball/e2bfd524906ba62fe03a80cd3efd3ec635850a1b",
-                "reference": "e2bfd524906ba62fe03a80cd3efd3ec635850a1b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/get_in.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch"
-                }
-            ],
-            "description": "Functions for hash map (assoc array) traversal.",
-            "keywords": [
-                "assoc-array",
-                "hash-map"
-            ],
-            "time": "2015-01-07 21:56:59"
         },
         {
             "name": "intervention/image",
@@ -863,12 +739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "ab05d19bac3309f1192f058fa8f8081cb1c68d39"
+                "reference": "ee6dc67fa6d81390fcf65f34f95839bef51d71a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ab05d19bac3309f1192f058fa8f8081cb1c68d39",
-                "reference": "ab05d19bac3309f1192f058fa8f8081cb1c68d39",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ee6dc67fa6d81390fcf65f34f95839bef51d71a9",
+                "reference": "ee6dc67fa6d81390fcf65f34f95839bef51d71a9",
                 "shasum": ""
             },
             "require": {
@@ -938,7 +814,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-01-23 22:04:42"
+            "time": "2017-01-25 10:10:10"
         },
         {
             "name": "monolog/monolog",
@@ -1172,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "fb9889c9d15544a0beddbd681cb62b8191e96e5b"
+                "reference": "e9bc86390b84912831ec9e80ef45667ea8fcafa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/fb9889c9d15544a0beddbd681cb62b8191e96e5b",
-                "reference": "fb9889c9d15544a0beddbd681cb62b8191e96e5b",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/e9bc86390b84912831ec9e80ef45667ea8fcafa8",
+                "reference": "e9bc86390b84912831ec9e80ef45667ea8fcafa8",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1081,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-24 22:54:29"
+            "time": "2017-01-25 15:59:57"
         },
         {
             "name": "ohiocms/core",
@@ -1213,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "4d45e08083dd1c67e51fa4a7a97e3f952e791d01"
+                "reference": "3120edc53a95e99443671904ffc31b38b8d41bab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/4d45e08083dd1c67e51fa4a7a97e3f952e791d01",
-                "reference": "4d45e08083dd1c67e51fa4a7a97e3f952e791d01",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/3120edc53a95e99443671904ffc31b38b8d41bab",
+                "reference": "3120edc53a95e99443671904ffc31b38b8d41bab",
                 "shasum": ""
             },
             "require": {
@@ -1252,7 +1128,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-24 22:52:16"
+            "time": "2017-01-25 15:57:55"
         },
         {
             "name": "ohiocms/spot",
@@ -1260,17 +1136,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "488afd3b72df862dc3cf58a7304e7b17a33201d4"
+                "reference": "a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/488afd3b72df862dc3cf58a7304e7b17a33201d4",
-                "reference": "488afd3b72df862dc3cf58a7304e7b17a33201d4",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398",
+                "reference": "a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/core": "dev-master",
-                "willdurand/geocoder": "3.3.*"
+                "ohiocms/core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -1292,7 +1167,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-01-24 22:53:33"
+            "time": "2017-01-25 16:06:45"
         },
         {
             "name": "ohiocms/storage",
@@ -1300,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "ac1ec8193379b6cf6a0103b8a514205e6e74a213"
+                "reference": "1d07070f9b8128d75b4d3c730fa049397148f765"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/ac1ec8193379b6cf6a0103b8a514205e6e74a213",
-                "reference": "ac1ec8193379b6cf6a0103b8a514205e6e74a213",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/1d07070f9b8128d75b4d3c730fa049397148f765",
+                "reference": "1d07070f9b8128d75b4d3c730fa049397148f765",
                 "shasum": ""
             },
             "require": {
@@ -1331,7 +1206,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-24 22:53:49"
+            "time": "2017-01-25 16:00:34"
         },
         {
             "name": "paragonie/random_compat",
@@ -2572,116 +2447,6 @@
                 "environment"
             ],
             "time": "2016-12-14 21:01:27"
-        },
-        {
-            "name": "willdurand/geocoder",
-            "version": "v3.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/geocoder-php/Geocoder.git",
-                "reference": "ccc178e2984c0af24881faa0ffe515f20e5e8c23"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/geocoder-php/Geocoder/zipball/ccc178e2984c0af24881faa0ffe515f20e5e8c23",
-                "reference": "ccc178e2984c0af24881faa0ffe515f20e5e8c23",
-                "shasum": ""
-            },
-            "require": {
-                "egeloen/http-adapter": "~0.8",
-                "igorw/get-in": "~1.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "geoip2/geoip2": "~2.0",
-                "symfony/stopwatch": "~2.5"
-            },
-            "suggest": {
-                "ext-geoip": "Enabling the geoip extension allows you to use the MaxMindProvider.",
-                "geoip/geoip": "If you are going to use the MaxMindBinaryProvider (conflict with geoip extension).",
-                "geoip2/geoip2": "If you are going to use the GeoIP2DatabaseProvider.",
-                "symfony/stopwatch": "If you want to use the TimedGeocoder"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Geocoder": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "William Durand",
-                    "email": "william.durand1@gmail.com"
-                }
-            ],
-            "description": "The almost missing Geocoder PHP 5.4 library.",
-            "homepage": "http://geocoder-php.org",
-            "keywords": [
-                "abstraction",
-                "geocoder",
-                "geocoding",
-                "geoip"
-            ],
-            "time": "2015-12-06 20:17:20"
-        },
-        {
-            "name": "zendframework/zend-diactoros",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "79367d68b5ea582e6504f26f8009d4574518f867"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/79367d68b5ea582e6504f26f8009d4574518f867",
-                "reference": "79367d68b5ea582e6504f26f8009d4574518f867",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.4 || ^7.0",
-                "psr/http-message": "~1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "~1.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.6 || ^5.5",
-                "zendframework/zend-coding-standard": "~1.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev",
-                    "dev-develop": "1.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Zend\\Diactoros\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "description": "PSR HTTP Message implementations",
-            "homepage": "https://github.com/zendframework/zend-diactoros",
-            "keywords": [
-                "http",
-                "psr",
-                "psr-7"
-            ],
-            "time": "2017-01-23 04:54:09"
         }
     ],
     "packages-dev": [
@@ -3521,12 +3286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e7896be1b3b5257e5b4454220736ee1ccb5cc572"
+                "reference": "1564d1f9cb5619adac883954a641a4aeef3043c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e7896be1b3b5257e5b4454220736ee1ccb5cc572",
-                "reference": "e7896be1b3b5257e5b4454220736ee1ccb5cc572",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1564d1f9cb5619adac883954a641a4aeef3043c7",
+                "reference": "1564d1f9cb5619adac883954a641a4aeef3043c7",
                 "shasum": ""
             },
             "require": {
@@ -3595,7 +3360,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-24 18:35:42"
+            "time": "2017-01-25 15:50:31"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
