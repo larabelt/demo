@@ -345,12 +345,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "2ab7e97d080ee8460ccfa7c5beadc0cade08013e"
+                "reference": "88911910dcbb7bf617f1370602ba1706489c8505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/2ab7e97d080ee8460ccfa7c5beadc0cade08013e",
-                "reference": "2ab7e97d080ee8460ccfa7c5beadc0cade08013e",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/88911910dcbb7bf617f1370602ba1706489c8505",
+                "reference": "88911910dcbb7bf617f1370602ba1706489c8505",
                 "shasum": ""
             },
             "require": {
@@ -399,7 +399,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-01-20 17:22:51"
+            "time": "2017-01-25 18:52:04"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1048,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "e9bc86390b84912831ec9e80ef45667ea8fcafa8"
+                "reference": "1296f7ab638dd4a61fa37df7bdb5c3741669f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/e9bc86390b84912831ec9e80ef45667ea8fcafa8",
-                "reference": "e9bc86390b84912831ec9e80ef45667ea8fcafa8",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/1296f7ab638dd4a61fa37df7bdb5c3741669f9f6",
+                "reference": "1296f7ab638dd4a61fa37df7bdb5c3741669f9f6",
                 "shasum": ""
             },
             "require": {
@@ -1081,7 +1081,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-25 15:59:57"
+            "time": "2017-01-25 18:59:49"
         },
         {
             "name": "ohiocms/core",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "3120edc53a95e99443671904ffc31b38b8d41bab"
+                "reference": "1e00c03f92a9294d6edff9704eed09e799428f3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/3120edc53a95e99443671904ffc31b38b8d41bab",
-                "reference": "3120edc53a95e99443671904ffc31b38b8d41bab",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/1e00c03f92a9294d6edff9704eed09e799428f3a",
+                "reference": "1e00c03f92a9294d6edff9704eed09e799428f3a",
                 "shasum": ""
             },
             "require": {
@@ -1128,7 +1128,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-25 15:57:55"
+            "time": "2017-01-25 18:59:39"
         },
         {
             "name": "ohiocms/spot",
@@ -1136,12 +1136,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398"
+                "reference": "4762edcb7c5202d6fb310f1136487490e075afaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398",
-                "reference": "a5ead8db66714f6b8f7cd1d955e34aaa5dc1f398",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/4762edcb7c5202d6fb310f1136487490e075afaa",
+                "reference": "4762edcb7c5202d6fb310f1136487490e075afaa",
                 "shasum": ""
             },
             "require": {
@@ -1167,7 +1167,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-01-25 16:06:45"
+            "time": "2017-01-25 18:59:59"
         },
         {
             "name": "ohiocms/storage",
@@ -1175,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "1d07070f9b8128d75b4d3c730fa049397148f765"
+                "reference": "06266d4ac8bf96f72c848e8500f5b8bbe270f926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/1d07070f9b8128d75b4d3c730fa049397148f765",
-                "reference": "1d07070f9b8128d75b4d3c730fa049397148f765",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/06266d4ac8bf96f72c848e8500f5b8bbe270f926",
+                "reference": "06266d4ac8bf96f72c848e8500f5b8bbe270f926",
                 "shasum": ""
             },
             "require": {
@@ -1206,7 +1206,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-25 16:00:34"
+            "time": "2017-01-25 19:00:08"
         },
         {
             "name": "paragonie/random_compat",
@@ -3286,12 +3286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1564d1f9cb5619adac883954a641a4aeef3043c7"
+                "reference": "12db567e10971a634035bfb501cdd0820f9f1e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1564d1f9cb5619adac883954a641a4aeef3043c7",
-                "reference": "1564d1f9cb5619adac883954a641a4aeef3043c7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/12db567e10971a634035bfb501cdd0820f9f1e88",
+                "reference": "12db567e10971a634035bfb501cdd0820f9f1e88",
                 "shasum": ""
             },
             "require": {
@@ -3360,7 +3360,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-25 15:50:31"
+            "time": "2017-01-25 19:10:33"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

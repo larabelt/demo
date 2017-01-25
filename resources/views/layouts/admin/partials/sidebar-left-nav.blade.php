@@ -1,4 +1,3 @@
-<li class="header">MAIN NAVIGATION</li>
 @include('ohio-core::layouts.admin.partials.sidebar-left-nav')
 @include('ohio-content::layouts.admin.partials.sidebar-left-nav')
 @include('ohio-spot::layouts.admin.partials.sidebar-left-nav')
