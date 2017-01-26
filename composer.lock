@@ -552,12 +552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "df011a211599a9257b36e12940d52757427e206b"
+                "reference": "be9eb4741e5984a6fb49dfbc12625a393ee20d6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/df011a211599a9257b36e12940d52757427e206b",
-                "reference": "df011a211599a9257b36e12940d52757427e206b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/be9eb4741e5984a6fb49dfbc12625a393ee20d6d",
+                "reference": "be9eb4741e5984a6fb49dfbc12625a393ee20d6d",
                 "shasum": ""
             },
             "require": {
@@ -672,20 +672,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-01-24 01:22:55"
+            "time": "2017-01-26 17:15:57"
         },
         {
             "name": "laravelcollective/html",
-            "version": "dev-master",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "c4c87916c34e04aa9d4e860315ab1858304d786a"
+                "reference": "2f7f2e127c6fed47f269ea29ab5efeb8f65e9d35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c4c87916c34e04aa9d4e860315ab1858304d786a",
-                "reference": "c4c87916c34e04aa9d4e860315ab1858304d786a",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/2f7f2e127c6fed47f269ea29ab5efeb8f65e9d35",
+                "reference": "2f7f2e127c6fed47f269ea29ab5efeb8f65e9d35",
                 "shasum": ""
             },
             "require": {
@@ -702,11 +702,6 @@
                 "phpunit/phpunit": "~5.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Collective\\Html\\": "src/"
@@ -731,7 +726,7 @@
             ],
             "description": "HTML and Form Builders for the Laravel Framework",
             "homepage": "http://laravelcollective.com",
-            "time": "2016-08-04 03:49:50"
+            "time": "2016-12-13 14:23:36"
         },
         {
             "name": "league/flysystem",
@@ -1048,12 +1043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "1296f7ab638dd4a61fa37df7bdb5c3741669f9f6"
+                "reference": "e7b10501eb054c672239b8cc79f9b337e349c2d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/1296f7ab638dd4a61fa37df7bdb5c3741669f9f6",
-                "reference": "1296f7ab638dd4a61fa37df7bdb5c3741669f9f6",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/e7b10501eb054c672239b8cc79f9b337e349c2d0",
+                "reference": "e7b10501eb054c672239b8cc79f9b337e349c2d0",
                 "shasum": ""
             },
             "require": {
@@ -1081,7 +1076,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-25 18:59:49"
+            "time": "2017-01-26 23:09:16"
         },
         {
             "name": "ohiocms/core",
@@ -1089,18 +1084,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "1e00c03f92a9294d6edff9704eed09e799428f3a"
+                "reference": "419203a4b731d106003c36818fa4d0a382a190b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/1e00c03f92a9294d6edff9704eed09e799428f3a",
-                "reference": "1e00c03f92a9294d6edff9704eed09e799428f3a",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/419203a4b731d106003c36818fa4d0a382a190b7",
+                "reference": "419203a4b731d106003c36818fa4d0a382a190b7",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "6.2.*",
                 "laravel/framework": ">=5.3.16",
-                "laravelcollective/html": ">=5.3.0",
+                "laravelcollective/html": "5.3.1",
                 "php": ">=5.6.4",
                 "rutorika/sortable": "3.2.*"
             },
@@ -1128,7 +1123,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-25 18:59:39"
+            "time": "2017-01-26 23:57:35"
         },
         {
             "name": "ohiocms/spot",
@@ -1136,12 +1131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "4762edcb7c5202d6fb310f1136487490e075afaa"
+                "reference": "5575e1ec858f9891a64adea80e35ac14ddc554f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/4762edcb7c5202d6fb310f1136487490e075afaa",
-                "reference": "4762edcb7c5202d6fb310f1136487490e075afaa",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/5575e1ec858f9891a64adea80e35ac14ddc554f2",
+                "reference": "5575e1ec858f9891a64adea80e35ac14ddc554f2",
                 "shasum": ""
             },
             "require": {
@@ -1167,7 +1162,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-01-25 18:59:59"
+            "time": "2017-01-26 19:31:49"
         },
         {
             "name": "ohiocms/storage",
@@ -1175,16 +1170,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "06266d4ac8bf96f72c848e8500f5b8bbe270f926"
+                "reference": "c4ae84dc6023c915aeea950517c153aef9122ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/06266d4ac8bf96f72c848e8500f5b8bbe270f926",
-                "reference": "06266d4ac8bf96f72c848e8500f5b8bbe270f926",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/c4ae84dc6023c915aeea950517c153aef9122ec9",
+                "reference": "c4ae84dc6023c915aeea950517c153aef9122ec9",
                 "shasum": ""
             },
             "require": {
-                "intervention/image": "^2.3",
+                "intervention/image": "2.3.*",
                 "ohiocms/core": "dev-master"
             },
             "type": "library",
@@ -1206,7 +1201,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-25 19:00:08"
+            "time": "2017-01-26 23:46:10"
         },
         {
             "name": "paragonie/random_compat",
@@ -2787,16 +2782,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.5",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108"
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/399c1f9781e222f6eb6cc238796f5200d1b7f108",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
                 "shasum": ""
             },
             "require": {
@@ -2825,7 +2820,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-10-31 17:19:45"
+            "time": "2017-01-26 22:05:40"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -3286,12 +3281,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "12db567e10971a634035bfb501cdd0820f9f1e88"
+                "reference": "bee7755d964f8e56d6ecb79046480fd0320b686d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/12db567e10971a634035bfb501cdd0820f9f1e88",
-                "reference": "12db567e10971a634035bfb501cdd0820f9f1e88",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/bee7755d964f8e56d6ecb79046480fd0320b686d",
+                "reference": "bee7755d964f8e56d6ecb79046480fd0320b686d",
                 "shasum": ""
             },
             "require": {
@@ -3360,7 +3355,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-25 19:10:33"
+            "time": "2017-01-26 15:28:51"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
