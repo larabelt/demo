@@ -17,6 +17,7 @@ php artisan key:generate
 php artisan ohio-core:publish
 php artisan ohio-content:publish
 php artisan ohio-spot:publish
+php artisan ohio-storage:publish
 composer dumpautoload
 
 # migrate & seed
@@ -24,6 +25,7 @@ php artisan migrate
 php artisan db:seed --class=OhioCoreSeeder
 php artisan db:seed --class=OhioContentSeeder
 php artisan db:seed --class=OhioSpotSeeder
+php artisan db:seed --class=OhioStorageSeeder
 
 # compile assets
 gulp
