@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8fd949409b82cf7300c8206fecd3bad0",
+    "hash": "e1e8c8f7a27cc804773595aa15328935",
     "content-hash": "09b4caa29b54d0e4ee72d316d01aa486",
     "packages": [
         {
@@ -1066,12 +1066,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "17430e49ae0fd9ce62425b74c70f4abb7ee1e9be"
+                "reference": "93cea970fe7e632470d34f4cc8e474c6bd9f2b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/17430e49ae0fd9ce62425b74c70f4abb7ee1e9be",
-                "reference": "17430e49ae0fd9ce62425b74c70f4abb7ee1e9be",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/93cea970fe7e632470d34f4cc8e474c6bd9f2b7f",
+                "reference": "93cea970fe7e632470d34f4cc8e474c6bd9f2b7f",
                 "shasum": ""
             },
             "require": {
@@ -1109,7 +1109,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-27 16:44:37"
+            "time": "2017-01-27 17:54:24"
         },
         {
             "name": "ohiocms/spot",
@@ -1156,12 +1156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "c4ae84dc6023c915aeea950517c153aef9122ec9"
+                "reference": "efab6ce78805ed388f3a4b4c350cbda2d7ac39b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/c4ae84dc6023c915aeea950517c153aef9122ec9",
-                "reference": "c4ae84dc6023c915aeea950517c153aef9122ec9",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/efab6ce78805ed388f3a4b4c350cbda2d7ac39b0",
+                "reference": "efab6ce78805ed388f3a4b4c350cbda2d7ac39b0",
                 "shasum": ""
             },
             "require": {
@@ -1187,7 +1187,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-26 23:46:10"
+            "time": "2017-01-27 17:54:49"
         },
         {
             "name": "paragonie/random_compat",
