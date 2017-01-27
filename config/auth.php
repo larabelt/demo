@@ -67,7 +67,6 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-
             /**
              * @ohio specify ohio user instead
              */

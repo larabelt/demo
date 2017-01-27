@@ -10,9 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/**
- * @ohio
- */
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+
+Route::get('/', function () {
+    return view('welcome');
+});
