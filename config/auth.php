@@ -71,7 +71,7 @@ return [
              * @ohio specify ohio user instead
              */
 
-            'model' => Ohio\Core\User\User::class,
+            'model' => Ohio\Core\User::class,
         ],
 
         // 'users' => [
