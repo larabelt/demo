@@ -31,7 +31,7 @@ php artisan db:seed --class=OhioStorageSeeder
 gulp
 ```
 
-## Clear App & PHP cache
+## Clear App & PHP Cache
 
 ```
 composer run-script clear; 
