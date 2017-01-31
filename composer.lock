@@ -4,62 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0775479b87b5bf99be2b735c05c13ca0",
+    "content-hash": "2d25fba30253fd8b86afab46637f4cb2",
     "packages": [
-        {
-            "name": "barryvdh/laravel-debugbar",
-            "version": "v2.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/24e4f0261e352d3fd86d0447791b56ae49398674",
-                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
-                "maximebf/debugbar": "~1.13.0",
-                "php": ">=5.5.9",
-                "symfony/finder": "~2.7|~3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Debugbar\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "PHP Debugbar integration for Laravel",
-            "keywords": [
-                "debug",
-                "debugbar",
-                "laravel",
-                "profiler",
-                "webprofiler"
-            ],
-            "time": "2017-01-19T08:19:49+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -524,16 +470,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5913b960656d7f978605ff9c1513ffbfd190c173"
+                "reference": "749be15d955845abbb83207a4d59abd775a994a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5913b960656d7f978605ff9c1513ffbfd190c173",
-                "reference": "5913b960656d7f978605ff9c1513ffbfd190c173",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/749be15d955845abbb83207a4d59abd775a994a9",
+                "reference": "749be15d955845abbb83207a4d59abd775a994a9",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +595,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-01-27T19:27:15+00:00"
+            "time": "2017-01-31T18:02:56+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -765,16 +711,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.33",
+            "version": "1.0.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c"
+                "reference": "469ad53c13ea19a0e54e3e5d70f61227ddcc0299"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5c7f98498b12d47f9de90ec9186a90000125777c",
-                "reference": "5c7f98498b12d47f9de90ec9186a90000125777c",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/469ad53c13ea19a0e54e3e5d70f61227ddcc0299",
+                "reference": "469ad53c13ea19a0e54e3e5d70f61227ddcc0299",
                 "shasum": ""
             },
             "require": {
@@ -844,68 +790,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-01-23T10:32:09+00:00"
-        },
-        {
-            "name": "maximebf/debugbar",
-            "version": "1.13.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/afee79a236348e39a44cb837106b7c5b4897ac2a",
-                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "^1.0",
-                "symfony/var-dumper": "^2.6|^3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0|^5.0"
-            },
-            "suggest": {
-                "kriswallsmith/assetic": "The best way to manage assets",
-                "monolog/monolog": "Log using Monolog",
-                "predis/predis": "Redis storage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.13-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DebugBar\\": "src/DebugBar/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Maxime Bouroumeau-Fuseau",
-                    "email": "maxime.bouroumeau@gmail.com",
-                    "homepage": "http://maximebf.com"
-                },
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "Debug bar in the browser for php application",
-            "homepage": "https://github.com/maximebf/php-debugbar",
-            "keywords": [
-                "debug",
-                "debugbar"
-            ],
-            "time": "2017-01-05T08:46:19+00:00"
+            "time": "2017-01-30T17:41:17+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1139,12 +1024,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "0d9643abf2cd64208f1c39137b3f527999d000fe"
+                "reference": "f45f2bd52b5819bd985ade2ce5bd0fb6798622b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/0d9643abf2cd64208f1c39137b3f527999d000fe",
-                "reference": "0d9643abf2cd64208f1c39137b3f527999d000fe",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/f45f2bd52b5819bd985ade2ce5bd0fb6798622b3",
+                "reference": "f45f2bd52b5819bd985ade2ce5bd0fb6798622b3",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1053,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-01-28T15:48:54+00:00"
+            "time": "2017-01-31T22:52:10+00:00"
         },
         {
             "name": "ohiocms/core",
@@ -1176,12 +1061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "f2dddb228909c52dc34f9615dd1011b208bc289c"
+                "reference": "c090fbaa13e2d021e4205ae9f556f71de2a3ddd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/f2dddb228909c52dc34f9615dd1011b208bc289c",
-                "reference": "f2dddb228909c52dc34f9615dd1011b208bc289c",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/c090fbaa13e2d021e4205ae9f556f71de2a3ddd2",
+                "reference": "c090fbaa13e2d021e4205ae9f556f71de2a3ddd2",
                 "shasum": ""
             },
             "require": {
@@ -1192,7 +1077,9 @@
                 "rutorika/sortable": "3.2.*"
             },
             "require-dev": {
+                "barryvdh/laravel-debugbar": "^2.3",
                 "barryvdh/laravel-ide-helper": "2.2.3",
+                "rap2hpoutre/laravel-log-viewer": "^0.8.0",
                 "raveren/kint": "1.0.10"
             },
             "type": "library",
@@ -1216,7 +1103,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-01-28T15:57:24+00:00"
+            "time": "2017-01-31T22:52:06+00:00"
         },
         {
             "name": "ohiocms/spot",
@@ -1224,12 +1111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "87588aa1df4677bf0758043c98fec1b3ddac0d7a"
+                "reference": "2cc756a31732bd746c76d3adb4e22407c58f0952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/87588aa1df4677bf0758043c98fec1b3ddac0d7a",
-                "reference": "87588aa1df4677bf0758043c98fec1b3ddac0d7a",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/2cc756a31732bd746c76d3adb4e22407c58f0952",
+                "reference": "2cc756a31732bd746c76d3adb4e22407c58f0952",
                 "shasum": ""
             },
             "require": {
@@ -1253,7 +1140,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-01-28T15:49:10+00:00"
+            "time": "2017-01-31T22:52:13+00:00"
         },
         {
             "name": "ohiocms/storage",
@@ -1261,12 +1148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "0da2cdd0f948cf92238129278a34448871707302"
+                "reference": "191e36b0cc518619a2fb88ce42115663f0d0ca9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/0da2cdd0f948cf92238129278a34448871707302",
-                "reference": "0da2cdd0f948cf92238129278a34448871707302",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/191e36b0cc518619a2fb88ce42115663f0d0ca9e",
+                "reference": "191e36b0cc518619a2fb88ce42115663f0d0ca9e",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1178,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-01-28T15:49:43+00:00"
+            "time": "2017-01-31T22:52:16+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2527,6 +2414,60 @@
     ],
     "packages-dev": [
         {
+            "name": "barryvdh/laravel-debugbar",
+            "version": "v2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/24e4f0261e352d3fd86d0447791b56ae49398674",
+                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "maximebf/debugbar": "~1.13.0",
+                "php": ">=5.5.9",
+                "symfony/finder": "~2.7|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "PHP Debugbar integration for Laravel",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "laravel",
+                "profiler",
+                "webprofiler"
+            ],
+            "time": "2017-01-19T08:19:49+00:00"
+        },
+        {
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.2.3",
             "source": {
@@ -2787,6 +2728,67 @@
                 "test"
             ],
             "time": "2015-05-11T14:41:42+00:00"
+        },
+        {
+            "name": "maximebf/debugbar",
+            "version": "1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximebf/php-debugbar.git",
+                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/afee79a236348e39a44cb837106b7c5b4897ac2a",
+                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "^1.0",
+                "symfony/var-dumper": "^2.6|^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DebugBar\\": "src/DebugBar/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/maximebf/php-debugbar",
+            "keywords": [
+                "debug",
+                "debugbar"
+            ],
+            "time": "2017-01-05T08:46:19+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -3635,16 +3637,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
                 "shasum": ""
             },
             "require": {
@@ -3695,7 +3697,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2016-11-19T09:18:40+00:00"
+            "time": "2017-01-29T09:50:25+00:00"
         },
         {
             "name": "sebastian/diff",
