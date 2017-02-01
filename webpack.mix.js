@@ -41,3 +41,6 @@ mix.webpackConfig({
 
 mix.js('resources/assets/js/ohio-all.js', 'public/js');
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
+
+mix.sass('resources/assets/sass/app.scss', 'public/css');
+mix.sass('resources/assets/sass/ohio.scss', 'public/css');
