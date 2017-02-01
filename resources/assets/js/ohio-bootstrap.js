@@ -1,8 +1,5 @@
-window.$ = window.jQuery = require('jquery');
-global._ = require('lodash');
-window.Vue = require('vue');
-window.Vuex = require('vuex');
-window.VueRouter = require('vue-router');
+let Vuex = require('vuex');
+let VueRouter = require('vue-router');
 import columnSorter from 'ohio/core/js/components/base/column-sorter';
 import pagination from 'ohio/core/js/components/base/pagination';
 
