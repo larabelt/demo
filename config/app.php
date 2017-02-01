@@ -180,10 +180,10 @@ return [
         /**
          * @ohio below are ohio service providers
          */
-        Ohio\Core\Base\OhioCoreServiceProvider::class,
-        Ohio\Content\Base\OhioContentServiceProvider::class,
-        Ohio\Spot\Base\OhioSpotServiceProvider::class,
-        Ohio\Storage\Base\OhioStorageServiceProvider::class,
+        Ohio\Core\OhioCoreServiceProvider::class,
+        Ohio\Content\OhioContentServiceProvider::class,
+        Ohio\Spot\OhioSpotServiceProvider::class,
+        Ohio\Storage\OhioStorageServiceProvider::class,
 
     ],
 
