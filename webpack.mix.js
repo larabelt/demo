@@ -20,6 +20,9 @@ mix.webpackConfig({
     plugins: [
         new webpack.ProvidePlugin({
             '_': 'lodash',
+            'Vue': 'vue',
+            'Vuex': 'vuex',
+            'VueRouter': 'vue-router'
         })
     ],
     module: {
@@ -36,6 +39,5 @@ mix.webpackConfig({
     }
 });
 
+mix.js('resources/assets/js/ohio-all.js', 'public/js');
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
-
-mix.js('resources/assets/js/ohio-core.js', 'public/js');

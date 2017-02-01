@@ -1,5 +1,3 @@
-let Vuex = require('vuex');
-let VueRouter = require('vue-router');
 import columnSorter from 'ohio/core/js/components/base/column-sorter';
 import pagination from 'ohio/core/js/components/base/pagination';
 
