@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c868215559af629311c8f6b1678e8b5f",
+    "content-hash": "2d25fba30253fd8b86afab46637f4cb2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1078,12 +1078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "ee3c34498d29c702868c7cbec36904e1e1e932d0"
+                "reference": "3c54f43ff2afaa8848dd581b9cf2b276d42fef08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/ee3c34498d29c702868c7cbec36904e1e1e932d0",
-                "reference": "ee3c34498d29c702868c7cbec36904e1e1e932d0",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/3c54f43ff2afaa8848dd581b9cf2b276d42fef08",
+                "reference": "3c54f43ff2afaa8848dd581b9cf2b276d42fef08",
                 "shasum": ""
             },
             "require": {
@@ -1107,7 +1107,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-02-01T19:12:31+00:00"
+            "time": "2017-02-01T21:46:51+00:00"
         },
         {
             "name": "ohiocms/core",
@@ -1115,16 +1115,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "b3a7647b9aeda24501c58fdad7f175c895757806"
+                "reference": "c9f5d04e91789b08e5d951cb44cec6876a028ec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/b3a7647b9aeda24501c58fdad7f175c895757806",
-                "reference": "b3a7647b9aeda24501c58fdad7f175c895757806",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/c9f5d04e91789b08e5d951cb44cec6876a028ec1",
+                "reference": "c9f5d04e91789b08e5d951cb44cec6876a028ec1",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "6.2.*",
+                "kalnoy/nestedset": "^4.2",
                 "laravel/framework": ">=5.4.0",
                 "laravelcollective/html": "5.4.1",
                 "php": ">=5.6.4",
@@ -1157,7 +1158,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-02-01T18:59:06+00:00"
+            "time": "2017-02-02T22:27:55+00:00"
         },
         {
             "name": "ohiocms/spot",
@@ -1165,12 +1166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "7e660d9f3d10803d73fdaff9c0a9443b24f8ea97"
+                "reference": "13603ce0af73aa8908106f8ceb37b786f340f133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/7e660d9f3d10803d73fdaff9c0a9443b24f8ea97",
-                "reference": "7e660d9f3d10803d73fdaff9c0a9443b24f8ea97",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/13603ce0af73aa8908106f8ceb37b786f340f133",
+                "reference": "13603ce0af73aa8908106f8ceb37b786f340f133",
                 "shasum": ""
             },
             "require": {
@@ -1194,7 +1195,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-02-01T18:59:55+00:00"
+            "time": "2017-02-01T19:40:37+00:00"
         },
         {
             "name": "ohiocms/storage",
@@ -1202,12 +1203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "00c1893b3ba6d51350daaa557c9c6486674dfeab"
+                "reference": "966022c038dd09a9b33321fab8933cdad0e037b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/00c1893b3ba6d51350daaa557c9c6486674dfeab",
-                "reference": "00c1893b3ba6d51350daaa557c9c6486674dfeab",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/966022c038dd09a9b33321fab8933cdad0e037b0",
+                "reference": "966022c038dd09a9b33321fab8933cdad0e037b0",
                 "shasum": ""
             },
             "require": {
@@ -1232,7 +1233,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-02-01T19:14:23+00:00"
+            "time": "2017-02-02T22:28:05+00:00"
         },
         {
             "name": "paragonie/random_compat",
