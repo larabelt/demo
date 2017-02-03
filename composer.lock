@@ -524,16 +524,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3e226e3481aabe835626739a1507c8af17b76082"
+                "reference": "600330ae1d218919b3b307e0578461a2df248663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3e226e3481aabe835626739a1507c8af17b76082",
-                "reference": "3e226e3481aabe835626739a1507c8af17b76082",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/600330ae1d218919b3b307e0578461a2df248663",
+                "reference": "600330ae1d218919b3b307e0578461a2df248663",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-02-01T14:45:01+00:00"
+            "time": "2017-02-03T19:47:35+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -1023,16 +1023,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "adf44419c0fc014a0f191db6f89d3e55d4211744"
+                "reference": "5b8182cc0abb4b0ff290ba9df6c0e1323286013a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/adf44419c0fc014a0f191db6f89d3e55d4211744",
-                "reference": "adf44419c0fc014a0f191db6f89d3e55d4211744",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5b8182cc0abb4b0ff290ba9df6c0e1323286013a",
+                "reference": "5b8182cc0abb4b0ff290ba9df6c0e1323286013a",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1070,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2016-12-06T11:30:35+00:00"
+            "time": "2017-02-03T21:57:31+00:00"
         },
         {
             "name": "ohiocms/content",
@@ -1078,16 +1078,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "3c54f43ff2afaa8848dd581b9cf2b276d42fef08"
+                "reference": "095607bb2908469e8e4db32e157d177da5850b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/3c54f43ff2afaa8848dd581b9cf2b276d42fef08",
-                "reference": "3c54f43ff2afaa8848dd581b9cf2b276d42fef08",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/095607bb2908469e8e4db32e157d177da5850b08",
+                "reference": "095607bb2908469e8e4db32e157d177da5850b08",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/core": "dev-master"
+                "ohiocms/core": "dev-master",
+                "ohiocms/storage": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -1107,7 +1108,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-02-01T21:46:51+00:00"
+            "time": "2017-02-03T22:23:57+00:00"
         },
         {
             "name": "ohiocms/core",
@@ -1115,12 +1116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "c9f5d04e91789b08e5d951cb44cec6876a028ec1"
+                "reference": "89e16a1450d374bd9f371d041c5ec7d778ed04e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/c9f5d04e91789b08e5d951cb44cec6876a028ec1",
-                "reference": "c9f5d04e91789b08e5d951cb44cec6876a028ec1",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/89e16a1450d374bd9f371d041c5ec7d778ed04e1",
+                "reference": "89e16a1450d374bd9f371d041c5ec7d778ed04e1",
                 "shasum": ""
             },
             "require": {
@@ -1158,7 +1159,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-02-02T22:27:55+00:00"
+            "time": "2017-02-03T22:23:20+00:00"
         },
         {
             "name": "ohiocms/spot",
@@ -1166,12 +1167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "13603ce0af73aa8908106f8ceb37b786f340f133"
+                "reference": "46c30cd99c1ba164ea8410f47af78a5a29de09ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/13603ce0af73aa8908106f8ceb37b786f340f133",
-                "reference": "13603ce0af73aa8908106f8ceb37b786f340f133",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/46c30cd99c1ba164ea8410f47af78a5a29de09ec",
+                "reference": "46c30cd99c1ba164ea8410f47af78a5a29de09ec",
                 "shasum": ""
             },
             "require": {
@@ -1195,7 +1196,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-02-01T19:40:37+00:00"
+            "time": "2017-02-03T22:24:53+00:00"
         },
         {
             "name": "ohiocms/storage",
