@@ -1204,12 +1204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/storage.git",
-                "reference": "966022c038dd09a9b33321fab8933cdad0e037b0"
+                "reference": "25c56b31893e6a007e26a8be5e032ed2eb1c7e96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/966022c038dd09a9b33321fab8933cdad0e037b0",
-                "reference": "966022c038dd09a9b33321fab8933cdad0e037b0",
+                "url": "https://api.github.com/repos/ohiocms/storage/zipball/25c56b31893e6a007e26a8be5e032ed2eb1c7e96",
+                "reference": "25c56b31893e6a007e26a8be5e032ed2eb1c7e96",
                 "shasum": ""
             },
             "require": {
@@ -1234,7 +1234,7 @@
                 }
             ],
             "description": "Storage package for OhioCMS.",
-            "time": "2017-02-02T22:28:05+00:00"
+            "time": "2017-02-03T22:25:34+00:00"
         },
         {
             "name": "paragonie/random_compat",
