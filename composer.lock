@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fcf055bfe70d16396f4dfc85ba3fa6fa",
+    "content-hash": "2d25fba30253fd8b86afab46637f4cb2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -764,50 +764,6 @@
             "time": "2017-01-26T19:27:05+00:00"
         },
         {
-            "name": "lavary/laravel-menu",
-            "version": "dev-ohiocms",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ohiocms/laravel-menu.git",
-                "reference": "d8bc5226f7d2c44fa16298c424d76211d60b5c28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/laravel-menu/zipball/d8bc5226f7d2c44fa16298c424d76211d60b5c28",
-                "reference": "d8bc5226f7d2c44fa16298c424d76211d60b5c28",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": ">=5.0",
-                "illuminate/view": ">=5.0",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Lavary\\Menu\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lavary",
-                    "email": "mrl.8081@gmail.com"
-                }
-            ],
-            "description": "A quick way to create menus in Laravel 5",
-            "homepage": "https://github.com/lavary/laravel-menu",
-            "keywords": [
-                "laravel"
-            ],
-            "support": {
-                "source": "https://github.com/ohiocms/laravel-menu/tree/ohiocms"
-            },
-            "time": "2017-02-06T18:59:45+00:00"
-        },
-        {
             "name": "league/flysystem",
             "version": "1.0.34",
             "source": {
@@ -1122,12 +1078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "bd8efef48e56720641f699aba26af8a1d54cb5fa"
+                "reference": "b0cf37ea2023aafff601d6987718c298b94b8413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/bd8efef48e56720641f699aba26af8a1d54cb5fa",
-                "reference": "bd8efef48e56720641f699aba26af8a1d54cb5fa",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/b0cf37ea2023aafff601d6987718c298b94b8413",
+                "reference": "b0cf37ea2023aafff601d6987718c298b94b8413",
                 "shasum": ""
             },
             "require": {
@@ -1152,7 +1108,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-02-06T18:07:45+00:00"
+            "time": "2017-02-06T19:22:24+00:00"
         },
         {
             "name": "ohiocms/core",
@@ -4368,7 +4324,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lavary/laravel-menu": 20,
         "ohiocms/content": 20,
         "ohiocms/core": 20,
         "ohiocms/spot": 20,
