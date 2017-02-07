@@ -182,6 +182,7 @@ return [
          */
         Ohio\Core\OhioCoreServiceProvider::class,
         Ohio\Content\OhioContentServiceProvider::class,
+        Ohio\Menu\OhioMenuServiceProvider::class,
         Ohio\Spot\OhioSpotServiceProvider::class,
         Ohio\Storage\OhioStorageServiceProvider::class,
 
