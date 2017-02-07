@@ -5,7 +5,7 @@
 composer install
 
 # install node dependencies
-yarn
+yarn install
 
 # create .env file
 cp .env.example .env
@@ -16,6 +16,7 @@ php artisan key:generate
 # install assets & migrate
 php artisan ohio-core:publish
 php artisan ohio-content:publish
+php artisan ohio-menu:publish
 php artisan ohio-spot:publish
 php artisan ohio-storage:publish
 composer dumpautoload
@@ -28,7 +29,7 @@ php artisan db:seed --class=OhioSpotSeeder
 php artisan db:seed --class=OhioStorageSeeder
 
 # compile assets
-gulp
+npm run dev
 ```
 
 ## Clear App & PHP Cache
