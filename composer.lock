@@ -1167,12 +1167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/menu.git",
-                "reference": "5988a9e7958c732f59d6d77cfe17dd0a280d32f6"
+                "reference": "96744d7d40091af816dd607cf946d54a59e5bcb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/menu/zipball/5988a9e7958c732f59d6d77cfe17dd0a280d32f6",
-                "reference": "5988a9e7958c732f59d6d77cfe17dd0a280d32f6",
+                "url": "https://api.github.com/repos/ohiocms/menu/zipball/96744d7d40091af816dd607cf946d54a59e5bcb5",
+                "reference": "96744d7d40091af816dd607cf946d54a59e5bcb5",
                 "shasum": ""
             },
             "require": {
@@ -1197,7 +1197,7 @@
                 }
             ],
             "description": "Menu package for OhioCMS.",
-            "time": "2017-02-07T01:08:52+00:00"
+            "time": "2017-02-07T01:16:16+00:00"
         },
         {
             "name": "ohiocms/spot",
