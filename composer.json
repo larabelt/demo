@@ -13,6 +13,7 @@
     "laravel/tinker": "~1.0",
     "ohiocms/content": "dev-master",
     "ohiocms/core": "dev-master",
+    "ohiocms/menu": "dev-master",
     "ohiocms/spot": "dev-master",
     "ohiocms/storage": "dev-master"
   },
