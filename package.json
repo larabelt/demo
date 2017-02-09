@@ -11,6 +11,7 @@
     "font-awesome": "^4.6.3"
   },
   "dependencies": {
+    "admin-lte": "^2.3.11",
     "axios": "^0.15.2",
     "bootstrap-sass": "^3.3.7",
     "html-loader": "^0.4.4",

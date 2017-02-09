@@ -1,4 +1,4 @@
-require('./ohio-bootstrap');
+import './ohio-bootstrap';
 
 import  OhioCore  from 'ohio/core/js/core';
 import  OhioContent  from 'ohio/content/js/content';

@@ -21,7 +21,7 @@ acorn@^4.0.3, acorn@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a"
 
-admin-lte@^2.3.6:
+admin-lte:
   version "2.3.11"
   resolved "https://registry.yarnpkg.com/admin-lte/-/admin-lte-2.3.11.tgz#da56dcd34d42e9ef1af362be15520a053a9d43db"
 

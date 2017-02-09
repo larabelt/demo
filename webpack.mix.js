@@ -17,14 +17,6 @@ const webpack = require('webpack');
 //.sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.webpackConfig({
-    plugins: [
-        new webpack.ProvidePlugin({
-            '_': 'lodash',
-            'Vue': 'vue',
-            'Vuex': 'vuex',
-            'VueRouter': 'vue-router'
-        })
-    ],
     module: {
         rules: [{
             test: /\.html$/,
