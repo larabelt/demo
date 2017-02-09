@@ -30,6 +30,7 @@ php artisan db:seed --class=OhioStorageSeeder
 
 # compile assets
 npm run dev
+npm run watch
 ```
 
 ## Clear App & PHP Cache
