@@ -1078,12 +1078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "eab249980313c920f89079e2e4514c62c8f1a5b0"
+                "reference": "8e57a20c811685600737586f808229bc55bccc78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/eab249980313c920f89079e2e4514c62c8f1a5b0",
-                "reference": "eab249980313c920f89079e2e4514c62c8f1a5b0",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/8e57a20c811685600737586f808229bc55bccc78",
+                "reference": "8e57a20c811685600737586f808229bc55bccc78",
                 "shasum": ""
             },
             "require": {
@@ -1108,7 +1108,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-02-09T22:48:07+00:00"
+            "time": "2017-02-10T02:23:51+00:00"
         },
         {
             "name": "ohiocms/core",
@@ -1116,12 +1116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/core.git",
-                "reference": "214ddcef4f25ed8e476622a4004ec522c204fc74"
+                "reference": "cf614a483e30b7f34eb7d10f8c3c9fa01d205821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/214ddcef4f25ed8e476622a4004ec522c204fc74",
-                "reference": "214ddcef4f25ed8e476622a4004ec522c204fc74",
+                "url": "https://api.github.com/repos/ohiocms/core/zipball/cf614a483e30b7f34eb7d10f8c3c9fa01d205821",
+                "reference": "cf614a483e30b7f34eb7d10f8c3c9fa01d205821",
                 "shasum": ""
             },
             "require": {
@@ -1159,7 +1159,7 @@
                 }
             ],
             "description": "Core package for any OhioCMS app.",
-            "time": "2017-02-09T22:48:04+00:00"
+            "time": "2017-02-10T02:10:27+00:00"
         },
         {
             "name": "ohiocms/menu",
