@@ -1205,12 +1205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/spot.git",
-                "reference": "145be43aaabbc6959654fab6c1eecaaec54ef017"
+                "reference": "9193a5c25221fa790c6851246d636e0e639f2ae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/145be43aaabbc6959654fab6c1eecaaec54ef017",
-                "reference": "145be43aaabbc6959654fab6c1eecaaec54ef017",
+                "url": "https://api.github.com/repos/ohiocms/spot/zipball/9193a5c25221fa790c6851246d636e0e639f2ae2",
+                "reference": "9193a5c25221fa790c6851246d636e0e639f2ae2",
                 "shasum": ""
             },
             "require": {
@@ -1234,7 +1234,7 @@
                 }
             ],
             "description": "Spot package for OhioCMS.",
-            "time": "2017-02-11T15:17:34+00:00"
+            "time": "2017-02-11T15:20:07+00:00"
         },
         {
             "name": "ohiocms/storage",
@@ -1823,16 +1823,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.5",
+            "version": "v5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "cd142238a339459b10da3d8234220963f392540c"
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/cd142238a339459b10da3d8234220963f392540c",
-                "reference": "cd142238a339459b10da3d8234220963f392540c",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
                 "shasum": ""
             },
             "require": {
@@ -1873,7 +1873,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-12-29T10:02:40+00:00"
+            "time": "2017-02-13T07:52:53+00:00"
         },
         {
             "name": "symfony/console",
