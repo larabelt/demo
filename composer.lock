@@ -1078,12 +1078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ohiocms/content.git",
-                "reference": "580c57437235048ccbb18a7ade69dc82a4425eae"
+                "reference": "c631dc0305371fd833b7c07cbe31554b9697feee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/580c57437235048ccbb18a7ade69dc82a4425eae",
-                "reference": "580c57437235048ccbb18a7ade69dc82a4425eae",
+                "url": "https://api.github.com/repos/ohiocms/content/zipball/c631dc0305371fd833b7c07cbe31554b9697feee",
+                "reference": "c631dc0305371fd833b7c07cbe31554b9697feee",
                 "shasum": ""
             },
             "require": {
@@ -1108,7 +1108,7 @@
                 }
             ],
             "description": "Content package for OhioCMS.",
-            "time": "2017-02-13T21:15:01+00:00"
+            "time": "2017-02-13T21:33:50+00:00"
         },
         {
             "name": "ohiocms/core",
