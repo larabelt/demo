@@ -594,12 +594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "e75babc968f714a6572b7adf38331640839a7556"
+                "reference": "c42a4c1ab7dea2700e6eb313f5f826ef9892e275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/e75babc968f714a6572b7adf38331640839a7556",
-                "reference": "e75babc968f714a6572b7adf38331640839a7556",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/c42a4c1ab7dea2700e6eb313f5f826ef9892e275",
+                "reference": "c42a4c1ab7dea2700e6eb313f5f826ef9892e275",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +624,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-02-16T20:36:16+00:00"
+            "time": "2017-02-16T21:14:19+00:00"
         },
         {
             "name": "larabelt/content",
