@@ -1,15 +1,17 @@
 import './belt-bootstrap';
 
 import  BeltCore  from 'belt/core/js/core';
-import  BeltContent  from 'belt/content/js/content';
-import  BeltSpot  from 'belt/spot/js/spot';
 import  BeltClip  from 'belt/clip/js/clip';
+import  BeltContent  from 'belt/content/js/content';
+import  BeltGlue  from 'belt/glue/js/glue';
+import  BeltSpot  from 'belt/spot/js/spot';
 
 $(document).ready(function() {
     
     new BeltCore([
+        BeltClip,
         BeltContent,
-        BeltSpot,
-        BeltClip
+        BeltGlue,
+        BeltSpot
     ]);
 });
