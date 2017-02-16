@@ -6,8 +6,8 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 import Vuex from 'vuex';
 
-import columnSorter from 'ohio/core/js/components/base/column-sorter';
-import pagination from 'ohio/core/js/components/base/pagination';
+import columnSorter from 'belt/core/js/components/base/column-sorter';
+import pagination from 'belt/core/js/components/base/pagination';
 
 import 'admin-lte';
 

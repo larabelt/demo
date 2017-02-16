@@ -26,11 +26,11 @@ $app = new Illuminate\Foundation\Application(
 |
 */
 
-// @ohio
+// @larabelt
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
     //App\Http\Kernel::class
-    \Ohio\Core\Http\Kernel::class
+    \Belt\Core\Http\Kernel::class
 );
 
 $app->singleton(
@@ -38,11 +38,11 @@ $app->singleton(
     App\Console\Kernel::class
 );
 
-// @ohio
+// @larabelt
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
     //App\Exceptions\Handler::class
-    \Ohio\Core\Exceptions\Handler::class
+    \Belt\Core\Exceptions\Handler::class
 );
 
 /*

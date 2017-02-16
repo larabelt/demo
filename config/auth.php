@@ -68,10 +68,10 @@ return [
         'users' => [
             'driver' => 'eloquent',
             /**
-             * @ohio specify ohio user instead
+             * @larabelt
              */
 
-            'model' => Ohio\Core\User::class,
+            'model' => Belt\Core\User::class,
         ],
 
         // 'users' => [

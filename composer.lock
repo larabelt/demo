@@ -523,17 +523,83 @@
             "time": "2017-02-11T08:05:48+00:00"
         },
         {
-            "name": "laravel/framework",
-            "version": "v5.4.11",
+            "name": "knplabs/knp-menu",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "9cee8db07cfac13a3a49d17388c9ced4c52e17ac"
+                "url": "https://github.com/KnpLabs/KnpMenu.git",
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9cee8db07cfac13a3a49d17388c9ced4c52e17ac",
-                "reference": "9cee8db07cfac13a3a49d17388c9ced4c52e17ac",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/964b5b3ca7fd23019147991f4f75f361d061eb20",
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "pimple/pimple": "~1.0",
+                "silex/silex": "~1.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/routing": "~2.3|~3.0",
+                "twig/twig": "~1.16|~2.0"
+            },
+            "suggest": {
+                "pimple/pimple": "for the built-in implementations of the menu provider and renderer provider",
+                "silex/silex": "for the integration with your silex application",
+                "twig/twig": "for the TwigRenderer and the integration with your templates"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Menu\\": "src/Knp/Menu"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                },
+                {
+                    "name": "Knplabs",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
+                }
+            ],
+            "description": "An object oriented menu library",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "menu",
+                "tree"
+            ],
+            "time": "2016-09-22T07:36:19+00:00"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v5.4.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "707f32d32dce58232f7a860e0a1d62caf6f9dbfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/707f32d32dce58232f7a860e0a1d62caf6f9dbfc",
+                "reference": "707f32d32dce58232f7a860e0a1d62caf6f9dbfc",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +715,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-02-10T19:40:54+00:00"
+            "time": "2017-02-15T14:31:32+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -1073,27 +1139,27 @@
             "time": "2017-02-10T20:20:03+00:00"
         },
         {
-            "name": "ohiocms/content",
+            "name": "larabelt/content",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ohiocms/content.git",
-                "reference": "98dcfdf6ddd9aab457424e72bda653f986cf27f3"
+                "url": "https://github.com/larabelt/content.git",
+                "reference": "b4d17c0aab3642a811700b9a307f5f4d1e05a704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/content/zipball/98dcfdf6ddd9aab457424e72bda653f986cf27f3",
-                "reference": "98dcfdf6ddd9aab457424e72bda653f986cf27f3",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/b4d17c0aab3642a811700b9a307f5f4d1e05a704",
+                "reference": "b4d17c0aab3642a811700b9a307f5f4d1e05a704",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/core": "dev-master",
-                "ohiocms/storage": "dev-master"
+                "larabelt/core": "dev-master",
+                "larabelt/storage": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Content\\": "src/"
+                    "Belt\\Content\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1107,20 +1173,20 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Content package for OhioCMS.",
-            "time": "2017-02-14T02:32:41+00:00"
+            "description": "Content package for LaraBelt.",
+            "time": "2017-02-15T20:44:56+00:00"
         },
         {
-            "name": "ohiocms/core",
+            "name": "larabelt/core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ohiocms/core.git",
+                "url": "https://github.com/larabelt/core.git",
                 "reference": "b4fe051207469cf4a5836924f5749be7c0a24fe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/core/zipball/b4fe051207469cf4a5836924f5749be7c0a24fe7",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/b4fe051207469cf4a5836924f5749be7c0a24fe7",
                 "reference": "b4fe051207469cf4a5836924f5749be7c0a24fe7",
                 "shasum": ""
             },
@@ -1141,7 +1207,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Core\\": "src/"
+                    "Belt\\Core\\": "src/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -1158,31 +1224,32 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Core package for any OhioCMS app.",
+            "description": "Core package for any LaraBelt app.",
             "time": "2017-02-13T21:15:07+00:00"
         },
         {
-            "name": "ohiocms/menu",
+            "name": "larabelt/menu",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ohiocms/menu.git",
-                "reference": "2e494f25fb6d77804149436499cbaae0a2f14918"
+                "url": "https://github.com/larabelt/menu.git",
+                "reference": "0620042ac270e1b531340e52a42e56e5301aab9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/menu/zipball/2e494f25fb6d77804149436499cbaae0a2f14918",
-                "reference": "2e494f25fb6d77804149436499cbaae0a2f14918",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/0620042ac270e1b531340e52a42e56e5301aab9d",
+                "reference": "0620042ac270e1b531340e52a42e56e5301aab9d",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/core": "dev-master",
+                "knplabs/knp-menu": "^2.2",
+                "larabelt/core": "dev-master",
                 "spatie/laravel-menu": "^2.1"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Menu\\": "src/"
+                    "Belt\\Menu\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1196,30 +1263,30 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Menu package for OhioCMS.",
-            "time": "2017-02-11T02:38:53+00:00"
+            "description": "Menu package for LaraBelt.",
+            "time": "2017-02-15T15:25:47+00:00"
         },
         {
-            "name": "ohiocms/spot",
+            "name": "larabelt/spot",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ohiocms/spot.git",
+                "url": "https://github.com/larabelt/spot.git",
                 "reference": "9193a5c25221fa790c6851246d636e0e639f2ae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/spot/zipball/9193a5c25221fa790c6851246d636e0e639f2ae2",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/9193a5c25221fa790c6851246d636e0e639f2ae2",
                 "reference": "9193a5c25221fa790c6851246d636e0e639f2ae2",
                 "shasum": ""
             },
             "require": {
-                "ohiocms/core": "dev-master"
+                "larabelt/core": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Spot\\": "src/"
+                    "Belt\\Spot\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1233,31 +1300,31 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Spot package for OhioCMS.",
+            "description": "Spot package for LaraBelt.",
             "time": "2017-02-11T15:20:07+00:00"
         },
         {
-            "name": "ohiocms/storage",
+            "name": "larabelt/storage",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ohiocms/storage.git",
-                "reference": "a9b0fd0cdd94741829f36d7c28bfcf43f457049a"
+                "url": "https://github.com/larabelt/storage.git",
+                "reference": "510e8bc3a6599c949101dcd5b34ddb22cff0bf43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ohiocms/storage/zipball/a9b0fd0cdd94741829f36d7c28bfcf43f457049a",
-                "reference": "a9b0fd0cdd94741829f36d7c28bfcf43f457049a",
+                "url": "https://api.github.com/repos/larabelt/storage/zipball/510e8bc3a6599c949101dcd5b34ddb22cff0bf43",
+                "reference": "510e8bc3a6599c949101dcd5b34ddb22cff0bf43",
                 "shasum": ""
             },
             "require": {
                 "intervention/image": "2.3.*",
-                "ohiocms/core": "dev-master"
+                "larabelt/core": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ohio\\Storage\\": "src/"
+                    "Belt\\Storage\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1271,8 +1338,8 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Storage package for OhioCMS.",
-            "time": "2017-02-11T14:53:40+00:00"
+            "description": "Storage package for LaraBelt.",
+            "time": "2017-02-15T19:18:37+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4556,11 +4623,11 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ohiocms/content": 20,
-        "ohiocms/core": 20,
-        "ohiocms/menu": 20,
-        "ohiocms/spot": 20,
-        "ohiocms/storage": 20
+        "larabelt/content": 20,
+        "larabelt/core": 20,
+        "larabelt/menu": 20,
+        "larabelt/spot": 20,
+        "larabelt/storage": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -178,13 +178,13 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /**
-         * @ohio below are ohio service providers
+         * @larabelt
          */
-        Ohio\Core\OhioCoreServiceProvider::class,
-        Ohio\Content\OhioContentServiceProvider::class,
-        Ohio\Menu\OhioMenuServiceProvider::class,
-        Ohio\Spot\OhioSpotServiceProvider::class,
-        Ohio\Storage\OhioStorageServiceProvider::class,
+        Belt\Core\BeltCoreServiceProvider::class,
+        Belt\Content\BeltContentServiceProvider::class,
+        Belt\Menu\BeltMenuServiceProvider::class,
+        Belt\Spot\BeltSpotServiceProvider::class,
+        Belt\Storage\BeltStorageServiceProvider::class,
 
     ],
 

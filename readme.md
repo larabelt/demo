@@ -14,19 +14,19 @@ cp .env.example .env
 php artisan key:generate
 
 # install assets & migrate
-php artisan ohio-core:publish
-php artisan ohio-content:publish
-php artisan ohio-menu:publish
-php artisan ohio-spot:publish
-php artisan ohio-storage:publish
+php artisan belt-core:publish
+php artisan belt-content:publish
+php artisan belt-menu:publish
+php artisan belt-spot:publish
+php artisan belt-storage:publish
 composer dumpautoload
 
 # migrate & seed
 php artisan migrate
-php artisan db:seed --class=OhioCoreSeeder
-php artisan db:seed --class=OhioContentSeeder
-php artisan db:seed --class=OhioSpotSeeder
-php artisan db:seed --class=OhioStorageSeeder
+php artisan db:seed --class=BeltCoreSeeder
+php artisan db:seed --class=BeltContentSeeder
+php artisan db:seed --class=BeltSpotSeeder
+php artisan db:seed --class=BeltStorageSeeder
 
 # compile assets
 npm run dev
