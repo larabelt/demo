@@ -14,6 +14,7 @@
     "larabelt/clip": "dev-master",
     "larabelt/content": "dev-master",
     "larabelt/core": "dev-master",
+    "larabelt/glue": "dev-master",
     "larabelt/menu": "dev-master",
     "larabelt/spot": "dev-master"
   },

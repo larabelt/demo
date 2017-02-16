@@ -15,18 +15,20 @@ php artisan key:generate
 
 # install assets & migrate
 php artisan belt-core:publish
+php artisan belt-clip:publish
 php artisan belt-content:publish
+php artisan belt-glue:publish
 php artisan belt-menu:publish
 php artisan belt-spot:publish
-php artisan belt-clip:publish
 composer dumpautoload
 
 # migrate & seed
 php artisan migrate
 php artisan db:seed --class=BeltCoreSeeder
-php artisan db:seed --class=BeltContentSeeder
-php artisan db:seed --class=BeltSpotSeeder
 php artisan db:seed --class=BeltClipSeeder
+php artisan db:seed --class=BeltContentSeeder
+php artisan db:seed --class=BeltGlueSeeder
+php artisan db:seed --class=BeltSpotSeeder
 
 # compile assets
 npm run dev

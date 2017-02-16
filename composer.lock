@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "958e334dd99a25de98b24d1208916b9a",
+    "content-hash": "064a457e333449aa06a7b90ef65b8b3e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -714,6 +714,43 @@
             ],
             "description": "Core package for any LaraBelt app.",
             "time": "2017-02-16T03:22:55+00:00"
+        },
+        {
+            "name": "larabelt/glue",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/glue.git",
+                "reference": "48213f54558a3121df8cc53b7a3555d4150eeebe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/48213f54558a3121df8cc53b7a3555d4150eeebe",
+                "reference": "48213f54558a3121df8cc53b7a3555d4150eeebe",
+                "shasum": ""
+            },
+            "require": {
+                "larabelt/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Belt\\Glue\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Glue package for LaraBelt.",
+            "time": "2017-02-16T22:21:58+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -4626,6 +4663,7 @@
         "larabelt/clip": 20,
         "larabelt/content": 20,
         "larabelt/core": 20,
+        "larabelt/glue": 20,
         "larabelt/menu": 20,
         "larabelt/spot": 20
     },
