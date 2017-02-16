@@ -1,1 +1,0 @@
-<img class="img-responsive center-file" src="{{ $file->src }}"/>

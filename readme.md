@@ -1,14 +1,14 @@
 ## Installation
 
 ```
-# install composer dependencies
-composer install
-
 # install node dependencies
 yarn install
 
 # create .env file
 cp .env.example .env
+
+# install composer dependencies
+composer install
 
 # create app key
 php artisan key:generate
