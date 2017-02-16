@@ -184,7 +184,7 @@ return [
         Belt\Content\BeltContentServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
-        Belt\Storage\BeltStorageServiceProvider::class,
+        Belt\Clip\BeltClipServiceProvider::class,
 
     ],
 

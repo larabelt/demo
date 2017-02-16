@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "368676548cdf395557d8f0706a6cbe7a",
+    "content-hash": "958e334dd99a25de98b24d1208916b9a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -589,22 +589,60 @@
             "time": "2016-09-22T07:36:19+00:00"
         },
         {
+            "name": "larabelt/clip",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/clip.git",
+                "reference": "cf8d6c4e2297fca8283181a1f8170b225311e763"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/cf8d6c4e2297fca8283181a1f8170b225311e763",
+                "reference": "cf8d6c4e2297fca8283181a1f8170b225311e763",
+                "shasum": ""
+            },
+            "require": {
+                "intervention/image": "2.3.*",
+                "larabelt/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Belt\\Clip\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Clip package for LaraBelt.",
+            "time": "2017-02-16T18:41:18+00:00"
+        },
+        {
             "name": "larabelt/content",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "a591338c86fc9a170c62acfb3721bd2b0e998072"
+                "reference": "887e6814565105700722ecbe87fec4a8c0bbe4cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/a591338c86fc9a170c62acfb3721bd2b0e998072",
-                "reference": "a591338c86fc9a170c62acfb3721bd2b0e998072",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/887e6814565105700722ecbe87fec4a8c0bbe4cb",
+                "reference": "887e6814565105700722ecbe87fec4a8c0bbe4cb",
                 "shasum": ""
             },
             "require": {
-                "larabelt/core": "dev-master",
-                "larabelt/storage": "dev-master"
+                "larabelt/clip": "dev-master",
+                "larabelt/core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -624,7 +662,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-02-16T03:22:34+00:00"
+            "time": "2017-02-16T18:29:50+00:00"
         },
         {
             "name": "larabelt/core",
@@ -752,44 +790,6 @@
             ],
             "description": "Spot package for LaraBelt.",
             "time": "2017-02-16T03:23:08+00:00"
-        },
-        {
-            "name": "larabelt/storage",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larabelt/storage.git",
-                "reference": "672106c048179b51ceb881c59cb0d25d9b7b3bf1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/storage/zipball/672106c048179b51ceb881c59cb0d25d9b7b3bf1",
-                "reference": "672106c048179b51ceb881c59cb0d25d9b7b3bf1",
-                "shasum": ""
-            },
-            "require": {
-                "intervention/image": "2.3.*",
-                "larabelt/core": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Belt\\Storage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Storage package for LaraBelt.",
-            "time": "2017-02-16T03:23:13+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4623,11 +4623,11 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "larabelt/clip": 20,
         "larabelt/content": 20,
         "larabelt/core": 20,
         "larabelt/menu": 20,
-        "larabelt/spot": 20,
-        "larabelt/storage": 20
+        "larabelt/spot": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -2,9 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-use Belt\Storage\File;
-
-class BeltStorageFileSeeds extends Seeder
+class BeltClipSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +11,7 @@ class BeltStorageFileSeeds extends Seeder
      */
     public function run()
     {
-        factory(File::class, 25)->create();
+        $this->call(BeltClipFileSeeds::class);
+        $this->call(BeltClipClippableSeeds::class);
     }
 }

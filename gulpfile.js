@@ -5,6 +5,6 @@ elixir(function(mix) {
     mix.webpack('belt-core.js');
     mix.webpack('belt-content.js');
     mix.webpack('belt-spot.js');
-    mix.webpack('belt-storage.js');
+    mix.webpack('belt-clip.js');
     mix.sass('belt.scss');
 });

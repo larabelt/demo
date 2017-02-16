@@ -18,7 +18,7 @@ php artisan belt-core:publish
 php artisan belt-content:publish
 php artisan belt-menu:publish
 php artisan belt-spot:publish
-php artisan belt-storage:publish
+php artisan belt-clip:publish
 composer dumpautoload
 
 # migrate & seed
@@ -26,7 +26,7 @@ php artisan migrate
 php artisan db:seed --class=BeltCoreSeeder
 php artisan db:seed --class=BeltContentSeeder
 php artisan db:seed --class=BeltSpotSeeder
-php artisan db:seed --class=BeltStorageSeeder
+php artisan db:seed --class=BeltClipSeeder
 
 # compile assets
 npm run dev
