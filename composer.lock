@@ -594,12 +594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "039c3db8cad9954303bdc987fec2a1931f1b2eb4"
+                "reference": "913a108426e8bdabc42cf4cb859e9be2f3f19a76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/039c3db8cad9954303bdc987fec2a1931f1b2eb4",
-                "reference": "039c3db8cad9954303bdc987fec2a1931f1b2eb4",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/913a108426e8bdabc42cf4cb859e9be2f3f19a76",
+                "reference": "913a108426e8bdabc42cf4cb859e9be2f3f19a76",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +624,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-02-18T13:59:13+00:00"
+            "time": "2017-02-18T14:27:00+00:00"
         },
         {
             "name": "larabelt/content",
@@ -632,12 +632,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "3a43c88255b58cd0c673e366469708c7de1542ee"
+                "reference": "6ab09bdf7b2de5b57740ef6bbad6d3de35e4a6a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/3a43c88255b58cd0c673e366469708c7de1542ee",
-                "reference": "3a43c88255b58cd0c673e366469708c7de1542ee",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/6ab09bdf7b2de5b57740ef6bbad6d3de35e4a6a2",
+                "reference": "6ab09bdf7b2de5b57740ef6bbad6d3de35e4a6a2",
                 "shasum": ""
             },
             "require": {
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-02-18T13:59:16+00:00"
+            "time": "2017-02-18T14:27:02+00:00"
         },
         {
             "name": "larabelt/core",
@@ -721,12 +721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "577d0e399b24ac850f7ed97d840282338d51d12e"
+                "reference": "3207f4d83202a2c113b3530a3c170fe8094d6b5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/577d0e399b24ac850f7ed97d840282338d51d12e",
-                "reference": "577d0e399b24ac850f7ed97d840282338d51d12e",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/3207f4d83202a2c113b3530a3c170fe8094d6b5e",
+                "reference": "3207f4d83202a2c113b3530a3c170fe8094d6b5e",
                 "shasum": ""
             },
             "require": {
@@ -750,7 +750,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-02-18T13:59:18+00:00"
+            "time": "2017-02-18T15:03:12+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -758,12 +758,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "3df3091e4d60064eb51390fb1cd8cfd961d39378"
+                "reference": "a1d055ee9bb73d3ee788e8cfd97e5174a8a9b073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/3df3091e4d60064eb51390fb1cd8cfd961d39378",
-                "reference": "3df3091e4d60064eb51390fb1cd8cfd961d39378",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/a1d055ee9bb73d3ee788e8cfd97e5174a8a9b073",
+                "reference": "a1d055ee9bb73d3ee788e8cfd97e5174a8a9b073",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +789,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-02-18T13:59:21+00:00"
+            "time": "2017-02-18T14:27:08+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -797,12 +797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "9ffb024368ebfa137434c81f4c613e28d0be21f1"
+                "reference": "0348c19cb82b607c607ed782fafdb517cad81736"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/9ffb024368ebfa137434c81f4c613e28d0be21f1",
-                "reference": "9ffb024368ebfa137434c81f4c613e28d0be21f1",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/0348c19cb82b607c607ed782fafdb517cad81736",
+                "reference": "0348c19cb82b607c607ed782fafdb517cad81736",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +826,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-02-18T13:59:24+00:00"
+            "time": "2017-02-18T14:27:10+00:00"
         },
         {
             "name": "laravel/framework",
