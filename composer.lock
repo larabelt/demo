@@ -758,12 +758,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "e0b87e1df6b1cbd6de857103954e1436aab32d95"
+                "reference": "51edc7b7cce36b8b162b217cb0a19be923b11b5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/e0b87e1df6b1cbd6de857103954e1436aab32d95",
-                "reference": "e0b87e1df6b1cbd6de857103954e1436aab32d95",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/51edc7b7cce36b8b162b217cb0a19be923b11b5d",
+                "reference": "51edc7b7cce36b8b162b217cb0a19be923b11b5d",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +789,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-02-19T21:04:07+00:00"
+            "time": "2017-02-19T21:17:08+00:00"
         },
         {
             "name": "larabelt/spot",
