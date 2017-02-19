@@ -1,9 +1,12 @@
-## Installation
+## Quick Larabelt Installation
 
 ```
-# install node dependencies
-yarn install
+php artisan belt install
+```
 
+## Manual Larabelt Installation
+
+```
 # create .env file
 cp .env.example .env
 
@@ -29,6 +32,13 @@ php artisan db:seed --class=BeltClipSeeder
 php artisan db:seed --class=BeltContentSeeder
 php artisan db:seed --class=BeltGlueSeeder
 php artisan db:seed --class=BeltSpotSeeder
+```
+
+## Asset Installation
+
+```
+# install node dependencies
+yarn install
 
 # compile assets
 npm run dev
@@ -45,8 +55,14 @@ sudo service php7.0-fpm restart;
 ## Misc
 
 ```
-#re-run all migrations with seeds
-php artisan migrate:refresh --seed 
+# run belt publish cmds
+php artisan belt publish
+
+# run belt seeds
+php artisan seed
+
+# refresh belt migrations with seeds
+php artisan belt refresh
 ```
 
 ## Acknowledgments / Credits
