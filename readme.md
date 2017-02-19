@@ -1,10 +1,4 @@
-## Quick Larabelt Installation
-
-```
-php artisan belt install
-```
-
-## Manual Larabelt Installation
+## Installation
 
 ```
 # create .env file
@@ -17,21 +11,12 @@ composer install
 php artisan key:generate
 
 # install assets & migrate
-php artisan belt-core:publish
-php artisan belt-clip:publish
-php artisan belt-content:publish
-php artisan belt-glue:publish
-php artisan belt-menu:publish
-php artisan belt-spot:publish
+php artisan belt publish
 composer dumpautoload
 
 # migrate & seed
 php artisan migrate
-php artisan db:seed --class=BeltCoreSeeder
-php artisan db:seed --class=BeltClipSeeder
-php artisan db:seed --class=BeltContentSeeder
-php artisan db:seed --class=BeltGlueSeeder
-php artisan db:seed --class=BeltSpotSeeder
+php artisan belt seed
 ```
 
 ## Asset Installation
