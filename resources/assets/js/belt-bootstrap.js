@@ -6,9 +6,6 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 import Vuex from 'vuex';
 
-import columnSorter from 'belt/core/js/components/base/column-sorter';
-import pagination from 'belt/core/js/components/base/pagination';
-
 import 'admin-lte';
 
 
@@ -51,6 +48,3 @@ Vue.use(Vuex);
 Vue.use(VueResource);
 Vue.use(VueRouter);
 Vue.config.devtools = true;
-
-Vue.component('column-sorter', columnSorter);
-Vue.component('pagination', pagination);

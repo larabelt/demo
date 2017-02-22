@@ -263,16 +263,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
+                "reference": "04a6d1a00ea5da0727ee94309a9f0d3dbaecb569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/04a6d1a00ea5da0727ee94309a9f0d3dbaecb569",
+                "reference": "04a6d1a00ea5da0727ee94309a9f0d3dbaecb569",
                 "shasum": ""
             },
             "require": {
@@ -308,16 +308,23 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation",
+            "description": "PSR-7 message implementation that also provides common utility methods",
             "keywords": [
                 "http",
                 "message",
+                "request",
+                "response",
                 "stream",
-                "uri"
+                "uri",
+                "url"
             ],
-            "time": "2016-06-24T23:00:38+00:00"
+            "time": "2017-02-21T01:20:32+00:00"
         },
         {
             "name": "intervention/image",
@@ -594,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "013e2bb435e60aef5bb7b62210abd1c995b47b45"
+                "reference": "cbd917dac4428fad5acfd42d4f419bec81d8440e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/013e2bb435e60aef5bb7b62210abd1c995b47b45",
-                "reference": "013e2bb435e60aef5bb7b62210abd1c995b47b45",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/cbd917dac4428fad5acfd42d4f419bec81d8440e",
+                "reference": "cbd917dac4428fad5acfd42d4f419bec81d8440e",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-02-20T19:32:57+00:00"
+            "time": "2017-02-21T21:54:38+00:00"
         },
         {
             "name": "larabelt/content",
@@ -632,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "ead5e9b45c7a3526421ff2a047c884237f5832ce"
+                "reference": "bebd0270cadd14ee9fea4a80d3981c47e018e5b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/ead5e9b45c7a3526421ff2a047c884237f5832ce",
-                "reference": "ead5e9b45c7a3526421ff2a047c884237f5832ce",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/bebd0270cadd14ee9fea4a80d3981c47e018e5b7",
+                "reference": "bebd0270cadd14ee9fea4a80d3981c47e018e5b7",
                 "shasum": ""
             },
             "require": {
@@ -662,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-02-20T19:33:00+00:00"
+            "time": "2017-02-21T21:54:41+00:00"
         },
         {
             "name": "larabelt/core",
@@ -670,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "4f44160720f79646583bc9068233c4cb1ab063a7"
+                "reference": "01b0eb59d9d4a7f14776e39170fbbe7ade040fe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/4f44160720f79646583bc9068233c4cb1ab063a7",
-                "reference": "4f44160720f79646583bc9068233c4cb1ab063a7",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/01b0eb59d9d4a7f14776e39170fbbe7ade040fe8",
+                "reference": "01b0eb59d9d4a7f14776e39170fbbe7ade040fe8",
                 "shasum": ""
             },
             "require": {
@@ -713,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-02-20T19:32:55+00:00"
+            "time": "2017-02-21T22:18:53+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -721,12 +728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "19d1d19d5a5ce163034dcf116006463d8055480e"
+                "reference": "338e8b76583510567c1d387ac48243e0a1a27630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/19d1d19d5a5ce163034dcf116006463d8055480e",
-                "reference": "19d1d19d5a5ce163034dcf116006463d8055480e",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/338e8b76583510567c1d387ac48243e0a1a27630",
+                "reference": "338e8b76583510567c1d387ac48243e0a1a27630",
                 "shasum": ""
             },
             "require": {
@@ -750,7 +757,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-02-20T15:03:11+00:00"
+            "time": "2017-02-21T21:54:44+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -758,18 +765,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "b80fd9e34a894d7d7e7c21485d4020a3f7584fe7"
+                "reference": "8610e0e29738e38ed2af4e97f2b87cbbf9dc2a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/b80fd9e34a894d7d7e7c21485d4020a3f7584fe7",
-                "reference": "b80fd9e34a894d7d7e7c21485d4020a3f7584fe7",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/8610e0e29738e38ed2af4e97f2b87cbbf9dc2a3e",
+                "reference": "8610e0e29738e38ed2af4e97f2b87cbbf9dc2a3e",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-menu": "^2.2",
-                "larabelt/core": "dev-master",
-                "spatie/laravel-menu": "^2.1"
+                "larabelt/core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -789,7 +795,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-02-20T19:33:05+00:00"
+            "time": "2017-02-21T18:18:10+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -797,12 +803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "42ce004c68e77c2f2914d9e486d77aa1064835cc"
+                "reference": "ae425da318bddcd2ad388d7fd48ab7fb77b86aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/42ce004c68e77c2f2914d9e486d77aa1064835cc",
-                "reference": "42ce004c68e77c2f2914d9e486d77aa1064835cc",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/ae425da318bddcd2ad388d7fd48ab7fb77b86aee",
+                "reference": "ae425da318bddcd2ad388d7fd48ab7fb77b86aee",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +832,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-02-20T15:03:15+00:00"
+            "time": "2017-02-21T21:54:48+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1730,200 +1736,6 @@
                 "sorting"
             ],
             "time": "2016-09-25T14:52:29+00:00"
-        },
-        {
-            "name": "spatie/html-element",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/html-element.git",
-                "reference": "d7da01b4bd6ac122901bec6a1b042ecf240bb2c7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/html-element/zipball/d7da01b4bd6ac122901bec6a1b042ecf240bb2c7",
-                "reference": "d7da01b4bd6ac122901bec6a1b042ecf240bb2c7",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\HtmlElement\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Html rendering in php inspired by hyperscript",
-            "homepage": "https://github.com/spatie/html-element",
-            "keywords": [
-                "html-element",
-                "spatie"
-            ],
-            "time": "2016-03-11T13:14:56+00:00"
-        },
-        {
-            "name": "spatie/laravel-menu",
-            "version": "2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-menu.git",
-                "reference": "61a41e6e008d5a11055dfc94fe57f218ddab053b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-menu/zipball/61a41e6e008d5a11055dfc94fe57f218ddab053b",
-                "reference": "61a41e6e008d5a11055dfc94fe57f218ddab053b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/auth": "~5.3.28|~5.4.0",
-                "illuminate/contracts": "~5.3.28|~5.4.0",
-                "illuminate/support": "~5.3.28|~5.4.0",
-                "php": "^7.0",
-                "spatie/menu": "^2.0.0"
-            },
-            "require-dev": {
-                "fzaninotto/faker": "^1.6",
-                "orchestra/testbench": "3.3.3|~3.4.0",
-                "phpunit/phpunit": "^5.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Menu\\Laravel\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastiandedeyne@gmail.com",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Html menu generator for Laravel",
-            "homepage": "https://github.com/spatie/laravel-menu",
-            "keywords": [
-                "laravel-menu",
-                "spatie"
-            ],
-            "time": "2017-02-20T09:36:46+00:00"
-        },
-        {
-            "name": "spatie/menu",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/menu.git",
-                "reference": "14c6afa93e32b2d05639fa9b3f41f2dd93107ba6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/menu/zipball/14c6afa93e32b2d05639fa9b3f41f2dd93107ba6",
-                "reference": "14c6afa93e32b2d05639fa9b3f41f2dd93107ba6",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0",
-                "spatie/html-element": "^1.0.0",
-                "spatie/url": "^1.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.2.10"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Menu\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Html menu generator",
-            "homepage": "https://github.com/spatie/menu",
-            "keywords": [
-                "menu",
-                "navigation",
-                "spatie"
-            ],
-            "time": "2017-02-09T10:26:51+00:00"
-        },
-        {
-            "name": "spatie/url",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/url.git",
-                "reference": "a7a6a1ba016c88a5d23aca1ed87057bf448d2171"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/url/zipball/a7a6a1ba016c88a5d23aca1ed87057bf448d2171",
-                "reference": "a7a6a1ba016c88a5d23aca1ed87057bf448d2171",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Url\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Parse, build and manipulate URL's",
-            "homepage": "https://github.com/spatie/url",
-            "keywords": [
-                "spatie",
-                "url"
-            ],
-            "time": "2016-11-14T15:09:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
