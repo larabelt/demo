@@ -11,6 +11,7 @@ import pagination from 'belt/core/js/components/base/pagination';
 
 import 'admin-lte';
 
+
 window._ = lodash;
 
 /**

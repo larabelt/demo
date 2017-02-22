@@ -32,7 +32,6 @@ mix.webpackConfig({
 });
 
 mix.copy("node_modules/admin-lte", 'public/plugins/admin-lte', false);
-mix.copy("node_modules/ionicons", 'public/plugins/ionicons', false);
 
 mix.js('resources/assets/js/belt-all.js', 'public/js');
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
