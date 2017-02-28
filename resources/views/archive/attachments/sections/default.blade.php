@@ -3,8 +3,8 @@
 @endphp
 
 <div class="section section-attachment {{ $section->param('class') }}">
-    @include('sections.sections._header')
-    @include('sections.sections._body')
+    @include('sections.sections._heading')
+    @include('sections.sections._before')
     @include('attachments.web.show')
-    @include('sections.sections._footer')
+    @include('sections.sections._after')
 </div>

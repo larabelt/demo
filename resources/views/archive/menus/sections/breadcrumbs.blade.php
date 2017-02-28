@@ -9,8 +9,8 @@
 @endphp
 
 <div class="section section-block {{ $section->param('class') }}">
-    @include('sections.sections._header')
-    @include('sections.sections._body')
+    @include('sections.sections._heading')
+    @include('sections.sections._before')
     @include('menus.web.breadcrumbs')
-    @include('sections.sections._footer')
+    @include('sections.sections._after')
 </div>
