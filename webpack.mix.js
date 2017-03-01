@@ -17,12 +17,6 @@ const webpack = require('webpack');
 //.sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.webpackConfig({
-    module: {
-        rules: [{
-            test: /\.html$/,
-            loader: 'html-loader'
-        }]
-    },
     resolve: {
         modules: [
             path.resolve(__dirname, 'resources'),
