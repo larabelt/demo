@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "b475b88913d189f6d5c7e005012fc8984fd242de"
+                "reference": "02727f3559fd2e6423658bc00e5893411a6f7684"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/b475b88913d189f6d5c7e005012fc8984fd242de",
-                "reference": "b475b88913d189f6d5c7e005012fc8984fd242de",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/02727f3559fd2e6423658bc00e5893411a6f7684",
+                "reference": "02727f3559fd2e6423658bc00e5893411a6f7684",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-02-28T19:40:30+00:00"
+            "time": "2017-03-01T19:30:06+00:00"
         },
         {
             "name": "larabelt/content",
@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "4ec68c07c071b877115cfa3b95282a97fc4f6b00"
+                "reference": "334795ca240ca19fd2736c5c7c2400cd55cffeaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/4ec68c07c071b877115cfa3b95282a97fc4f6b00",
-                "reference": "4ec68c07c071b877115cfa3b95282a97fc4f6b00",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/334795ca240ca19fd2736c5c7c2400cd55cffeaf",
+                "reference": "334795ca240ca19fd2736c5c7c2400cd55cffeaf",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-02-28T19:40:33+00:00"
+            "time": "2017-03-01T16:18:21+00:00"
         },
         {
             "name": "larabelt/core",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "63b454443aedb058c2227e88cf59b5981d777624"
+                "reference": "de985b1c5311e517351d40f453e7aaa8e3c3bf5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/63b454443aedb058c2227e88cf59b5981d777624",
-                "reference": "63b454443aedb058c2227e88cf59b5981d777624",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/de985b1c5311e517351d40f453e7aaa8e3c3bf5a",
+                "reference": "de985b1c5311e517351d40f453e7aaa8e3c3bf5a",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-02-28T21:13:23+00:00"
+            "time": "2017-03-01T21:43:15+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -836,16 +836,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.13",
+            "version": "v5.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3eebfaa759156e06144892b00bb95304aa5a71c1"
+                "reference": "b4f9e2b7d146d677e8c360df02beaa9391da1fb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3eebfaa759156e06144892b00bb95304aa5a71c1",
-                "reference": "3eebfaa759156e06144892b00bb95304aa5a71c1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b4f9e2b7d146d677e8c360df02beaa9391da1fb1",
+                "reference": "b4f9e2b7d146d677e8c360df02beaa9391da1fb1",
                 "shasum": ""
             },
             "require": {
@@ -961,7 +961,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-02-22T16:07:04+00:00"
+            "time": "2017-03-01T15:59:14+00:00"
         },
         {
             "name": "laravel/tinker",
