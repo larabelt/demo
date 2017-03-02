@@ -7,6 +7,7 @@ import VueResource from 'vue-resource';
 import Vuex from 'vuex';
 
 import 'admin-lte';
+import 'bootstrap-sass';
 
 
 window._ = lodash;
@@ -19,8 +20,6 @@ window._ = lodash;
 //
 window.$ = jQuery;
 window.jQuery = window.$;
-
-require('bootstrap-sass');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
