@@ -59,7 +59,7 @@
       "php artisan clear-compiled",
       "php artisan cache:clear",
       "php artisan view:clear",
-      "rm storage/logs/laravel.log"
+      "cp /dev/null storage/logs/laravel.log"
     ]
   },
   "config": {
