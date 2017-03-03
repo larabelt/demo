@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "8f6da20a0376dbc798097f2c463d5f0281ec178b"
+                "reference": "d2518d535c7b044a5ccd30c43fe6499f55c50a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/8f6da20a0376dbc798097f2c463d5f0281ec178b",
-                "reference": "8f6da20a0376dbc798097f2c463d5f0281ec178b",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/d2518d535c7b044a5ccd30c43fe6499f55c50a6a",
+                "reference": "d2518d535c7b044a5ccd30c43fe6499f55c50a6a",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-03-03T16:49:54+00:00"
+            "time": "2017-03-03T17:11:08+00:00"
         },
         {
             "name": "larabelt/content",
@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "27864e22de379ea1f18c0a1ab5edb839109c6db1"
+                "reference": "8e2b44acc4494570002bf5d11eac03be8306f6c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/27864e22de379ea1f18c0a1ab5edb839109c6db1",
-                "reference": "27864e22de379ea1f18c0a1ab5edb839109c6db1",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/8e2b44acc4494570002bf5d11eac03be8306f6c5",
+                "reference": "8e2b44acc4494570002bf5d11eac03be8306f6c5",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-03T15:44:06+00:00"
+            "time": "2017-03-03T19:29:59+00:00"
         },
         {
             "name": "larabelt/core",
