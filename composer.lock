@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "9cf9837c296d4c31981fd0a8d2013370389d58d6"
+                "reference": "52fc021f4ae588c6a4d4bb19925e2a5096fdb91c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/9cf9837c296d4c31981fd0a8d2013370389d58d6",
-                "reference": "9cf9837c296d4c31981fd0a8d2013370389d58d6",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/52fc021f4ae588c6a4d4bb19925e2a5096fdb91c",
+                "reference": "52fc021f4ae588c6a4d4bb19925e2a5096fdb91c",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-02T22:31:32+00:00"
+            "time": "2017-03-03T04:35:02+00:00"
         },
         {
             "name": "larabelt/core",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "664bd3838c02c9d2eb7c9086cfe94ea760536c54"
+                "reference": "2bd335ce6c9cf2350ee28f6508862258c58f5ba9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/664bd3838c02c9d2eb7c9086cfe94ea760536c54",
-                "reference": "664bd3838c02c9d2eb7c9086cfe94ea760536c54",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/2bd335ce6c9cf2350ee28f6508862258c58f5ba9",
+                "reference": "2bd335ce6c9cf2350ee28f6508862258c58f5ba9",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-03-02T22:28:41+00:00"
+            "time": "2017-03-03T04:30:29+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.7",
+            "version": "v2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f"
+                "reference": "eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
-                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4",
+                "reference": "eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4",
                 "shasum": ""
             },
             "require": {
@@ -1430,7 +1430,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-02-27T17:11:23+00:00"
+            "time": "2017-03-03T14:11:40+00:00"
         },
         {
             "name": "psr/http-message",
