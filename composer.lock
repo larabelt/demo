@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "8e2b44acc4494570002bf5d11eac03be8306f6c5"
+                "reference": "0820dbad106a51d6941afe9f9fc3482d404b0d16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/8e2b44acc4494570002bf5d11eac03be8306f6c5",
-                "reference": "8e2b44acc4494570002bf5d11eac03be8306f6c5",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/0820dbad106a51d6941afe9f9fc3482d404b0d16",
+                "reference": "0820dbad106a51d6941afe9f9fc3482d404b0d16",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-03T19:29:59+00:00"
+            "time": "2017-03-03T23:00:43+00:00"
         },
         {
             "name": "larabelt/core",
@@ -765,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "b5b93fc29a70c132143842bf277445dea3ca0ed5"
+                "reference": "f965fbb63a82537804e43140bdabfb6d846b0143"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/b5b93fc29a70c132143842bf277445dea3ca0ed5",
-                "reference": "b5b93fc29a70c132143842bf277445dea3ca0ed5",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/f965fbb63a82537804e43140bdabfb6d846b0143",
+                "reference": "f965fbb63a82537804e43140bdabfb6d846b0143",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +795,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-02-28T19:40:36+00:00"
+            "time": "2017-03-03T23:00:20+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.8",
+            "version": "v2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4"
+                "reference": "6968531206671f94377b01dc7888d5d1b858a01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4",
-                "reference": "eeb4c23c7b84c1dc87db3c92856bd57ff1844ca4",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/6968531206671f94377b01dc7888d5d1b858a01b",
+                "reference": "6968531206671f94377b01dc7888d5d1b858a01b",
                 "shasum": ""
             },
             "require": {
@@ -1430,7 +1430,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-03T14:11:40+00:00"
+            "time": "2017-03-03T20:43:42+00:00"
         },
         {
             "name": "psr/http-message",
