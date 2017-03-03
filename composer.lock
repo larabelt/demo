@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "a1f357131f6fd45698381db7b0778188b9ba07f1"
+                "reference": "7539ab78e7691758d4b835f5234043cc565881d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/a1f357131f6fd45698381db7b0778188b9ba07f1",
-                "reference": "a1f357131f6fd45698381db7b0778188b9ba07f1",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/7539ab78e7691758d4b835f5234043cc565881d1",
+                "reference": "7539ab78e7691758d4b835f5234043cc565881d1",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-03-02T17:57:52+00:00"
+            "time": "2017-03-02T21:36:03+00:00"
         },
         {
             "name": "larabelt/content",
@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "334795ca240ca19fd2736c5c7c2400cd55cffeaf"
+                "reference": "9cf9837c296d4c31981fd0a8d2013370389d58d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/334795ca240ca19fd2736c5c7c2400cd55cffeaf",
-                "reference": "334795ca240ca19fd2736c5c7c2400cd55cffeaf",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9cf9837c296d4c31981fd0a8d2013370389d58d6",
+                "reference": "9cf9837c296d4c31981fd0a8d2013370389d58d6",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-01T16:18:21+00:00"
+            "time": "2017-03-02T22:31:32+00:00"
         },
         {
             "name": "larabelt/core",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "3f4191d14026ee1e5291559c6c7df034b521ab23"
+                "reference": "664bd3838c02c9d2eb7c9086cfe94ea760536c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/3f4191d14026ee1e5291559c6c7df034b521ab23",
-                "reference": "3f4191d14026ee1e5291559c6c7df034b521ab23",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/664bd3838c02c9d2eb7c9086cfe94ea760536c54",
+                "reference": "664bd3838c02c9d2eb7c9086cfe94ea760536c54",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-03-02T17:24:31+00:00"
+            "time": "2017-03-02T22:28:41+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -3249,27 +3249,27 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.6.2",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "6c52c2722f8460122f96f86346600e1077ce22cb"
+                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/6c52c2722f8460122f96f86346600e1077ce22cb",
-                "reference": "6c52c2722f8460122f96f86346600e1077ce22cb",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/93d39f1f7f9326d746203c7c056f300f7f126073",
+                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2",
-                "sebastian/comparator": "^1.1",
-                "sebastian/recursion-context": "^1.0|^2.0"
+                "sebastian/comparator": "^1.1|^2.0",
+                "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
             "require-dev": {
-                "phpspec/phpspec": "^2.0",
+                "phpspec/phpspec": "^2.5|^3.2",
                 "phpunit/phpunit": "^4.8 || ^5.6.5"
             },
             "type": "library",
@@ -3308,7 +3308,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-11-21T14:58:47+00:00"
+            "time": "2017-03-02T20:05:34+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
