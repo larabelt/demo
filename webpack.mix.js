@@ -26,7 +26,6 @@ mix.webpackConfig({
 });
 
 mix.copy("node_modules/admin-lte", 'public/plugins/admin-lte', false);
-mix.copy("resources/belt/core/plugins/tinymce", 'public/plugins/tinymce', false);
 
 mix.js('resources/assets/js/belt-all.js', 'public/js');
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
