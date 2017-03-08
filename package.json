@@ -17,6 +17,7 @@
     "laravel-mix": "^0.8.8",
     "lodash": "^4.16.2",
     "slugify": "^1.1.0",
+    "tinymce": "^4.5.5",
     "vue": "^2.0.5",
     "vue-loader": "^9.8.0",
     "vue-resource": "^1.0.3",
