@@ -11,6 +11,7 @@
     "admin-lte": "^2.3.11",
     "axios": "^0.15.2",
     "bootstrap-sass": "^3.3.7",
+    "dateformat": "^2.0.0",
     "font-awesome": "^4.7.0",
     "ionicons": "^3.0.0",
     "jquery": "^3.1.0",
