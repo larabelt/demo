@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "d3809b384138b247159bcdb2f5fe2fa7b27ac9da"
+                "reference": "2f75af8943933419d4abf5a50743407ac19175e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/d3809b384138b247159bcdb2f5fe2fa7b27ac9da",
-                "reference": "d3809b384138b247159bcdb2f5fe2fa7b27ac9da",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/2f75af8943933419d4abf5a50743407ac19175e5",
+                "reference": "2f75af8943933419d4abf5a50743407ac19175e5",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-13T17:25:13+00:00"
+            "time": "2017-03-15T14:54:55+00:00"
         },
         {
             "name": "larabelt/core",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "8bbe77c69c09f2184af876fea619aed4aac89ca9"
+                "reference": "ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/8bbe77c69c09f2184af876fea619aed4aac89ca9",
-                "reference": "8bbe77c69c09f2184af876fea619aed4aac89ca9",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3",
+                "reference": "ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-03-13T21:11:09+00:00"
+            "time": "2017-03-15T14:54:51+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -3564,16 +3564,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.15",
+            "version": "5.7.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5"
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b99112aecc01f62acf3d81a3f59646700a1849e5",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/dafc78e2a7d12139b0e97078d1082326bd09363d",
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d",
                 "shasum": ""
             },
             "require": {
@@ -3642,7 +3642,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-02T15:22:43+00:00"
+            "time": "2017-03-15T13:02:34+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
