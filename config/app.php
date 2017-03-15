@@ -180,6 +180,7 @@ return [
         /**
          * @larabelt
          */
+        App\Providers\ComposerServiceProvider::class,
         Belt\Core\BeltCoreServiceProvider::class,
         Belt\Clip\BeltClipServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
