@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3"
+                "reference": "a54adb6d32f00d53a23398068bbbd079666ad1a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3",
-                "reference": "ca5dc0a60638a6afefc935bd3c1252ae83bbf2e3",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/a54adb6d32f00d53a23398068bbbd079666ad1a5",
+                "reference": "a54adb6d32f00d53a23398068bbbd079666ad1a5",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-03-15T14:54:51+00:00"
+            "time": "2017-03-15T21:06:59+00:00"
         },
         {
             "name": "larabelt/glue",
