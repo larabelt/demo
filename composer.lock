@@ -108,16 +108,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb"
+                "reference": "1bf24f7334fe16c88bf9d467863309ceaf285b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/20ff8bbb57205368b4b42d094642a3e52dac85fb",
-                "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/1bf24f7334fe16c88bf9d467863309ceaf285b01",
+                "reference": "1bf24f7334fe16c88bf9d467863309ceaf285b01",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2016-11-02T15:56:58+00:00"
+            "time": "2017-03-29T16:04:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "22b5639a4638d3f99cf4c900150d78598010df74"
+                "reference": "aa4deabe36062042dc56d4411b0f0525622e008c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/22b5639a4638d3f99cf4c900150d78598010df74",
-                "reference": "22b5639a4638d3f99cf4c900150d78598010df74",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/aa4deabe36062042dc56d4411b0f0525622e008c",
+                "reference": "aa4deabe36062042dc56d4411b0f0525622e008c",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-03-28T23:01:33+00:00"
+            "time": "2017-03-29T18:32:45+00:00"
         },
         {
             "name": "larabelt/content",
@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "5c8d9b1c4938c24ac0bd7feae9f3a6d101213e87"
+                "reference": "635e742cd17529e2f77d97e0b6e81ace69e7c2aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/5c8d9b1c4938c24ac0bd7feae9f3a6d101213e87",
-                "reference": "5c8d9b1c4938c24ac0bd7feae9f3a6d101213e87",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/635e742cd17529e2f77d97e0b6e81ace69e7c2aa",
+                "reference": "635e742cd17529e2f77d97e0b6e81ace69e7c2aa",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-28T23:01:36+00:00"
+            "time": "2017-03-29T18:32:48+00:00"
         },
         {
             "name": "larabelt/core",
