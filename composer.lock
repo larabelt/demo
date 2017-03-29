@@ -728,12 +728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "ae36760554b570c370cd0ec604fd7aaee1bf0e70"
+                "reference": "9a9700f8ce1015d79efac515b88d19dea9d4af9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/ae36760554b570c370cd0ec604fd7aaee1bf0e70",
-                "reference": "ae36760554b570c370cd0ec604fd7aaee1bf0e70",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/9a9700f8ce1015d79efac515b88d19dea9d4af9b",
+                "reference": "9a9700f8ce1015d79efac515b88d19dea9d4af9b",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +757,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-03-28T23:01:38+00:00"
+            "time": "2017-03-29T19:16:07+00:00"
         },
         {
             "name": "larabelt/menu",
