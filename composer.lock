@@ -639,17 +639,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "11558eed30cb3b55d0de438a5509e5b2fb928878"
+                "reference": "a68038f6ebe7f82a289c3703f9adb6e5dcfd1a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/11558eed30cb3b55d0de438a5509e5b2fb928878",
-                "reference": "11558eed30cb3b55d0de438a5509e5b2fb928878",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/a68038f6ebe7f82a289c3703f9adb6e5dcfd1a99",
+                "reference": "a68038f6ebe7f82a289c3703f9adb6e5dcfd1a99",
                 "shasum": ""
             },
             "require": {
                 "larabelt/clip": "dev-master",
-                "larabelt/core": "dev-master"
+                "larabelt/core": "dev-master",
+                "soundasleep/html2text": "^0.3.4"
             },
             "type": "library",
             "autoload": {
@@ -669,7 +670,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-03-29T19:54:21+00:00"
+            "time": "2017-03-31T16:19:28+00:00"
         },
         {
             "name": "larabelt/core",
@@ -677,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "c6b134d9286f6e942247a0ccd82ff62553acdcdd"
+                "reference": "81a8975fe1dc41741c48840af592199784e4119e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/c6b134d9286f6e942247a0ccd82ff62553acdcdd",
-                "reference": "c6b134d9286f6e942247a0ccd82ff62553acdcdd",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/81a8975fe1dc41741c48840af592199784e4119e",
+                "reference": "81a8975fe1dc41741c48840af592199784e4119e",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +721,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-03-29T19:45:46+00:00"
+            "time": "2017-03-31T15:57:54+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -728,12 +729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "597fba51484d8a66cea195c3ab365909054f342e"
+                "reference": "2034389ef5a54c4bce2252f25e2b3df8a81ec95e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/597fba51484d8a66cea195c3ab365909054f342e",
-                "reference": "597fba51484d8a66cea195c3ab365909054f342e",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/2034389ef5a54c4bce2252f25e2b3df8a81ec95e",
+                "reference": "2034389ef5a54c4bce2252f25e2b3df8a81ec95e",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +758,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-03-29T19:45:54+00:00"
+            "time": "2017-03-31T16:19:30+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -803,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "f052468c4778b55e0e234dfe0c3ad3dc41edd2d0"
+                "reference": "6b0d54f61160029aade2a9775b96990f0eb216c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/f052468c4778b55e0e234dfe0c3ad3dc41edd2d0",
-                "reference": "f052468c4778b55e0e234dfe0c3ad3dc41edd2d0",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/6b0d54f61160029aade2a9775b96990f0eb216c4",
+                "reference": "6b0d54f61160029aade2a9775b96990f0eb216c4",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +833,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-03-29T20:35:46+00:00"
+            "time": "2017-03-31T15:58:02+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1736,6 +1737,56 @@
                 "sorting"
             ],
             "time": "2016-09-25T14:52:29+00:00"
+        },
+        {
+            "name": "soundasleep/html2text",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/html2text.git",
+                "reference": "a1f77b8f340c8425b746bef1d1040189e89be334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/html2text/zipball/a1f77b8f340c8425b746bef1d1040189e89be334",
+                "reference": "a1f77b8f340c8425b746bef1d1040189e89be334",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0",
+                "soundasleep/component-tests": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Html2Text\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EPL-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jevon Wright",
+                    "homepage": "https://jevon.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP script to convert HTML into a plain text format",
+            "homepage": "https://github.com/soundasleep/html2text",
+            "keywords": [
+                "email",
+                "html",
+                "php",
+                "text"
+            ],
+            "time": "2016-06-09T04:56:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
