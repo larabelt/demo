@@ -804,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "1ce589717cfa1f5932da6b8e689bbc518db76378"
+                "reference": "9d11cde83a165da3ee9c53ea45072e7bddd4f109"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/1ce589717cfa1f5932da6b8e689bbc518db76378",
-                "reference": "1ce589717cfa1f5932da6b8e689bbc518db76378",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/9d11cde83a165da3ee9c53ea45072e7bddd4f109",
+                "reference": "9d11cde83a165da3ee9c53ea45072e7bddd4f109",
                 "shasum": ""
             },
             "require": {
@@ -833,7 +833,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-04-04T16:12:04+00:00"
+            "time": "2017-04-04T18:39:49+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3851,7 +3851,6 @@
                 "kint",
                 "php"
             ],
-            "abandoned": "kint-php/kint",
             "time": "2015-09-16T14:09:00+00:00"
         },
         {
