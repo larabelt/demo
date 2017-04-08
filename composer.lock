@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "64d14accaaa7d044d06ec26db9392e66bc4c2161"
+                "reference": "46c85f7febee6018d22b051bfe46eb67a0b0555f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/64d14accaaa7d044d06ec26db9392e66bc4c2161",
-                "reference": "64d14accaaa7d044d06ec26db9392e66bc4c2161",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/46c85f7febee6018d22b051bfe46eb67a0b0555f",
+                "reference": "46c85f7febee6018d22b051bfe46eb67a0b0555f",
                 "shasum": ""
             },
             "require": {
@@ -670,7 +670,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-04-08T15:50:39+00:00"
+            "time": "2017-04-08T23:20:21+00:00"
         },
         {
             "name": "larabelt/core",
