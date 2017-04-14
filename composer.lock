@@ -477,16 +477,16 @@
         },
         {
             "name": "kalnoy/nestedset",
-            "version": "4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lazychaser/laravel-nestedset.git",
-                "reference": "b2f6af877ac5656337867b7664e52da3a1decf90"
+                "reference": "16653f7e708fdd3f5c208877fe8a7b2272f1bd6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/b2f6af877ac5656337867b7664e52da3a1decf90",
-                "reference": "b2f6af877ac5656337867b7664e52da3a1decf90",
+                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/16653f7e708fdd3f5c208877fe8a7b2272f1bd6c",
+                "reference": "16653f7e708fdd3f5c208877fe8a7b2272f1bd6c",
                 "shasum": ""
             },
             "require": {
@@ -527,7 +527,7 @@
                 "nested sets",
                 "nsm"
             ],
-            "time": "2017-04-08T06:43:55+00:00"
+            "time": "2017-04-12T17:32:55+00:00"
         },
         {
             "name": "knplabs/knp-menu",
@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "15682236d05e17a22ddf25ca793b7fb0085412ab"
+                "reference": "974ab4fbb37cd3338268d95bf3c543dbfccbc9eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/15682236d05e17a22ddf25ca793b7fb0085412ab",
-                "reference": "15682236d05e17a22ddf25ca793b7fb0085412ab",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/974ab4fbb37cd3338268d95bf3c543dbfccbc9eb",
+                "reference": "974ab4fbb37cd3338268d95bf3c543dbfccbc9eb",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-04-07T16:34:26+00:00"
+            "time": "2017-04-11T16:46:22+00:00"
         },
         {
             "name": "larabelt/content",
@@ -639,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "6f86929ee0ef6387380b8edd42152011d413a198"
+                "reference": "a41b74a738a14ca42a0010e29e9d020a9d70c3f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/6f86929ee0ef6387380b8edd42152011d413a198",
-                "reference": "6f86929ee0ef6387380b8edd42152011d413a198",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/a41b74a738a14ca42a0010e29e9d020a9d70c3f0",
+                "reference": "a41b74a738a14ca42a0010e29e9d020a9d70c3f0",
                 "shasum": ""
             },
             "require": {
@@ -670,7 +670,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-04-10T16:05:19+00:00"
+            "time": "2017-04-13T17:54:46+00:00"
         },
         {
             "name": "larabelt/core",
@@ -678,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "d5423d94bbe2402ab5ef694ffb37cdd7d8e24846"
+                "reference": "e8215fbba4b5b253c65babcf1e66661e3518a561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/d5423d94bbe2402ab5ef694ffb37cdd7d8e24846",
-                "reference": "d5423d94bbe2402ab5ef694ffb37cdd7d8e24846",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/e8215fbba4b5b253c65babcf1e66661e3518a561",
+                "reference": "e8215fbba4b5b253c65babcf1e66661e3518a561",
                 "shasum": ""
             },
             "require": {
@@ -721,7 +721,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-04-09T13:34:25+00:00"
+            "time": "2017-04-13T20:52:46+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -804,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "688b72145f13599a8aa08a4a0b35e8fa0696b3aa"
+                "reference": "a68ec6292e0fda2145ebaad061ddfc15bf25058f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/688b72145f13599a8aa08a4a0b35e8fa0696b3aa",
-                "reference": "688b72145f13599a8aa08a4a0b35e8fa0696b3aa",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/a68ec6292e0fda2145ebaad061ddfc15bf25058f",
+                "reference": "a68ec6292e0fda2145ebaad061ddfc15bf25058f",
                 "shasum": ""
             },
             "require": {
@@ -833,7 +833,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-04-10T16:05:25+00:00"
+            "time": "2017-04-11T19:35:38+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3115,16 +3115,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/8e6e04167378abf1ddb4d3522d8755c5fd90d102",
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102",
                 "shasum": ""
             },
             "require": {
@@ -3153,7 +3153,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2017-01-26T22:05:40+00:00"
+            "time": "2017-04-12T18:52:22+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
