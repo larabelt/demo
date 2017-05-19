@@ -63,6 +63,14 @@ return [
             'bucket' => env('AWS_BUCKET'),
         ],
 
+        'cloudinary' => [
+            'driver' => 'cloudinary',
+            'root' => 'larabelt',
+            'cloud_name' => env('CLOUDINARY_NAME'),
+            'api_key' => env('CLOUDINARY_KEY'),
+            'api_secret' => env('CLOUDINARY_SECRET'),
+        ],
+
     ],
 
 ];
