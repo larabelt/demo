@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "f1de83764d448f5902eaef48fc43f3e38b294375"
+                "reference": "9f34c69615872edd0d38f47add2cb7a294bca18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/f1de83764d448f5902eaef48fc43f3e38b294375",
-                "reference": "f1de83764d448f5902eaef48fc43f3e38b294375",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9f34c69615872edd0d38f47add2cb7a294bca18c",
+                "reference": "9f34c69615872edd0d38f47add2cb7a294bca18c",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-06-23T14:54:51+00:00"
+            "time": "2017-06-27T15:23:27+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1531,12 +1531,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "12cf122c782ce0be03a0ffead6ed1398c56a9d81"
+                "reference": "df9e482781bbfac96560b81e44d3d1049ba248fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/12cf122c782ce0be03a0ffead6ed1398c56a9d81",
-                "reference": "12cf122c782ce0be03a0ffead6ed1398c56a9d81",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/df9e482781bbfac96560b81e44d3d1049ba248fb",
+                "reference": "df9e482781bbfac96560b81e44d3d1049ba248fb",
                 "shasum": ""
             },
             "type": "library",
@@ -1557,7 +1557,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-06-22T15:45:02+00:00"
+            "time": "2017-06-27T15:23:31+00:00"
         },
         {
             "name": "laravel/framework",
