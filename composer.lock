@@ -1539,12 +1539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "39960f1877d6ecb543de731069365d65a049df64"
+                "reference": "743e3ee7df642a31f27e04525a27ca5e2f4284ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/39960f1877d6ecb543de731069365d65a049df64",
-                "reference": "39960f1877d6ecb543de731069365d65a049df64",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/743e3ee7df642a31f27e04525a27ca5e2f4284ac",
+                "reference": "743e3ee7df642a31f27e04525a27ca5e2f4284ac",
                 "shasum": ""
             },
             "type": "library",
@@ -1565,7 +1565,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-06-28T19:04:33+00:00"
+            "time": "2017-07-19T13:43:17+00:00"
         },
         {
             "name": "laravel/framework",
