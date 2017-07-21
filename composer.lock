@@ -621,16 +621,16 @@
         },
         {
             "name": "elasticsearch/elasticsearch",
-            "version": "v5.2.0",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elasticsearch-php.git",
-                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e"
+                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
-                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/50e5b1c63db68839b8acc1f4766769570a27a448",
+                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +672,7 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2017-04-12T20:40:50+00:00"
+            "time": "2017-07-19T18:44:30+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -1336,12 +1336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "136b55621b7fcdd4050ff5953568007cf1731425"
+                "reference": "e284c24f75abc872b67b9ea0bb7929fe86f4ee44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/136b55621b7fcdd4050ff5953568007cf1731425",
-                "reference": "136b55621b7fcdd4050ff5953568007cf1731425",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/e284c24f75abc872b67b9ea0bb7929fe86f4ee44",
+                "reference": "e284c24f75abc872b67b9ea0bb7929fe86f4ee44",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1366,7 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-06-27T21:16:47+00:00"
+            "time": "2017-07-20T21:06:08+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1374,12 +1374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "1e08152a697715fab2be7e5191ff718134daa535"
+                "reference": "9ddb10945e44950a435e9fb11380bde65894dac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/1e08152a697715fab2be7e5191ff718134daa535",
-                "reference": "1e08152a697715fab2be7e5191ff718134daa535",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9ddb10945e44950a435e9fb11380bde65894dac4",
+                "reference": "9ddb10945e44950a435e9fb11380bde65894dac4",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-07-07T19:09:57+00:00"
+            "time": "2017-07-20T21:06:11+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1413,12 +1413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "6741d2fa2c169568be383807b398dfafe51a4a3c"
+                "reference": "91d7e7f47eafd1cd15aa9f80b6848a15f3259efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/6741d2fa2c169568be383807b398dfafe51a4a3c",
-                "reference": "6741d2fa2c169568be383807b398dfafe51a4a3c",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/91d7e7f47eafd1cd15aa9f80b6848a15f3259efc",
+                "reference": "91d7e7f47eafd1cd15aa9f80b6848a15f3259efc",
                 "shasum": ""
             },
             "require": {
@@ -1460,7 +1460,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-07-07T21:27:23+00:00"
+            "time": "2017-07-20T21:06:05+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1502,12 +1502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "de9b342ff43c3377ad35648a0e464f53108894d4"
+                "reference": "200aaddf11830419745ed2517bf6c8907e52ab11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/de9b342ff43c3377ad35648a0e464f53108894d4",
-                "reference": "de9b342ff43c3377ad35648a0e464f53108894d4",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/200aaddf11830419745ed2517bf6c8907e52ab11",
+                "reference": "200aaddf11830419745ed2517bf6c8907e52ab11",
                 "shasum": ""
             },
             "require": {
@@ -1531,7 +1531,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-06-23T20:38:00+00:00"
+            "time": "2017-07-20T21:06:14+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -1539,12 +1539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "743e3ee7df642a31f27e04525a27ca5e2f4284ac"
+                "reference": "db19ac74dd53473b280e01c1faca7ac241827c67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/743e3ee7df642a31f27e04525a27ca5e2f4284ac",
-                "reference": "743e3ee7df642a31f27e04525a27ca5e2f4284ac",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/db19ac74dd53473b280e01c1faca7ac241827c67",
+                "reference": "db19ac74dd53473b280e01c1faca7ac241827c67",
                 "shasum": ""
             },
             "type": "library",
@@ -1565,20 +1565,20 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-07-19T13:43:17+00:00"
+            "time": "2017-07-20T21:06:16+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.29",
+            "version": "v5.4.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4f7588c744eb15e49544c99c6ee90d5598b0b50b"
+                "reference": "b9a64955f4278f45ac348a6e000b5ecc85da167a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4f7588c744eb15e49544c99c6ee90d5598b0b50b",
-                "reference": "4f7588c744eb15e49544c99c6ee90d5598b0b50b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b9a64955f4278f45ac348a6e000b5ecc85da167a",
+                "reference": "b9a64955f4278f45ac348a6e000b5ecc85da167a",
                 "shasum": ""
             },
             "require": {
@@ -1694,7 +1694,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-07-19T13:26:57+00:00"
+            "time": "2017-07-19T19:26:19+00:00"
         },
         {
             "name": "laravel/scout",
@@ -1763,16 +1763,16 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "7eb2e281395131897407285672ef5532e87e17f9"
+                "reference": "203978fd67f118902acff95925847e70b72e3daf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/7eb2e281395131897407285672ef5532e87e17f9",
-                "reference": "7eb2e281395131897407285672ef5532e87e17f9",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/203978fd67f118902acff95925847e70b72e3daf",
+                "reference": "203978fd67f118902acff95925847e70b72e3daf",
                 "shasum": ""
             },
             "require": {
@@ -1822,7 +1822,7 @@
                 "laravel",
                 "psysh"
             ],
-            "time": "2017-06-01T16:31:26+00:00"
+            "time": "2017-07-13T13:11:05+00:00"
         },
         {
             "name": "laravelcollective/html",
@@ -3643,16 +3643,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v2.4.1",
+            "version": "v2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "af98b3a4ccac9364f2145fae974ff3392ec402b1"
+                "reference": "d7c88f08131f6404cb714f3f6cf0642f6afa3903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/af98b3a4ccac9364f2145fae974ff3392ec402b1",
-                "reference": "af98b3a4ccac9364f2145fae974ff3392ec402b1",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/d7c88f08131f6404cb714f3f6cf0642f6afa3903",
+                "reference": "d7c88f08131f6404cb714f3f6cf0642f6afa3903",
                 "shasum": ""
             },
             "require": {
@@ -3662,19 +3662,6 @@
                 "symfony/finder": "~2.7|~3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Barryvdh\\Debugbar\\ServiceProvider"
-                    ],
-                    "aliases": {
-                        "Debugbar": "Barryvdh\\Debugbar\\Facade"
-                    }
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Barryvdh\\Debugbar\\": "src/"
@@ -3701,7 +3688,7 @@
                 "profiler",
                 "webprofiler"
             ],
-            "time": "2017-06-14T07:44:44+00:00"
+            "time": "2017-07-21T11:56:48+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
