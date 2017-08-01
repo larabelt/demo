@@ -1,7 +1,7 @@
 import './belt-bootstrap';
 
-import AlertDismissal from 'belt/core/js/components/alerts/ctlr/dismissal';
-import ContactForm from 'belt/core/js/components/contact/contact';
+import AlertDismissal from 'belt/core/js/alerts/ctlr/dismissal';
+import ContactForm from 'belt/core/js/contact/contact';
 
 /**
  * @belt

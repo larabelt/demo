@@ -20,6 +20,12 @@ mix.webpackConfig({
     resolve: {
         modules: [
             path.resolve(__dirname, 'resources'),
+            path.resolve(__dirname, 'vendor/larabelt/core/resources'),
+            path.resolve(__dirname, 'vendor/larabelt/clip/resources'),
+            path.resolve(__dirname, 'vendor/larabelt/content/resources'),
+            path.resolve(__dirname, 'vendor/larabelt/glue/resources'),
+            path.resolve(__dirname, 'vendor/larabelt/menu/resources'),
+            path.resolve(__dirname, 'vendor/larabelt/spot/resources'),
             'node_modules'
         ]
     }
@@ -37,7 +43,6 @@ mix.extract(['axios', 'jquery', 'lodash', 'vue']);
 /**
  * Frontend JS
  */
-
 mix.js('resources/assets/js/web.js', 'public/js');
 
 /**
