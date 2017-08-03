@@ -1380,12 +1380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "2c9b952c0bf68eae2419506a71a74bc2e3c10768"
+                "reference": "ec8d0c2e13d266d36ce6dcb18804fcc4d39786f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/2c9b952c0bf68eae2419506a71a74bc2e3c10768",
-                "reference": "2c9b952c0bf68eae2419506a71a74bc2e3c10768",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/ec8d0c2e13d266d36ce6dcb18804fcc4d39786f6",
+                "reference": "ec8d0c2e13d266d36ce6dcb18804fcc4d39786f6",
                 "shasum": ""
             },
             "require": {
@@ -1411,7 +1411,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-08-01T14:25:36+00:00"
+            "time": "2017-08-02T17:45:09+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1474,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "994e27ead53c35ce0b348208142c342246f79805"
+                "reference": "b97dbae89387b24cf9c4bc5e1e5abdb088e44fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/994e27ead53c35ce0b348208142c342246f79805",
-                "reference": "994e27ead53c35ce0b348208142c342246f79805",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/b97dbae89387b24cf9c4bc5e1e5abdb088e44fa4",
+                "reference": "b97dbae89387b24cf9c4bc5e1e5abdb088e44fa4",
                 "shasum": ""
             },
             "type": "library",
@@ -1500,7 +1500,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-08-01T14:25:38+00:00"
+            "time": "2017-08-02T17:45:12+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -1545,12 +1545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "77c0a4fb6f7c48a615465cea70f0be6948b47324"
+                "reference": "ea15e1f16f5821c5ea97eef6a5bc20ba684b6dd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/77c0a4fb6f7c48a615465cea70f0be6948b47324",
-                "reference": "77c0a4fb6f7c48a615465cea70f0be6948b47324",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/ea15e1f16f5821c5ea97eef6a5bc20ba684b6dd6",
+                "reference": "ea15e1f16f5821c5ea97eef6a5bc20ba684b6dd6",
                 "shasum": ""
             },
             "type": "library",
@@ -1571,20 +1571,20 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-08-01T20:45:27+00:00"
+            "time": "2017-08-02T17:44:57+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.31",
+            "version": "v5.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fc1afa6b981cadbe3be8be65b49ca82e3eb9b9c9"
+                "reference": "b8300578d159199b1195413b67318c79068cd24d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fc1afa6b981cadbe3be8be65b49ca82e3eb9b9c9",
-                "reference": "fc1afa6b981cadbe3be8be65b49ca82e3eb9b9c9",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b8300578d159199b1195413b67318c79068cd24d",
+                "reference": "b8300578d159199b1195413b67318c79068cd24d",
                 "shasum": ""
             },
             "require": {
@@ -1700,7 +1700,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-08-02T15:24:31+00:00"
+            "time": "2017-08-03T12:59:42+00:00"
         },
         {
             "name": "laravel/scout",
@@ -4537,29 +4537,29 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.11",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7"
+                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/e03f8f67534427a787e21a385a67ec3ca6978ea7",
-                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3.3"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.2"
+                "phpunit/phpunit": "^6.2.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -4582,7 +4582,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-27T10:12:30+00:00"
+            "time": "2017-08-03T14:17:41+00:00"
         },
         {
             "name": "phpunit/phpunit",
