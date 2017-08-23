@@ -1320,7 +1320,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -1380,12 +1380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "cbc621ff4ce0f20d5f28bb02ede6cfca24dbaa2d"
+                "reference": "9cd5ab884a70286d2dea29362b6fdbc45ea7501d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/cbc621ff4ce0f20d5f28bb02ede6cfca24dbaa2d",
-                "reference": "cbc621ff4ce0f20d5f28bb02ede6cfca24dbaa2d",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9cd5ab884a70286d2dea29362b6fdbc45ea7501d",
+                "reference": "9cd5ab884a70286d2dea29362b6fdbc45ea7501d",
                 "shasum": ""
             },
             "require": {
@@ -1411,7 +1411,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-08-22T15:18:22+00:00"
+            "time": "2017-08-23T21:56:16+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1419,12 +1419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "16f89d43432769d7805605803e971398ca9b5b36"
+                "reference": "53908e898ad9552fadae9be06092349efa3fce4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/16f89d43432769d7805605803e971398ca9b5b36",
-                "reference": "16f89d43432769d7805605803e971398ca9b5b36",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/53908e898ad9552fadae9be06092349efa3fce4b",
+                "reference": "53908e898ad9552fadae9be06092349efa3fce4b",
                 "shasum": ""
             },
             "require": {
@@ -1466,7 +1466,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-08-22T15:22:14+00:00"
+            "time": "2017-08-23T19:35:59+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1474,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "fc806ff2ebaa37f4d72d8b3c135e8cda103815fd"
+                "reference": "cbc6ac8835cd121adcfbe16eed437b62fd9e8b69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/fc806ff2ebaa37f4d72d8b3c135e8cda103815fd",
-                "reference": "fc806ff2ebaa37f4d72d8b3c135e8cda103815fd",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/cbc6ac8835cd121adcfbe16eed437b62fd9e8b69",
+                "reference": "cbc6ac8835cd121adcfbe16eed437b62fd9e8b69",
                 "shasum": ""
             },
             "type": "library",
@@ -1500,7 +1500,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-08-22T14:08:26+00:00"
+            "time": "2017-08-23T14:58:33+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -1545,12 +1545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "b0c86194f5c43cdeb21919ea760cfa3e660cb044"
+                "reference": "7b7840f81830e6767d6184d674cbe22c5e44657b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/b0c86194f5c43cdeb21919ea760cfa3e660cb044",
-                "reference": "b0c86194f5c43cdeb21919ea760cfa3e660cb044",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/7b7840f81830e6767d6184d674cbe22c5e44657b",
+                "reference": "7b7840f81830e6767d6184d674cbe22c5e44657b",
                 "shasum": ""
             },
             "type": "library",
@@ -1571,20 +1571,20 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-08-22T15:23:58+00:00"
+            "time": "2017-08-23T19:36:09+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.33",
+            "version": "v5.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0"
+                "reference": "eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
-                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb",
+                "reference": "eaa09c998b315af9fbec04ad29ecfbfd2aa88aeb",
                 "shasum": ""
             },
             "require": {
@@ -1700,7 +1700,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-08-14T20:17:41+00:00"
+            "time": "2017-08-23T20:31:28+00:00"
         },
         {
             "name": "laravel/scout",
@@ -4060,7 +4060,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 },
