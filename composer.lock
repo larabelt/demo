@@ -1419,12 +1419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "ad517bce30d2fd5fdd443a58aa0c32a527c78223"
+                "reference": "b8e75517ad4c4c0c6fa1b8bde33c50d1122119f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/ad517bce30d2fd5fdd443a58aa0c32a527c78223",
-                "reference": "ad517bce30d2fd5fdd443a58aa0c32a527c78223",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/b8e75517ad4c4c0c6fa1b8bde33c50d1122119f7",
+                "reference": "b8e75517ad4c4c0c6fa1b8bde33c50d1122119f7",
                 "shasum": ""
             },
             "require": {
@@ -1466,7 +1466,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-08-25T19:56:35+00:00"
+            "time": "2017-08-26T01:38:46+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1474,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "86bba96bbbba670695089e4c884cae92d7581d57"
+                "reference": "281a51cec7b8461c0e4548ca090ac04bf32990da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/86bba96bbbba670695089e4c884cae92d7581d57",
-                "reference": "86bba96bbbba670695089e4c884cae92d7581d57",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/281a51cec7b8461c0e4548ca090ac04bf32990da",
+                "reference": "281a51cec7b8461c0e4548ca090ac04bf32990da",
                 "shasum": ""
             },
             "type": "library",
@@ -1500,7 +1500,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-08-25T20:45:42+00:00"
+            "time": "2017-08-26T01:55:24+00:00"
         },
         {
             "name": "larabelt/menu",
