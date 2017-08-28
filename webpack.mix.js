@@ -1,6 +1,5 @@
 const { mix } = require('laravel-mix');
 const path = require('path');
-const webpack = require('webpack');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,9 +11,6 @@ const webpack = require('webpack');
  | file for the application as well as bundling up all the JS files.
  |
  */
-
-//mix.js('resources/assets/js/app.js', 'public/js')
-//.sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.webpackConfig({
     resolve: {
@@ -37,16 +33,16 @@ mix.copy("node_modules/tinymce", 'public/plugins/tinymce', false);
 /**
  * Admin JS
  */
-mix.js('resources/assets/js/belt-all.js', 'public/js');
+mix.js('resources/assets/js/belt-all.js', 'public/js').version();
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
 
 /**
  * Frontend JS
  */
-mix.js('resources/assets/js/web.js', 'public/js');
+mix.js('resources/assets/js/web.js', 'public/js').version();
 
 /**
  * Sass
  */
-mix.sass('resources/assets/sass/app.scss', 'public/css');
-mix.sass('resources/assets/sass/belt.scss', 'public/css');
+mix.sass('resources/assets/sass/app.scss', 'public/css').version();
+mix.sass('resources/assets/sass/belt.scss', 'public/css').version();
