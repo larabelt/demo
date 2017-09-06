@@ -7,8 +7,8 @@ import VueResource from 'vue-resource';
 import Vuex from 'vuex';
 
 import 'admin-lte';
+import 'belt/core/js/adminlte/helper';
 import 'bootstrap-sass';
-
 
 window._ = lodash;
 
