@@ -1219,16 +1219,16 @@
         },
         {
             "name": "kint-php/kint",
-            "version": "2.1.2",
+            "version": "2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kint-php/kint.git",
-                "reference": "1a1104729f10277b06d7db742d3c98d1881d4d7e"
+                "reference": "b091715eadaf6e1a7ef927f3e81d1004611d2aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/1a1104729f10277b06d7db742d3c98d1881d4d7e",
-                "reference": "1a1104729f10277b06d7db742d3c98d1881d4d7e",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/b091715eadaf6e1a7ef927f3e81d1004611d2aea",
+                "reference": "b091715eadaf6e1a7ef927f3e81d1004611d2aea",
                 "shasum": ""
             },
             "require": {
@@ -1273,7 +1273,7 @@
                 "kint",
                 "php"
             ],
-            "time": "2017-07-03T20:08:05+00:00"
+            "time": "2017-09-06T17:46:03+00:00"
         },
         {
             "name": "knplabs/knp-menu",
@@ -1424,12 +1424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39"
+                "reference": "bea5b1583468cd927f38fe2474c2753b92283d98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39",
-                "reference": "90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/bea5b1583468cd927f38fe2474c2753b92283d98",
+                "reference": "bea5b1583468cd927f38fe2474c2753b92283d98",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-09-06T16:33:32+00:00"
+            "time": "2017-09-06T18:09:29+00:00"
         },
         {
             "name": "larabelt/glue",
