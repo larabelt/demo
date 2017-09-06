@@ -1385,12 +1385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "e2bac39c1e893027f7ca36d70fee814b6c2066a0"
+                "reference": "9d34fdca36732004105142927c0eadd8d65accb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/e2bac39c1e893027f7ca36d70fee814b6c2066a0",
-                "reference": "e2bac39c1e893027f7ca36d70fee814b6c2066a0",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9d34fdca36732004105142927c0eadd8d65accb5",
+                "reference": "9d34fdca36732004105142927c0eadd8d65accb5",
                 "shasum": ""
             },
             "require": {
@@ -1416,7 +1416,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-08-31T19:59:09+00:00"
+            "time": "2017-09-06T16:33:37+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1424,12 +1424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "ed63838caf982548bf66ff5eca821a358ab4d2ce"
+                "reference": "90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/ed63838caf982548bf66ff5eca821a358ab4d2ce",
-                "reference": "ed63838caf982548bf66ff5eca821a358ab4d2ce",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39",
+                "reference": "90b7f6f7cf0dcfd7154e2f3e9f8425c9f07d4a39",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-08-31T19:55:27+00:00"
+            "time": "2017-09-06T16:33:32+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1479,12 +1479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "280e403b326d81ff55e1884f4bffdadb5514e0d8"
+                "reference": "121365a079215c76caf074ce1ef917ecf9b99a87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/280e403b326d81ff55e1884f4bffdadb5514e0d8",
-                "reference": "280e403b326d81ff55e1884f4bffdadb5514e0d8",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/121365a079215c76caf074ce1ef917ecf9b99a87",
+                "reference": "121365a079215c76caf074ce1ef917ecf9b99a87",
                 "shasum": ""
             },
             "type": "library",
@@ -1505,7 +1505,7 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-08-29T21:57:27+00:00"
+            "time": "2017-09-06T16:33:40+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -1550,12 +1550,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "26da61e4b3f7fb0a87f6e52eefb9f10a87d97a81"
+                "reference": "f20dadd38066c4152bc7aaf9f997a455098d4ce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/26da61e4b3f7fb0a87f6e52eefb9f10a87d97a81",
-                "reference": "26da61e4b3f7fb0a87f6e52eefb9f10a87d97a81",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/f20dadd38066c4152bc7aaf9f997a455098d4ce1",
+                "reference": "f20dadd38066c4152bc7aaf9f997a455098d4ce1",
                 "shasum": ""
             },
             "type": "library",
@@ -1576,7 +1576,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-08-30T19:20:44+00:00"
+            "time": "2017-09-01T17:36:29+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2149,16 +2149,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b"
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4d4896e553f2094e657fe493506dc37c509d4e2b",
-                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a",
                 "shasum": ""
             },
             "require": {
@@ -2196,7 +2196,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-07-28T14:45:09+00:00"
+            "time": "2017-09-02T17:10:46+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4188,16 +4188,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.2.3",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "86e24012a3139b42a7b71155cfaa325389f00f1f"
+                "reference": "2d3d238c433cf69caeb4842e97a3223a116f94b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/86e24012a3139b42a7b71155cfaa325389f00f1f",
-                "reference": "86e24012a3139b42a7b71155cfaa325389f00f1f",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/2d3d238c433cf69caeb4842e97a3223a116f94b2",
+                "reference": "2d3d238c433cf69caeb4842e97a3223a116f94b2",
                 "shasum": ""
             },
             "require": {
@@ -4229,7 +4229,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2017-08-29T19:37:41+00:00"
+            "time": "2017-08-30T18:51:59+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -4280,22 +4280,22 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.7.0",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073"
+                "reference": "c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/93d39f1f7f9326d746203c7c056f300f7f126073",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
+                "reference": "c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
-                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2",
+                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
                 "sebastian/comparator": "^1.1|^2.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
@@ -4306,7 +4306,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -4339,7 +4339,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-03-02T20:05:34+00:00"
+            "time": "2017-09-04T11:05:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
