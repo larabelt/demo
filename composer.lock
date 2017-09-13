@@ -1424,12 +1424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "06df3e8d5e805b67a2524b7bdb160fe4ac308975"
+                "reference": "3d22183eddf3388bb87d56132e7f641e33d088c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/06df3e8d5e805b67a2524b7bdb160fe4ac308975",
-                "reference": "06df3e8d5e805b67a2524b7bdb160fe4ac308975",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/3d22183eddf3388bb87d56132e7f641e33d088c3",
+                "reference": "3d22183eddf3388bb87d56132e7f641e33d088c3",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-09-12T19:20:50+00:00"
+            "time": "2017-09-13T13:59:02+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1709,16 +1709,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v3.0.7",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "b899432186096dacc90700d5320d95cc3db1efe1"
+                "reference": "84762c8ed51cb57f09b5f465e09993e48baf9d55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/b899432186096dacc90700d5320d95cc3db1efe1",
-                "reference": "b899432186096dacc90700d5320d95cc3db1efe1",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/84762c8ed51cb57f09b5f465e09993e48baf9d55",
+                "reference": "84762c8ed51cb57f09b5f465e09993e48baf9d55",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
                 "laravel",
                 "search"
             ],
-            "time": "2017-07-12T18:42:43+00:00"
+            "time": "2017-09-13T18:24:31+00:00"
         },
         {
             "name": "laravel/tinker",
