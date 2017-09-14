@@ -1385,12 +1385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "e19cd92805ee320108ee3d2b39e4d37b42d547f5"
+                "reference": "2840c9ec6c65f3097338b8dbc19a33aefe52e887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/e19cd92805ee320108ee3d2b39e4d37b42d547f5",
-                "reference": "e19cd92805ee320108ee3d2b39e4d37b42d547f5",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/2840c9ec6c65f3097338b8dbc19a33aefe52e887",
+                "reference": "2840c9ec6c65f3097338b8dbc19a33aefe52e887",
                 "shasum": ""
             },
             "require": {
@@ -1416,7 +1416,7 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-09-13T21:20:47+00:00"
+            "time": "2017-09-14T17:51:28+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1424,12 +1424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "bb76be22f641804de16343fc61927e87859b3eab"
+                "reference": "6a8a905fbbc06d7277d3e6187a4541bfb87821bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/bb76be22f641804de16343fc61927e87859b3eab",
-                "reference": "bb76be22f641804de16343fc61927e87859b3eab",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/6a8a905fbbc06d7277d3e6187a4541bfb87821bc",
+                "reference": "6a8a905fbbc06d7277d3e6187a4541bfb87821bc",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-09-13T21:24:46+00:00"
+            "time": "2017-09-14T17:52:06+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -1513,12 +1513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "24fe56317b3888406c5ac639916404f3ca258ff4"
+                "reference": "5d5263d0675bb8af2026a27caf1d2f4a6a2cc4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/24fe56317b3888406c5ac639916404f3ca258ff4",
-                "reference": "24fe56317b3888406c5ac639916404f3ca258ff4",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/5d5263d0675bb8af2026a27caf1d2f4a6a2cc4a7",
+                "reference": "5d5263d0675bb8af2026a27caf1d2f4a6a2cc4a7",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1542,7 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2017-09-13T19:06:09+00:00"
+            "time": "2017-09-14T17:51:32+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -1709,16 +1709,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v3.0.9",
+            "version": "v3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "84762c8ed51cb57f09b5f465e09993e48baf9d55"
+                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/84762c8ed51cb57f09b5f465e09993e48baf9d55",
-                "reference": "84762c8ed51cb57f09b5f465e09993e48baf9d55",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/681c15a26bbc973528af2e77e0bb61981dc07206",
+                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
                 "laravel",
                 "search"
             ],
-            "time": "2017-09-13T18:24:31+00:00"
+            "time": "2017-09-14T12:32:30+00:00"
         },
         {
             "name": "laravel/tinker",
