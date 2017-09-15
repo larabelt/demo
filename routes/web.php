@@ -11,6 +11,12 @@
 |
 */
 
+Route::get('/test', function () {
+    $team = new VendorBelt\Core\Team();
+    $user = new Belt\Core\User();
+    dump($user::$test);
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

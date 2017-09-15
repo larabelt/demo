@@ -32,3 +32,11 @@ $compiledPath = __DIR__.'/cache/compiled.php';
 if (file_exists($compiledPath)) {
     require $compiledPath;
 }
+
+// @larabelt
+spl_autoload_register(function ($class_name) {
+    if (env('APP_ENV') == 'local') {
+        $service = new \Belt\Core\Services\AutoLoaderService();
+        $service->include($class_name);
+    }
+});
