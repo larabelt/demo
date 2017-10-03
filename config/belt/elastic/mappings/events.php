@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 return [
     'properties' => [
@@ -12,6 +12,8 @@ return [
         'meta_keywords' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
         'meta_title' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
         'searchable' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
+        'starts_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
+        'ends_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
         'created_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
         'updated_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
     ],
