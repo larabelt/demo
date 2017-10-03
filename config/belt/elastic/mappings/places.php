@@ -11,6 +11,7 @@ return [
         'meta_description' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
         'meta_keywords' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
         'meta_title' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
+        'rating' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('float'),
         'searchable' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('text'),
         'created_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
         'updated_at' => \Belt\Content\Search\Elastic\ElasticConfigHelper::property('datetime'),
