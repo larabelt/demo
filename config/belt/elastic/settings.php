@@ -14,7 +14,7 @@ return [
     'analysis' => [
         'analyzer' => [],
         'normalizer' => [
-            'lower_asciifolding' => \Belt\Content\Search\Elastic\ElasticConfigHelper::normalizer('lower_asciifolding'),
+            'lower_asciifolding' => \Belt\Content\Elastic\ElasticConfigHelper::normalizer('lower_asciifolding'),
         ],
     ],
 ];

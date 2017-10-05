@@ -174,19 +174,20 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
         /**
          * @larabelt
          */
-        App\Providers\ComposerServiceProvider::class,
         Belt\Core\BeltCoreServiceProvider::class,
         Belt\Clip\BeltClipServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
         Belt\Glue\BeltGlueServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
+        App\Providers\BeltElasticServiceProvider::class,
 
     ],
 
