@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Belt;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -39,7 +40,14 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
+        /**
+         * @larabelt
+         *
+         * catch-all route
+         */
+        Route::middleware('web')
+            ->any('{any?}', Belt\Content\Http\Controllers\CatchAllController::class . '@web')
+            ->where('any', '(.*)');
     }
 
     /**
