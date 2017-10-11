@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4c5f6d58adae4d9e1c4e1db04de2f18",
+    "content-hash": "460bf15ab183d3df26c47f2c33675c4e",
     "packages": [
         {
             "name": "barryvdh/laravel-cors",
@@ -1346,7 +1346,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1384,7 +1384,7 @@
         },
         {
             "name": "larabelt/content",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1423,7 +1423,7 @@
         },
         {
             "name": "larabelt/core",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
@@ -1478,7 +1478,7 @@
         },
         {
             "name": "larabelt/glue",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1512,7 +1512,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1549,7 +1549,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -5459,14 +5459,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "larabelt/clip": 20,
-        "larabelt/content": 20,
-        "larabelt/core": 20,
-        "larabelt/glue": 20,
-        "larabelt/menu": 20,
-        "larabelt/spot": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
