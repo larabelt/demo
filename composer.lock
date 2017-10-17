@@ -1346,7 +1346,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1384,16 +1384,16 @@
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "874998aea6597ea8e12c5498ffa83e9a25d536fa"
+                "reference": "24569b4389940b108ea48a4cf0df99148c4afe43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/874998aea6597ea8e12c5498ffa83e9a25d536fa",
-                "reference": "874998aea6597ea8e12c5498ffa83e9a25d536fa",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/24569b4389940b108ea48a4cf0df99148c4afe43",
+                "reference": "24569b4389940b108ea48a4cf0df99148c4afe43",
                 "shasum": ""
             },
             "require": {
@@ -1419,20 +1419,20 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2017-10-11T15:11:48+00:00"
+            "time": "2017-10-16T21:57:32+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "e034ab237c2d55e5b53a01a8c1b90de6ae2310e4"
+                "reference": "47571b99f408ba7a0b7608575865a371bd386bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/e034ab237c2d55e5b53a01a8c1b90de6ae2310e4",
-                "reference": "e034ab237c2d55e5b53a01a8c1b90de6ae2310e4",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/47571b99f408ba7a0b7608575865a371bd386bf8",
+                "reference": "47571b99f408ba7a0b7608575865a371bd386bf8",
                 "shasum": ""
             },
             "require": {
@@ -1474,20 +1474,20 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-10-11T21:12:17+00:00"
+            "time": "2017-10-17T15:20:49+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "c1da79707a912bc880ecae03fef57a1bd3f40624"
+                "reference": "a203f0ccfbf9de37c5edf1818a8cf5f7dec255a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/c1da79707a912bc880ecae03fef57a1bd3f40624",
-                "reference": "c1da79707a912bc880ecae03fef57a1bd3f40624",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/a203f0ccfbf9de37c5edf1818a8cf5f7dec255a4",
+                "reference": "a203f0ccfbf9de37c5edf1818a8cf5f7dec255a4",
                 "shasum": ""
             },
             "type": "library",
@@ -1508,11 +1508,11 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-10-10T21:39:32+00:00"
+            "time": "2017-10-16T21:57:35+00:00"
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1549,16 +1549,16 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "e1477a70093b37f04a89acf528d2438bd9c6622b"
+                "reference": "aa6e637e3b8438c67c1f6b74ac6b8d0d3161bdfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/e1477a70093b37f04a89acf528d2438bd9c6622b",
-                "reference": "e1477a70093b37f04a89acf528d2438bd9c6622b",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/aa6e637e3b8438c67c1f6b74ac6b8d0d3161bdfe",
+                "reference": "aa6e637e3b8438c67c1f6b74ac6b8d0d3161bdfe",
                 "shasum": ""
             },
             "type": "library",
@@ -1579,7 +1579,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-10-11T21:12:35+00:00"
+            "time": "2017-10-17T15:20:55+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3238,16 +3238,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
                 "shasum": ""
             },
             "require": {
@@ -3259,7 +3259,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -3293,7 +3293,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/process",
