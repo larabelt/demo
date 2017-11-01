@@ -1346,7 +1346,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1384,7 +1384,7 @@
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1423,16 +1423,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "8b3a2279e07dbe3229f7e6e42e935f307b65b0ed"
+                "reference": "9e4856e75d0744bad8e64260dadfbf7e4517a763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/8b3a2279e07dbe3229f7e6e42e935f307b65b0ed",
-                "reference": "8b3a2279e07dbe3229f7e6e42e935f307b65b0ed",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/9e4856e75d0744bad8e64260dadfbf7e4517a763",
+                "reference": "9e4856e75d0744bad8e64260dadfbf7e4517a763",
                 "shasum": ""
             },
             "require": {
@@ -1474,20 +1474,20 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-10-31T21:13:55+00:00"
+            "time": "2017-11-01T19:48:55+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "e5a2a0fbaa9d6b41c03bfe733425681daf803323"
+                "reference": "3f3bdb48df3efa1138ea5730f6448f745e1eb5ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/e5a2a0fbaa9d6b41c03bfe733425681daf803323",
-                "reference": "e5a2a0fbaa9d6b41c03bfe733425681daf803323",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/3f3bdb48df3efa1138ea5730f6448f745e1eb5ee",
+                "reference": "3f3bdb48df3efa1138ea5730f6448f745e1eb5ee",
                 "shasum": ""
             },
             "type": "library",
@@ -1508,11 +1508,11 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2017-10-31T17:34:01+00:00"
+            "time": "2017-11-01T19:48:59+00:00"
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1549,7 +1549,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -2055,7 +2055,7 @@
         },
         {
             "name": "mtdowling/cron-expression",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
