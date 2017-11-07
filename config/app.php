@@ -176,7 +176,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
 
         /**
          * @larabelt
@@ -188,6 +187,13 @@ return [
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
         App\Providers\BeltElasticServiceProvider::class,
+
+        /**
+         * @larabelt
+         *
+         * Post-Belt Application Service Providers...
+         */
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
