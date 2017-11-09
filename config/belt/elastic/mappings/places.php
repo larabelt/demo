@@ -4,6 +4,7 @@ return [
     'properties' => [
         'id' => \Belt\Content\Elastic\ElasticConfigHelper::property('primary_key'),
         'is_active' => \Belt\Content\Elastic\ElasticConfigHelper::property('boolean'),
+        'priority' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'name' => \Belt\Content\Elastic\ElasticConfigHelper::property('name'),
         'slug' => \Belt\Content\Elastic\ElasticConfigHelper::property('string'),
         'template' => \Belt\Content\Elastic\ElasticConfigHelper::property('string'),
