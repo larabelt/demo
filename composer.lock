@@ -1549,16 +1549,16 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.30",
+            "version": "1.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "27908813dd9602c84ff1f7a2264d83d0662bb7eb"
+                "reference": "46a27d14ce470c8fa2297f520523d20a0bd0d92c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/27908813dd9602c84ff1f7a2264d83d0662bb7eb",
-                "reference": "27908813dd9602c84ff1f7a2264d83d0662bb7eb",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/46a27d14ce470c8fa2297f520523d20a0bd0d92c",
+                "reference": "46a27d14ce470c8fa2297f520523d20a0bd0d92c",
                 "shasum": ""
             },
             "type": "library",
@@ -1579,7 +1579,7 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-11-07T15:12:59+00:00"
+            "time": "2017-11-09T21:13:27+00:00"
         },
         {
             "name": "laravel/framework",
