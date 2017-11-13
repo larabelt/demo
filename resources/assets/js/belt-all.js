@@ -7,6 +7,11 @@ import BeltGlue from 'belt/glue/js/glue';
 import BeltMenu from 'belt/menu/js/menu';
 import BeltSpot from 'belt/spot/js/spot';
 
+/**
+ * Additional config options
+ */
+window.larabelt.clip.accept = 'image/*,application/pdf,text/plain';
+
 $(document).ready(function () {
     new BeltCore([
         BeltClip,
