@@ -40,6 +40,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        include base_path('vendor/larabelt/core/routes/web/users.php');
+
         /**
          * @larabelt
          *
