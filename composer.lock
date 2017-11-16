@@ -1349,7 +1349,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1387,7 +1387,7 @@
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1426,16 +1426,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "ff9595387a0131e35c0fa5883b416a0f1dfe1b56"
+                "reference": "fd2804ba40ed1d52542a6ae6029b4caf6aa7f404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/ff9595387a0131e35c0fa5883b416a0f1dfe1b56",
-                "reference": "ff9595387a0131e35c0fa5883b416a0f1dfe1b56",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/fd2804ba40ed1d52542a6ae6029b4caf6aa7f404",
+                "reference": "fd2804ba40ed1d52542a6ae6029b4caf6aa7f404",
                 "shasum": ""
             },
             "require": {
@@ -1477,11 +1477,11 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-11-15T21:28:07+00:00"
+            "time": "2017-11-16T16:54:43+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1515,7 +1515,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1552,7 +1552,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.34",
+            "version": "1.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
