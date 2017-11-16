@@ -1349,16 +1349,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "3088f9270347588e29185b55fcc7d592f690a0ab"
+                "reference": "17a84db2d0d503a29d841277f9d314a66a2bbe11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/3088f9270347588e29185b55fcc7d592f690a0ab",
-                "reference": "3088f9270347588e29185b55fcc7d592f690a0ab",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/17a84db2d0d503a29d841277f9d314a66a2bbe11",
+                "reference": "17a84db2d0d503a29d841277f9d314a66a2bbe11",
                 "shasum": ""
             },
             "require": {
@@ -1383,11 +1383,11 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-11-13T21:52:59+00:00"
+            "time": "2017-11-15T21:28:09+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1426,16 +1426,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "a89d7fb53b3e1d420291043788036cd043402da5"
+                "reference": "ff9595387a0131e35c0fa5883b416a0f1dfe1b56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/a89d7fb53b3e1d420291043788036cd043402da5",
-                "reference": "a89d7fb53b3e1d420291043788036cd043402da5",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/ff9595387a0131e35c0fa5883b416a0f1dfe1b56",
+                "reference": "ff9595387a0131e35c0fa5883b416a0f1dfe1b56",
                 "shasum": ""
             },
             "require": {
@@ -1477,11 +1477,11 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2017-11-14T22:31:28+00:00"
+            "time": "2017-11-15T21:28:07+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1515,7 +1515,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1552,7 +1552,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.33",
+            "version": "1.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -2351,16 +2351,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.14",
+            "version": "v0.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee"
+                "reference": "b1d289c2cb03a2f8249912c53e96ced38f879926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/91e53c16560bdb8b9592544bb38429ae00d6baee",
-                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b1d289c2cb03a2f8249912c53e96ced38f879926",
+                "reference": "b1d289c2cb03a2f8249912c53e96ced38f879926",
                 "shasum": ""
             },
             "require": {
@@ -2374,7 +2374,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "~1.11",
                 "hoa/console": "~3.16|~1.14",
-                "phpunit/phpunit": "~4.4|~5.0",
+                "phpunit/phpunit": "^4.8.35|^5.4.3",
                 "symfony/finder": "~2.1|~3.0"
             },
             "suggest": {
@@ -2420,7 +2420,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-11-04T16:06:49+00:00"
+            "time": "2017-11-16T14:29:51+00:00"
         },
         {
             "name": "ramsey/uuid",
