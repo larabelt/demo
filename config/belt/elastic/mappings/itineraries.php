@@ -12,12 +12,9 @@ return [
         'meta_keywords' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'meta_title' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'searchable' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
-        'starts_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
-        'ends_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'created_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'updated_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'categories' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
         'tags' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
-        'location' => \Belt\Content\Elastic\ElasticConfigHelper::property('geo_point'),
     ],
 ];
