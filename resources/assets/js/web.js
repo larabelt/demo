@@ -1,4 +1,6 @@
-import './belt-bootstrap';
+import 'belt/core/js/belt-bootstrap';
+
+Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
 
 import AlertDismissal from 'belt/core/js/alerts/ctlr/dismissal';
 import ContactForm from 'belt/core/js/contact/contact';
