@@ -12,7 +12,9 @@ return [
         'meta_keywords' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'meta_title' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'searchable' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
-        'created_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('datetime'),
-        'updated_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('datetime'),
+        'created_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
+        'updated_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
+        'categories' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
+        'tags' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
     ],
 ];

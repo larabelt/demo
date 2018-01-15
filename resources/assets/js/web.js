@@ -4,6 +4,8 @@ Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
 
 import AlertDismissal from 'belt/core/js/alerts/ctlr/dismissal';
 import ContactForm from 'belt/core/js/contact/contact';
+import UserSignup from 'belt/core/js/users/signup';
+import TeamSignup from 'belt/core/js/teams/signup';
 
 /**
  * @belt
@@ -13,7 +15,26 @@ import ContactForm from 'belt/core/js/contact/contact';
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('alert-dismissal', AlertDismissal);
-Vue.component('contact-form', ContactForm);
+function addComponent(id, app) {
+    let target = $(id);
+    if (target.length > 0) {
+        Vue.component(id, app);
+    }
+}
 
-new Vue({el: '#app'});
+$(document).ready(function () {
+
+    let components = {
+        'alert-dismissal': AlertDismissal,
+        'contact-form': ContactForm,
+        'user-signup': UserSignup,
+        'team-signup': TeamSignup,
+    };
+
+    _(components).forEach((app, id) => {
+        addComponent(id, app);
+    });
+
+    new Vue({el: '#app'});
+
+});

@@ -7,6 +7,11 @@ import BeltSpot from 'belt/spot/js/spot';
 
 Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
 
+/**
+ * Additional config options
+ */
+window.larabelt.clip.accept = 'image/*,application/pdf,text/plain';
+
 $(document).ready(function () {
     new BeltCore([
         BeltClip,

@@ -13,7 +13,10 @@ return [
         'meta_title' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'rating' => \Belt\Content\Elastic\ElasticConfigHelper::property('float'),
         'searchable' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
-        'created_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('datetime'),
-        'updated_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('datetime'),
+        'created_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
+        'updated_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
+        'categories' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
+        'tags' => \Belt\Content\Elastic\ElasticConfigHelper::property('long'),
+        'location' => \Belt\Content\Elastic\ElasticConfigHelper::property('geo_point'),
     ],
 ];
