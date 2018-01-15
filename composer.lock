@@ -1347,16 +1347,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "2ca4deeadecdd63322f31c315ae2f62755074d0b"
+                "reference": "86d6ded464504358f808111450d724e284799760"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/2ca4deeadecdd63322f31c315ae2f62755074d0b",
-                "reference": "2ca4deeadecdd63322f31c315ae2f62755074d0b",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/86d6ded464504358f808111450d724e284799760",
+                "reference": "86d6ded464504358f808111450d724e284799760",
                 "shasum": ""
             },
             "require": {
@@ -1381,20 +1381,20 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2017-12-20T22:07:37+00:00"
+            "time": "2018-01-15T18:36:04+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "5c166821cd634e79c1f3435e1827faaa08465244"
+                "reference": "9c410304e2b8687ec3e1271c664b93e0d93f237e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/5c166821cd634e79c1f3435e1827faaa08465244",
-                "reference": "5c166821cd634e79c1f3435e1827faaa08465244",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/9c410304e2b8687ec3e1271c664b93e0d93f237e",
+                "reference": "9c410304e2b8687ec3e1271c664b93e0d93f237e",
                 "shasum": ""
             },
             "require": {
@@ -1420,20 +1420,20 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2018-01-08T17:09:14+00:00"
+            "time": "2018-01-15T18:36:09+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "c8e6655d61fe6beb032be629348f3e7f72b73585"
+                "reference": "02df5d6a4877af46576507fd20c58011745de195"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/c8e6655d61fe6beb032be629348f3e7f72b73585",
-                "reference": "c8e6655d61fe6beb032be629348f3e7f72b73585",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/02df5d6a4877af46576507fd20c58011745de195",
+                "reference": "02df5d6a4877af46576507fd20c58011745de195",
                 "shasum": ""
             },
             "require": {
@@ -1475,11 +1475,11 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2018-01-08T17:09:10+00:00"
+            "time": "2018-01-15T18:36:00+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1513,7 +1513,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1550,7 +1550,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.50",
+            "version": "1.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -2421,16 +2421,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334"
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/45cffe822057a09e05f7bd09ec5fb88eeecd2334",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/bba83ad77bb9deb6d3c352a7361b818e415b221d",
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d",
                 "shasum": ""
             },
             "require": {
@@ -2442,7 +2442,7 @@
             },
             "require-dev": {
                 "apigen/apigen": "^4.1",
-                "codeception/aspect-mock": "^1.0 | ^2.0",
+                "codeception/aspect-mock": "^1.0 | ~2.0.0",
                 "doctrine/annotations": "~1.2.0",
                 "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
                 "ircmaxell/random-lib": "^1.1",
@@ -2450,7 +2450,7 @@
                 "mockery/mockery": "^0.9.4",
                 "moontoast/math": "^1.1",
                 "php-mock/php-mock-phpunit": "^0.3|^1.1",
-                "phpunit/phpunit": "^4.7|>=5.0 <5.4",
+                "phpunit/phpunit": "^4.7|^5.0",
                 "satooshi/php-coveralls": "^0.6.1",
                 "squizlabs/php_codesniffer": "^2.3"
             },
@@ -2499,7 +2499,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-09-22T20:46:04+00:00"
+            "time": "2018-01-13T22:22:03+00:00"
         },
         {
             "name": "react/promise",
