@@ -1347,16 +1347,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "ff19dce36212b03a956decb8feb13cfd187a8b74"
+                "reference": "0ff1701f6ca7e546758aeb4763d22c625dcb8ca9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/ff19dce36212b03a956decb8feb13cfd187a8b74",
-                "reference": "ff19dce36212b03a956decb8feb13cfd187a8b74",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/0ff1701f6ca7e546758aeb4763d22c625dcb8ca9",
+                "reference": "0ff1701f6ca7e546758aeb4763d22c625dcb8ca9",
                 "shasum": ""
             },
             "require": {
@@ -1370,6 +1370,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1381,20 +1384,25 @@
                 }
             ],
             "description": "Clip package for LaraBelt.",
-            "time": "2018-01-15T21:19:59+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T14:26:09+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "15693fc4cc60465d86c2c16bc0dc3d35ce5d46fc"
+                "reference": "eedeb6bdb4b39a166951b087f84b18faacd9c949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/15693fc4cc60465d86c2c16bc0dc3d35ce5d46fc",
-                "reference": "15693fc4cc60465d86c2c16bc0dc3d35ce5d46fc",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/eedeb6bdb4b39a166951b087f84b18faacd9c949",
+                "reference": "eedeb6bdb4b39a166951b087f84b18faacd9c949",
                 "shasum": ""
             },
             "require": {
@@ -1409,6 +1417,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1420,20 +1431,25 @@
                 }
             ],
             "description": "Content package for LaraBelt.",
-            "time": "2018-01-15T21:20:03+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T14:26:12+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "f9ce5a484076758921239dd9bb64bfaf5d331959"
+                "reference": "ddbb225bb81e7e71e9173d9af143ac1f83fc8cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/f9ce5a484076758921239dd9bb64bfaf5d331959",
-                "reference": "f9ce5a484076758921239dd9bb64bfaf5d331959",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/ddbb225bb81e7e71e9173d9af143ac1f83fc8cb4",
+                "reference": "ddbb225bb81e7e71e9173d9af143ac1f83fc8cb4",
                 "shasum": ""
             },
             "require": {
@@ -1464,6 +1480,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1475,20 +1494,25 @@
                 }
             ],
             "description": "Core package for any LaraBelt app.",
-            "time": "2018-01-15T21:19:57+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T15:05:59+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "b5975ef12e9615355a7efd3ae0836281ea179c26"
+                "reference": "1ee4a3d7e11c101458ef1c7cf5011741e1587699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/b5975ef12e9615355a7efd3ae0836281ea179c26",
-                "reference": "b5975ef12e9615355a7efd3ae0836281ea179c26",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/1ee4a3d7e11c101458ef1c7cf5011741e1587699",
+                "reference": "1ee4a3d7e11c101458ef1c7cf5011741e1587699",
                 "shasum": ""
             },
             "type": "library",
@@ -1498,6 +1522,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1509,20 +1536,25 @@
                 }
             ],
             "description": "Glue package for LaraBelt.",
-            "time": "2018-01-15T21:20:10+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T14:26:15+00:00"
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "88395c4f21b6cf3406e4715bd99b35581cb27f09"
+                "reference": "7d9c77ed3e20b44631664c0ee92a892a3a5ca291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/88395c4f21b6cf3406e4715bd99b35581cb27f09",
-                "reference": "88395c4f21b6cf3406e4715bd99b35581cb27f09",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/7d9c77ed3e20b44631664c0ee92a892a3a5ca291",
+                "reference": "7d9c77ed3e20b44631664c0ee92a892a3a5ca291",
                 "shasum": ""
             },
             "require": {
@@ -1535,6 +1567,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1546,20 +1581,25 @@
                 }
             ],
             "description": "Menu package for LaraBelt.",
-            "time": "2018-01-15T21:20:12+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T14:26:17+00:00"
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.52",
+            "version": "1.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "b4a3e66c3c36950297a522919c4b09494f27e03b"
+                "reference": "224dd4770e75351235d1c4ae13efd36e8fa8a9e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/b4a3e66c3c36950297a522919c4b09494f27e03b",
-                "reference": "b4a3e66c3c36950297a522919c4b09494f27e03b",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/224dd4770e75351235d1c4ae13efd36e8fa8a9e0",
+                "reference": "224dd4770e75351235d1c4ae13efd36e8fa8a9e0",
                 "shasum": ""
             },
             "type": "library",
@@ -1569,6 +1609,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Rob LaSota",
@@ -1580,7 +1623,12 @@
                 }
             ],
             "description": "Spot package for LaraBelt.",
-            "time": "2017-12-11T21:09:23+00:00"
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-01-16T14:26:20+00:00"
         },
         {
             "name": "laravel/framework",
