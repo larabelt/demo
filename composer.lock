@@ -1347,16 +1347,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "0ff1701f6ca7e546758aeb4763d22c625dcb8ca9"
+                "reference": "804dc43389d39df36fe998bf4c9c221e810f28f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/0ff1701f6ca7e546758aeb4763d22c625dcb8ca9",
-                "reference": "0ff1701f6ca7e546758aeb4763d22c625dcb8ca9",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/804dc43389d39df36fe998bf4c9c221e810f28f0",
+                "reference": "804dc43389d39df36fe998bf4c9c221e810f28f0",
                 "shasum": ""
             },
             "require": {
@@ -1389,11 +1389,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-16T14:26:09+00:00"
+            "time": "2018-01-19T20:54:50+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1440,16 +1440,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "8a9bc834ff1c9eab4653dd6bcb3c1f9d94dfaaa2"
+                "reference": "8edc4f366ea343cde8145d4d47cd3e828f7266a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/8a9bc834ff1c9eab4653dd6bcb3c1f9d94dfaaa2",
-                "reference": "8a9bc834ff1c9eab4653dd6bcb3c1f9d94dfaaa2",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/8edc4f366ea343cde8145d4d47cd3e828f7266a1",
+                "reference": "8edc4f366ea343cde8145d4d47cd3e828f7266a1",
                 "shasum": ""
             },
             "require": {
@@ -1499,11 +1499,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-17T15:23:54+00:00"
+            "time": "2018-01-19T20:54:47+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1545,7 +1545,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1590,16 +1590,16 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.57",
+            "version": "1.4.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "224dd4770e75351235d1c4ae13efd36e8fa8a9e0"
+                "reference": "182c742765e12db1b7cf0027011660f30a577b5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/224dd4770e75351235d1c4ae13efd36e8fa8a9e0",
-                "reference": "224dd4770e75351235d1c4ae13efd36e8fa8a9e0",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/182c742765e12db1b7cf0027011660f30a577b5d",
+                "reference": "182c742765e12db1b7cf0027011660f30a577b5d",
                 "shasum": ""
             },
             "type": "library",
@@ -1628,7 +1628,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-16T14:26:20+00:00"
+            "time": "2018-01-19T15:41:17+00:00"
         },
         {
             "name": "laravel/framework",
