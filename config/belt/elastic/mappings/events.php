@@ -11,6 +11,7 @@ return [
         'meta_description' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'meta_keywords' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'meta_title' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
+        'priority' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'searchable' => \Belt\Content\Elastic\ElasticConfigHelper::property('text'),
         'starts_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
         'ends_at' => \Belt\Content\Elastic\ElasticConfigHelper::property('integer'),
