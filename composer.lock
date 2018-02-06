@@ -1171,22 +1171,22 @@
         },
         {
             "name": "kalnoy/nestedset",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lazychaser/laravel-nestedset.git",
-                "reference": "892b9a730fbb70d16a66f58f8eb2a46164cb3609"
+                "reference": "3265da51ef71238fc2d086b54eef7a75dd15c665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/892b9a730fbb70d16a66f58f8eb2a46164cb3609",
-                "reference": "892b9a730fbb70d16a66f58f8eb2a46164cb3609",
+                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/3265da51ef71238fc2d086b54eef7a75dd15c665",
+                "reference": "3265da51ef71238fc2d086b54eef7a75dd15c665",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "5.2 - 5.5",
-                "illuminate/events": "5.2 - 5.5",
-                "illuminate/support": "5.2 - 5.5",
+                "illuminate/database": "5.2 - 5.6",
+                "illuminate/events": "5.2 - 5.6",
+                "illuminate/support": "5.2 - 5.6",
                 "php": ">=5.5.9"
             },
             "require-dev": {
@@ -1196,6 +1196,11 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "v4.2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Kalnoy\\Nestedset\\NestedSetServiceProvider"
+                    ]
                 }
             },
             "autoload": {
@@ -1221,7 +1226,7 @@
                 "nested sets",
                 "nsm"
             ],
-            "time": "2017-11-26T07:18:24+00:00"
+            "time": "2018-02-04T08:47:55+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -1444,12 +1449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "a3e6231354c04df87737cb6110b4744b37217c58"
+                "reference": "c9f9bf0b36a7adf4f5b6c9c9520a61e1c6f1c0d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/a3e6231354c04df87737cb6110b4744b37217c58",
-                "reference": "a3e6231354c04df87737cb6110b4744b37217c58",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/c9f9bf0b36a7adf4f5b6c9c9520a61e1c6f1c0d5",
+                "reference": "c9f9bf0b36a7adf4f5b6c9c9520a61e1c6f1c0d5",
                 "shasum": ""
             },
             "require": {
@@ -1500,7 +1505,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-02-02T22:21:46+00:00"
+            "time": "2018-02-06T20:43:42+00:00"
         },
         {
             "name": "larabelt/glue",
