@@ -12,6 +12,8 @@ Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
  */
 window.larabelt.clip.accept = 'image/*,application/pdf,text/plain';
 
+Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
+
 $(document).ready(function () {
     new BeltCore([
         BeltClip,
