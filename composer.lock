@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "460bf15ab183d3df26c47f2c33675c4e",
+    "content-hash": "c04721970371d0a7c659429b4fbd1888",
     "packages": [
         {
             "name": "barryvdh/laravel-cors",
@@ -1171,22 +1171,22 @@
         },
         {
             "name": "kalnoy/nestedset",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lazychaser/laravel-nestedset.git",
-                "reference": "892b9a730fbb70d16a66f58f8eb2a46164cb3609"
+                "reference": "3265da51ef71238fc2d086b54eef7a75dd15c665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/892b9a730fbb70d16a66f58f8eb2a46164cb3609",
-                "reference": "892b9a730fbb70d16a66f58f8eb2a46164cb3609",
+                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/3265da51ef71238fc2d086b54eef7a75dd15c665",
+                "reference": "3265da51ef71238fc2d086b54eef7a75dd15c665",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "5.2 - 5.5",
-                "illuminate/events": "5.2 - 5.5",
-                "illuminate/support": "5.2 - 5.5",
+                "illuminate/database": "5.2 - 5.6",
+                "illuminate/events": "5.2 - 5.6",
+                "illuminate/support": "5.2 - 5.6",
                 "php": ">=5.5.9"
             },
             "require-dev": {
@@ -1196,6 +1196,11 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "v4.2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Kalnoy\\Nestedset\\NestedSetServiceProvider"
+                    ]
                 }
             },
             "autoload": {
@@ -1221,7 +1226,7 @@
                 "nested sets",
                 "nsm"
             ],
-            "time": "2017-11-26T07:18:24+00:00"
+            "time": "2018-02-04T08:47:55+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -1347,16 +1352,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "804dc43389d39df36fe998bf4c9c221e810f28f0"
+                "reference": "aedf940c3b1656787edd16d71973512da3d4a2f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/804dc43389d39df36fe998bf4c9c221e810f28f0",
-                "reference": "804dc43389d39df36fe998bf4c9c221e810f28f0",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/aedf940c3b1656787edd16d71973512da3d4a2f6",
+                "reference": "aedf940c3b1656787edd16d71973512da3d4a2f6",
                 "shasum": ""
             },
             "require": {
@@ -1389,20 +1394,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-19T20:54:50+00:00"
+            "time": "2018-02-07T17:02:02+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "5eaadc54f3e359e8e59d5450eb3faa27bbc96135"
+                "reference": "156baf3b02c1136ab7b90019ef7bfdb0014fb188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/5eaadc54f3e359e8e59d5450eb3faa27bbc96135",
-                "reference": "5eaadc54f3e359e8e59d5450eb3faa27bbc96135",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/156baf3b02c1136ab7b90019ef7bfdb0014fb188",
+                "reference": "156baf3b02c1136ab7b90019ef7bfdb0014fb188",
                 "shasum": ""
             },
             "require": {
@@ -1436,20 +1441,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-23T15:06:24+00:00"
+            "time": "2018-02-07T19:32:38+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "40a1a2f553b8a9fd63392d843a6f2e27d636361c"
+                "reference": "cadc1b325211023d5133ee33ff603840458bc8fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/40a1a2f553b8a9fd63392d843a6f2e27d636361c",
-                "reference": "40a1a2f553b8a9fd63392d843a6f2e27d636361c",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/cadc1b325211023d5133ee33ff603840458bc8fd",
+                "reference": "cadc1b325211023d5133ee33ff603840458bc8fd",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1468,8 @@
                 "php": ">=5.6.4",
                 "riimu/kit-phpencoder": "^2.1",
                 "rutorika/sortable": "3.4.*",
-                "sabre/uri": "^2"
+                "sabre/uri": "^2",
+                "silber/bouncer": "v1.0.0-rc.1"
             },
             "require-dev": {
                 "barryvdh/laravel-debugbar": "^2.3",
@@ -1499,20 +1505,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-23T15:07:42+00:00"
+            "time": "2018-02-07T20:35:07+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
-                "reference": "1ee4a3d7e11c101458ef1c7cf5011741e1587699"
+                "reference": "98d91437839933be782bae61b2148eddca1b24c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/1ee4a3d7e11c101458ef1c7cf5011741e1587699",
-                "reference": "1ee4a3d7e11c101458ef1c7cf5011741e1587699",
+                "url": "https://api.github.com/repos/larabelt/glue/zipball/98d91437839933be782bae61b2148eddca1b24c1",
+                "reference": "98d91437839933be782bae61b2148eddca1b24c1",
                 "shasum": ""
             },
             "type": "library",
@@ -1541,20 +1547,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-16T14:26:15+00:00"
+            "time": "2018-02-07T17:20:13+00:00"
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "7d9c77ed3e20b44631664c0ee92a892a3a5ca291"
+                "reference": "289ea1f7c2a9e2581595ba4151a2185491fbcead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/7d9c77ed3e20b44631664c0ee92a892a3a5ca291",
-                "reference": "7d9c77ed3e20b44631664c0ee92a892a3a5ca291",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/289ea1f7c2a9e2581595ba4151a2185491fbcead",
+                "reference": "289ea1f7c2a9e2581595ba4151a2185491fbcead",
                 "shasum": ""
             },
             "require": {
@@ -1586,20 +1592,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-16T14:26:17+00:00"
+            "time": "2018-02-07T17:04:55+00:00"
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.65",
+            "version": "1.5-beta-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "3705c42b252acb6e4f88feb2631cdab11b6edb93"
+                "reference": "c19f17b1894bcb00db1b6999b5645a2740aef20b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/3705c42b252acb6e4f88feb2631cdab11b6edb93",
-                "reference": "3705c42b252acb6e4f88feb2631cdab11b6edb93",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/c19f17b1894bcb00db1b6999b5645a2740aef20b",
+                "reference": "c19f17b1894bcb00db1b6999b5645a2740aef20b",
                 "shasum": ""
             },
             "type": "library",
@@ -1628,7 +1634,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-01-22T16:49:54+00:00"
+            "time": "2018-02-07T17:44:27+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2753,6 +2759,77 @@
             "time": "2017-02-20T20:02:35+00:00"
         },
         {
+            "name": "silber/bouncer",
+            "version": "v1.0.0-rc.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JosephSilber/bouncer.git",
+                "reference": "658fca6169b3426ca5be6168b13fde7b3c0e9069"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JosephSilber/bouncer/zipball/658fca6169b3426ca5be6168b13fde7b3c0e9069",
+                "reference": "658fca6169b3426ca5be6168b13fde7b3c0e9069",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/auth": "5.1.20 - 5.6",
+                "illuminate/container": "5.1.20 - 5.6",
+                "illuminate/contracts": "5.1.20 - 5.6",
+                "illuminate/database": "5.1.20 - 5.6"
+            },
+            "require-dev": {
+                "illuminate/cache": "5.1.20 - 5.6",
+                "illuminate/console": "5.1.20 - 5.6",
+                "illuminate/events": "5.1.20 - 5.6",
+                "larapack/dd": "^1.1",
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "suggest": {
+                "illuminate/cache": "Allows caching bouncer's database queries",
+                "illuminate/console": "Allows running registered bouncer seeders via artisan",
+                "illuminate/events": "Required for multi-tenancy support"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Silber\\Bouncer\\BouncerServiceProvider"
+                    ],
+                    "aliases": {
+                        "Bouncer": "Silber\\Bouncer\\BouncerFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Silber\\Bouncer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Silber",
+                    "email": "contact@josephsilber.com"
+                }
+            ],
+            "description": "Eloquent roles and abilities.",
+            "keywords": [
+                "abilities",
+                "acl",
+                "capabilities",
+                "eloquent",
+                "laravel",
+                "permissions",
+                "roles"
+            ],
+            "time": "2018-02-01T03:05:24+00:00"
+        },
+        {
             "name": "soundasleep/html2text",
             "version": "0.3.4",
             "source": {
@@ -3289,6 +3366,63 @@
             "time": "2018-01-29T12:29:46+00:00"
         },
         {
+            "name": "symfony/inflector",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/inflector.git",
+                "reference": "da634a9968162f7c5c94f8d6949a4ede86085304"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/inflector/zipball/da634a9968162f7c5c94f8d6949a4ede86085304",
+                "reference": "da634a9968162f7c5c94f8d6949a4ede86085304",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Inflector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Inflector Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string",
+                "symfony",
+                "words"
+            ],
+            "time": "2018-01-03T17:15:19+00:00"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.7.0",
             "source": {
@@ -3454,6 +3588,73 @@
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
             "time": "2018-01-29T09:03:43+00:00"
+        },
+        {
+            "name": "symfony/property-access",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/property-access.git",
+                "reference": "e0fef10eb7e11cae9421d8d89024dfeae0acffb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/e0fef10eb7e11cae9421d8d89024dfeae0acffb7",
+                "reference": "e0fef10eb7e11cae9421d8d89024dfeae0acffb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/inflector": "~3.4|~4.0"
+            },
+            "require-dev": {
+                "symfony/cache": "~3.4|~4.0"
+            },
+            "suggest": {
+                "psr/cache-implementation": "To cache access methods."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\PropertyAccess\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony PropertyAccess Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "access",
+                "array",
+                "extraction",
+                "index",
+                "injection",
+                "object",
+                "property",
+                "property path",
+                "reflection"
+            ],
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/routing",
@@ -3669,6 +3870,73 @@
                 "dump"
             ],
             "time": "2018-01-29T09:03:43+00:00"
+        },
+        {
+            "name": "symfony/workflow",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/workflow.git",
+                "reference": "89e8dfea52a2ac4cc5e66707df5a2c19ada47603"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/workflow/zipball/89e8dfea52a2ac4cc5e66707df5a2c19ada47603",
+                "reference": "89e8dfea52a2ac4cc5e66707df5a2c19ada47603",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/property-access": "~3.4|~4.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/event-dispatcher": "~3.4|~4.0",
+                "symfony/expression-language": "~3.4|~4.0",
+                "symfony/security-core": "~3.4|~4.0",
+                "symfony/validator": "~3.4|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Workflow\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                }
+            ],
+            "description": "Symfony Workflow Component",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "petrinet",
+                "place",
+                "state",
+                "statemachine",
+                "transition",
+                "workflow"
+            ],
+            "time": "2018-01-03T17:15:19+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5585,9 +5853,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.4"

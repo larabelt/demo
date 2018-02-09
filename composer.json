@@ -9,15 +9,16 @@
   "type": "project",
   "require": {
     "php": ">=5.6.4",
-    "larabelt/clip": "1.4.*",
-    "larabelt/content": "1.4.*",
-    "larabelt/core": "1.4.*",
-    "larabelt/glue": "1.4.*",
-    "larabelt/menu": "1.4.*",
-    "larabelt/spot": "1.4.*",
+    "guzzlehttp/guzzle": "^6.3.0",
+    "larabelt/clip": "1.5-beta-2",
+    "larabelt/content": "1.5-beta-2",
+    "larabelt/core": "1.5-beta-2",
+    "larabelt/glue": "1.5-beta-2",
+    "larabelt/menu": "1.5-beta-2",
+    "larabelt/spot": "1.5-beta-2",
     "laravel/framework": "5.4.*",
     "laravel/tinker": "~1.0",
-    "guzzlehttp/guzzle": "^6.3.0"
+    "symfony/workflow": "^4.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
@@ -67,5 +68,7 @@
   "config": {
     "preferred-install": "dist",
     "sort-packages": true
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
