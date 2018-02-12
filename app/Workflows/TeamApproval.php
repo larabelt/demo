@@ -65,4 +65,13 @@ class TeamApproval extends BaseWorkflow
         $workRequest = $this->workRequest();
     }
 
+    public function toArray()
+    {
+        $array = parent::toArray();
+        $array['label'] = sprintf('Team: %s', $this->item()->name);
+        $array['item_url'] = sprintf('/admin/belt/core/%s/edit/%s', $this->item()->getMorphClass(), $this->item()->id);
+
+        return $array;
+    }
+
 }
