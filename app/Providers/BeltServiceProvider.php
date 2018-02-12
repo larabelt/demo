@@ -36,5 +36,6 @@ class BeltServiceProvider extends ServiceProvider
 
         //Event::listen(Belt\Core\Events\TeamCreated::class, App\Workflows\TeamApproval::class);
         Event::listen('teams.created', App\Workflows\TeamApproval::class);
+        Event::listen('teams.updated', App\Workflows\TeamApproval::class);
     }
 }

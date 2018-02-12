@@ -14,6 +14,15 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class TeamApproval extends BaseWorkflow
     //implements ShouldQueue
 {
+    /**
+     * cases:
+     * - create by admin
+     * - create by user
+     * - update by admin
+     * - update (targeted fields) by user
+     * - update (non-targeted fields) by user
+     */
+
     const NAME = 'team-approval';
 
     protected $places = ['draft', 'review', 'rejected', 'published'];
@@ -46,18 +55,14 @@ class TeamApproval extends BaseWorkflow
      * @param  TeamCreated $event
      * @return void
      */
-    public function handle($event, $test = null)
+    public function handle($event)
     {
-        dump(111);
-        dump($test);
-        dump($event);
-        dump($event->morph());
-
         /* @var $team Team */
         $team = $event->morph();
 
         $this->setItem($team);
-        $this->create(['hey' => 'there']);
+
+        $workRequest = $this->workRequest();
     }
 
 }
