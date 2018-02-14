@@ -10,12 +10,12 @@
   "require": {
     "php": ">=5.6.4",
     "guzzlehttp/guzzle": "^6.3.0",
-    "larabelt/clip": "1.5-beta-2",
-    "larabelt/content": "1.5-beta-2",
-    "larabelt/core": "1.5-beta-2",
-    "larabelt/glue": "1.5-beta-2",
-    "larabelt/menu": "1.5-beta-2",
-    "larabelt/spot": "1.5-beta-2",
+    "larabelt/clip": "1.5-beta-5",
+    "larabelt/content": "1.5-beta-5",
+    "larabelt/core": "1.5-beta-5",
+    "larabelt/glue": "1.5-beta-5",
+    "larabelt/menu": "1.5-beta-5",
+    "larabelt/spot": "1.5-beta-5",
     "laravel/framework": "5.4.*",
     "laravel/tinker": "~1.0"
   },
