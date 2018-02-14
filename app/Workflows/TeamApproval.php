@@ -44,6 +44,15 @@ class TeamApproval extends BaseWorkflow
         ],
     ];
 
+    public function toArray()
+    {
+        $array = parent::toArray();
+        $array['label'] = 'asdf';
+        $array['item_url'] = sprintf('/admin/belt/core/%s/edit/%s', $this->workRequest()->workable_type, $this->workRequest()->workable_id);
+
+        return $array;
+    }
+
     public function saved()
     {
         $this->create(['foo' => 'bar']);
