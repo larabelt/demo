@@ -23,7 +23,7 @@ class TeamApproval extends BaseWorkflow
      * - update (non-targeted fields) by user
      */
 
-    const NAME = 'team-approval';
+    const NAME = 'Team Approval';
 
     protected $places = ['draft', 'review', 'rejected', 'published'];
 
@@ -33,6 +33,7 @@ class TeamApproval extends BaseWorkflow
         'to_review' => [
             'from' => 'draft',
             'to' => 'review',
+            //'label' => 'foo',
         ],
         'publish' => [
             'from' => 'review',
@@ -44,10 +45,16 @@ class TeamApproval extends BaseWorkflow
         ],
     ];
 
+    protected $close = [
+        'publish',
+        'reject',
+    ];
+
     public function toArray()
     {
         $array = parent::toArray();
-        $array['label'] = 'asdf';
+        $array['label'] = '';
+        $array['item_label'] = $this->workRequest()->workable->name;
         $array['item_url'] = sprintf('/admin/belt/core/%s/edit/%s', $this->workRequest()->workable_type, $this->workRequest()->workable_id);
 
         return $array;
@@ -72,6 +79,18 @@ class TeamApproval extends BaseWorkflow
         $this->setItem($team);
 
         $workRequest = $this->workRequest();
+    }
+
+    public function applyPublish($payload = [])
+    {
+        $this->item()->is_active = true;
+        $this->item()->save();
+    }
+
+    public function applyReject($payload = [])
+    {
+        $this->item()->is_active = true;
+        $this->item()->save();
     }
 
 }
