@@ -89,7 +89,7 @@ class TeamApproval extends BaseWorkflow
 
     public function applyReject($payload = [])
     {
-        $this->item()->is_active = true;
+        $this->item()->is_active = false;
         $this->item()->save();
     }
 
