@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App, Belt, Event;
+use App, Belt;
 use Belt\Core\BeltServiceProvider as ServiceProvider;
 
 /**
@@ -32,7 +32,6 @@ class BeltServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //Belt\Core\Services\WorkflowService::enable();
         $this->workflows();
     }
 }
