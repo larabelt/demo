@@ -27,9 +27,9 @@ class TeamApproval extends BaseWorkflow
 
     const NAME = 'Team Approval';
 
-    protected $places = ['draft', 'review', 'rejected', 'published'];
-
     protected $initialPlace = 'draft';
+
+    protected $places = ['draft', 'review', 'rejected', 'published'];
 
     protected $transitions = [
         'to_review' => [
@@ -47,71 +47,40 @@ class TeamApproval extends BaseWorkflow
         ],
     ];
 
-    protected $close = [
+    protected $closers = [
         'publish',
         'reject',
     ];
 
     /**
-     * Get the registered name of the workflow.
-     *
-     * @return string
-     *
-     * @throws \RuntimeException
+     * @return array
      */
-    public static function getAccessor()
-    {
-        return 'team-approval';
-    }
-
     public function toArray()
     {
         $array = parent::toArray();
         $array['label'] = '';
-        //$array['item_label'] = $this->workRequest()->workable->name;
-        //$array['item_url'] = sprintf('/admin/belt/core/%s/edit/%s', $this->workRequest()->workable_type, $this->workRequest()->workable_id);
-        //$array['item_label'] = $this->item()->name;
-        //$array['item_url'] = sprintf('/admin/belt/core/teams/edit/%s', $this->item()->getMorphClass, $this->item()->id;
-        $array['item_label'] = 'foo';
-        $array['item_url'] = sprintf('/admin/belt/core/teams/edit/%s', 1);
+        $array['workable']['label'] = $this->getWorkable()->name;
+        $array['workable']['editUrl'] = sprintf('/admin/belt/core/teams/edit/%s', $this->getWorkable()->id);
 
         return $array;
     }
 
-    public function saved()
+    /**
+     * @param $team
+     */
+    public function applyPublish($team)
     {
-        $this->create(['foo' => 'bar']);
+        $team->is_active = true;
+        $team->save();
     }
 
-//    /**
-//     * Handle the event.
-//     *
-//     * @param  TeamCreated $event
-//     * @return void
-//     */
-//    public function handle($event)
-//    {
-//        dump(222);
-//        exit;
-//
-//        /* @var $team Team */
-//        $team = $event->morph();
-//
-//        $this->setItem($team);
-//
-//        $workRequest = $this->workRequest();
-//    }
-
-    public function applyPublish($payload = [])
+    /**
+     * @param $team
+     */
+    public function applyReject($team)
     {
-        $this->item()->is_active = true;
-        $this->item()->save();
-    }
-
-    public function applyReject($payload = [])
-    {
-        $this->item()->is_active = false;
-        $this->item()->save();
+        $team->is_active = false;
+        $team->save();
     }
 
 }
