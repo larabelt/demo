@@ -2,10 +2,8 @@
 
 namespace App\Workflows;
 
-use Auth;
 use Belt\Core\Team;
 use Belt\Core\Workflows\BaseWorkflow;
-use Belt\Core\Events\TeamCreated;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 /**
@@ -66,18 +64,18 @@ class TeamApproval extends BaseWorkflow
     }
 
     /**
-     * @param $team
+     * @param Team $team
      */
-    public function applyPublish($team)
+    public function applyPublish(Team $team)
     {
         $team->is_active = true;
         $team->save();
     }
 
     /**
-     * @param $team
+     * @param Team $team
      */
-    public function applyReject($team)
+    public function applyReject(Team $team)
     {
         $team->is_active = false;
         $team->save();
