@@ -35,14 +35,26 @@ class PlaceApproval extends BaseWorkflow
     ];
 
     /**
+     * @return bool
+     */
+    public function begin($workable = null, $user = null, $payload = [])
+    {
+        if ($user && $user->is_super) {
+            //return false;
+        }
+
+        return true;
+    }
+
+    /**
      * @return array
      */
     public function toArray()
     {
         $array = parent::toArray();
         $array['label'] = '';
-        $array['workable']['label'] = $this->getWorkable()->name;
-        $array['workable']['editUrl'] = sprintf('/admin/belt/spot/places/edit/%s', $this->getWorkable()->id);
+        $array['workable']['label'] = $this->getWorkable()->name ?? '';
+        $array['workable']['editUrl'] = sprintf('/admin/belt/spot/places/edit/%s', $this->getWorkable()->id ?? null);
 
         return $array;
     }

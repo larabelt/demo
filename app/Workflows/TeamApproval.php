@@ -35,13 +35,13 @@ class TeamApproval extends BaseWorkflow
             'to' => 'review',
             //'label' => 'foo',
         ],
-        'reject' => [
-            'from' => 'review',
-            'to' => 'rejected',
-        ],
         'publish' => [
-            'from' => 'review',
+            'from' => 'to_review',
             'to' => 'published',
+        ],
+        'reject' => [
+            'from' => 'to_review',
+            'to' => 'rejected',
         ],
     ];
 
@@ -57,8 +57,8 @@ class TeamApproval extends BaseWorkflow
     {
         $array = parent::toArray();
         $array['label'] = '';
-        $array['workable']['label'] = $this->getWorkable()->name;
-        $array['workable']['editUrl'] = sprintf('/admin/belt/core/teams/edit/%s', $this->getWorkable()->id);
+        $array['workable']['label'] = $this->getWorkable()->name ?? '';
+        $array['workable']['editUrl'] = sprintf('/admin/belt/core/teams/edit/%s', $this->getWorkable()->id ?? null);
 
         return $array;
     }
