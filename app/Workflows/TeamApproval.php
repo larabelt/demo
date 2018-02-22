@@ -10,7 +10,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
  * @package App\Workflows
  */
 class TeamApproval extends BaseWorkflow
-    //implements ShouldQueue
+    implements ShouldQueue
 {
     /**
      * cases:
@@ -35,13 +35,13 @@ class TeamApproval extends BaseWorkflow
             'to' => 'review',
             //'label' => 'foo',
         ],
-        'publish' => [
-            'from' => 'review',
-            'to' => 'published',
-        ],
         'reject' => [
             'from' => 'review',
             'to' => 'rejected',
+        ],
+        'publish' => [
+            'from' => 'review',
+            'to' => 'published',
         ],
     ];
 
