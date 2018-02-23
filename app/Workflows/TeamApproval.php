@@ -33,15 +33,18 @@ class TeamApproval extends BaseWorkflow
         'to_review' => [
             'from' => 'draft',
             'to' => 'review',
-            //'label' => 'foo',
         ],
         'publish' => [
-            'from' => 'to_review',
+            'from' => 'review',
             'to' => 'published',
         ],
         'reject' => [
-            'from' => 'to_review',
+            'from' => 'review',
             'to' => 'rejected',
+        ],
+        'start_over' => [
+            'from' => 'rejected',
+            'to' => 'review',
         ],
     ];
 
@@ -70,6 +73,9 @@ class TeamApproval extends BaseWorkflow
     {
         $team->is_active = true;
         $team->save();
+
+        $team->defaultUser->is_active = true;
+        $team->defaultUser->save();
     }
 
     /**

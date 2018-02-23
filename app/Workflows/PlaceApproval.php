@@ -14,17 +14,17 @@ class PlaceApproval extends BaseWorkflow
 
     const KEY = 'place-approval';
 
-    protected $initialPlace = 'to_review';
+    protected $initialPlace = 'review';
 
-    protected $places = ['to_review', 'published', 'rejected', 'published'];
+    protected $places = ['review', 'rejected', 'published'];
 
     protected $transitions = [
         'publish' => [
-            'from' => 'to_review',
+            'from' => 'review',
             'to' => 'published',
         ],
         'reject' => [
-            'from' => 'to_review',
+            'from' => 'review',
             'to' => 'rejected',
         ],
     ];
