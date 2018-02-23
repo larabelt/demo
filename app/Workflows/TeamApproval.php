@@ -4,32 +4,31 @@ namespace App\Workflows;
 
 use Belt\Core\Team;
 use Belt\Core\Workflows\BaseWorkflow;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 /**
  * @package App\Workflows
  */
 class TeamApproval extends BaseWorkflow
-    implements ShouldQueue
 {
     const NAME = 'Team Approval';
 
-    /**
-     * cases:
-     * - create by admin (and works on queued events)
-     * - create by user
-     * - update by admin
-     * - update (targeted fields) by user
-     * - update (non-targeted fields) by user
-     */
-
     const KEY = 'team-approval';
 
-    protected $initialPlace = 'draft';
+    protected static $events = [
+        'teams.created',
+        'teams.updated',
+    ];
 
-    protected $places = ['draft', 'review', 'rejected', 'published'];
+    protected static $initialPlace = 'draft';
 
-    protected $transitions = [
+    protected static $places = [
+        'draft',
+        'review',
+        'rejected',
+        'published'
+    ];
+
+    protected static $transitions = [
         'to_review' => [
             'from' => 'draft',
             'to' => 'review',
@@ -48,7 +47,7 @@ class TeamApproval extends BaseWorkflow
         ],
     ];
 
-    protected $closers = [
+    protected static $closers = [
         'publish',
         'reject',
     ];
@@ -64,6 +63,17 @@ class TeamApproval extends BaseWorkflow
         $array['workable']['editUrl'] = sprintf('/admin/belt/core/teams/edit/%s', $this->getWorkable()->id ?? null);
 
         return $array;
+    }
+
+    /**
+     * @param array $params
+     */
+    public function start($params = [])
+    {
+        if ($team = array_get($params, 'workable', $this->getWorkable())) {
+            $team->is_active = true;
+            $team->save();
+        }
     }
 
     /**

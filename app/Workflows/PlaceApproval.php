@@ -14,11 +14,21 @@ class PlaceApproval extends BaseWorkflow
 
     const KEY = 'place-approval';
 
-    protected $initialPlace = 'review';
+    protected static $events = [
+        'places.created',
+        'places.updated',
+        'places.sections.updated',
+    ];
 
-    protected $places = ['review', 'rejected', 'published'];
+    protected static $initialPlace = 'review';
 
-    protected $transitions = [
+    protected static $places = [
+        'review',
+        'rejected',
+        'published'
+    ];
+
+    protected static $transitions = [
         'publish' => [
             'from' => 'review',
             'to' => 'published',
@@ -29,7 +39,7 @@ class PlaceApproval extends BaseWorkflow
         ],
     ];
 
-    protected $closers = [
+    protected static $closers = [
         'publish',
         'reject',
     ];
@@ -37,10 +47,12 @@ class PlaceApproval extends BaseWorkflow
     /**
      * @return bool
      */
-    public function begin($workable = null, $user = null, $payload = [])
+    public function shouldStart($params = [])
     {
+        $user = array_get($params, 'user');
+
         if ($user && $user->is_super) {
-            //return false;
+            return false;
         }
 
         return true;
@@ -57,6 +69,17 @@ class PlaceApproval extends BaseWorkflow
         $array['workable']['editUrl'] = sprintf('/admin/belt/spot/places/edit/%s', $this->getWorkable()->id ?? null);
 
         return $array;
+    }
+
+    /**
+     * @param array $params
+     */
+    public function start($params = [])
+    {
+        if ($place = array_get($params, 'workable', $this->getWorkable())) {
+            $place->is_active = false;
+            $place->save();
+        }
     }
 
     /**
