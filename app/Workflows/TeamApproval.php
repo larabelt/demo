@@ -12,6 +12,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class TeamApproval extends BaseWorkflow
     implements ShouldQueue
 {
+    const NAME = 'Team Approval';
+
     /**
      * cases:
      * - create by admin (and works on queued events)
@@ -21,9 +23,7 @@ class TeamApproval extends BaseWorkflow
      * - update (non-targeted fields) by user
      */
 
-    const ACCESSOR = 'team-approval';
-
-    const NAME = 'Team Approval';
+    const KEY = 'team-approval';
 
     protected $initialPlace = 'draft';
 

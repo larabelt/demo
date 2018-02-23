@@ -10,9 +10,9 @@ use Belt\Spot\Place;
  */
 class PlaceApproval extends BaseWorkflow
 {
-    const ACCESSOR = 'place-approval';
-
     const NAME = 'Place Approval';
+
+    const KEY = 'place-approval';
 
     protected $initialPlace = 'to_review';
 
