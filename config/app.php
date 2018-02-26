@@ -186,6 +186,7 @@ return [
         Belt\Glue\BeltGlueServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
+        App\Providers\BeltServiceProvider::class,
         App\Providers\BeltElasticServiceProvider::class,
 
         /**

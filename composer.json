@@ -17,7 +17,8 @@
     "larabelt/menu": "1.5-beta-5",
     "larabelt/spot": "1.5-beta-5",
     "laravel/framework": "5.4.*",
-    "laravel/tinker": "~1.0"
+    "laravel/tinker": "~1.0",
+    "symfony/workflow": "^4.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
