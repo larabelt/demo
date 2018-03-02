@@ -12,6 +12,7 @@ class BeltServiceProvider extends ServiceProvider
 {
     protected $workflows = [
         App\Workflows\TeamApproval::class,
+        App\Workflows\EventApproval::class,
         App\Workflows\PlaceApproval::class,
     ];
 
