@@ -3,21 +3,21 @@
 namespace App\Workflows;
 
 use Belt\Core\Workflows\BaseWorkflow;
-use Belt\Spot\Place;
+use Belt\Spot\Event;
 
 /**
  * @package App\Workflows
  */
-class PlaceApproval extends BaseWorkflow
+class EventApproval extends BaseWorkflow
 {
-    const NAME = 'Place Approval';
+    const NAME = 'Event Approval';
 
-    const KEY = 'place-approval';
+    const KEY = 'event-approval';
 
     protected static $events = [
-        'places.created',
-        'places.updated',
-        'places.sections.updated',
+        'events.created',
+        'events.updated',
+        'events.sections.updated',
     ];
 
     protected static $initialPlace = 'review';
@@ -66,7 +66,7 @@ class PlaceApproval extends BaseWorkflow
         $array = parent::toArray();
         $array['label'] = '';
         $array['workable']['label'] = $this->getWorkable()->name ?? '';
-        $array['workable']['editUrl'] = sprintf('/admin/belt/spot/places/edit/%s', $this->getWorkable()->id ?? null);
+        $array['workable']['editUrl'] = sprintf('/admin/belt/spot/events/edit/%s', $this->getWorkable()->id ?? null);
 
         return $array;
     }
@@ -76,28 +76,28 @@ class PlaceApproval extends BaseWorkflow
      */
     public function start($params = [])
     {
-        if ($place = array_get($params, 'workable', $this->getWorkable())) {
-            $place->is_active = false;
-            $place->save();
+        if ($event = array_get($params, 'workable', $this->getWorkable())) {
+            $event->is_active = false;
+            $event->save();
         }
     }
 
     /**
-     * @param Place $place
+     * @param Event $event
      */
-    public function applyPublish(Place $place)
+    public function applyPublish(Event $event)
     {
-        $place->is_active = true;
-        $place->save();
+        $event->is_active = true;
+        $event->save();
     }
 
     /**
-     * @param Place $place
+     * @param Event $event
      */
-    public function applyReject(Place $place)
+    public function applyReject(Event $event)
     {
-        $place->is_active = false;
-        $place->save();
+        $event->is_active = false;
+        $event->save();
     }
 
 }
