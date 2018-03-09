@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.6.4",
     "guzzlehttp/guzzle": "^6.3.0",
-    "larabelt/clip": "1.4.*",
+    "larabelt/clip": "dev-master",
     "larabelt/content": "1.4.*",
     "larabelt/core": "1.4.*",
     "larabelt/glue": "1.4.*",

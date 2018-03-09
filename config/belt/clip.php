@@ -30,7 +30,8 @@ return [
             'adapter' => \Belt\Clip\Adapters\S3Adapter::class,
             'prefix' => env('APP_ENV'),
             'src' => [
-                'root' => sprintf('http://%s.s3-website-%s.amazonaws.com', env('AWS_BUCKET'), env('AWS_REGION')),
+                //'root' => sprintf('http://%s.s3-website-%s.amazonaws.com', env('AWS_BUCKET'), env('AWS_REGION')),
+                'root' => sprintf('//%s.s3-website-%s.amazonaws.com', env('AWS_BUCKET'), env('AWS_REGION')),
             ],
             'secure' => [
                 'root' => sprintf('https://%s.s3-website-%s.amazonaws.com', env('AWS_BUCKET'), env('AWS_REGION')),
