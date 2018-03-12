@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dfb04e795f2849b9627d3898826d7d7",
+    "content-hash": "0c5afa3c087ddb10db371f1b9167b2b8",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -151,16 +151,16 @@
         },
         {
             "name": "cloudinary/cloudinary_php",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "641b0901ca616c540b773abb802987a502aa8b89"
+                "reference": "3f76261e342de120c20355df9e61370a1434cdfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/641b0901ca616c540b773abb802987a502aa8b89",
-                "reference": "641b0901ca616c540b773abb802987a502aa8b89",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/3f76261e342de120c20355df9e61370a1434cdfd",
+                "reference": "3f76261e342de120c20355df9e61370a1434cdfd",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.*"
+                "phpunit/phpunit": "4.8.*"
             },
             "type": "library",
             "autoload": {
@@ -199,7 +199,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2017-05-03T14:29:33+00:00"
+            "time": "2018-03-12T15:33:59+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1433,7 +1433,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1483,7 +1483,7 @@
         },
         {
             "name": "larabelt/content",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1530,16 +1530,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "df0ee948b404a9296565c0e1b20a4def8a220679"
+                "reference": "d3d6751889c03d69cfd60da32fa4ce822095d9e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/df0ee948b404a9296565c0e1b20a4def8a220679",
-                "reference": "df0ee948b404a9296565c0e1b20a4def8a220679",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/d3d6751889c03d69cfd60da32fa4ce822095d9e0",
+                "reference": "d3d6751889c03d69cfd60da32fa4ce822095d9e0",
                 "shasum": ""
             },
             "require": {
@@ -1590,11 +1590,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-09T22:07:03+00:00"
+            "time": "2018-03-12T19:02:22+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1636,7 +1636,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1681,7 +1681,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.5-beta-10",
+            "version": "1.5-beta-11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -2342,16 +2342,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.24.1",
+            "version": "1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41"
+                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41",
-                "reference": "ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bba6c6e410c6b4317e37a9474aeaa753808c3875",
+                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875",
                 "shasum": ""
             },
             "require": {
@@ -2391,7 +2391,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-03-09T15:49:34+00:00"
+            "time": "2018-03-10T10:10:14+00:00"
         },
         {
             "name": "nikic/php-parser",
