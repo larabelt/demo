@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b032c43047fcfcc2402a17a044342cc5",
+    "content-hash": "7b784a7226c1131d10c00675213bc21d",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1433,7 +1433,7 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
@@ -1483,7 +1483,7 @@
         },
         {
             "name": "larabelt/content",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1530,16 +1530,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "d922be4becf7d0889b6ad9ea8516f0bde10bad98"
+                "reference": "2d688245b3d2ea92bbaee57d4cd01765908a6f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/d922be4becf7d0889b6ad9ea8516f0bde10bad98",
-                "reference": "d922be4becf7d0889b6ad9ea8516f0bde10bad98",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/2d688245b3d2ea92bbaee57d4cd01765908a6f5e",
+                "reference": "2d688245b3d2ea92bbaee57d4cd01765908a6f5e",
                 "shasum": ""
             },
             "require": {
@@ -1590,11 +1590,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-13T18:02:39+00:00"
+            "time": "2018-03-13T18:12:02+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1636,7 +1636,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1681,7 +1681,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.5-BETA",
+            "version": "1.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -6041,7 +6041,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "larabelt/clip": 20,
+        "larabelt/content": 20,
+        "larabelt/core": 20,
+        "larabelt/glue": 20,
+        "larabelt/menu": 20,
+        "larabelt/spot": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
