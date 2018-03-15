@@ -4,16 +4,23 @@ return [
     'defaults' => [
         'connection' => 'mysql',
         'disk' => 'local',
-        'path' => '',
+        //'path' => 'asdf',
     ],
     'groups' => [
         [
+            'name' => 'main',
             'disk' => 's3',
-            'path' => '',
+            //'path' => '',
             'db' => '',
             'whitelist' => ['blocks', 'users'],
-//            'blacklist' => ['blocks', 'users'],
+            //'blacklist' => ['blocks', 'users'],
             'expires' => [],
+            'test' => function () {
+                return 'hello';
+            },
+            'xpath' => function () {
+                return 'world';
+            }
         ],
     ],
 ];
