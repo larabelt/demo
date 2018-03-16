@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.52.24",
+            "version": "3.52.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e39a486cca4455f1c2294521281efbec5075a144"
+                "reference": "2ff982460d5c5eb0a57b7c38bd9ad4e9c2f05c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e39a486cca4455f1c2294521281efbec5075a144",
-                "reference": "e39a486cca4455f1c2294521281efbec5075a144",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2ff982460d5c5eb0a57b7c38bd9ad4e9c2f05c86",
+                "reference": "2ff982460d5c5eb0a57b7c38bd9ad4e9c2f05c86",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-03-12T19:40:30+00:00"
+            "time": "2018-03-15T19:43:26+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "2d688245b3d2ea92bbaee57d4cd01765908a6f5e"
+                "reference": "4bb62ffc1f01c1b50150e640c3a3780452270fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/2d688245b3d2ea92bbaee57d4cd01765908a6f5e",
-                "reference": "2d688245b3d2ea92bbaee57d4cd01765908a6f5e",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/4bb62ffc1f01c1b50150e640c3a3780452270fdd",
+                "reference": "4bb62ffc1f01c1b50150e640c3a3780452270fdd",
                 "shasum": ""
             },
             "require": {
@@ -1590,7 +1590,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-13T18:12:02+00:00"
+            "time": "2018-03-14T15:53:27+00:00"
         },
         {
             "name": "larabelt/glue",
