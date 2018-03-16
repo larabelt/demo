@@ -1437,12 +1437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "9ce43f861798e75fa1f9312ae9aefcc6a1f408a8"
+                "reference": "a4354fce690ef99e1b3c77d1e0d1eb92fdd81e42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/9ce43f861798e75fa1f9312ae9aefcc6a1f408a8",
-                "reference": "9ce43f861798e75fa1f9312ae9aefcc6a1f408a8",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/a4354fce690ef99e1b3c77d1e0d1eb92fdd81e42",
+                "reference": "a4354fce690ef99e1b3c77d1e0d1eb92fdd81e42",
                 "shasum": ""
             },
             "require": {
@@ -1479,7 +1479,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-09T22:07:46+00:00"
+            "time": "2018-03-16T19:23:59+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "4bb62ffc1f01c1b50150e640c3a3780452270fdd"
+                "reference": "f09337f2be4323dee8452342b32232127a134bc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/4bb62ffc1f01c1b50150e640c3a3780452270fdd",
-                "reference": "4bb62ffc1f01c1b50150e640c3a3780452270fdd",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/f09337f2be4323dee8452342b32232127a134bc7",
+                "reference": "f09337f2be4323dee8452342b32232127a134bc7",
                 "shasum": ""
             },
             "require": {
@@ -1554,7 +1554,8 @@
                 "riimu/kit-phpencoder": "^2.1",
                 "rutorika/sortable": "3.4.*",
                 "sabre/uri": "^2",
-                "silber/bouncer": "v1.0.0-rc.1"
+                "silber/bouncer": "v1.0.0-rc.1",
+                "spatie/db-dumper": "^2.9"
             },
             "require-dev": {
                 "barryvdh/laravel-debugbar": "^2.3",
@@ -1590,7 +1591,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-14T15:53:27+00:00"
+            "time": "2018-03-16T19:23:53+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -3065,6 +3066,56 @@
                 "text"
             ],
             "time": "2016-06-09T04:56:16+00:00"
+        },
+        {
+            "name": "spatie/db-dumper",
+            "version": "2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/db-dumper.git",
+                "reference": "98a3b7df0186d66a2385f444603dc60ff656a6b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/db-dumper/zipball/98a3b7df0186d66a2385f444603dc60ff656a6b9",
+                "reference": "98a3b7df0186d66a2385f444603dc60ff656a6b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/process": "^3.0|^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\DbDumper\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Dump databases",
+            "homepage": "https://github.com/spatie/db-dumper",
+            "keywords": [
+                "database",
+                "db-dumper",
+                "dump",
+                "mysqldump",
+                "spatie"
+            ],
+            "time": "2018-03-05T23:49:28+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
