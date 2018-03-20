@@ -2,25 +2,20 @@
 
 return [
     'defaults' => [
-        'connection' => 'mysql',
+        'connectionName' => 'mysql',
         'disk' => 'local',
-        //'path' => 'asdf',
+        'relPath' => 'backups',
     ],
     'groups' => [
-        [
-            'name' => 'main',
-            'disk' => 's3',
-            //'path' => '',
-            'db' => '',
-            'whitelist' => ['blocks', 'users'],
-            //'blacklist' => ['blocks', 'users'],
-            'expires' => [],
-            'test' => function () {
-                return 'hello';
-            },
-            'xpath' => function () {
-                return 'world';
-            }
+        'default' => [
+            'disk' => 'local',
+            'expires' => '60',
+//            'relPath' => function () {
+//                return 'world';
+//            }
+            //'exclude' => ['blocks', 'users'],
+            //'include' => ['blocks', 'users'],
+            'relPath' => 'aaabackups/default',
         ],
     ],
 ];
