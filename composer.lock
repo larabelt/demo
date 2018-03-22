@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96d41479993a3ccb27e4cb928249cf64",
+    "content-hash": "b1041ea4c222450d1a45cad3b08f8373",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.52.23",
+            "version": "3.52.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3ce95b96c217a699168d937c4ed700e6a27ec783"
+                "reference": "4d51b552026aefc060f2b4f3bd19e33c98088c9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3ce95b96c217a699168d937c4ed700e6a27ec783",
-                "reference": "3ce95b96c217a699168d937c4ed700e6a27ec783",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4d51b552026aefc060f2b4f3bd19e33c98088c9c",
+                "reference": "4d51b552026aefc060f2b4f3bd19e33c98088c9c",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-03-08T22:51:35+00:00"
+            "time": "2018-03-21T21:17:52+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1433,16 +1433,16 @@
         },
         {
             "name": "larabelt/clip",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "06cdda61d833153440e9369c97fc3cef65ce48ea"
+                "reference": "efdb9d1d7637185f7703e15e19920f2c42282a1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/06cdda61d833153440e9369c97fc3cef65ce48ea",
-                "reference": "06cdda61d833153440e9369c97fc3cef65ce48ea",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/efdb9d1d7637185f7703e15e19920f2c42282a1b",
+                "reference": "efdb9d1d7637185f7703e15e19920f2c42282a1b",
                 "shasum": ""
             },
             "require": {
@@ -1479,11 +1479,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-09T21:17:15+00:00"
+            "time": "2018-03-22T14:26:58+00:00"
         },
         {
             "name": "larabelt/content",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
@@ -1530,16 +1530,16 @@
         },
         {
             "name": "larabelt/core",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "45a53a061528afb8d21922de2d1abd6119e54db9"
+                "reference": "7d222646435e8f87c2794d28a7ad0769e5db7412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/45a53a061528afb8d21922de2d1abd6119e54db9",
-                "reference": "45a53a061528afb8d21922de2d1abd6119e54db9",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/7d222646435e8f87c2794d28a7ad0769e5db7412",
+                "reference": "7d222646435e8f87c2794d28a7ad0769e5db7412",
                 "shasum": ""
             },
             "require": {
@@ -1553,7 +1553,8 @@
                 "php": ">=5.6.4",
                 "riimu/kit-phpencoder": "^2.1",
                 "rutorika/sortable": "3.4.*",
-                "sabre/uri": "^2"
+                "sabre/uri": "^2",
+                "spatie/db-dumper": "^2.9"
             },
             "require-dev": {
                 "barryvdh/laravel-debugbar": "^2.3",
@@ -1589,11 +1590,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-12T18:51:10+00:00"
+            "time": "2018-03-22T16:52:33+00:00"
         },
         {
             "name": "larabelt/glue",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/glue.git",
@@ -1635,7 +1636,7 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
@@ -1680,16 +1681,16 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "1.4.72",
+            "version": "1.4.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "8051222703d21354cc08469a682962c2db084a3b"
+                "reference": "8332924751ff1995fb611669c81a2abfd0c4d79f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/8051222703d21354cc08469a682962c2db084a3b",
-                "reference": "8051222703d21354cc08469a682962c2db084a3b",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/8332924751ff1995fb611669c81a2abfd0c4d79f",
+                "reference": "8332924751ff1995fb611669c81a2abfd0c4d79f",
                 "shasum": ""
             },
             "type": "library",
@@ -1718,7 +1719,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-02-28T19:11:26+00:00"
+            "time": "2018-03-13T15:23:22+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2341,16 +2342,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.24.2",
+            "version": "1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875"
+                "reference": "cbcf13da0b531767e39eb86e9687f5deba9857b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bba6c6e410c6b4317e37a9474aeaa753808c3875",
-                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cbcf13da0b531767e39eb86e9687f5deba9857b4",
+                "reference": "cbcf13da0b531767e39eb86e9687f5deba9857b4",
                 "shasum": ""
             },
             "require": {
@@ -2390,7 +2391,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-03-10T10:10:14+00:00"
+            "time": "2018-03-19T15:50:49+00:00"
         },
         {
             "name": "nikic/php-parser",
