@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.52.34",
+            "version": "3.52.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c414752f2f88a036958438a3d973475c6786a387"
+                "reference": "3210be6caaf81dfbbafe5b6623408a3c55d313a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c414752f2f88a036958438a3d973475c6786a387",
-                "reference": "c414752f2f88a036958438a3d973475c6786a387",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3210be6caaf81dfbbafe5b6623408a3c55d313a0",
+                "reference": "3210be6caaf81dfbbafe5b6623408a3c55d313a0",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-03-27T19:13:06+00:00"
+            "time": "2018-03-28T22:07:39+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1437,12 +1437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "4d5033524c1948129368b2a348c8e9fabce205a0"
+                "reference": "6b7f913caebda8ed83964f68ea2dadc8136a8caa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/4d5033524c1948129368b2a348c8e9fabce205a0",
-                "reference": "4d5033524c1948129368b2a348c8e9fabce205a0",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/6b7f913caebda8ed83964f68ea2dadc8136a8caa",
+                "reference": "6b7f913caebda8ed83964f68ea2dadc8136a8caa",
                 "shasum": ""
             },
             "require": {
@@ -1479,7 +1479,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-26T15:48:51+00:00"
+            "time": "2018-03-27T21:08:59+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1487,12 +1487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "b8205e7cce267a51b4432fe171f35b9bc1284340"
+                "reference": "8d6fa13c66da73098cd303b9feaef13981913395"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/b8205e7cce267a51b4432fe171f35b9bc1284340",
-                "reference": "b8205e7cce267a51b4432fe171f35b9bc1284340",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/8d6fa13c66da73098cd303b9feaef13981913395",
+                "reference": "8d6fa13c66da73098cd303b9feaef13981913395",
                 "shasum": ""
             },
             "require": {
@@ -1526,7 +1526,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-26T15:48:56+00:00"
+            "time": "2018-03-29T15:18:09+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "8036624c29bf4f0f6fd56c601e7a5f419436eb8d"
+                "reference": "269f440b13f4bca1bf546e0aac5a437d75eef9dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/8036624c29bf4f0f6fd56c601e7a5f419436eb8d",
-                "reference": "8036624c29bf4f0f6fd56c601e7a5f419436eb8d",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/269f440b13f4bca1bf546e0aac5a437d75eef9dc",
+                "reference": "269f440b13f4bca1bf546e0aac5a437d75eef9dc",
                 "shasum": ""
             },
             "require": {
@@ -1591,7 +1591,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-03-26T15:48:45+00:00"
+            "time": "2018-03-27T21:08:52+00:00"
         },
         {
             "name": "larabelt/glue",
