@@ -1,0 +1,14 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome
+$fa-font-path:"~font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+.web {
+  // Superhero Bootstrap theme
+  @import "theme-superhero";
+}

@@ -1,0 +1,74 @@
+{
+  "name": "smartcolumbus/leads",
+  "description": "SmartColumbus: Leads",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.3.0",
+    "larabelt/clip": "1.6.x-dev",
+    "larabelt/content": "1.6.x-dev",
+    "larabelt/core": "1.6.x-dev",
+    "larabelt/glue": "1.6.x-dev",
+    "larabelt/menu": "1.6.x-dev",
+    "larabelt/spot": "1.6.x-dev",
+    "laravel/framework": "5.4.*",
+    "laravel/tinker": "~1.0",
+    "symfony/workflow": "^4.0"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~5.0",
+    "barryvdh/laravel-debugbar": "^2.3",
+    "barryvdh/laravel-ide-helper": "2.2.3",
+    "rap2hpoutre/laravel-log-viewer": "^0.8.0"
+  },
+  "autoload": {
+    "classmap": [
+      "database"
+    ],
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": [
+      "php artisan key:generate"
+    ],
+    "post-install-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postInstall",
+      "php artisan optimize"
+    ],
+    "post-update-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "php artisan optimize",
+      "php artisan ide-helper:generate"
+    ],
+    "clear": [
+      "php artisan clear-compiled",
+      "php artisan cache:clear",
+      "php artisan config:clear",
+      "php artisan view:clear",
+      "cp /dev/null storage/logs/laravel.log"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
