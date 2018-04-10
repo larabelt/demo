@@ -1,6 +1,6 @@
 {
-  "name": "smartcolumbus/leads",
-  "description": "SmartColumbus: Leads",
+  "name": "larabelt/demo",
+  "description": "LaraBelt Demo",
   "keywords": [
     "framework",
     "laravel"
@@ -8,7 +8,7 @@
   "license": "MIT",
   "type": "project",
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=5.6.4",
     "guzzlehttp/guzzle": "^6.3.0",
     "larabelt/clip": "1.6.x-dev",
     "larabelt/content": "1.6.x-dev",
