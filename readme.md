@@ -15,7 +15,7 @@ php artisan belt publish
 composer dumpautoload
 
 # migrate & seed
-php artisan migrate
+php artisan belt migrate
 php artisan belt seed
 ```
 
