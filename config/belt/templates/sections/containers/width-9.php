@@ -3,7 +3,7 @@
 return [
 
     // Required. A blade view path to the main template layout.
-    'path' => 'belt-content::touts.sections.default',
+    'path' => 'belt-content::sections.sections.width-9',
 
     // A blade view path that can be extended by the layout found in :path.
     'extends' => null,
@@ -19,7 +19,7 @@ return [
     'builder' => null,
 
     // A blade layout that show can show a snapshot of what the templates structure and/or style will look like when compiled.
-    'preview' => 'belt-content::touts.previews.default',
+    'preview' => '',
 
     /*
     | A set of custom parameters that belong to the templatable object.
@@ -38,14 +38,20 @@ return [
     */
 
     'params' => [
-        'touts' => [
-            'type' => 'touts',
-            'label' => 'Tout',
-            'description' => '',
+        'heading' => [
+            'type' => 'text',
+            'label' => 'Heading',
+            'description' => 'Optional heading. Will appear at the top of the section.',
         ],
-        'class' => [
-            'col-md-3' => 'default',
-            'col-md-12' => 'wide',
+        'before' => [
+            'type' => 'editor',
+            'label' => 'Upper Content',
+            'description' => 'Optional HTML body. Will appear above any nested items.',
+        ],
+        'after' => [
+            'type' => 'editor',
+            'label' => 'Lower Content',
+            'description' => 'Optional HTML body. Will appear below above any nested items.',
         ],
     ],
 
