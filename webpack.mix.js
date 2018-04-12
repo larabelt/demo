@@ -35,7 +35,7 @@ mix.webpackConfig({
     }
 });
 
-mix.copy("node_modules/admin-lte", 'public/plugins/admin-lte', false);
+//mix.copy("node_modules/admin-lte", 'public/plugins/admin-lte', false);
 mix.copy("node_modules/tinymce", 'public/plugins/tinymce', false);
 
 /**
