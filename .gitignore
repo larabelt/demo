@@ -38,10 +38,11 @@ ehthumbs.db
 Thumbs.db
 
 #MORE
-/node_modules
-/vendor
 .env
 .idea
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+/node_modules
+/public/images
+/vendor
