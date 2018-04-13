@@ -11,10 +11,4 @@ return [
         ],
         'provided_name' => 'larabelt_demo',
     ],
-    'analysis' => [
-        'analyzer' => [],
-        'normalizer' => [
-            'lower_asciifolding' => \Belt\Content\Elastic\ElasticConfigHelper::normalizer('lower_asciifolding'),
-        ],
-    ],
 ];
