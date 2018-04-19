@@ -62,27 +62,28 @@ class ProjectsController extends ApiController
     public function index(Request $request)
     {
 
-        $this->authorize('view', Project::class);
+        //$this->authorize('view', Project::class);
+
+        $package = $request->get('package');
 
         $service = new \App\Services\GitService();
 
         $base_path = base_path();
 
-        dump($base_path);
-        dump($base_path . '/../core');
+        //dump($base_path);
+        //dump($base_path . '/../core');
 
-        $response = $service->status('core');
+        //$response = $service->status('core');
+
+        $service->cmd([
+            $service->cd($package),
+            'git status',
+            'git status --porcelain',
+        ]);
+
         exit;
-
-        $request = Requests\PaginateProjects::extend($request);
-
-        $paginator = $this->paginator($this->projects->query(), $request);
-
-        foreach ($paginator->paginator->items() as $item) {
-            $item->team;
-        }
-
-        return response()->json($paginator->toArray());
+        return response();
+        //return response()->json($paginator->toArray());
     }
 
     /**

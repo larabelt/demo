@@ -155,8 +155,6 @@ class BaseService
     {
         $cmd = is_array($cmds) ? implode(';', $cmds) : $cmds;
 
-        dump($cmd);
-
         if ($this->console) {
             $this->liveExec($cmd);
         } else {

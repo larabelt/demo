@@ -129,6 +129,7 @@ class GitService extends BaseService
 
     public function status($path)
     {
+
         $this->cmd([
             $this->cd($path),
             sprintf('git checkout %s', $this->branch),
