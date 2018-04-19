@@ -1,0 +1,104 @@
+<div class="box box-primary">
+    <div class="box-body">
+
+
+        <p>111</p>
+
+
+
+
+
+
+        <div class="filter-set clearfix">
+            <div class="pull-left">
+                <filter-search @filter-search-update="filter">Filter</filter-search>
+            </div>
+            <div class="pull-left">
+                <filter-is-active @filter-is_active-update="filter">Is Active</filter-is-active>
+            </div>
+            <div class="pull-left">
+                <filter-team @filter-team-update="filter">Dealer</filter-team>
+            </div>
+            <div class="pull-left">
+                <datetime-input :table="table" column="submitted_after">Submitted After</datetime-input>
+            </div>
+            <div class="pull-left">
+                <datetime-input :table="table" column="submitted_before">Submitted Before</datetime-input>
+            </div>
+            <div class="pull-right">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <select class="form-control" v-model="exportFormat">
+                            <option value="xlsx">Export as Excel</option>
+                            <option value="csv">Export as CSV</option>
+                        </select>
+                        <a :href="exportUrl" target="_blank" class="btn btn-default" click="export"><i class="fa fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-th-nowrap">
+                <thead>
+                <tr>
+                    <th>ID
+                        <column-sorter :column="'projects.id'"></column-sorter>
+                    </th>
+                    <th>Active</th>
+                    <th>Dealer</th>
+                    <th>Source
+                        <column-sorter :column="'projects.source'"></column-sorter>
+                    </th>
+                    <th>Model
+                        <column-sorter :column="'projects.comment'"></column-sorter>
+                    </th>
+                    <th style="min-width:100px;">Postcode
+                        <column-sorter :column="'projects.postcode'"></column-sorter>
+                    </th>
+                    <th>First Name
+                        <column-sorter :column="'projects.first_name'"></column-sorter>
+                    </th>
+                    <th>Last Name
+                        <column-sorter :column="'projects.last_name'"></column-sorter>
+                    </th>
+                    <th>Phone
+                        <column-sorter :column="'projects.phone'"></column-sorter>
+                    </th>
+                    <th>Email
+                        <column-sorter :column="'projects.email'"></column-sorter>
+                    </th>
+                    <th>Submitted
+                        <column-sorter :column="'projects.submitted_at'"></column-sorter>
+                    </th>
+                    <th>Updated
+                        <column-sorter :column="'projects.updated_at'"></column-sorter>
+                    </th>
+                    <th class="text-right">Actions</th>
+                </tr>
+                </thead>
+                <tbody v-for="project in table.items" :key="project.id">
+                <list-item :project_data_id="project.id" :project_data="project"></list-item>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>ID</th>
+                    <th>Active</th>
+                    <th>Dealer</th>
+                    <th>Source</th>
+                    <th>Model</th>
+                    <th>Postcode</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Submitted</th>
+                    <th>Updated</th>
+                    <th class="text-right">Actions</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <pagination></pagination>
+    </div>
+</div>

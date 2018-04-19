@@ -1,0 +1,39 @@
+<tr>
+    <td>{{ project.id }}</td>
+    <td class="text-center" @click.prevent="toggleActive">
+        <i v-if="project.is_active" class="fa fa-check-square"></i>
+        <i v-else class="fa fa-square-o"></i>
+    </td>
+    <td>
+        <input-team :form="project" :show_label=false @input-team-update="update"></input-team>
+    </td>
+    <td>{{ project.source }}</td>
+    <td>{{ project.comment }}</td>
+    <td>{{ project.postcode }}</td>
+    <td>{{ project.first_name }}</td>
+    <td>{{ project.last_name }}</td>
+    <td>{{ project.phone }}</td>
+    <td>{{ project.email }}</td>
+    <td>{{ datetime(project.submitted_at, 'L LT') }}</td>
+    <td>{{ datetime(project.updated_at, 'L LT') }}</td>
+    <td class="text-right">
+        <div class="btn-group">
+            <button
+                    type="button"
+                    class="btn btn-xs btn-default dropdown-toggle text-muted"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    title="options"
+            ><i class="fa fa-gear"></i></button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                    <modal-delete :item-id="project.id" _class="''" :callingObject="table"><i class="fa fa-trash"></i> Remove
+                    </modal-delete>
+                </li>
+            </ul>
+            <router-link :to="{ name: 'projects.edit', params: { id: project.id } }" :class="'btn btn-xs btn-default'" title="edit project">
+                <i class="fa fa-edit"></i>
+            </router-link>
+        </div>
+    </td>
+</tr>

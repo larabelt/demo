@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -13,7 +14,16 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        App\Console\Commands\ComposeCommand::class,
+        App\Console\Commands\BranchCommand::class,
+        App\Console\Commands\InstallCommand::class,
+        App\Console\Commands\PostComposeCommand::class,
+        App\Console\Commands\PullCommand::class,
+        App\Console\Commands\PushCommand::class,
+        App\Console\Commands\RefreshCommand::class,
+        App\Console\Commands\StatusCommand::class,
+        App\Console\Commands\TagCommand::class,
+        App\Console\Commands\TestCommand::class,
     ];
 
     /**

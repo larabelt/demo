@@ -10,11 +10,7 @@ use Belt\Core\BeltServiceProvider as ServiceProvider;
  */
 class BeltServiceProvider extends ServiceProvider
 {
-    protected $workflows = [
-        App\Workflows\TeamApproval::class,
-        App\Workflows\EventApproval::class,
-        App\Workflows\PlaceApproval::class,
-    ];
+    protected $workflows = [];
 
     /**
      * Register any application services.
@@ -33,6 +29,6 @@ class BeltServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->workflows();
+
     }
 }

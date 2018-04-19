@@ -1,0 +1,75 @@
+<form @submit.prevent="form.submit()" @keydown="form.errors.clear($event.target.name)">
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"
+                   v-model="form.is_active"
+            > Is Active
+        </label>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input-team :form="form">Dealer</input-team>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('postcode') }">
+                <label for="postcode">Postcode</label>
+                <input class="form-control" v-model="form.postcode" placeholder="postcode">
+                <span v-for="error in form.error('postcode')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('comment') }">
+                <label for="model">Model</label>
+                <input class="form-control" v-model="form.comment" placeholder="model">
+                <span v-for="error in form.error('comment')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('source') }">
+                <label for="source">Source</label>
+                <input class="form-control" v-model="form.source" placeholder="source">
+                <span v-for="error in form.error('source')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('first_name') }">
+                <label for="first_name">First Name</label>
+                <input class="form-control" v-model="form.first_name" placeholder="first name">
+                <span v-for="error in form.error('first_name')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('last_name') }">
+                <label for="last_name">Last Name</label>
+                <input class="form-control" v-model="form.last_name" placeholder="last name">
+                <span v-for="error in form.error('last_name')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('phone') }">
+                <label for="phone">Phone</label>
+                <input class="form-control" v-model="form.phone" placeholder="phone">
+                <span v-for="error in form.error('phone')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group" :class="{ 'has-error': form.error('email') }">
+                <label for="email">Email</label>
+                <input class="form-control" v-model="form.email" placeholder="email">
+                <span v-for="error in form.error('email')" class="text-danger">{{ error }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-right">
+        <button class="btn btn-primary" :disabled="form.errors.any()">
+            <span v-if="form.saving"><i class="fa fa-spinner fa-pulse fa-fw"></i></span>
+            <span v-else>Save</span>
+        </button>
+    </div>
+</form>

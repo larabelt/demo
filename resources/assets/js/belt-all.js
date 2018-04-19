@@ -4,6 +4,7 @@ import BeltContent from 'belt/content/js/content';
 import BeltGlue from 'belt/glue/js/glue';
 import BeltMenu from 'belt/menu/js/menu';
 import BeltSpot from 'belt/spot/js/spot';
+import AppAdmin from './admin/admin';
 
 /**
  * Additional config options
@@ -18,6 +19,7 @@ $(document).ready(function () {
         BeltContent,
         BeltGlue,
         BeltMenu,
-        BeltSpot
+        BeltSpot,
+        AppAdmin
     ]);
 });
