@@ -1,38 +1,40 @@
-import store from 'assets/js/admin/projects/store';
-import project from 'assets/js/admin/projects/store/mixin';
-import datetime from 'belt/core/js/mixins/datetime';
-import inputTeam from 'belt/core/js/teams/inputs/dropdown';
+import Service from 'assets/js/admin/projects/list/list-item/service';
 import html from 'assets/js/admin/projects/list/list-item/template.html';
 
 export default {
-    mixins: [project, datetime],
     props: {
-        project_data_id: '',
-        project_data: {},
+        owner: '',
+        packageKey: '',
+        package: {},
     },
     data() {
         return {
-            table: this.$parent.table,
+            capture: '',
+            loading: false,
+            projectKey: this.$parent.projectKey,
+            project: this.$parent.project,
+            service: new Service({
+                projectKey: this.$parent.projectKey,
+                owner: this.owner,
+                packageKey: this.packageKey,
+            }),
         }
     },
     created() {
-        this.project_id = this.project_data_id;
-        if (!this.$store.state[this.storeKey]) {
-            this.$store.registerModule(this.storeKey, store);
-            this.project.setData(this.project_data);
-        }
+        this.submit();
     },
     methods: {
-        toggleActive() {
-            this.project.is_active = !this.project.is_active;
-            this.project.submit();
-        },
-        update() {
-            this.project.submit();
+        submit() {
+            this.capture = '';
+            this.loading = true;
+            this.service.put('', {recipe: 'git-status'})
+                .then((response) => {
+                    this.loading = false;
+                    this.capture = response.data;
+                    this.$emit('capture', this.capture);
+                });
         }
     },
-    components: {
-        inputTeam,
-    },
+    components: {},
     template: html,
 }

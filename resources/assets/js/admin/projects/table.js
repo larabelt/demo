@@ -7,13 +7,7 @@ class ProjectTable extends BaseTable {
         super(options);
         this.service = new BaseService({baseUrl: '/api/v1/projects/'});
         this.name = 'admin.projects';
-        this.updateQuery({
-            q: '',
-            is_active: '',
-            team_id: '',
-            submitted_after: '',
-            submitted_before: '',
-        });
+        this.updateQuery({});
     }
 
 }

@@ -1,46 +1,34 @@
 <div class="box box-primary">
     <div class="box-body">
 
-        <console package="core"></console>
-        <console package="clip"></console>
-        <console package="content"></console>
-        <console package="glue"></console>
-        <console package="menu"></console>
-        <console package="spot"></console>
+        <select class="form-control" v-model="projectKey" title="project" @change="changeProject()">
+            <template v-for="option in projectOptions">
+                <option :value="option.key">{{ option.label }}</option>
+            </template>
+        </select>
 
-        <div class="filter-set clearfix">
-            <div class="pull-left">
-                <filter-search @filter-search-update="filter">Filter</filter-search>
+        <div class="row">
+            <div class="col-md-6">
+                <template v-for="packages, owner in project.packages">
+                    <h2 class="page-header">
+                        <i class="fa fa-user-circle"></i> {{ owner }}
+                        <small class="pull-right"></small>
+                    </h2>
+                    <template v-for="package, packageKey in packages">
+                        <list-item
+                                :owner="owner"
+                                :packageKey="packageKey"
+                                :package="package"
+                                @capture="setCapture"
+                        ></list-item>
+                    </template>
+                </template>
+            </div>
+            <div class="col-md-6">
+                <br/>
+                <pre><code>{{ capture }}</code></pre>
             </div>
         </div>
 
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover table-th-nowrap">
-                <thead>
-                <tr>
-                    <th>ID
-                        <column-sorter :column="'projects.id'"></column-sorter>
-                    </th>
-                    <th>Active</th>
-                    <th>Updated
-                        <column-sorter :column="'projects.updated_at'"></column-sorter>
-                    </th>
-                    <th class="text-right">Actions</th>
-                </tr>
-                </thead>
-                <tbody v-for="project in table.items" :key="project.id">
-                <list-item :project_data_id="project.id" :project_data="project"></list-item>
-                </tbody>
-                <tfoot>
-                <tr>
-                    <th>ID</th>
-                    <th>Active</th>
-                    <th>Updated</th>
-                    <th class="text-right">Actions</th>
-                </tr>
-                </tfoot>
-            </table>
-        </div>
-        <pagination></pagination>
     </div>
 </div>

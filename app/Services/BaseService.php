@@ -216,6 +216,10 @@ class BaseService
             return sprintf("%s/..", base_path());
         }
 
+        if (substr($path, 0, 1) == '/') {
+            return $path;
+        }
+
         return sprintf("%s/../%s", base_path(), $path);
     }
 

@@ -1,10 +1,9 @@
-import filterSearch from 'belt/core/js/inputs/filter-search';
 import listItem from 'assets/js/admin/projects/list/list-item';
-import console from 'assets/js/admin/projects/list/console';
+import blaConsole from 'assets/js/admin/projects/list/console';
 import Service from 'assets/js/admin/projects/service';
 import Table from 'assets/js/admin/projects/table';
 import heading_html from 'belt/core/js/templates/heading.html';
-import index_html from 'assets/js/admin/projects/list/template.html';
+import html from 'assets/js/admin/projects/list/template.html';
 
 export default {
 
@@ -13,39 +12,56 @@ export default {
         index: {
             data() {
                 return {
+                    capture: 'foo',
+                    projectKey: '',
+                    project: {},
+                    projects: {},
                     service: new Service(),
-                    table: new Table({router: this.$router}),
+                    table: new Table(),
                 }
             },
             mounted() {
-                this.table.updateQueryFromHistory();
-                this.table.updateQueryFromRouter();
-                this.table.pushQueryToRouter();
-                this.table.index();
+                this.service.get()
+                    .then((response) => {
+                        this.projects = response.data;
+                    });
+                this.projectKey = 'larabelt16';
+                this.changeProject();
             },
             computed: {
-
+                packages() {
+                    return _.get(this.project, 'packages', []);
+                },
+                projectOptions() {
+                    let options = [];
+                    _.forEach(this.projects, (project, key) => {
+                        options.push({
+                            key: key,
+                            label: _.get(project, 'meta.name', key),
+                        });
+                    });
+                    options = _.sortBy(options, [function (option) {
+                        return option.label;
+                    }]);
+                    return options;
+                },
             },
             methods: {
-                filter: _.debounce(function (query) {
-                    if (query) {
-                        query.page = 1;
-                        this.table.updateQuery(query);
-                    }
-                    this.table.index()
-                        .then(() => {
-                            this.table.pushQueryToHistory();
-                            this.table.pushQueryToRouter();
+                changeProject() {
+                    this.service.get(this.projectKey)
+                        .then((response) => {
+                            this.project = response.data;
                         });
-                }, 750),
-
+                },
+                setCapture(capture) {
+                    this.capture = capture;
+                }
             },
             components: {
-                filterSearch,
                 listItem,
-                console,
+                blaConsole,
             },
-            template: index_html,
+            template: html,
         },
     },
 

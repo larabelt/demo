@@ -12,47 +12,6 @@ use Illuminate\Http\Request;
 
 class ProjectsController extends ApiController
 {
-    use SpreadSheet;
-
-    /**
-     * @var Project
-     */
-    public $projects;
-
-    /**
-     * @var ProjectsService
-     */
-    public $service;
-
-    /**
-     * @return ProjectsService
-     */
-    public function service()
-    {
-        if ($this->service) {
-            return $this->service;
-        }
-
-        $service = new ProjectsService();
-        $service->console = $this;
-
-        return $this->service = $service;
-    }
-
-    /**
-     * ApiController constructor.
-     * @param Project $project
-     */
-    public function __construct(Project $project)
-    {
-        $this->projects = $project;
-    }
-
-    public function get($id)
-    {
-        return $this->projects->find($id) ?: $this->abort(404);
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -61,66 +20,15 @@ class ProjectsController extends ApiController
      */
     public function index(Request $request)
     {
+        $projects = config('projects');
 
-        //$this->authorize('view', Project::class);
+        $data = [];
+        foreach ($projects as $key => $project) {
+            $data[$key]['meta'] = array_get($project, 'meta', []);
+            $data[$key]['meta']['key'] = $key;
+        }
 
-        $package = $request->get('package');
-
-        $service = new \App\Services\GitService();
-
-        $base_path = base_path();
-
-        //dump($base_path);
-        //dump($base_path . '/../core');
-
-        //$response = $service->status('core');
-
-        $service->cmd([
-            $service->cd($package),
-            'git status',
-            'git status --porcelain',
-        ]);
-
-        exit;
-        return response();
-        //return response()->json($paginator->toArray());
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  Requests\StoreProject $request
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Requests\StoreProject $request)
-    {
-        $this->authorize('create', Project::class);
-
-        $input = $request->all();
-
-        $project = $this->projects->create([
-            'email' => $input['email'],
-        ]);
-
-        $this->set($project, $input, [
-            'is_active',
-            'team_id',
-            'first_name',
-            'last_name',
-            'email',
-            'phone',
-            'postcode',
-            'comment',
-            'source',
-            'submitted_at',
-        ]);
-
-        $project->save();
-
-        $this->itemEvent('created', $project);
-
-        return response()->json($project, 201);
+        return response()->json($data);
     }
 
     /**
@@ -130,71 +38,11 @@ class ProjectsController extends ApiController
      *
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($key)
     {
-        $project = $this->get($id);
-
-        $this->authorize('view', $project);
-
-        $project->team;
+        $project = config("projects.$key", []);
 
         return response()->json($project);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  Requests\UpdateProject $request
-     * @param  string $id
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Requests\UpdateProject $request, $id)
-    {
-        $project = $this->get($id);
-
-        $this->authorize('update', $project);
-
-        $input = $request->all();
-
-        $this->set($project, $input, [
-            'is_active',
-            'team_id',
-            'first_name',
-            'last_name',
-            'email',
-            'phone',
-            'postcode',
-            'comment',
-            'source',
-            'submitted_at',
-        ]);
-
-        $project->save();
-
-        $this->itemEvent('updated', $project);
-
-        return response()->json($project);
-    }
-
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int $id
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        $project = $this->get($id);
-
-        $this->authorize('delete', $project);
-
-        $this->itemEvent('deleted', $project);
-
-        $project->delete();
-
-        return response()->json(null, 204);
-    }
 }

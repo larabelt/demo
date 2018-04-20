@@ -43,6 +43,7 @@ Thumbs.db
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+/config/projects
 /node_modules
 /public/images
 /vendor
