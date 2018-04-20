@@ -14,6 +14,7 @@ export default {
                 return {
                     capture: 'foo',
                     projectKey: '',
+                    projectUrl: '',
                     project: {},
                     projects: {},
                     service: new Service(),
@@ -25,7 +26,8 @@ export default {
                     .then((response) => {
                         this.projects = response.data;
                     });
-                this.projectKey = 'larabelt16';
+                this.projectKey = _.get(this.$router, 'currentRoute.query.projectKey');
+                //this.projectUrl = _.get(this.pr.oject, 'meta.urls');
                 this.changeProject();
             },
             computed: {
@@ -45,9 +47,29 @@ export default {
                     }]);
                     return options;
                 },
+                projectUrls() {
+                    let urls = _.get(this.project, 'meta.urls', []);
+                    let options = [];
+                    _.forEach(urls, (url, environment) => {
+                        if (url) {
+                            if (!this.projectUrl) {
+                                this.projectUrl = url;
+                            }
+                            options.push({
+                                key: url,
+                                label: `${environment}: ${url}`,
+                            });
+                        }
+                    });
+                    options = _.sortBy(options, [function (option) {
+                        return option.label;
+                    }]);
+                    return options;
+                },
             },
             methods: {
                 changeProject() {
+                    this.$router.push({query: {projectKey: this.projectKey}});
                     this.service.get(this.projectKey)
                         .then((response) => {
                             this.project = response.data;
