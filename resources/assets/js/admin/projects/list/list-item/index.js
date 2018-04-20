@@ -9,7 +9,7 @@ export default {
     },
     data() {
         return {
-            capture: '',
+            screen: '',
             loading: false,
             projectKey: this.$parent.projectKey,
             project: this.$parent.project,
@@ -25,14 +25,17 @@ export default {
     },
     methods: {
         submit() {
-            this.capture = '';
+            this.screen = '';
             this.loading = true;
             this.service.put('', {recipe: 'git-status'})
                 .then((response) => {
                     this.loading = false;
-                    this.capture = response.data;
-                    this.$emit('capture', this.capture);
+                    this.screen = response.data;
+                    this.emitScreen();
                 });
+        },
+        emitScreen() {
+            this.$emit('screen', this.screen);
         }
     },
     components: {},

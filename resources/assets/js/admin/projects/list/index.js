@@ -12,7 +12,7 @@ export default {
         index: {
             data() {
                 return {
-                    capture: 'foo',
+                    screen: 'foo',
                     projectKey: '',
                     projectUrl: '',
                     project: {},
@@ -75,8 +75,8 @@ export default {
                             this.project = response.data;
                         });
                 },
-                setCapture(capture) {
-                    this.capture = capture;
+                setScreen(screen) {
+                    this.screen = screen;
                 }
             },
             components: {
@@ -90,7 +90,7 @@ export default {
     template: `
         <div>
             <heading>
-                <span slot="title">Project Manager</span>
+                <span slot="title">Projects</span>
             </heading>
             <section class="content">
                 <index></index>

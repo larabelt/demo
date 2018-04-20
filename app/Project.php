@@ -3,7 +3,8 @@
 namespace App;
 
 use App, Belt;
-use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Model\Model;
 
 /**
  * Class Project
@@ -11,19 +12,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Project extends Model
 {
-    /**
-     * @var string
-     */
-    protected $morphClass = 'projects';
 
-    /**
-     * @var string
-     */
-    protected $table = 'projects';
-
-    /**
-     * @var array
-     */
-    protected $guarded = ['id'];
 
 }

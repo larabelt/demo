@@ -3,15 +3,26 @@
 namespace App\Http\Controllers\Api;
 
 use App, Belt;
-use App\Http\Requests;
-use App\Project;
-use App\Services\ProjectsService;
+use App\Services\Projects\ProjectService;
 use Belt\Core\Http\Controllers\ApiController;
-use Belt\Core\Http\Controllers\Behaviors\SpreadSheet;
 use Illuminate\Http\Request;
 
 class ProjectsController extends ApiController
 {
+
+    /**
+     * @var ProjectService
+     */
+    public $service;
+
+    /**
+     * @return ProjectService
+     */
+    public function service()
+    {
+        return $this->service ?: $this->service = new ProjectService();
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -40,7 +51,11 @@ class ProjectsController extends ApiController
      */
     public function show($key)
     {
-        $project = config("projects.$key", []);
+        $config = config("projects.$key", []);
+
+        $project = new App\Project($config);
+
+        $this->service()->setProject($key);
 
         return response()->json($project);
     }
