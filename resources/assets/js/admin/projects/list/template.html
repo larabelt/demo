@@ -22,26 +22,22 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-body">
-            <div class="row">
-                <template v-for="package, packageKey in project.packages">
-<!--                    <div class="col-md-12">-->
-<!--                        <h2 class="page-header">-->
-<!--                            <i class="fa fa-user-circle"></i> {{ owner }}-->
-<!--                            <small class="pull-right"></small>-->
-<!--                        </h2>-->
-<!--                    </div>-->
-                        <div class="col-md-2">
-                            <list-item
-                                    :packageKey="packageKey"
-                                    :package="package"
-                                    @screen="setScreen"
-                            ></list-item>
-                        </div>
-                </template>
-            </div>
+    <div class="row">
+    <template v-for="package, packageKey in project.packages">
+        <!--                    <div class="col-md-12">-->
+        <!--                        <h2 class="page-header">-->
+        <!--                            <i class="fa fa-user-circle"></i> {{ owner }}-->
+        <!--                            <small class="pull-right"></small>-->
+        <!--                        </h2>-->
+        <!--                    </div>-->
+        <div class="col-md-3">
+            <list-item
+                    :packageKey="packageKey"
+                    :package="package"
+                    @screen="setScreen"
+            ></list-item>
         </div>
+    </template>
     </div>
 
     <div class="box">
