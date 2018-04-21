@@ -15,7 +15,6 @@ export default {
             project: this.$parent.project,
             service: new Service({
                 projectKey: this.$parent.projectKey,
-                owner: this.owner,
                 packageKey: this.packageKey,
             }),
         }

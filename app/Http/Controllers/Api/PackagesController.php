@@ -3,45 +3,54 @@
 namespace App\Http\Controllers\Api;
 
 use App, Belt;
-use App\Http\Requests;
-use App\Package;
-use App\Services\PackagesService;
+use App\Services\Projects\ProjectService;
 use Belt\Core\Http\Controllers\ApiController;
-use Belt\Core\Http\Controllers\Behaviors\SpreadSheet;
 use Illuminate\Http\Request;
 
 class PackagesController extends ApiController
 {
     /**
-     * Display the specified resource.
-     *
-     * @param  int $id
-     *
-     * @return \Illuminate\Http\Response
+     * @var ProjectService
      */
-    public function show($project, $owner, $name)
-    {
-        $package = config("projects.$project.packages.$owner.$name", []);
+    public $service;
 
-        return response()->json($package);
+    /**
+     * @return ProjectService
+     */
+    public function service()
+    {
+        return $this->service ?: $this->service = new ProjectService();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int $id
-     *
-     * @return \Illuminate\Http\Response
+     * @param $projectKey
+     * @param $packageKey
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function update(Request $request, $project, $owner, $name)
+    public function show($projectKey, $packageKey)
     {
-        $package = config("projects.$project.packages.$owner.$name", []);
+        $package = $this->service()->getPackage($projectKey, $packageKey);
+
+        return response()->json($package);
+    }
+
+    /**
+     * @param Request $request
+     * @param $projectKey
+     * @param $packageKey
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function update(Request $request, $projectKey, $packageKey)
+    {
+        $package = $this->service()->getPackage($projectKey, $packageKey);
 
         if ($recipe = $request->get('recipe')) {
             if ($recipe == 'git-status') {
                 $service = new \App\Services\GitService();
                 $service->cmd([
-                    $service->cd(array_get($package, 'meta.path')),
+                    $service->cd(array_get($package, 'path')),
                     'git status',
                 ]);
                 exit;

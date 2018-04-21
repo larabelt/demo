@@ -1,7 +1,5 @@
 import listItem from 'assets/js/admin/projects/list/list-item';
-import blaConsole from 'assets/js/admin/projects/list/console';
 import Service from 'assets/js/admin/projects/service';
-import Table from 'assets/js/admin/projects/table';
 import heading_html from 'belt/core/js/templates/heading.html';
 import html from 'assets/js/admin/projects/list/template.html';
 
@@ -12,13 +10,12 @@ export default {
         index: {
             data() {
                 return {
-                    screen: 'foo',
+                    screen: '',
                     projectKey: '',
                     projectUrl: '',
                     project: {},
                     projects: {},
                     service: new Service(),
-                    table: new Table(),
                 }
             },
             mounted() {
@@ -27,7 +24,6 @@ export default {
                         this.projects = response.data;
                     });
                 this.projectKey = _.get(this.$router, 'currentRoute.query.projectKey');
-                //this.projectUrl = _.get(this.pr.oject, 'meta.urls');
                 this.changeProject();
             },
             computed: {
@@ -39,7 +35,7 @@ export default {
                     _.forEach(this.projects, (project, key) => {
                         options.push({
                             key: key,
-                            label: _.get(project, 'meta.name', key),
+                            label: _.get(project, 'label', key),
                         });
                     });
                     options = _.sortBy(options, [function (option) {
@@ -48,7 +44,7 @@ export default {
                     return options;
                 },
                 projectUrls() {
-                    let urls = _.get(this.project, 'meta.urls', []);
+                    let urls = _.get(this.project, 'urls', []);
                     let options = [];
                     _.forEach(urls, (url, environment) => {
                         if (url) {
@@ -81,7 +77,6 @@ export default {
             },
             components: {
                 listItem,
-                blaConsole,
             },
             template: html,
         },

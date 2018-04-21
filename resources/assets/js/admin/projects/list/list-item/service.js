@@ -4,7 +4,7 @@ class PackageService extends BaseService {
 
     constructor(opts = {}) {
         super(opts);
-        this.baseUrl = `/api/v1/projects/${opts.projectKey}/packages/${opts.owner}/${opts.packageKey}`;
+        this.baseUrl = `/api/v1/projects/${opts.projectKey}/packages/${opts.packageKey}`;
     }
 
 }

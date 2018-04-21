@@ -6,17 +6,17 @@ Route::group([
     function () {
 
         Route::group([
-            'prefix' => 'projects/{project}',
+            'prefix' => 'projects/{projectKey}',
         ],
             function () {
                 # packages
-                Route::get('packages/{owner}/{name}', 'Api\PackagesController@show');
-                Route::put('packages/{owner}/{name}', 'Api\PackagesController@update');
+                Route::get('packages/{packageKey}', 'Api\PackagesController@show');
+                Route::put('packages/{packageKey}', 'Api\PackagesController@update');
             }
         );
 
         # projects
-        Route::get('projects/{project}', 'Api\ProjectsController@show');
+        Route::get('projects/{projectKey}', 'Api\ProjectsController@show');
         Route::get('projects', 'Api\ProjectsController@index');
     }
 );

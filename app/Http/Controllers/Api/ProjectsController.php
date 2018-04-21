@@ -45,17 +45,13 @@ class ProjectsController extends ApiController
     /**
      * Display the specified resource.
      *
-     * @param  int $id
+     * @param  string $projectKey
      *
      * @return \Illuminate\Http\Response
      */
-    public function show($key)
+    public function show($projectKey)
     {
-        $config = config("projects.$key", []);
-
-        $project = new App\Project($config);
-
-        $this->service()->setProject($key);
+        $project = $this->service()->getProject($projectKey);
 
         return response()->json($project);
     }

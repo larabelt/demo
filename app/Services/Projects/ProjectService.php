@@ -7,29 +7,38 @@ use App, Belt;
 class ProjectService
 {
 
-    use Belt\Core\Behaviors\HasConfig;
+    /**
+     * @var ProjectFactory
+     */
+    protected $factory;
 
     /**
      * ProjectService constructor.
      */
     public function __construct()
     {
-        $this->configPath = 'projects';
+        $this->factory = new ProjectFactory();
     }
 
     /**
-     * @return string
+     * @param $projectKey
+     * @return App\Project
      */
-    public function configPath()
+    public function getProject($projectKey)
     {
-        return $this->configPath;
+        return $this->factory->get($projectKey);
     }
 
-    public function setProject($key)
+    /**
+     * @param $projectKey
+     * @param $packageKey
+     * @return mixed
+     */
+    public function getPackage($projectKey, $packageKey)
     {
-        $this->configPath = "projects.$key";
+        $project = $this->getProject($projectKey);
 
-        $this->setConfig();
+        return $project->packages->get($packageKey);
     }
 
 }
