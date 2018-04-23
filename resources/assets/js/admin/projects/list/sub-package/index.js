@@ -1,7 +1,9 @@
-import Service from 'assets/js/admin/projects/list/list-item/service';
-import html from 'assets/js/admin/projects/list/list-item/template.html';
+import project from 'assets/js/admin/projects/store/project';
+import Service from 'assets/js/admin/projects/list/sub-package/service';
+import html from 'assets/js/admin/projects/list/sub-package/template.html';
 
 export default {
+    mixins: [project],
     props: {
         owner: '',
         packageKey: '',
@@ -22,6 +24,11 @@ export default {
     created() {
         this.submit();
     },
+    computed: {
+        isSelected() {
+            return _.get(this.selectedPackages, this.packageKey) ? true : false;
+        },
+    },
     methods: {
         submit() {
             this.screen = '';
@@ -35,6 +42,9 @@ export default {
         },
         emitScreen() {
             this.$emit('screen', this.screen);
+        },
+        toggleState() {
+            this.togglePackage(this.packageKey);
         }
     },
     components: {},

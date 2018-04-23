@@ -2,29 +2,29 @@ import Form from 'assets/js/admin/projects/form';
 
 export default {
     namespaced: true,
-    state () {
+    state() {
         return {
             form: new Form(),
+            activePackage: {},
+            selectedPackages: {},
         }
     },
     mutations: {
         form: (state, form) => state.form = form,
     },
     actions: {
-        load: ({commit, dispatch, state}, projectID) => {
-            return new Promise((resolve, reject) => {
-                state.form.show(projectID)
-                    .then(response => {
-                        resolve(response);
-                    })
-                    .catch(error => {
-                        reject(error);
-                    })
-            });
-        },
         form: (context, form) => context.commit('form', form),
+        togglePackage: ({state}, packageKey) => {
+            if (state.selectedPackages[packageKey]) {
+                delete state.selectedPackages[packageKey];
+            } else {
+                Vue.set(state.selectedPackages, packageKey, true);
+            }
+            state.selectedPackages = Object.assign({}, state.selectedPackages);
+        }
     },
     getters: {
         form: state => state.form,
+        selectedPackages: state => state.selectedPackages,
     }
 };

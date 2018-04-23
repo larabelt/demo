@@ -1,4 +1,5 @@
-import listItem from 'assets/js/admin/projects/list/list-item';
+import project from 'assets/js/admin/projects/store/project';
+import subPackage from 'assets/js/admin/projects/list/sub-package';
 import Service from 'assets/js/admin/projects/service';
 import heading_html from 'belt/core/js/templates/heading.html';
 import html from 'assets/js/admin/projects/list/template.html';
@@ -8,6 +9,7 @@ export default {
     components: {
         heading: {template: heading_html},
         index: {
+            mixins: [project],
             data() {
                 return {
                     screen: '',
@@ -29,6 +31,24 @@ export default {
             computed: {
                 packages() {
                     return _.get(this.project, 'packages', []);
+                },
+                defaultPackages() {
+                    let packages = {};
+                    _.forEach(this.packages, (item, key) => {
+                        if (item.default) {
+                            packages[key] = item;
+                        }
+                    });
+                    return packages;
+                },
+                subPackages() {
+                    let packages = {};
+                    _.forEach(this.packages, (item, key) => {
+                        if (!item.default) {
+                            packages[key] = item;
+                        }
+                    });
+                    return packages;
                 },
                 projectOptions() {
                     let options = [];
@@ -76,7 +96,7 @@ export default {
                 }
             },
             components: {
-                listItem,
+                subPackage,
             },
             template: html,
         },
