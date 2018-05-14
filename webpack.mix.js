@@ -1,6 +1,14 @@
 const { mix } = require('laravel-mix');
 const path = require('path');
 
+mix.autoload({
+    'axios': ['axios'],
+    'jquery': ['jQuery', '$'],
+    'lodash': ['_'],
+    'vue': ['Vue']
+})
+
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -35,6 +43,7 @@ mix.copy("node_modules/tinymce", 'public/plugins/tinymce', false);
  */
 mix.js('resources/assets/js/belt-all.js', 'public/js').version();
 mix.extract(['axios', 'jquery', 'lodash', 'vue']);
+
 
 /**
  * Frontend JS
