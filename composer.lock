@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.55.4",
+            "version": "3.56.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8c3093d7cbd30a94ab781777bd1f67c29b2bf7fc"
+                "reference": "933bc65b9f8e4d88e0bf4635d9476c2766eee743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8c3093d7cbd30a94ab781777bd1f67c29b2bf7fc",
-                "reference": "8c3093d7cbd30a94ab781777bd1f67c29b2bf7fc",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/933bc65b9f8e4d88e0bf4635d9476c2766eee743",
+                "reference": "933bc65b9f8e4d88e0bf4635d9476c2766eee743",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-04-30T23:04:55+00:00"
+            "time": "2018-05-15T18:32:36+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -151,16 +151,16 @@
         },
         {
             "name": "cloudinary/cloudinary_php",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "3f76261e342de120c20355df9e61370a1434cdfd"
+                "reference": "aca317781ec1ad6614187a73dd0058026a02474e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/3f76261e342de120c20355df9e61370a1434cdfd",
-                "reference": "3f76261e342de120c20355df9e61370a1434cdfd",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/aca317781ec1ad6614187a73dd0058026a02474e",
+                "reference": "aca317781ec1ad6614187a73dd0058026a02474e",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +199,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2018-03-12T15:33:59+00:00"
+            "time": "2018-05-10T14:02:04+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1497,12 +1497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "8496ed4bcea1cb932e9ea75a07c0f3128f04eb7f"
+                "reference": "719a54abab932b79294acec944c434509fde440e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/8496ed4bcea1cb932e9ea75a07c0f3128f04eb7f",
-                "reference": "8496ed4bcea1cb932e9ea75a07c0f3128f04eb7f",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/719a54abab932b79294acec944c434509fde440e",
+                "reference": "719a54abab932b79294acec944c434509fde440e",
                 "shasum": ""
             },
             "require": {
@@ -1539,7 +1539,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-01T13:58:45+00:00"
+            "time": "2018-05-15T00:56:06+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1547,12 +1547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "5d00540d7e6f2a5526568900d6e05bab3b2a2094"
+                "reference": "ddac5191b0ade8a3aa8b3ddcc066a97d0f917cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/5d00540d7e6f2a5526568900d6e05bab3b2a2094",
-                "reference": "5d00540d7e6f2a5526568900d6e05bab3b2a2094",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/ddac5191b0ade8a3aa8b3ddcc066a97d0f917cd5",
+                "reference": "ddac5191b0ade8a3aa8b3ddcc066a97d0f917cd5",
                 "shasum": ""
             },
             "require": {
@@ -1586,7 +1586,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-01T13:58:40+00:00"
+            "time": "2018-05-15T00:56:17+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1594,12 +1594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "08640c2bddc24c239b771614dad05166d51e9032"
+                "reference": "e0b0ef830bf1caf3a729e973cfe5b7f7b0f94472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/08640c2bddc24c239b771614dad05166d51e9032",
-                "reference": "08640c2bddc24c239b771614dad05166d51e9032",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/e0b0ef830bf1caf3a729e973cfe5b7f7b0f94472",
+                "reference": "e0b0ef830bf1caf3a729e973cfe5b7f7b0f94472",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1652,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-01T13:58:35+00:00"
+            "time": "2018-05-15T00:55:52+00:00"
         },
         {
             "name": "larabelt/glue",
@@ -2096,16 +2096,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.44",
+            "version": "1.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "168dbe519737221dc87d17385cde33073881fd02"
+                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/168dbe519737221dc87d17385cde33073881fd02",
-                "reference": "168dbe519737221dc87d17385cde33073881fd02",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
+                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
                 "shasum": ""
             },
             "require": {
@@ -2176,7 +2176,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-04-06T09:58:14+00:00"
+            "time": "2018-05-07T08:44:23+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -2227,16 +2227,16 @@
         },
         {
             "name": "maatwebsite/excel",
-            "version": "2.1.27",
+            "version": "2.1.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-                "reference": "ea758fe5a9d33e0d88b40f099d1df652a0c99d38"
+                "reference": "06e397a30595d1082963d6aa5ec0c3a9961d70c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/ea758fe5a9d33e0d88b40f099d1df652a0c99d38",
-                "reference": "ea758fe5a9d33e0d88b40f099d1df652a0c99d38",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/06e397a30595d1082963d6aa5ec0c3a9961d70c8",
+                "reference": "06e397a30595d1082963d6aa5ec0c3a9961d70c8",
                 "shasum": ""
             },
             "require": {
@@ -2301,7 +2301,7 @@
                 "import",
                 "laravel"
             ],
-            "time": "2018-03-09T13:14:19+00:00"
+            "time": "2018-05-09T14:34:18+00:00"
         },
         {
             "name": "monolog/monolog",
