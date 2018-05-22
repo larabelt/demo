@@ -83,21 +83,25 @@ class PlaceApproval extends BaseWorkflow
     }
 
     /**
-     * @param Place $place
+     * @param array $params
      */
-    public function applyPublish(Place $place)
+    public function applyPublish($params = [])
     {
-        $place->is_active = true;
-        $place->save();
+        if ($place = array_get($params, 'workable', $this->getWorkable())) {
+            $place->is_active = true;
+            $place->save();
+        }
     }
 
     /**
-     * @param Place $place
+     * @param array $params
      */
-    public function applyReject(Place $place)
+    public function applyReject($params = [])
     {
-        $place->is_active = false;
-        $place->save();
+        if ($place = array_get($params, 'workable', $this->getWorkable())) {
+            $place->is_active = false;
+            $place->save();
+        }
     }
 
 }

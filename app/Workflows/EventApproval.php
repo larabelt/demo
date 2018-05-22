@@ -83,21 +83,25 @@ class EventApproval extends BaseWorkflow
     }
 
     /**
-     * @param Event $event
+     * @param array $params
      */
-    public function applyPublish(Event $event)
+    public function applyPublish($params = [])
     {
-        $event->is_active = true;
-        $event->save();
+        if ($event = array_get($params, 'workable', $this->getWorkable())) {
+            $event->is_active = true;
+            $event->save();
+        }
     }
 
     /**
-     * @param Event $event
+     * @param array $params
      */
-    public function applyReject(Event $event)
+    public function applyReject($params = [])
     {
-        $event->is_active = false;
-        $event->save();
+        if ($event = array_get($params, 'workable', $this->getWorkable())) {
+            $event->is_active = false;
+            $event->save();
+        }
     }
 
 }

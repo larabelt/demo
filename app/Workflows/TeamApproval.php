@@ -77,24 +77,30 @@ class TeamApproval extends BaseWorkflow
     }
 
     /**
-     * @param Team $team
+     * @param array $params
      */
-    public function applyPublish(Team $team)
+    public function applyPublish($params = [])
     {
-        $team->is_active = true;
-        $team->save();
-
-        $team->defaultUser->is_active = true;
-        $team->defaultUser->save();
+        if ($team = array_get($params, 'workable', $this->getWorkable())) {
+            $team->is_active = true;
+            $team->save();
+            if ($user = $team->defaultUser) {
+                $user->is_active = true;
+                $user->save();
+            }
+        }
     }
 
     /**
-     * @param Team $team
+     * @param array $params
      */
-    public function applyReject(Team $team)
+    public function applyReject($params = [])
     {
-        $team->is_active = false;
-        $team->save();
+
+        if ($team = array_get($params, 'workable', $this->getWorkable())) {
+            $team->is_active = false;
+            $team->save();
+        }
     }
 
 }
