@@ -1707,12 +1707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "1e04ed89ff797e4aef2537beedccdccec01d1d85"
+                "reference": "ed635f5f2015768f5b3018d362b9705f38de5244"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/1e04ed89ff797e4aef2537beedccdccec01d1d85",
-                "reference": "1e04ed89ff797e4aef2537beedccdccec01d1d85",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/ed635f5f2015768f5b3018d362b9705f38de5244",
+                "reference": "ed635f5f2015768f5b3018d362b9705f38de5244",
                 "shasum": ""
             },
             "require": {
@@ -1749,7 +1749,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-24T20:22:53+00:00"
+            "time": "2018-05-24T21:17:42+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1804,19 +1804,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "a328b643ee8ee67f987aa4614a0651a9f40c0483"
+                "reference": "760026aedc26e74ad00b9706808ab0920eee077d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/a328b643ee8ee67f987aa4614a0651a9f40c0483",
-                "reference": "a328b643ee8ee67f987aa4614a0651a9f40c0483",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/760026aedc26e74ad00b9706808ab0920eee077d",
+                "reference": "760026aedc26e74ad00b9706808ab0920eee077d",
                 "shasum": ""
             },
             "require": {
                 "barryvdh/laravel-cors": "^0.11.0",
                 "doctrine/dbal": "^2.5",
                 "guzzlehttp/guzzle": ">=6.2.0",
-                "kalnoy/nestedset": "^4.2",
+                "kalnoy/nestedset": "^4.3",
                 "kint-php/kint": "^2.0",
                 "laravel/framework": ">=5.6.0",
                 "laravelcollective/html": "5.6.*",
@@ -1829,7 +1829,7 @@
                 "spatie/db-dumper": "^2.9"
             },
             "require-dev": {
-                "barryvdh/laravel-debugbar": "^2.3",
+                "barryvdh/laravel-debugbar": "^3.1",
                 "barryvdh/laravel-ide-helper": "2.4.*",
                 "rap2hpoutre/laravel-log-viewer": "^0.8.0"
             },
@@ -1862,7 +1862,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-24T20:51:25+00:00"
+            "time": "2018-05-24T21:48:08+00:00"
         },
         {
             "name": "larabelt/glue",
