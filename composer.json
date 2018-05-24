@@ -10,12 +10,12 @@
   "require": {
     "php": ">=5.6.4",
     "guzzlehttp/guzzle": "^6.3.0",
-    "larabelt/clip": "1.6.x-dev",
-    "larabelt/content": "1.6.x-dev",
-    "larabelt/core": "1.6.x-dev",
-    "larabelt/glue": "1.6.x-dev",
-    "larabelt/menu": "1.6.x-dev",
-    "larabelt/spot": "1.6.x-dev",
+    "larabelt/clip": "2.0.x-dev",
+    "larabelt/content": "2.0.x-dev",
+    "larabelt/core": "2.0.x-dev",
+    "larabelt/glue": "2.0.x-dev",
+    "larabelt/menu": "2.0.x-dev",
+    "larabelt/spot": "2.0.x-dev",
     "laravel/framework": "5.4.*",
     "laravel/tinker": "~1.0",
     "symfony/workflow": "^4.0"
