@@ -3,10 +3,10 @@
 return [
 
     // Required. A blade view path to the main template layout.
-    'path' => 'belt-content::pages.templates.example',
+    'path' => 'belt-content::lists.templates.default',
 
     // A blade view path that can be extended by the layout found in :path.
-    'extends' => 'belt-content::pages.web.show',
+    'extends' => 'belt-content::lists.web.show',
 
     // The human-readable name of your template.
     'label' => '',
@@ -42,33 +42,22 @@ return [
     */
 
     'params' => [
-        'menu' => [
+        'class' => [
             'type' => 'select',
-            'label' => 'Menu',
-            'description' => '',
+            'label' => 'class',
             'options' => [
-                'example' => 'example',
-            ],
+                'col-md-3' => 'default',
+                'col-md-12' => 'wide',
+            ]
         ],
-        'attachments' => [
-            'type' => 'attachments',
-            'label' => 'Cool Attachment',
-            'description' => 'Link existing attachment to this page.',
-        ],
-        'body' => [
-            'type' => 'editor',
-            'label' => 'Body',
-            'description' => 'Enter the main content for page',
-        ],
-        'blocks' => [
-            'type' => 'blocks',
-            'label' => 'Block',
-            'description' => 'Optional. Link existing block to this page.',
-        ],
-        'albums' => [
-            'type' => 'albums',
-            'label' => 'Album',
-            'description' => 'Optional. Link existing album to this page.',
+        'icon' => [
+            'type' => 'select',
+            'label' => 'Icon',
+            'options' => [
+                'default' => 'default',
+                'edit' => 'edit',
+                'create' => 'create',
+            ]
         ],
     ],
 
