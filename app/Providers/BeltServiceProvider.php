@@ -33,6 +33,6 @@ class BeltServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->workflows();
+        Belt\Workflow\BeltWorkflowServiceProvider::registerWorflows($this->workflows);
     }
 }

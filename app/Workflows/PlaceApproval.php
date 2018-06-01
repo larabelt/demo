@@ -2,7 +2,7 @@
 
 namespace App\Workflows;
 
-use Belt\Core\Workflows\BaseWorkflow;
+use Belt\Workflow\Workflows\BaseWorkflow;
 use Belt\Spot\Place;
 
 /**

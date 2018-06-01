@@ -3,7 +3,7 @@
 namespace App\Workflows;
 
 use Belt\Core\Team;
-use Belt\Core\Workflows\BaseWorkflow;
+use Belt\Workflow\Workflows\BaseWorkflow;
 
 /**
  * @package App\Workflows
