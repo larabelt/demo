@@ -15,9 +15,9 @@ class BeltElasticServiceProvider extends ServiceProvider
     public function register()
     {
         $global = [
-            Belt\Content\Elastic\Modifiers\IsActiveQueryModifier::class,
-            Belt\Content\Elastic\Modifiers\NameSortModifier::class,
-            Belt\Content\Elastic\Modifiers\NeedleQueryModifier::class,
+            Belt\Elastic\Modifiers\IsActiveQueryModifier::class,
+            Belt\Elastic\Modifiers\NameSortModifier::class,
+            Belt\Elastic\Modifiers\NeedleQueryModifier::class,
         ];
 
         $modifiers = [
@@ -33,7 +33,7 @@ class BeltElasticServiceProvider extends ServiceProvider
 
         # elastic
         foreach ($modifiers as $type => $classes) {
-            Belt\Content\Elastic\ElasticEngine::addModifiers($type, array_merge($global, $classes));
+            Belt\Elastic\Engine::addModifiers($type, array_merge($global, $classes));
         }
     }
 

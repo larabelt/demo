@@ -166,6 +166,7 @@ return [
         Belt\Core\BeltCoreServiceProvider::class,
         Belt\Clip\BeltClipServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
+        Belt\Elastic\BeltElasticServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
         App\Providers\BeltServiceProvider::class,
