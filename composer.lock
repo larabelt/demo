@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e20f8d175d6fb009dfca33ec19a5e411",
+    "content-hash": "ca06d31be572d0d5a161fc779370d03d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1757,16 +1757,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "2c1411746a71a3e54c22b931c07b9616a441113b"
+                "reference": "2eafce26e5803330434b87ac698b26871d0daf37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/2c1411746a71a3e54c22b931c07b9616a441113b",
-                "reference": "2c1411746a71a3e54c22b931c07b9616a441113b",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/2eafce26e5803330434b87ac698b26871d0daf37",
+                "reference": "2eafce26e5803330434b87ac698b26871d0daf37",
                 "shasum": ""
             },
             "require": {
-                "elasticsearch/elasticsearch": "^5.2",
                 "laravel/scout": "^4.0",
                 "soundasleep/html2text": "^0.3.4"
             },
@@ -1796,7 +1795,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-05-31T19:25:34+00:00"
+            "time": "2018-06-01T15:38:58+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1870,12 +1869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/elastic.git",
-                "reference": "a23ca0402885424b330e6c81b6b60f05c7afe0f5"
+                "reference": "49b1d0fe0bcf473a909b97cf80d24f36af675541"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/elastic/zipball/a23ca0402885424b330e6c81b6b60f05c7afe0f5",
-                "reference": "a23ca0402885424b330e6c81b6b60f05c7afe0f5",
+                "url": "https://api.github.com/repos/larabelt/elastic/zipball/49b1d0fe0bcf473a909b97cf80d24f36af675541",
+                "reference": "49b1d0fe0bcf473a909b97cf80d24f36af675541",
                 "shasum": ""
             },
             "require": {
@@ -1910,49 +1909,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-01T15:19:04+00:00"
-        },
-        {
-            "name": "larabelt/glue",
-            "version": "2.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larabelt/glue.git",
-                "reference": "27c078e27c53ada299734a0d2d7db17f82c861c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/glue/zipball/27c078e27c53ada299734a0d2d7db17f82c861c6",
-                "reference": "27c078e27c53ada299734a0d2d7db17f82c861c6",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Belt\\Glue\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Glue package for LaraBelt.",
-            "keywords": [
-                "cms",
-                "larabelt",
-                "laravel"
-            ],
-            "time": "2018-05-24T19:46:52+00:00"
+            "time": "2018-06-01T15:39:01+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -2040,6 +1997,48 @@
                 "laravel"
             ],
             "time": "2018-05-30T17:54:59+00:00"
+        },
+        {
+            "name": "larabelt/workflow",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/workflow.git",
+                "reference": "0c5e90eac7d3fc477f1c7ccf65a876489a655f2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/workflow/zipball/0c5e90eac7d3fc477f1c7ccf65a876489a655f2a",
+                "reference": "0c5e90eac7d3fc477f1c7ccf65a876489a655f2a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Belt\\Workflow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Workflow package for any LaraBelt app.",
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-06-01T16:09:28+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6962,9 +6961,9 @@
         "larabelt/content": 20,
         "larabelt/elastic": 20,
         "larabelt/core": 20,
-        "larabelt/glue": 20,
         "larabelt/menu": 20,
-        "larabelt/spot": 20
+        "larabelt/spot": 20,
+        "larabelt/workflow": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
