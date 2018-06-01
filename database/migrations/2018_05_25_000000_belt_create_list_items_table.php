@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BeltCreateListablesTable extends Migration
+class BeltCreateListItemsTable extends Migration
 {
     /**
      * Run the migrations.
