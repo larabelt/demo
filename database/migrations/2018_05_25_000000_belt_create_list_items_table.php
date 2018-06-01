@@ -12,7 +12,7 @@ class BeltCreateListablesTable extends Migration
      */
     public function up()
     {
-        Schema::create('listables', function (Blueprint $table) {
+        Schema::create('list_items', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('list_id')->index();
             $table->morphs('listable');
@@ -28,6 +28,6 @@ class BeltCreateListablesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('listables');
+        Schema::drop('list_items');
     }
 }
