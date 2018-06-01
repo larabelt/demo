@@ -169,6 +169,7 @@ return [
         Belt\Elastic\BeltElasticServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,
+        Belt\Workflow\BeltWorkflowServiceProvider::class,
         App\Providers\BeltServiceProvider::class,
         App\Providers\BeltElasticServiceProvider::class,
 

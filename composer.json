@@ -18,6 +18,7 @@
     "larabelt/glue": "2.0.x-dev",
     "larabelt/menu": "2.0.x-dev",
     "larabelt/spot": "2.0.x-dev",
+    "larabelt/workflow": "2.0.x-dev",
     "laravel/framework": "5.6.*",
     "laravel/tinker": "~1.0",
     "symfony/workflow": "^4.0"
