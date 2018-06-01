@@ -20,7 +20,7 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::composer('belt-core::layouts.shared.partials.flash', Belt\Core\Http\ViewComposers\AlertsComposer::class);
+        View::composer('belt-core::layouts.shared.partials.flash', Belt\Convo\Http\ViewComposers\AlertsComposer::class);
     }
 
     /**
