@@ -13,6 +13,7 @@
     "guzzlehttp/guzzle": "^6.3.0",
     "larabelt/clip": "2.0.x-dev",
     "larabelt/content": "2.0.x-dev",
+    "larabelt/convo": "2.0.x-dev",
     "larabelt/elastic": "2.0.x-dev",
     "larabelt/core": "2.0.x-dev",
     "larabelt/menu": "2.0.x-dev",
