@@ -65,7 +65,7 @@ return [
         'body' => [
             'type' => 'editor',
             'label' => 'Body',
-            'description' => 'Enter main content of page here.',
+            'description' => 'Enter main content of place here.',
         ],
     ],
 
