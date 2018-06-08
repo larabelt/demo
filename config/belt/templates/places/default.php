@@ -47,7 +47,7 @@ return [
         ],
         'class' => [
             'type' => 'select',
-            'label' => 'class',
+            'label' => 'Class',
             'options' => [
                 'col-md-3' => 'default',
                 'col-md-12' => 'wide',
@@ -60,6 +60,11 @@ return [
                 '' => 'default',
                 'fa-star' => 'featured',
             ]
+        ],
+        'body' => [
+            'type' => 'editor',
+            'label' => 'Body',
+            'description' => 'Enter main content of place here.',
         ],
     ],
 
