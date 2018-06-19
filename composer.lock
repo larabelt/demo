@@ -1594,12 +1594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "b053cf6d0f3fd37a8cf3cd617bdfa945443ad3b0"
+                "reference": "7c5711ae8f7fefdd3bca0bc49cd0bd689a69e749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/b053cf6d0f3fd37a8cf3cd617bdfa945443ad3b0",
-                "reference": "b053cf6d0f3fd37a8cf3cd617bdfa945443ad3b0",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/7c5711ae8f7fefdd3bca0bc49cd0bd689a69e749",
+                "reference": "7c5711ae8f7fefdd3bca0bc49cd0bd689a69e749",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1652,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-19T18:04:08+00:00"
+            "time": "2018-06-19T18:36:04+00:00"
         },
         {
             "name": "larabelt/glue",
