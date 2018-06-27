@@ -1707,12 +1707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "bcab3fe5324820a58edef041e64cd5f604687ebd"
+                "reference": "c3069f7ca0eab2541b5d1c85e65b66c445054149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/bcab3fe5324820a58edef041e64cd5f604687ebd",
-                "reference": "bcab3fe5324820a58edef041e64cd5f604687ebd",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/c3069f7ca0eab2541b5d1c85e65b66c445054149",
+                "reference": "c3069f7ca0eab2541b5d1c85e65b66c445054149",
                 "shasum": ""
             },
             "require": {
@@ -1749,7 +1749,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-25T21:15:44+00:00"
+            "time": "2018-06-27T16:15:33+00:00"
         },
         {
             "name": "larabelt/content",
