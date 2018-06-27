@@ -1649,12 +1649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/clip.git",
-                "reference": "9fc8aae069990d8d41bddd6d168bd4fc1bc814a8"
+                "reference": "5adbe27b98a9350572c3c1b30a47756b169ad6e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/9fc8aae069990d8d41bddd6d168bd4fc1bc814a8",
-                "reference": "9fc8aae069990d8d41bddd6d168bd4fc1bc814a8",
+                "url": "https://api.github.com/repos/larabelt/clip/zipball/5adbe27b98a9350572c3c1b30a47756b169ad6e0",
+                "reference": "5adbe27b98a9350572c3c1b30a47756b169ad6e0",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1691,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T18:12:51+00:00"
+            "time": "2018-06-27T19:37:35+00:00"
         },
         {
             "name": "larabelt/content",
@@ -1946,12 +1946,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "fb8a7df5dba346f78e84c3ab3d8652062d5d40a5"
+                "reference": "e8cd98aa76146e325a466933f8350db16ec37930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/fb8a7df5dba346f78e84c3ab3d8652062d5d40a5",
-                "reference": "fb8a7df5dba346f78e84c3ab3d8652062d5d40a5",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/e8cd98aa76146e325a466933f8350db16ec37930",
+                "reference": "e8cd98aa76146e325a466933f8350db16ec37930",
                 "shasum": ""
             },
             "type": "library",
@@ -1980,7 +1980,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T16:39:37+00:00"
+            "time": "2018-06-27T19:36:50+00:00"
         },
         {
             "name": "larabelt/workflow",
