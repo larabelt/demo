@@ -25,7 +25,6 @@ mix.webpackConfig({
         modules: [
             path.resolve(__dirname, 'resources'),
             path.resolve(__dirname, 'vendor/larabelt/core/resources'),
-            path.resolve(__dirname, 'vendor/larabelt/clip/resources'),
             path.resolve(__dirname, 'vendor/larabelt/content/resources'),
             path.resolve(__dirname, 'vendor/larabelt/convo/resources'),
             path.resolve(__dirname, 'vendor/larabelt/elastic/resources'),

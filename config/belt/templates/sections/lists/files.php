@@ -3,7 +3,7 @@
 return [
 
     // Required. A blade view path to the main template layout.
-    'path' => 'belt-clip::albums.sections.files',
+    'path' => 'belt-content::lists.sections.files',
 
     // A blade view path that can be extended by the layout found in :path.
     'extends' => null,
@@ -19,7 +19,7 @@ return [
     'builder' => null,
 
     // A blade layout that show can show a snapshot of what the templates structure and/or style will look like when compiled.
-    'preview' => 'belt-clip::albums.previews.default',
+    'preview' => 'belt-content::lists.previews.default',
 
     /*
     | A set of custom parameters that belong to the templatable object.
@@ -38,9 +38,9 @@ return [
     */
 
     'params' => [
-        'albums' => [
-            'type' => 'albums',
-            'label' => 'Album',
+        'lists' => [
+            'type' => 'lists',
+            'label' => 'List',
             'description' => '',
         ],
     ],

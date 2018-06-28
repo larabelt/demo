@@ -1,6 +1,6 @@
 <?php
 
-$factory->define(Belt\Clip\Resize::class, function (Faker\Generator $faker, $params = null) {
+$factory->define(Belt\Content\Resize::class, function (Faker\Generator $faker, $params = null) {
 
     $attachment = array_get($params, 'attachment');
 

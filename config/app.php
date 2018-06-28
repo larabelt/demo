@@ -164,7 +164,6 @@ return [
          * @larabelt
          */
         Belt\Core\BeltCoreServiceProvider::class,
-        Belt\Clip\BeltClipServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
         Belt\Convo\BeltConvoServiceProvider::class,
         Belt\Elastic\BeltElasticServiceProvider::class,

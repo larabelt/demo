@@ -1,10 +1,10 @@
 <?php
 
-use Belt\Clip\Album;
-use Belt\Clip\Attachment;
+use Belt\Content\Album;
+use Belt\Content\Attachment;
 use Illuminate\Database\Seeder;
 
-class BeltClipAlbumSeeds extends Seeder
+class BeltContentAlbumSeeds extends Seeder
 {
     /**
      * Run the database seeds.

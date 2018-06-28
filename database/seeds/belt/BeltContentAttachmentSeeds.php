@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Seeder;
 
-use Belt\Clip\Attachment;
+use Belt\Content\Attachment;
 
-class BeltClipAttachmentSeeds extends Seeder
+class BeltContentAttachmentSeeds extends Seeder
 {
     /**
      * Run the database seeds.
