@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad6d80bebd98ad9d29141b6d7f873c6f",
+    "content-hash": "6cdf21bbe7753e198b3f5c8d1df8190b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1644,78 +1644,34 @@
             "time": "2017-11-18T20:49:26+00:00"
         },
         {
-            "name": "larabelt/clip",
-            "version": "2.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larabelt/clip.git",
-                "reference": "5adbe27b98a9350572c3c1b30a47756b169ad6e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/clip/zipball/5adbe27b98a9350572c3c1b30a47756b169ad6e0",
-                "reference": "5adbe27b98a9350572c3c1b30a47756b169ad6e0",
-                "shasum": ""
-            },
-            "require": {
-                "cloudinary/cloudinary_php": "^1.8",
-                "intervention/image": "2.3.*",
-                "league/flysystem-aws-s3-v3": "~1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Belt\\Clip\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Clip package for LaraBelt.",
-            "keywords": [
-                "cms",
-                "larabelt",
-                "laravel"
-            ],
-            "time": "2018-06-27T19:37:35+00:00"
-        },
-        {
             "name": "larabelt/content",
             "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "d808b1ff15694c93128c333c26e70b8f9f20cc4a"
+                "reference": "a2b07245072fee7d607922426b028da0d77e646a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/d808b1ff15694c93128c333c26e70b8f9f20cc4a",
-                "reference": "d808b1ff15694c93128c333c26e70b8f9f20cc4a",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/a2b07245072fee7d607922426b028da0d77e646a",
+                "reference": "a2b07245072fee7d607922426b028da0d77e646a",
                 "shasum": ""
             },
             "require": {
+                "cloudinary/cloudinary_php": "^1.8",
+                "intervention/image": "2.3.*",
                 "laravel/scout": "^4.0",
+                "league/flysystem-aws-s3-v3": "~1.0",
                 "soundasleep/html2text": "^0.3.4"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Belt\\Content\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1737,7 +1693,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T16:39:48+00:00"
+            "time": "2018-06-28T17:18:41+00:00"
         },
         {
             "name": "larabelt/convo",
@@ -1745,12 +1701,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/convo.git",
-                "reference": "846ebab824a0df32e18abff966c5eb04005df0ae"
+                "reference": "ebf55ddaacf3f711d5062b37f6b120a0be7ca3a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/convo/zipball/846ebab824a0df32e18abff966c5eb04005df0ae",
-                "reference": "846ebab824a0df32e18abff966c5eb04005df0ae",
+                "url": "https://api.github.com/repos/larabelt/convo/zipball/ebf55ddaacf3f711d5062b37f6b120a0be7ca3a4",
+                "reference": "ebf55ddaacf3f711d5062b37f6b120a0be7ca3a4",
                 "shasum": ""
             },
             "type": "library",
@@ -1779,7 +1735,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T18:29:58+00:00"
+            "time": "2018-06-28T17:05:30+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1787,12 +1743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "26af702b3a9bc141274405e7c9f37b84ab0806d6"
+                "reference": "aff98d7e9f0f5440d06f49d050a7755741824ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/26af702b3a9bc141274405e7c9f37b84ab0806d6",
-                "reference": "26af702b3a9bc141274405e7c9f37b84ab0806d6",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/aff98d7e9f0f5440d06f49d050a7755741824ffd",
+                "reference": "aff98d7e9f0f5440d06f49d050a7755741824ffd",
                 "shasum": ""
             },
             "require": {
@@ -1845,7 +1801,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T19:40:49+00:00"
+            "time": "2018-06-23T14:39:25+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1944,12 +1900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "f30d313fb063a03c5bbe2b4447d691800de6545d"
+                "reference": "28f3ec25af0c89667b03e98894d4b5f8ef833a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/f30d313fb063a03c5bbe2b4447d691800de6545d",
-                "reference": "f30d313fb063a03c5bbe2b4447d691800de6545d",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/28f3ec25af0c89667b03e98894d4b5f8ef833a42",
+                "reference": "28f3ec25af0c89667b03e98894d4b5f8ef833a42",
                 "shasum": ""
             },
             "type": "library",
@@ -1978,7 +1934,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-28T14:28:34+00:00"
+            "time": "2018-06-28T17:18:51+00:00"
         },
         {
             "name": "larabelt/workflow",
@@ -6845,7 +6801,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "larabelt/clip": 20,
         "larabelt/content": 20,
         "larabelt/convo": 20,
         "larabelt/elastic": 20,
