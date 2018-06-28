@@ -60,16 +60,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.62.3",
+            "version": "3.62.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "31436550b916706c56949069ed42d258be60e0a4"
+                "reference": "85da8eaa967902de148b465d42f4b3027395e6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/31436550b916706c56949069ed42d258be60e0a4",
-                "reference": "31436550b916706c56949069ed42d258be60e0a4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/85da8eaa967902de148b465d42f4b3027395e6af",
+                "reference": "85da8eaa967902de148b465d42f4b3027395e6af",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-06-26T20:31:07+00:00"
+            "time": "2018-06-27T21:26:04+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1787,12 +1787,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "b0a69d21a2bb7e158e291092c5d55d38cbe70af5"
+                "reference": "26af702b3a9bc141274405e7c9f37b84ab0806d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/b0a69d21a2bb7e158e291092c5d55d38cbe70af5",
-                "reference": "b0a69d21a2bb7e158e291092c5d55d38cbe70af5",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/26af702b3a9bc141274405e7c9f37b84ab0806d6",
+                "reference": "26af702b3a9bc141274405e7c9f37b84ab0806d6",
                 "shasum": ""
             },
             "require": {
@@ -1845,7 +1845,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T18:16:29+00:00"
+            "time": "2018-06-27T19:40:49+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1853,18 +1853,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/elastic.git",
-                "reference": "e2a34bcabab06f179e8a6445904a6a888301a6e5"
+                "reference": "fbc2743cbdd69b44d678e430545de326cd2778cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/elastic/zipball/e2a34bcabab06f179e8a6445904a6a888301a6e5",
-                "reference": "e2a34bcabab06f179e8a6445904a6a888301a6e5",
+                "url": "https://api.github.com/repos/larabelt/elastic/zipball/fbc2743cbdd69b44d678e430545de326cd2778cf",
+                "reference": "fbc2743cbdd69b44d678e430545de326cd2778cf",
                 "shasum": ""
             },
             "require": {
-                "elasticsearch/elasticsearch": "^5.2",
-                "laravel/scout": "^4.0",
-                "soundasleep/html2text": "^0.3.4"
+                "elasticsearch/elasticsearch": "^5.2"
             },
             "type": "library",
             "autoload": {
@@ -1893,7 +1891,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-26T17:49:34+00:00"
+            "time": "2018-06-28T14:01:06+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -1901,12 +1899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "ada172a1d4c7a22ef713df35b270147c6834ccc2"
+                "reference": "b6af6474114af9bf7063def6530ff9c71600fdb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/ada172a1d4c7a22ef713df35b270147c6834ccc2",
-                "reference": "ada172a1d4c7a22ef713df35b270147c6834ccc2",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/b6af6474114af9bf7063def6530ff9c71600fdb1",
+                "reference": "b6af6474114af9bf7063def6530ff9c71600fdb1",
                 "shasum": ""
             },
             "require": {
@@ -1938,7 +1936,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-26T17:49:37+00:00"
+            "time": "2018-06-28T14:30:02+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -1946,12 +1944,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "e8cd98aa76146e325a466933f8350db16ec37930"
+                "reference": "f30d313fb063a03c5bbe2b4447d691800de6545d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/e8cd98aa76146e325a466933f8350db16ec37930",
-                "reference": "e8cd98aa76146e325a466933f8350db16ec37930",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/f30d313fb063a03c5bbe2b4447d691800de6545d",
+                "reference": "f30d313fb063a03c5bbe2b4447d691800de6545d",
                 "shasum": ""
             },
             "type": "library",
@@ -1980,7 +1978,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-27T19:36:50+00:00"
+            "time": "2018-06-28T14:28:34+00:00"
         },
         {
             "name": "larabelt/workflow",
