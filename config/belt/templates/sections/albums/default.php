@@ -3,10 +3,10 @@
 return [
 
     // Required. A blade view path to the main template layout.
-    'path' => 'belt-content::pages.templates.example',
+    'path' => 'belt-clip::albums.sections.default',
 
     // A blade view path that can be extended by the layout found in :path.
-    'extends' => 'belt-content::pages.web.show',
+    'extends' => null,
 
     // The human-readable name of your template.
     'label' => '',
@@ -16,16 +16,10 @@ return [
 
     // A builder class that extends \Belt\Content\Builders\BaseBuilder,
     // that will run custom code when a new templatable object is created.
-    'builder' => \App\Builders\DefaultBuilder::class,
+    'builder' => null,
 
     // A blade layout that show can show a snapshot of what the templates structure and/or style will look like when compiled.
-    'preview' => '',
-
-    // By default, compiled views are cached. Set the value below to false, to avoid this behavior.
-    'force_compile' => false,
-
-    // Sectionable. Allow highly customizable page to be built via the Sections tab.
-    'sectionable' => false,
+    'preview' => 'belt-clip::albums.previews.default',
 
     /*
     | A set of custom parameters that belong to the templatable object.
@@ -44,33 +38,10 @@ return [
     */
 
     'params' => [
-        'menu' => [
-            'type' => 'select',
-            'label' => 'Menu',
-            'description' => '',
-            'options' => [
-                'example' => 'example',
-            ],
-        ],
-        'attachments' => [
-            'type' => 'attachments',
-            'label' => 'Cool Attachment',
-            'description' => 'Link existing attachment to this page.',
-        ],
-        'body' => [
-            'type' => 'editor',
-            'label' => 'Body',
-            'description' => 'Enter the main content for page',
-        ],
-        'blocks' => [
-            'type' => 'blocks',
-            'label' => 'Block',
-            'description' => 'Optional. Link existing block to this page.',
-        ],
         'albums' => [
             'type' => 'albums',
             'label' => 'Album',
-            'description' => 'Optional. Link existing album to this page.',
+            'description' => '',
         ],
     ],
 
