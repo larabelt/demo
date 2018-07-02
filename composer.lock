@@ -60,16 +60,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.62.4",
+            "version": "3.62.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "85da8eaa967902de148b465d42f4b3027395e6af"
+                "reference": "0be301c36a5c337b40e69ce3b4698cca5427e4b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/85da8eaa967902de148b465d42f4b3027395e6af",
-                "reference": "85da8eaa967902de148b465d42f4b3027395e6af",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0be301c36a5c337b40e69ce3b4698cca5427e4b9",
+                "reference": "0be301c36a5c337b40e69ce3b4698cca5427e4b9",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-06-27T21:26:04+00:00"
+            "time": "2018-06-29T22:12:11+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1649,12 +1649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "a2b07245072fee7d607922426b028da0d77e646a"
+                "reference": "45116a79e7421c3e990c3c2ff71b2227af5b1a7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/a2b07245072fee7d607922426b028da0d77e646a",
-                "reference": "a2b07245072fee7d607922426b028da0d77e646a",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/45116a79e7421c3e990c3c2ff71b2227af5b1a7b",
+                "reference": "45116a79e7421c3e990c3c2ff71b2227af5b1a7b",
                 "shasum": ""
             },
             "require": {
@@ -1693,7 +1693,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-28T17:18:41+00:00"
+            "time": "2018-07-02T17:17:44+00:00"
         },
         {
             "name": "larabelt/convo",
@@ -1743,12 +1743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "aee18230b4fd95aecf501f75b4394c749f3360b2"
+                "reference": "d40af86f7adbe38fe337537284eb4d853920726d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/aee18230b4fd95aecf501f75b4394c749f3360b2",
-                "reference": "aee18230b4fd95aecf501f75b4394c749f3360b2",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/d40af86f7adbe38fe337537284eb4d853920726d",
+                "reference": "d40af86f7adbe38fe337537284eb4d853920726d",
                 "shasum": ""
             },
             "require": {
@@ -1801,7 +1801,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-28T17:23:26+00:00"
+            "time": "2018-07-02T17:17:35+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1855,12 +1855,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "b6af6474114af9bf7063def6530ff9c71600fdb1"
+                "reference": "7d0db9807248520e13230e2d6c789c3dda40eb93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/b6af6474114af9bf7063def6530ff9c71600fdb1",
-                "reference": "b6af6474114af9bf7063def6530ff9c71600fdb1",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/7d0db9807248520e13230e2d6c789c3dda40eb93",
+                "reference": "7d0db9807248520e13230e2d6c789c3dda40eb93",
                 "shasum": ""
             },
             "require": {
@@ -1892,7 +1892,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-28T14:30:02+00:00"
+            "time": "2018-06-29T15:01:22+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -1900,12 +1900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "ad3b815d47a13650dfbad5e7c2deb5e2de3dec31"
+                "reference": "d9cde6ac3c00b7b32ff35a7dfd5269c14c3a4bd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/ad3b815d47a13650dfbad5e7c2deb5e2de3dec31",
-                "reference": "ad3b815d47a13650dfbad5e7c2deb5e2de3dec31",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/d9cde6ac3c00b7b32ff35a7dfd5269c14c3a4bd9",
+                "reference": "d9cde6ac3c00b7b32ff35a7dfd5269c14c3a4bd9",
                 "shasum": ""
             },
             "type": "library",
@@ -1934,7 +1934,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-06-28T17:23:33+00:00"
+            "time": "2018-07-02T17:19:30+00:00"
         },
         {
             "name": "larabelt/workflow",
@@ -4766,28 +4766,28 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
+                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8 || ^5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -4797,7 +4797,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause-Attribution"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -4812,7 +4812,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2018-07-01T10:25:50+00:00"
         }
     ],
     "packages-dev": [
