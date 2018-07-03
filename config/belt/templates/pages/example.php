@@ -3,10 +3,10 @@
 return [
 
     // Required. A blade view path to the main template layout.
-    'path' => 'belt-content::list_items.templates.page',
+    'path' => 'belt-content::pages.templates.example',
 
     // A blade view path that can be extended by the layout found in :path.
-    'extends' => 'belt-content::list_items.web.show',
+    'extends' => 'belt-content::pages.web.show',
 
     // The human-readable name of your template.
     'label' => '',
@@ -16,13 +16,16 @@ return [
 
     // A builder class that extends \Belt\Content\Builders\BaseBuilder,
     // that will run custom code when a new templatable object is created.
-    'builder' => null,
+    'builder' => \App\Builders\DefaultBuilder::class,
 
     // A blade layout that show can show a snapshot of what the templates structure and/or style will look like when compiled.
     'preview' => '',
 
-    // The VueJS tile component to summarize the component
-    'tile' => 'tile-page-list-item',
+    // By default, compiled views are cached. Set the value below to false, to avoid this behavior.
+    'force_compile' => false,
+
+    // Sectionable. Allow highly customizable page to be built via the Sections tab.
+    'sectionable' => false,
 
     /*
     | A set of custom parameters that belong to the templatable object.
@@ -41,20 +44,28 @@ return [
     */
 
     'params' => [
-        'heading' => [
-            'type' => 'text',
-            'label' => 'Heading',
-            'description' => 'Optional heading. Will appear at the top of the list item.',
+        'menu' => [
+            'type' => 'select',
+            'label' => 'Menu',
+            'description' => '',
+            'options' => [
+                'example' => 'example',
+            ],
+        ],
+        'attachments' => [
+            'type' => 'attachments',
+            'label' => 'Cool Attachment',
+            'description' => 'Link existing attachment to this page.',
         ],
         'body' => [
             'type' => 'editor',
             'label' => 'Body',
-            'description' => 'Enter main content of list item here.',
+            'description' => 'Enter the main content for page',
         ],
-        'pages' => [
-            'type' => 'pages',
-            'label' => 'Page',
-            'description' => '',
+        'blocks' => [
+            'type' => 'blocks',
+            'label' => 'Block',
+            'description' => 'Optional. Link existing block to this page.',
         ],
     ],
 
