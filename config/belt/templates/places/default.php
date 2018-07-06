@@ -48,7 +48,7 @@ return [
         ],
         'class' => [
             'type' => 'select',
-            'label' => 'Class',
+            'label' => 'class',
             'options' => [
                 'col-md-3' => 'default',
                 'col-md-12' => 'wide',
