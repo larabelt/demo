@@ -1649,12 +1649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "b64b52753fa6f0557a3243add4331b040eb61541"
+                "reference": "68fd145b51764ae7c644237c7a68b54cba6f7605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/b64b52753fa6f0557a3243add4331b040eb61541",
-                "reference": "b64b52753fa6f0557a3243add4331b040eb61541",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/68fd145b51764ae7c644237c7a68b54cba6f7605",
+                "reference": "68fd145b51764ae7c644237c7a68b54cba6f7605",
                 "shasum": ""
             },
             "require": {
@@ -1693,7 +1693,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-07-06T20:35:45+00:00"
+            "time": "2018-07-06T20:47:40+00:00"
         },
         {
             "name": "larabelt/convo",
