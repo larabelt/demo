@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BeltCreateBlocksTable extends Migration
+class BeltUpdateAttachmentsTable3 extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,8 @@ class BeltCreateBlocksTable extends Migration
      */
     public function up()
     {
-        Schema::create('blocks', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::table('attachments', function (Blueprint $table) {
             $table->string('template')->default('default');
-            $table->string('name');
-            $table->string('slug')->index();
-            $table->text('body');
-            $table->softDeletes();
-            $table->timestamps();
         });
     }
 
@@ -30,6 +24,8 @@ class BeltCreateBlocksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blocks');
+        Schema::table('attachments', function (Blueprint $table) {
+            $table->dropColumn('template');
+        });
     }
 }
