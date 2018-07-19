@@ -165,7 +165,7 @@ return [
          */
         Belt\Core\BeltCoreServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
-        Belt\Convo\BeltConvoServiceProvider::class,
+        Belt\Notify\BeltNotifyServiceProvider::class,
         Belt\Elastic\BeltElasticServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,
         Belt\Spot\BeltSpotServiceProvider::class,

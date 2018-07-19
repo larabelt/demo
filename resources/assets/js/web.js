@@ -2,7 +2,7 @@ import 'belt/core/js/belt-bootstrap';
 
 Vue.config.devtools = process.env.MIX_VUEJS_DEBUG;
 
-import AlertDismissal from 'belt/convo/js/alerts/ctlr/dismissal';
+import AlertDismissal from 'belt/notify/js/alerts/ctlr/dismissal';
 import ContactForm from 'belt/core/js/contact/contact';
 import UserSignup from 'belt/core/js/users/signup';
 import TeamSignup from 'belt/core/js/teams/signup';

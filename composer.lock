@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cdf21bbe7753e198b3f5c8d1df8190b",
+    "content-hash": "6fa37df7355d0a6c4821e1e9cce6c19a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1566,48 +1566,6 @@
             "time": "2018-07-19T15:05:16+00:00"
         },
         {
-            "name": "larabelt/convo",
-            "version": "2.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larabelt/convo.git",
-                "reference": "0c8bea486b4011bbc4acfc041da988f7cc3ed9ea"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/convo/zipball/0c8bea486b4011bbc4acfc041da988f7cc3ed9ea",
-                "reference": "0c8bea486b4011bbc4acfc041da988f7cc3ed9ea",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Belt\\Convo\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Convo package for any LaraBelt app.",
-            "keywords": [
-                "cms",
-                "larabelt",
-                "laravel"
-            ],
-            "time": "2018-07-18T20:39:17+00:00"
-        },
-        {
             "name": "larabelt/core",
             "version": "2.0.x-dev",
             "source": {
@@ -1763,6 +1721,48 @@
                 "laravel"
             ],
             "time": "2018-07-19T15:25:09+00:00"
+        },
+        {
+            "name": "larabelt/notify",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/notify.git",
+                "reference": "01b1c36c977bfd6481be3550e9fe46f35394f3c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/notify/zipball/01b1c36c977bfd6481be3550e9fe46f35394f3c2",
+                "reference": "01b1c36c977bfd6481be3550e9fe46f35394f3c2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Belt\\Convo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Convo package for any LaraBelt app.",
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2018-07-19T16:18:47+00:00"
         },
         {
             "name": "larabelt/spot",
@@ -6673,11 +6673,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "larabelt/content": 20,
-        "larabelt/convo": 20,
-        "larabelt/elastic": 20,
         "larabelt/core": 20,
+        "larabelt/content": 20,
+        "larabelt/elastic": 20,
         "larabelt/menu": 20,
+        "larabelt/notify": 20,
         "larabelt/spot": 20,
         "larabelt/workflow": 20
     },
