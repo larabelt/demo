@@ -1571,12 +1571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "98e319be228d9a5852f4cde4c5270135a376b477"
+                "reference": "84c2f2389d757fafb5112c8ec837820d558a03d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/98e319be228d9a5852f4cde4c5270135a376b477",
-                "reference": "98e319be228d9a5852f4cde4c5270135a376b477",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/84c2f2389d757fafb5112c8ec837820d558a03d1",
+                "reference": "84c2f2389d757fafb5112c8ec837820d558a03d1",
                 "shasum": ""
             },
             "require": {
@@ -1629,7 +1629,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-07-19T15:05:14+00:00"
+            "time": "2018-07-19T16:48:57+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1728,18 +1728,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/notify.git",
-                "reference": "01b1c36c977bfd6481be3550e9fe46f35394f3c2"
+                "reference": "3efd3e2eb74a57c285d28a472a29b803ec2a4352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/notify/zipball/01b1c36c977bfd6481be3550e9fe46f35394f3c2",
-                "reference": "01b1c36c977bfd6481be3550e9fe46f35394f3c2",
+                "url": "https://api.github.com/repos/larabelt/notify/zipball/3efd3e2eb74a57c285d28a472a29b803ec2a4352",
+                "reference": "3efd3e2eb74a57c285d28a472a29b803ec2a4352",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Belt\\Convo\\": "src/"
+                    "Belt\\Notify\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1756,13 +1756,13 @@
                     "email": "github.mpc@zym.me"
                 }
             ],
-            "description": "Convo package for any LaraBelt app.",
+            "description": "Notify package for any LaraBelt app.",
             "keywords": [
                 "cms",
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-07-19T16:18:47+00:00"
+            "time": "2018-07-19T16:53:35+00:00"
         },
         {
             "name": "larabelt/spot",
