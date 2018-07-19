@@ -8,7 +8,7 @@
 
     <div class="container">
         <p>Alternate Layout</p>
-        @include($page->template_view)
+        @include($page->subtype_view)
     </div>
 
 @endsection
