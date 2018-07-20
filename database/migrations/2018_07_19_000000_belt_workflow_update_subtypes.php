@@ -4,13 +4,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BeltSpotUpdateSubtypes extends Migration
+class BeltWorkflowUpdateSubtypes extends Migration
 {
     protected $tables = [
-        'amenities' => 'template',
-        'deals' => 'template',
-        'events' => 'template',
-        'places' => 'template',
+        'work_requests' => 'workflow_key',
     ];
 
     /**
@@ -58,4 +55,5 @@ class BeltSpotUpdateSubtypes extends Migration
             });
         }
     }
+
 }
