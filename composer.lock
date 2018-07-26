@@ -1574,12 +1574,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "afb67290a7bf2c8e00eb274fa1fb500618044e56"
+                "reference": "99c7c9c8cce1512fc3df3a2fd5d835f5e3b01d5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/afb67290a7bf2c8e00eb274fa1fb500618044e56",
-                "reference": "afb67290a7bf2c8e00eb274fa1fb500618044e56",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/99c7c9c8cce1512fc3df3a2fd5d835f5e3b01d5a",
+                "reference": "99c7c9c8cce1512fc3df3a2fd5d835f5e3b01d5a",
                 "shasum": ""
             },
             "require": {
@@ -1635,7 +1635,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-07-26T15:00:26+00:00"
+            "time": "2018-07-26T20:26:30+00:00"
         },
         {
             "name": "larabelt/elastic",
