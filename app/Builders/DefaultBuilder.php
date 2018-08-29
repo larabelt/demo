@@ -3,7 +3,6 @@
 namespace App\Builders;
 
 use Belt\Content\Builders\BaseBuilder;
-use Belt\Content\Attachment;
 
 /**
  * Class DefaultBuilder
