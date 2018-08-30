@@ -60,16 +60,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.67.1",
+            "version": "3.67.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a77e6796841056f46543393f5cd06aa9fa4cc40a"
+                "reference": "b4f47ccd5715fe100111f26713c3500ff56e3dcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a77e6796841056f46543393f5cd06aa9fa4cc40a",
-                "reference": "a77e6796841056f46543393f5cd06aa9fa4cc40a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b4f47ccd5715fe100111f26713c3500ff56e3dcc",
+                "reference": "b4f47ccd5715fe100111f26713c3500ff56e3dcc",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-08-28T19:38:00+00:00"
+            "time": "2018-08-29T20:04:59+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -1520,12 +1520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "36ade60fcce19dead718d4e8f857c4710e947381"
+                "reference": "1b97b6f8f76e4647afa8c3f7de42da4e466f586b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/36ade60fcce19dead718d4e8f857c4710e947381",
-                "reference": "36ade60fcce19dead718d4e8f857c4710e947381",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/1b97b6f8f76e4647afa8c3f7de42da4e466f586b",
+                "reference": "1b97b6f8f76e4647afa8c3f7de42da4e466f586b",
                 "shasum": ""
             },
             "require": {
@@ -1567,7 +1567,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-08-28T20:52:02+00:00"
+            "time": "2018-08-29T19:03:58+00:00"
         },
         {
             "name": "larabelt/core",
@@ -1575,12 +1575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "bf43b08fc6ceebc3c2a3a5865b3802d047b0dc0b"
+                "reference": "e6dec0a082538b2b7c50922c22f768f47f7f2b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/bf43b08fc6ceebc3c2a3a5865b3802d047b0dc0b",
-                "reference": "bf43b08fc6ceebc3c2a3a5865b3802d047b0dc0b",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/e6dec0a082538b2b7c50922c22f768f47f7f2b13",
+                "reference": "e6dec0a082538b2b7c50922c22f768f47f7f2b13",
                 "shasum": ""
             },
             "require": {
@@ -1636,7 +1636,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-08-27T19:50:16+00:00"
+            "time": "2018-08-29T19:03:53+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/elastic.git",
-                "reference": "08080700794a52d07fdd3ba94d27aa8f5aa29b97"
+                "reference": "885f5b512a2e046a769c1d27df924c1e7d5c549f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/elastic/zipball/08080700794a52d07fdd3ba94d27aa8f5aa29b97",
-                "reference": "08080700794a52d07fdd3ba94d27aa8f5aa29b97",
+                "url": "https://api.github.com/repos/larabelt/elastic/zipball/885f5b512a2e046a769c1d27df924c1e7d5c549f",
+                "reference": "885f5b512a2e046a769c1d27df924c1e7d5c549f",
                 "shasum": ""
             },
             "require": {
@@ -1685,7 +1685,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-08-28T20:52:09+00:00"
+            "time": "2018-08-29T17:40:45+00:00"
         },
         {
             "name": "larabelt/menu",
@@ -1786,12 +1786,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "19a43b6051ef1902654eb44ee9434b9044844c3d"
+                "reference": "de053fab4872ff4c4129937ad3eceaa3fb038a0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/19a43b6051ef1902654eb44ee9434b9044844c3d",
-                "reference": "19a43b6051ef1902654eb44ee9434b9044844c3d",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/de053fab4872ff4c4129937ad3eceaa3fb038a0b",
+                "reference": "de053fab4872ff4c4129937ad3eceaa3fb038a0b",
                 "shasum": ""
             },
             "type": "library",
@@ -1823,7 +1823,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-08-28T20:52:13+00:00"
+            "time": "2018-08-29T15:56:13+00:00"
         },
         {
             "name": "larabelt/workflow",
@@ -3539,16 +3539,16 @@
         },
         {
             "name": "spatie/db-dumper",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/db-dumper.git",
-                "reference": "ee745fba17bcf77c916f231a571bbde8dae8e001"
+                "reference": "1192bb0df9f49ee1f0bdecb7aa921d2647b4c7c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/db-dumper/zipball/ee745fba17bcf77c916f231a571bbde8dae8e001",
-                "reference": "ee745fba17bcf77c916f231a571bbde8dae8e001",
+                "url": "https://api.github.com/repos/spatie/db-dumper/zipball/1192bb0df9f49ee1f0bdecb7aa921d2647b4c7c7",
+                "reference": "1192bb0df9f49ee1f0bdecb7aa921d2647b4c7c7",
                 "shasum": ""
             },
             "require": {
@@ -3585,7 +3585,7 @@
                 "mysqldump",
                 "spatie"
             ],
-            "time": "2018-04-27T15:10:51+00:00"
+            "time": "2018-08-30T12:10:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
