@@ -30,6 +30,11 @@ return [
     // Allowed related types. A comma-delimited string of data types that can be added to this list.
     'indexable_types' => '',
 
+    // List Items.
+    'list_items' => [
+        'max' => 3,
+    ],
+
     /*
     | A set of custom parameters that belong to the templatable object.
     |
