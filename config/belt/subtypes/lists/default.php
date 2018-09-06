@@ -32,6 +32,7 @@ return [
 
     // List Items.
     'list_items' => [
+        'allowed_types' => ['default', 'place'],
         'max' => 3,
     ],
 
