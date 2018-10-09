@@ -2,9 +2,9 @@
 
 return [
     'locales' => [
-        'de_DE',
-        'en_US',
-        'es_ES',
-        'fr_FR',
+        'de_DE' => 'German',
+        'en_US' => 'English',
+        'es_ES' => 'Spanish',
+        'fr_FR' => 'French',
     ],
 ];
