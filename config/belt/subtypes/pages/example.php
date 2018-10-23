@@ -28,7 +28,7 @@ return [
     'sectionable' => false,
 
     // Translateable. Get columns that can be translated.
-    'translatable' => ['name'],
+    'translatable' => ['name', 'meta_title', 'meta_description'],
 
     /*
     | A set of custom parameters that belong to the templatable object.
