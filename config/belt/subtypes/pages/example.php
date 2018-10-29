@@ -47,6 +47,11 @@ return [
     */
 
     'params' => [
+        'tagline' => [
+            'translatable' => true,
+            'type' => 'text',
+            'label' => 'Tagline',
+        ],
         'menu' => [
             'type' => 'select',
             'label' => 'Menu',
@@ -60,12 +65,12 @@ return [
             'label' => 'Cool Attachment',
             'description' => 'Link existing attachment to this page.',
         ],
-        'body' => [
-            'translatable' => true,
-            'type' => 'editor',
-            'label' => 'Body',
-            'description' => 'Enter the main content for page',
-        ],
+//        'body' => [
+//            'translatable' => true,
+//            'type' => 'editor',
+//            'label' => 'Body',
+//            'description' => 'Enter the main content for page',
+//        ],
         'blocks' => [
             'type' => 'blocks',
             'label' => 'Block',
