@@ -24,6 +24,7 @@
     "moment": "^2.18.1",
     "slugify": "^1.1.0",
     "tinymce": "^4.5.5",
+    "trix": "^1.0.0",
     "uri-js": "^3.0.2",
     "vue": "^2.5.3",
     "vue-codemirror": "^4.0.3",
