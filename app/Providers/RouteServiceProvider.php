@@ -51,6 +51,14 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
             ->any('{any?}', Belt\Content\Http\Controllers\CatchAllController::class . '@web')
             ->where('any', '(.*)');
+
+//        $routes = Route::getRoutes();
+//        foreach ($routes->getRoutes() as $route) {
+//            if ($route->uri == 'pages/{page}/{slug?}') {
+//                break;
+//            }
+//        }
+//$route->prefix('{locale}');
     }
 
     /**
@@ -63,8 +71,8 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::middleware('web')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/web.php'));
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web.php'));
     }
 
     /**
@@ -77,8 +85,8 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         Route::prefix('api')
-             ->middleware('api')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/api.php'));
+            ->middleware('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
     }
 }
