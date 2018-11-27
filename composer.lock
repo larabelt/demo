@@ -1580,12 +1580,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "0bcf91fec276e78178f0471e20a76f1a7e4ab21a"
+                "reference": "fd352235fb3fa4418ff3585b904760f0df1ac7d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/0bcf91fec276e78178f0471e20a76f1a7e4ab21a",
-                "reference": "0bcf91fec276e78178f0471e20a76f1a7e4ab21a",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/fd352235fb3fa4418ff3585b904760f0df1ac7d0",
+                "reference": "fd352235fb3fa4418ff3585b904760f0df1ac7d0",
                 "shasum": ""
             },
             "require": {
@@ -1641,7 +1641,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-10-25T13:34:21+00:00"
+            "time": "2018-11-27T20:06:56+00:00"
         },
         {
             "name": "larabelt/elastic",
@@ -1698,12 +1698,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "3c6f0dfa96982ebf162aae0b785adee39d62ada9"
+                "reference": "78554105f0413beb0c99230a9585f18d845721c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/3c6f0dfa96982ebf162aae0b785adee39d62ada9",
-                "reference": "3c6f0dfa96982ebf162aae0b785adee39d62ada9",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/78554105f0413beb0c99230a9585f18d845721c3",
+                "reference": "78554105f0413beb0c99230a9585f18d845721c3",
                 "shasum": ""
             },
             "require": {
@@ -1738,7 +1738,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-11-05T19:30:22+00:00"
+            "time": "2018-11-27T20:07:16+00:00"
         },
         {
             "name": "larabelt/notify",
