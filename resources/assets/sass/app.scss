@@ -2,13 +2,144 @@
 @import "variables";
 
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
 // Font Awesome
 $fa-font-path:"~font-awesome/fonts";
-@import "node_modules/font-awesome/scss/font-awesome";
+@import "~font-awesome/scss/font-awesome";
 
-.web {
-  // Superhero Bootstrap theme
-  @import "theme-superhero";
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    color: $potato-greyish-brown;
+    font-family: $font-family-base;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+#app {
+    background: url(/images/mr-potato-header.jpg) no-repeat center top;
+    background-size: 100% auto;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+#potato-container {
+    height: 100%;
+    position: relative;
+
+    .content-column {
+        flex: 0 0 50%;
+    }
+
+    .logo {
+        margin-bottom: 8.4%;
+        margin-left: 19.5%;
+        padding: 4.5% 7.8%;
+        width: 36%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .headline {
+        margin-bottom: 5.9%;
+        margin-left: 11.1%;
+        width: 84.6%;
+    }
+
+    .body-copy {
+        margin-left: 19.5%;
+        width: 63.5%;
+    }
+}
+
+#potato-banner {
+    background-color: $potato-golden;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    a {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        img {
+            display: block;
+            height: 100%;
+            margin: 0 auto;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+}
+
+#potato-hit-spots {
+    height: auto;
+    position: relative;
+
+    .hotspot {
+        cursor: pointer;
+        position: absolute;
+    }
+}
+
+#modal-container {
+    left: 0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    .mask {
+        background-color: rgba(0,0,0,.83);
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+
+    .modal-close {
+        top: 7%;
+        position: absolute;
+        right: 11%;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        height:79.166667%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 84.375%;
+
+        .image {
+            background-size: cover;
+            flex: 0 0 48%;
+        }
+
+        .copy {
+            flex: 0 0 52%;
+            padding: 50px 20px 15px 20px;
+
+            .brand-logo {
+                margin-bottom: 20px;
+            }
+        }
+
+        &.avail .copy .brand-logo { max-width: 200px; }
+        &.nexia .copy .brand-logo { max-width: 174px; }
+        &.oneup .copy .brand-logo { max-width: 116px; }
+        &.tolero .copy .brand-logo { max-width: 192px; }
+    }
 }
