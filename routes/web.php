@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('potato-expo');
+    return view('welcome');
 });

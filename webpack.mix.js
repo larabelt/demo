@@ -1,5 +1,5 @@
-let mix = require('laravel-mix');
-let path = require('path');
+const { mix } = require('laravel-mix');
+const path = require('path');
 
 mix.autoload({
     'axios': ['axios'],
