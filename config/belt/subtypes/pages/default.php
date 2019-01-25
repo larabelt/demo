@@ -27,6 +27,9 @@ return [
     // Sectionable. Allow highly customizable page to be built via the Sections tab.
     'sectionable' => false,
 
+    // Sectionable. Allow highly customizable page to be built via the Sections tab.
+    'translatable' => ['name'],
+
     /*
     | A set of custom parameters that belong to the templatable object.
     |
@@ -46,6 +49,7 @@ return [
     'params' => [
         'body' => [
             'type' => 'editor',
+            'translatable' => true,
             'label' => 'Body',
             'description' => 'Enter main content of page here.',
         ],

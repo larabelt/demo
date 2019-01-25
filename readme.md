@@ -15,7 +15,7 @@ php artisan belt publish
 composer dumpautoload
 
 # migrate & seed
-php artisan belt migrate
+php artisan migrate
 php artisan belt seed
 ```
 
@@ -23,7 +23,7 @@ php artisan belt seed
 
 ```
 # install node dependencies
-yarn install
+npm install
 
 # compile assets
 npm run dev

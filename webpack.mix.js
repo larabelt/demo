@@ -5,6 +5,7 @@ mix.autoload({
     'axios': ['axios'],
     'jquery': ['jQuery', '$'],
     'lodash': ['_'],
+    'trix': ['Trix'],
     'vue': ['Vue']
 })
 
@@ -43,7 +44,7 @@ mix.copy("node_modules/tinymce", 'public/plugins/tinymce', false);
  * Admin JS
  */
 mix.js('resources/assets/js/belt-all.js', 'public/js').version();
-mix.extract(['axios', 'jquery', 'lodash', 'vue']);
+mix.extract(['axios', 'jquery', 'lodash', 'trix', 'vue']);
 
 
 /**

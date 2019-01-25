@@ -27,6 +27,9 @@ return [
     // Sectionable. Allow highly customizable page to be built via the Sections tab.
     'sectionable' => false,
 
+    // Translateable. Get columns that can be translated.
+    'translatable' => ['name', 'meta_title', 'meta_description'],
+
     /*
     | A set of custom parameters that belong to the templatable object.
     |
@@ -44,6 +47,17 @@ return [
     */
 
     'params' => [
+        'body' => [
+            'translatable' => true,
+            'type' => 'editor',
+            'label' => 'Body',
+            'description' => 'Enter the main content for page',
+        ],
+        'tagline' => [
+            'translatable' => true,
+            'type' => 'text',
+            'label' => 'Tagline',
+        ],
         'menu' => [
             'type' => 'select',
             'label' => 'Menu',
@@ -56,11 +70,6 @@ return [
             'type' => 'attachments',
             'label' => 'Cool Attachment',
             'description' => 'Link existing attachment to this page.',
-        ],
-        'body' => [
-            'type' => 'editor',
-            'label' => 'Body',
-            'description' => 'Enter the main content for page',
         ],
         'blocks' => [
             'type' => 'blocks',

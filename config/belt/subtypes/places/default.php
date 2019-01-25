@@ -27,6 +27,9 @@ return [
     // Sectionable. Allow highly customizable page to be built via the Sections tab.
     'sectionable' => false,
 
+    // Translateable. Get columns that can be translated.
+    'translatable' => ['name', 'meta_title', 'meta_description'],
+
     /*
     | A set of custom parameters that belong to the templatable object.
     |

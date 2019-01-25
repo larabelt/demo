@@ -67,7 +67,8 @@
       "php artisan cache:clear",
       "php artisan config:clear",
       "php artisan view:clear",
-      "cp /dev/null storage/logs/laravel.log"
+      "cp /dev/null storage/logs/laravel.log",
+      "php artisan ide-helper:generate"
     ]
   },
   "config": {
