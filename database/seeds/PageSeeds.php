@@ -28,10 +28,6 @@ class PageSeeds extends Seeder
         Handle::unguard();
         Page::unguard();
 
-        factory(Attachment::class, 2)->create();
-
-        //$attachment = $this->getOrCreateAttachment('cat1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'cats']);
-
         $data = [
             [
                 'name' => 'About Us',
@@ -42,7 +38,11 @@ class PageSeeds extends Seeder
                     'heading' => 'About Us',
                     'subheading' => 'People are the channels',
                     'jumbotron_enabled' => true,
-                    'jumbotron_image' => $this->getOrCreateAttachment('cat1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'cats']),
+                    'jumbotron_image' => $this->getOrCreateAttachment('people1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'people']),
+                    'jumbotron_title' => 'Capabilities',
+                    'jumbotron_text' => 'Thinking wider has led us to a vast array of capabilities all designed to grow.',
+                    'jumbotron_button_url' => 'https://google.com',
+                    'jumbotron_button_text' => 'Learn More',
                 ]
             ],
             [

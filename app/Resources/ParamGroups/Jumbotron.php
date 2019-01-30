@@ -25,8 +25,22 @@ class Jumbotron extends BaseParamGroup
                 ->setDescription(''),
             App\Resources\Params\Attachment\DefaultAttachment::make('jumbotron_image')
                 ->setLabel('Image')
-                ->setDescription('Add an image to be the Jumbotron\'s background'),
-            App\Resources\Params\Text\DefaultText::make(),
+                ->setDescription(''),
+            App\Resources\Params\Text\DefaultText::make('jumbotron_title')
+                ->setLabel('Title')
+                ->setDescription('')
+                ->setTranslatable(true),
+            App\Resources\Params\Text\DefaultText::make('jumbotron_text')
+                ->setLabel('Text')
+                ->setDescription('')
+                ->setTranslatable(true),
+            App\Resources\Params\Text\Url::make('jumbotron_button_url')
+                ->setLabel('Button Url')
+                ->setDescription('Add Linkable Button Url'),
+            App\Resources\Params\Text\DefaultText::make('jumbotron_button_text')
+                ->setLabel('Button Text')
+                ->setDescription('Set Linkable Button Text')
+                ->setTranslatable(true),
         ];
     }
 
