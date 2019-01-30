@@ -1,9 +1,9 @@
 <?php
 
 use Belt\Content\Handle;
+use Belt\Content\Attachment;
 use Belt\Content\Lyst;
 use Belt\Content\Page;
-use Belt\Menu\MenuGroup;
 use Belt\Menu\MenuItem;
 use Belt\Core\Helpers\BeltHelper;
 use Illuminate\Database\Seeder;
@@ -11,6 +11,9 @@ use Illuminate\Support\Facades\DB;
 
 class PageSeeds extends Seeder
 {
+
+    use AttachmentSeedsTrait;
+
     /**
      * Run the database seeds.
      *
@@ -22,11 +25,12 @@ class PageSeeds extends Seeder
     {
         $disk = BeltHelper::baseDisk();
 
-        DB::table('pages')->truncate();
-        //DB::table('handles')->truncate();
-
         Handle::unguard();
         Page::unguard();
+
+        factory(Attachment::class, 2)->create();
+
+        //$attachment = $this->getOrCreateAttachment('cat1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'cats']);
 
         $data = [
             [
@@ -34,19 +38,37 @@ class PageSeeds extends Seeder
                 'handles' => [
                     ['en', 'about-us'],
                 ],
+                'params' => [
+                    'heading' => 'About Us',
+                    'subheading' => 'People are the channels',
+                    'jumbotron_enabled' => true,
+                    'jumbotron_image' => $this->getOrCreateAttachment('cat1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'cats']),
+                ]
             ],
             [
                 'name' => 'Home',
+                'handles' => [
+                    ['en', 'home'],
+                ],
             ],
             [
                 'name' => 'Contact Us',
+                'handles' => [
+                    ['en', 'contact-us'],
+                ],
             ],
             [
                 'name' => 'Privacy Policy',
+                'handles' => [
+                    ['en', 'privacy-policy'],
+                ],
             ],
             [
                 'name' => 'Frequently Asked Questions',
                 'slug' => 'faqs',
+                'handles' => [
+                    ['en', 'faqs'],
+                ],
             ],
         ];
 
@@ -82,6 +104,13 @@ class PageSeeds extends Seeder
                     'is_active' => true,
                     'is_default' => $n == 0,
                 ]);
+            }
+
+            foreach (array_get($row, 'params', []) as $key => $value) {
+                if (is_object($value)) {
+                    $value = $value->id;
+                }
+                $page->saveParam($key, $value);
             }
         }
 

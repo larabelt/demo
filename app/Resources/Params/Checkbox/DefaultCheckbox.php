@@ -10,7 +10,7 @@ use App, Belt;
 class DefaultCheckbox extends Belt\Core\Resources\Params\Checkbox
 {
     protected $key = 'default_checkbox';
-    protected $label = 'Checkbox option';
-    protected $description = 'Check to make true.';
+    protected $label = '';
+    protected $description = '';
     protected $type = 'psuedo-checkbox';
 }

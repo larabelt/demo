@@ -106,18 +106,28 @@ class MenuSeeds extends Seeder
                 'slug' => $slug,
             ]);
 
-            $handle = Handle::where('url', "/$slug")->first();
-            if ($handle) {
+            if ($handle = Handle::where('url', "/$slug")->first()) {
                 if ($handle->handleable_type == 'lists') {
                     $template = 'list';
+                    $menuItem->saveParam('lists', $handle->handleable_id);
                 }
                 if ($handle->handleable_type == 'pages') {
                     $template = 'page';
+                    $menuItem->saveParam('pages', $handle->handleable_id);
                 }
                 if ($handle->handleable_type == 'places') {
                     $template = 'place';
                 }
-            } elseif ($template == 'default') {
+            }
+
+            if ($template == 'default') {
+                if ($page = Page::sluggish($slug)->first()) {
+                    $template = 'page';
+                    $menuItem->saveParam('pages', $page->id);
+                }
+            }
+
+            if ($template == 'default') {
                 dump($menuItem->toArray());
             }
 
@@ -128,15 +138,6 @@ class MenuSeeds extends Seeder
                 'url' => array_get($params, 'url'),
                 'target' => array_get($params, 'target', '_self'),
             ]);
-
-            if ($handle) {
-                if ($handle->handleable_type == 'lists') {
-                    $menuItem->saveParam('lists', $handle->handleable_id);
-                }
-                if ($handle->handleable_type == 'pages') {
-                    $menuItem->saveParam('pages', $handle->handleable_id);
-                }
-            }
 
             foreach (array_get($params, 'params', []) as $key => $value) {
                 $menuItem->saveParam($key, $value);

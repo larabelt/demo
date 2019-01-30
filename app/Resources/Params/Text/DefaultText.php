@@ -11,6 +11,6 @@ use App, Belt;
 class DefaultText extends App\Resources\Params\Text\BaseText
 {
     protected $key = 'default_text';
-    protected $label = 'Default Text';
+    protected $label = '';
     protected $description = '';
 }

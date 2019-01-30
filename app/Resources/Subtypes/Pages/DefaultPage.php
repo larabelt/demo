@@ -22,7 +22,8 @@ class DefaultPage extends App\Resources\Subtypes\Pages\BasePage
     public function params()
     {
         return [
-            App\Resources\ParamGroups\HeroImage::make(),
+            App\Resources\ParamGroups\Jumbotron::make(),
+            App\Resources\ParamGroups\Headings::make(),
             App\Resources\Params\Editor\BodyEditor::make()->setGroup('body')->setTranslatable(true),
         ];
     }
