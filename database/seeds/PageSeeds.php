@@ -30,6 +30,18 @@ class PageSeeds extends Seeder
 
         $data = [
             [
+                'name' => 'Home',
+                'handles' => [
+                    ['en', 'home'],
+                ],
+                'params' => [
+                    'jumbotron_enabled' => true,
+                    'jumbotron_image' => $this->getOrCreateAttachment('business1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'business']),
+                    'jumbotron_title' => 'OUR MESSAGE ',
+                    'jumbotron_text' => 'We understand your business, More importantly, We understand your challenges.',
+                ],
+            ],
+            [
                 'name' => 'About Us',
                 'handles' => [
                     ['en', 'about-us'],
@@ -39,22 +51,22 @@ class PageSeeds extends Seeder
                     'subheading' => 'People are the channels',
                     'jumbotron_enabled' => true,
                     'jumbotron_image' => $this->getOrCreateAttachment('people1.jpg', ['width' => 1440, 'height' => 500, 'category' => 'people']),
-                    'jumbotron_title' => 'Capabilities',
+                    'jumbotron_title' => 'CAPABILITIES',
                     'jumbotron_text' => 'Thinking wider has led us to a vast array of capabilities all designed to grow.',
                     'jumbotron_button_url' => 'https://google.com',
                     'jumbotron_button_text' => 'Learn More',
-                ]
-            ],
-            [
-                'name' => 'Home',
-                'handles' => [
-                    ['en', 'home'],
                 ],
             ],
             [
                 'name' => 'Contact Us',
+                'subtype' => 'form',
                 'handles' => [
                     ['en', 'contact-us'],
+                ],
+                'params' => [
+                    'heading' => 'Contact Us',
+                    'form_key' => 'form-contact',
+                    'form_success' => 'Your request has been submitted. Thank you.',
                 ],
             ],
             [
@@ -62,12 +74,9 @@ class PageSeeds extends Seeder
                 'handles' => [
                     ['en', 'privacy-policy'],
                 ],
-            ],
-            [
-                'name' => 'Frequently Asked Questions',
-                'slug' => 'faqs',
-                'handles' => [
-                    ['en', 'faqs'],
+                'params' => [
+                    'heading' => 'Our Privacy Policy',
+                    'jumbotron_enabled' => false,
                 ],
             ],
         ];

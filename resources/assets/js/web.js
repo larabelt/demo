@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     let components = {
         'alert-dismissal': AlertDismissal,
-        'contact-form': ContactForm,
+        'form-contact': ContactForm,
         'user-signup': UserSignup,
         'team-signup': TeamSignup,
     };

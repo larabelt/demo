@@ -1,7 +1,6 @@
 <?php
 
 use Belt\Content\Handle;
-use Belt\Content\Lyst;
 use Belt\Content\Page;
 use Belt\Menu\MenuGroup;
 use Belt\Menu\MenuItem;
@@ -48,36 +47,14 @@ class MenuSeeds extends Seeder
                     'About Us' => [
                         'url' => '/about-us'
                     ],
+                    'Contact Us' => [
+                        'url' => '/contact-us'
+                    ],
                     'Privacy Policy' => [
                         'url' => '/privacy-policy'
                     ],
-                    'Site Map' => [
-                        'url' => '/site-map'
-                    ],
-                    'FAQs' => [
-                        'url' => '/faqs'
-                    ],
                 ]
             ],
-            'Social Media' => [
-                'children' => [
-                    'Facebook' => [
-                        'url' => 'https://www.facebook.com/laravel',
-                        'subtype' => 'social_media',
-                        'params' => [
-                            'icon' => 'fab fa-facebook-square',
-                        ]
-                    ],
-                    'Twitter' => [
-                        'url' => 'https://twitter.com/laravelphp',
-                        'subtype' => 'social_media',
-                        'params' => [
-                            'icon' => 'fab fa-twitter',
-                        ]
-                    ],
-
-                ]
-            ]
         ];
 
         foreach ($menus as $group => $params) {
