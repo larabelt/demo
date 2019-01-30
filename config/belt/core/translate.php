@@ -1,12 +1,13 @@
 <?php
 
 return [
-    'prefix-urls' => false,
+    'prefix-urls' => true,
     'auto-translate' => [
-        'driver' => null,
+        'driver' => \Belt\Core\Services\AutoTranslate\AWSAutoTranslate::class,
     ],
     'locales' => [
-        //['code' => 'en_US', 'label' => 'English'],
-        //['code' => 'es_ES', 'label' => 'Español'],
+        ['code' => 'en', 'label' => 'English'],
+        ['code' => 'fr', 'label' => 'Francais'],
+        ['code' => 'es', 'label' => 'Español'],
     ],
 ];

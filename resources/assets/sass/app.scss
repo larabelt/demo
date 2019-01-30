@@ -1,5 +1,5 @@
 // Variables
-@import "variables";
+@import "themes/yeti/variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
@@ -10,5 +10,5 @@ $fa-font-path:"~font-awesome/fonts";
 
 .web {
   // Superhero Bootstrap theme
-  @import "theme-superhero";
+  @import "themes/yeti/main";
 }
