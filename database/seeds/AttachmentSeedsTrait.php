@@ -14,6 +14,8 @@ trait AttachmentSeedsTrait
      */
     public function getOrCreateAttachment($filename, $params)
     {
+        $helper = (new FactoryHelper())->loadImages();
+
         $disk = BeltHelper::baseDisk();
 
         $width = array_get($params, 'width', 640);
@@ -24,10 +26,10 @@ trait AttachmentSeedsTrait
         $path = 'storage/app/public/local/uploads/' . $filename;
         if (!$disk->exists($path)) {
             $upload = true;
-            $path = FactoryHelper::addImage(['width' => $width, 'height' => $height, 'category' => $category]);
+            $path = $helper->addImage(['width' => $width, 'height' => $height, 'category' => $category]);
         }
 
-        $result = FactoryHelper::uploadImage($path, $filename, $upload);
+        $result = $helper->uploadImage($path, $filename, $upload);
 
         $attachments = factory(Attachment::class, 1)->create($result);
 
