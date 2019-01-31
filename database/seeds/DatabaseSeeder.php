@@ -14,12 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pages')->truncate();
-        DB::table('handles')->truncate();
-        DB::table('attachments')->truncate();
-        DB::table('params')->truncate();
 
-        $this->call(PageSeeds::class);
-        $this->call(MenuSeeds::class);
     }
 }
