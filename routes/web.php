@@ -11,6 +11,15 @@
 |
 */
 
+Route::get('/en', function () {
+    return Response::pages(\Belt\Content\Page::where('slug', 'home')->first());
+});
+Route::get('/de', function () {
+    return Response::pages(\Belt\Content\Page::where('slug', 'home')->first());
+});
+Route::get('/es', function () {
+    return Response::pages(\Belt\Content\Page::where('slug', 'home')->first());
+});
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/' . App::getLocale());
 });
