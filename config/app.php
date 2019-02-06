@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => env('APP_NAME', 'LaraBelt'),
 
     /*
     |--------------------------------------------------------------------------
@@ -165,6 +165,7 @@ return [
          */
         Belt\Core\BeltCoreServiceProvider::class,
         Belt\Content\BeltContentServiceProvider::class,
+        Belt\Docs\BeltDocsServiceProvider::class,
         Belt\Notify\BeltNotifyServiceProvider::class,
         Belt\Elastic\BeltElasticServiceProvider::class,
         Belt\Menu\BeltMenuServiceProvider::class,

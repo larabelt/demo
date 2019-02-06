@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "361d1eaa1a849868e3415c986461c19b",
+    "content-hash": "b0e8a118bc28a12e8c6bb28a7d4c0d17",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -202,6 +202,64 @@
                 "laravel"
             ],
             "time": "2018-09-06T13:20:53+00:00"
+        },
+        {
+            "name": "binarytorch/larecipe",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saleem-hadad/larecipe.git",
+                "reference": "5db87b4b208ea53e57fe6e335b493af359a5abc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saleem-hadad/larecipe/zipball/5db87b4b208ea53e57fe6e335b493af359a5abc4",
+                "reference": "5db87b4b208ea53e57fe6e335b493af359a5abc4",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown-extra": "^0.7.1",
+                "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/view": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "symfony/dom-crawler": "^4.1"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "orchestra/testbench": "~3.4.0|~3.5.0|~3.6.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BinaryTorch\\LaRecipe\\LaRecipeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BinaryTorch\\LaRecipe\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saleem Hadad",
+                    "email": "saleem@binary-torch.com"
+                }
+            ],
+            "description": "Generate gorgeous recipes for your Laravel applications using MarkDown",
+            "keywords": [
+                "api",
+                "docs",
+                "documentation",
+                "laravel",
+                "markdown"
+            ],
+            "time": "2018-09-25T18:50:14+00:00"
         },
         {
             "name": "cloudinary/cloudinary_php",
@@ -846,6 +904,50 @@
                 "parser"
             ],
             "time": "2018-03-08T01:11:30+00:00"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "time": "2015-11-01T10:19:22+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1526,16 +1628,16 @@
         },
         {
             "name": "larabelt/content",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "d99a438f516f04464aba9be81cc50466d852c4ad"
+                "reference": "99993488dbdcc5e821b70842e8b578841259e959"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/d99a438f516f04464aba9be81cc50466d852c4ad",
-                "reference": "d99a438f516f04464aba9be81cc50466d852c4ad",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/99993488dbdcc5e821b70842e8b578841259e959",
+                "reference": "99993488dbdcc5e821b70842e8b578841259e959",
                 "shasum": ""
             },
             "require": {
@@ -1577,20 +1679,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-01-30T20:57:38+00:00"
+            "time": "2019-01-31T19:42:46+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "a94e0ea0b4e9683e86622077f139935ee1225e7e"
+                "reference": "e23e983d54053b552cf8cf53418f5fc197b4c889"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/a94e0ea0b4e9683e86622077f139935ee1225e7e",
-                "reference": "a94e0ea0b4e9683e86622077f139935ee1225e7e",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/e23e983d54053b552cf8cf53418f5fc197b4c889",
+                "reference": "e23e983d54053b552cf8cf53418f5fc197b4c889",
                 "shasum": ""
             },
             "require": {
@@ -1646,11 +1748,60 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-01-30T20:57:34+00:00"
+            "time": "2019-01-31T19:42:40+00:00"
+        },
+        {
+            "name": "larabelt/docs",
+            "version": "dev-unified",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/docs.git",
+                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/docs/zipball/e7ceb8c561a6ef720d38f30e6749990f56fcf346",
+                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346",
+                "shasum": ""
+            },
+            "require": {
+                "binarytorch/larecipe": "^1.2",
+                "erusev/parsedown": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "updates"
+                ],
+                "psr-4": {
+                    "Belt\\Docs\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Docs package for any LaraBelt app.",
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2019-02-01T16:03:48+00:00"
         },
         {
             "name": "larabelt/elastic",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/elastic.git",
@@ -1699,16 +1850,16 @@
         },
         {
             "name": "larabelt/menu",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "41adeade9432f6727893ce26c8ac9e1bd35dcc38"
+                "reference": "9cad217b89527f6834463ca942b5ef89d27e829f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/41adeade9432f6727893ce26c8ac9e1bd35dcc38",
-                "reference": "41adeade9432f6727893ce26c8ac9e1bd35dcc38",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/9cad217b89527f6834463ca942b5ef89d27e829f",
+                "reference": "9cad217b89527f6834463ca942b5ef89d27e829f",
                 "shasum": ""
             },
             "require": {
@@ -1743,11 +1894,11 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-01-30T20:57:44+00:00"
+            "time": "2019-01-31T17:36:47+00:00"
         },
         {
             "name": "larabelt/notify",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/notify.git",
@@ -1792,7 +1943,7 @@
         },
         {
             "name": "larabelt/spot",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
@@ -1837,7 +1988,7 @@
         },
         {
             "name": "larabelt/workflow",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/workflow.git",
@@ -2217,16 +2368,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.49",
+            "version": "1.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd"
+                "reference": "dab4e7624efa543a943be978008f439c333f2249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a63cc83d8a931b271be45148fa39ba7156782ffd",
-                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dab4e7624efa543a943be978008f439c333f2249",
+                "reference": "dab4e7624efa543a943be978008f439c333f2249",
                 "shasum": ""
             },
             "require": {
@@ -2297,20 +2448,20 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-11-23T23:41:29+00:00"
+            "time": "2019-02-01T08:50:36+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
-            "version": "1.0.21",
+            "version": "1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "43523fec10a831ea48bedb3277e3f3fa218f4e49"
+                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/43523fec10a831ea48bedb3277e3f3fa218f4e49",
-                "reference": "43523fec10a831ea48bedb3277e3f3fa218f4e49",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/883b02c80ca9cd68cf58a9b4b2185beef24b836b",
+                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b",
                 "shasum": ""
             },
             "require": {
@@ -2344,7 +2495,7 @@
                 }
             ],
             "description": "Flysystem adapter for the AWS S3 SDK v3.x",
-            "time": "2018-10-08T07:53:55+00:00"
+            "time": "2019-01-31T15:07:25+00:00"
         },
         {
             "name": "maatwebsite/excel",
@@ -4016,6 +4167,63 @@
                 }
             ],
             "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-01-03T09:07:35+00:00"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "8dc06251d5ad98d8494e1f742bec9cfdb9e42044"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/8dc06251d5ad98d8494e1f742bec9cfdb9e42044",
+                "reference": "8dc06251d5ad98d8494e1f742bec9cfdb9e42044",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/css-selector": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
             "time": "2019-01-03T09:07:35+00:00"
         },
@@ -6159,16 +6367,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.2",
+            "version": "7.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "7c89093bd00f7d5ddf0ab81dee04f801416b4944"
+                "reference": "2cb759721e53bc05f56487f628c6b9fbb6c18746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7c89093bd00f7d5ddf0ab81dee04f801416b4944",
-                "reference": "7c89093bd00f7d5ddf0ab81dee04f801416b4944",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2cb759721e53bc05f56487f628c6b9fbb6c18746",
+                "reference": "2cb759721e53bc05f56487f628c6b9fbb6c18746",
                 "shasum": ""
             },
             "require": {
@@ -6239,7 +6447,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-01-15T08:19:08+00:00"
+            "time": "2019-02-01T05:24:07+00:00"
         },
         {
             "name": "rap2hpoutre/laravel-log-viewer",
@@ -6456,28 +6664,31 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "4.0.2",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "4a43e9af57b4afa663077b9bc85255dbc6e8a2bd"
+                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4a43e9af57b4afa663077b9bc85255dbc6e8a2bd",
-                "reference": "4a43e9af57b4afa663077b9bc85255dbc6e8a2bd",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6fda8ce1974b62b14935adc02a9ed38252eca656",
+                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.4"
+                "phpunit/phpunit": "^7.5"
+            },
+            "suggest": {
+                "ext-posix": "*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -6502,7 +6713,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2019-01-28T15:26:03+00:00"
+            "time": "2019-02-01T05:27:49+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -7002,7 +7213,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "larabelt/docs": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

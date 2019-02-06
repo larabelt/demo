@@ -43,6 +43,9 @@ Thumbs.db
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+/docs/compiled
 /node_modules
 /public/images
+/public/vendor
+/resources/docs
 /vendor

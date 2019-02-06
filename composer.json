@@ -9,10 +9,12 @@
   "type": "project",
   "require": {
     "php": ">=7.1.3",
+    "binarytorch/larecipe": "^1.2",
     "fideloper/proxy": "^4.0",
     "guzzlehttp/guzzle": "^6.3.0",
-    "larabelt/core": "2.0.*",
     "larabelt/content": "2.0.*",
+    "larabelt/core": "2.0.*",
+    "larabelt/docs": "dev-unified",
     "larabelt/elastic": "2.0.*",
     "larabelt/menu": "2.0.*",
     "larabelt/notify": "2.0.*",
