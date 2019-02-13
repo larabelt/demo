@@ -15,7 +15,7 @@ return [
 
     'docs'        => [
         'route'   => '/docs',
-        'path'    => '/docs/compiled',
+        'path'    => '/resources/docs/published',
         'landing' => 'overview',
     ],
 
@@ -34,8 +34,7 @@ return [
     'versions'      => [
         'default'   => '2.0',
         'published' => [
-            '1.0',
-            '1.5',
+            //'1.5',
             '2.0',
         ]
     ],
@@ -144,6 +143,7 @@ return [
         ],
         'additional_css' => [
             //'css/custom.css',
+            '/css/docs.css',
         ],
         'additional_js'  => [
             //'js/custom.js',

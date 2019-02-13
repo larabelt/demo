@@ -7,7 +7,7 @@ mix.autoload({
     'lodash': ['_'],
     'trix': ['Trix'],
     'vue': ['Vue']
-})
+});
 
 
 /*
@@ -24,6 +24,7 @@ mix.autoload({
 mix.webpackConfig({
     resolve: {
         modules: [
+            'node_modules',
             path.resolve(__dirname, 'resources'),
             path.resolve(__dirname, 'vendor/larabelt/core/resources'),
             path.resolve(__dirname, 'vendor/larabelt/content/resources'),
@@ -31,8 +32,7 @@ mix.webpackConfig({
             path.resolve(__dirname, 'vendor/larabelt/elastic/resources'),
             path.resolve(__dirname, 'vendor/larabelt/menu/resources'),
             path.resolve(__dirname, 'vendor/larabelt/spot/resources'),
-            path.resolve(__dirname, 'vendor/larabelt/workflow/resources'),
-            'node_modules'
+            path.resolve(__dirname, 'vendor/larabelt/workflow/resources')
         ]
     }
 });
@@ -57,3 +57,4 @@ mix.js('resources/assets/js/web.js', 'public/js').version();
  */
 mix.sass('resources/assets/sass/app.scss', 'public/css').version();
 mix.sass('resources/assets/sass/belt.scss', 'public/css').version();
+mix.sass('resources/assets/sass/docs.scss', 'public/css').version();

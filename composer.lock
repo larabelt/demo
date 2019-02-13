@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0e8a118bc28a12e8c6bb28a7d4c0d17",
+    "content-hash": "31daabec8d8cf46a064dc522a269a0b5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1004,6 +1004,74 @@
             "time": "2019-01-10T14:06:47+00:00"
         },
         {
+            "name": "graham-campbell/markdown",
+            "version": "v10.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Laravel-Markdown.git",
+                "reference": "fdb55c7953c85c60f742294a9cd2b3b010bca0b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Markdown/zipball/fdb55c7953c85c60f742294a9cd2b3b010bca0b6",
+                "reference": "fdb55c7953c85c60f742294a9cd2b3b010bca0b6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.5.*|5.6.*|5.7.*",
+                "illuminate/support": "5.5.*|5.6.*|5.7.*",
+                "illuminate/view": "5.5.*|5.6.*|5.7.*",
+                "league/commonmark": "^0.18",
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "graham-campbell/analyzer": "^2.1",
+                "graham-campbell/testbench": "^5.1",
+                "league/commonmark-extras": "^0.1.5",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.5|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.2-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "GrahamCampbell\\Markdown\\MarkdownServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\Markdown\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Markdown Is A CommonMark Wrapper For Laravel 5",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Laravel Markdown",
+                "Laravel-Markdown",
+                "common mark",
+                "commonmark",
+                "framework",
+                "laravel",
+                "markdown"
+            ],
+            "time": "2018-09-29T10:19:14+00:00"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.3",
             "source": {
@@ -1751,55 +1819,6 @@
             "time": "2019-01-31T19:42:40+00:00"
         },
         {
-            "name": "larabelt/docs",
-            "version": "dev-unified",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larabelt/docs.git",
-                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/docs/zipball/e7ceb8c561a6ef720d38f30e6749990f56fcf346",
-                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346",
-                "shasum": ""
-            },
-            "require": {
-                "binarytorch/larecipe": "^1.2",
-                "erusev/parsedown": "^1.7"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "updates"
-                ],
-                "psr-4": {
-                    "Belt\\Docs\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Rob LaSota",
-                    "email": "rob.lasota@gmail.com"
-                },
-                {
-                    "name": "Matt Crowe",
-                    "email": "github.mpc@zym.me"
-                }
-            ],
-            "description": "Docs package for any LaraBelt app.",
-            "keywords": [
-                "cms",
-                "larabelt",
-                "laravel"
-            ],
-            "time": "2019-02-01T16:03:48+00:00"
-        },
-        {
             "name": "larabelt/elastic",
             "version": "2.0.3",
             "source": {
@@ -2365,6 +2384,75 @@
             "description": "HTML and Form Builders for the Laravel Framework",
             "homepage": "https://laravelcollective.com",
             "time": "2018-06-18T15:04:16+00:00"
+        },
+        {
+            "name": "league/commonmark",
+            "version": "0.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "e5029f74ba39e043ce4b3ca6c05dc719d8aafd94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/e5029f74ba39e043ce4b3ca6c05dc719d8aafd94",
+                "reference": "e5029f74ba39e043ce4b3ca6c05dc719d8aafd94",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.6.5"
+            },
+            "replace": {
+                "colinodell/commonmark-php": "*"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1.0",
+                "commonmark/commonmark.js": "0.28",
+                "erusev/parsedown": "~1.0",
+                "michelf/php-markdown": "~1.4",
+                "mikehaertl/php-shellcommand": "^1.2",
+                "phpunit/phpunit": "^5.7|^6.5",
+                "scrutinizer/ocular": "^1.1",
+                "symfony/finder": "^3.0|^4.0"
+            },
+            "suggest": {
+                "league/commonmark-extras": "Library of useful extensions including smart punctuation"
+            },
+            "bin": [
+                "bin/commonmark"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.19-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "PHP Markdown parser based on the CommonMark spec",
+            "homepage": "https://github.com/thephpleague/commonmark",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "parser"
+            ],
+            "time": "2018-12-30T01:55:29+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5623,6 +5711,55 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+            "name": "larabelt/docs",
+            "version": "dev-unified",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabelt/docs.git",
+                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabelt/docs/zipball/e7ceb8c561a6ef720d38f30e6749990f56fcf346",
+                "reference": "e7ceb8c561a6ef720d38f30e6749990f56fcf346",
+                "shasum": ""
+            },
+            "require": {
+                "binarytorch/larecipe": "^1.2",
+                "erusev/parsedown": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "updates"
+                ],
+                "psr-4": {
+                    "Belt\\Docs\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rob LaSota",
+                    "email": "rob.lasota@gmail.com"
+                },
+                {
+                    "name": "Matt Crowe",
+                    "email": "github.mpc@zym.me"
+                }
+            ],
+            "description": "Docs package for any LaraBelt app.",
+            "keywords": [
+                "cms",
+                "larabelt",
+                "laravel"
+            ],
+            "time": "2019-02-01T16:03:48+00:00"
+        },
+        {
             "name": "maximebf/debugbar",
             "version": "v1.15.0",
             "source": {
@@ -7213,9 +7350,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "larabelt/docs": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

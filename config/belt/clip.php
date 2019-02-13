@@ -41,7 +41,7 @@ return [
         'local_driver' => 'local',
         'image_driver' => 'gd',
         'models' => [
-            \Belt\Content\Album::class => [
+            \Belt\Content\Page::class => [
                 [100, 100, 'fit'],
                 [800, 800, 'fit'],
             ],
