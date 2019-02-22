@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dacbc05b5e18edd84de6100d28b4d777",
+    "content-hash": "99dd54ff37cbb317fc916e51ba756e95",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -60,16 +60,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.87.14",
+            "version": "3.87.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1d442bd93d3648e403ab895b5e1f464b4aa1b376"
+                "reference": "b6954b03e1c212b849ecf103e5f593b15b06b058"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d442bd93d3648e403ab895b5e1f464b4aa1b376",
-                "reference": "1d442bd93d3648e403ab895b5e1f464b4aa1b376",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b6954b03e1c212b849ecf103e5f593b15b06b058",
+                "reference": "b6954b03e1c212b849ecf103e5f593b15b06b058",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-02-19T19:08:06+00:00"
+            "time": "2019-02-21T19:16:06+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -201,6 +201,64 @@
                 "laravel"
             ],
             "time": "2018-09-06T13:20:53+00:00"
+        },
+        {
+            "name": "binarytorch/larecipe",
+            "version": "v1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saleem-hadad/larecipe.git",
+                "reference": "b8fadaa5c0577cd84d88f7ab2fcc0a0f0f8ea4f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saleem-hadad/larecipe/zipball/b8fadaa5c0577cd84d88f7ab2fcc0a0f0f8ea4f3",
+                "reference": "b8fadaa5c0577cd84d88f7ab2fcc0a0f0f8ea4f3",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown-extra": "^0.7.1",
+                "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/view": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "symfony/dom-crawler": "^4.1"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "orchestra/testbench": "~3.4.0|~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BinaryTorch\\LaRecipe\\LaRecipeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BinaryTorch\\LaRecipe\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saleem Hadad",
+                    "email": "saleem@binary-torch.com"
+                }
+            ],
+            "description": "Generate gorgeous recipes for your Laravel applications using MarkDown",
+            "keywords": [
+                "api",
+                "docs",
+                "documentation",
+                "laravel",
+                "markdown"
+            ],
+            "time": "2019-02-14T06:15:43+00:00"
         },
         {
             "name": "cloudinary/cloudinary_php",
@@ -845,6 +903,50 @@
                 "parser"
             ],
             "time": "2018-03-08T01:11:30+00:00"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "time": "2015-11-01T10:19:22+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1525,16 +1627,16 @@
         },
         {
             "name": "larabelt/content",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/content.git",
-                "reference": "8e04fa37f0250c31adb56b765fc5b8cbc1aebd1e"
+                "reference": "2b99cad2b80350db47ff793e9959f576b710fa3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/content/zipball/8e04fa37f0250c31adb56b765fc5b8cbc1aebd1e",
-                "reference": "8e04fa37f0250c31adb56b765fc5b8cbc1aebd1e",
+                "url": "https://api.github.com/repos/larabelt/content/zipball/2b99cad2b80350db47ff793e9959f576b710fa3a",
+                "reference": "2b99cad2b80350db47ff793e9959f576b710fa3a",
                 "shasum": ""
             },
             "require": {
@@ -1550,7 +1652,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Content\\": "src/"
+                    "Belt\\Content\\": "src/",
+                    "Tests\\Belt\\Content\\": "tests/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -1576,24 +1679,25 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-02-12T15:08:34+00:00"
+            "time": "2019-02-21T21:54:36+00:00"
         },
         {
             "name": "larabelt/core",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/core.git",
-                "reference": "1a213a0f537ef1804dff9c9da4332fda9c7f8016"
+                "reference": "c4cbb3be223a1977e35ff23847ee07fffc8bbf84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/core/zipball/1a213a0f537ef1804dff9c9da4332fda9c7f8016",
-                "reference": "1a213a0f537ef1804dff9c9da4332fda9c7f8016",
+                "url": "https://api.github.com/repos/larabelt/core/zipball/c4cbb3be223a1977e35ff23847ee07fffc8bbf84",
+                "reference": "c4cbb3be223a1977e35ff23847ee07fffc8bbf84",
                 "shasum": ""
             },
             "require": {
                 "barryvdh/laravel-cors": "^0.11.0",
+                "binarytorch/larecipe": "^1.2",
                 "doctrine/dbal": "^2.5",
                 "guzzlehttp/guzzle": ">=6.2.0",
                 "kalnoy/nestedset": "^4.3",
@@ -1611,6 +1715,7 @@
             "require-dev": {
                 "barryvdh/laravel-debugbar": "^3.1",
                 "barryvdh/laravel-ide-helper": "2.4.*",
+                "laravel/dusk": "4.0",
                 "rap2hpoutre/laravel-log-viewer": "^0.8.0"
             },
             "type": "library",
@@ -1619,7 +1724,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Core\\": "src/"
+                    "Belt\\Core\\": "src/",
+                    "Tests\\Belt\\Core\\": "tests/"
                 },
                 "files": [
                     "src/helpers.php"
@@ -1645,20 +1751,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-02-12T15:08:28+00:00"
+            "time": "2019-02-21T21:54:32+00:00"
         },
         {
             "name": "larabelt/elastic",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/elastic.git",
-                "reference": "f7788d25ad439b02b1d3f1363ad58f959fb500f3"
+                "reference": "1010953ff5eaa51fb780e3896dac6f118cc99060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/elastic/zipball/f7788d25ad439b02b1d3f1363ad58f959fb500f3",
-                "reference": "f7788d25ad439b02b1d3f1363ad58f959fb500f3",
+                "url": "https://api.github.com/repos/larabelt/elastic/zipball/1010953ff5eaa51fb780e3896dac6f118cc99060",
+                "reference": "1010953ff5eaa51fb780e3896dac6f118cc99060",
                 "shasum": ""
             },
             "require": {
@@ -1670,7 +1776,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Elastic\\": "src/"
+                    "Belt\\Elastic\\": "src/",
+                    "Tests\\Belt\\Elastic\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1694,20 +1801,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-09-07T14:53:44+00:00"
+            "time": "2019-02-21T21:54:39+00:00"
         },
         {
             "name": "larabelt/menu",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/menu.git",
-                "reference": "9cad217b89527f6834463ca942b5ef89d27e829f"
+                "reference": "09a833fbec07329741e8eed147e890ea882c2129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/menu/zipball/9cad217b89527f6834463ca942b5ef89d27e829f",
-                "reference": "9cad217b89527f6834463ca942b5ef89d27e829f",
+                "url": "https://api.github.com/repos/larabelt/menu/zipball/09a833fbec07329741e8eed147e890ea882c2129",
+                "reference": "09a833fbec07329741e8eed147e890ea882c2129",
                 "shasum": ""
             },
             "require": {
@@ -1719,7 +1826,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Menu\\": "src/"
+                    "Belt\\Menu\\": "src/",
+                    "Tests\\Belt\\Menu\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1742,20 +1850,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-01-31T17:36:47+00:00"
+            "time": "2019-02-21T21:54:42+00:00"
         },
         {
             "name": "larabelt/notify",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/notify.git",
-                "reference": "655ae613ce48d0fb4128101b76092505a856b864"
+                "reference": "10cd5bff4939d345537175cd23c67faeb5395f46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/notify/zipball/655ae613ce48d0fb4128101b76092505a856b864",
-                "reference": "655ae613ce48d0fb4128101b76092505a856b864",
+                "url": "https://api.github.com/repos/larabelt/notify/zipball/10cd5bff4939d345537175cd23c67faeb5395f46",
+                "reference": "10cd5bff4939d345537175cd23c67faeb5395f46",
                 "shasum": ""
             },
             "type": "library",
@@ -1764,7 +1872,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Notify\\": "src/"
+                    "Belt\\Notify\\": "src/",
+                    "Tests\\Belt\\Notify\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1787,20 +1896,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-02-11T19:51:05+00:00"
+            "time": "2019-02-21T21:54:45+00:00"
         },
         {
             "name": "larabelt/spot",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/spot.git",
-                "reference": "8c08897090e25b9b4ef38219a9ac267fb269916c"
+                "reference": "900bdcbd0ee51b5e62abb5764ac11a2a7f91bd99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/spot/zipball/8c08897090e25b9b4ef38219a9ac267fb269916c",
-                "reference": "8c08897090e25b9b4ef38219a9ac267fb269916c",
+                "url": "https://api.github.com/repos/larabelt/spot/zipball/900bdcbd0ee51b5e62abb5764ac11a2a7f91bd99",
+                "reference": "900bdcbd0ee51b5e62abb5764ac11a2a7f91bd99",
                 "shasum": ""
             },
             "type": "library",
@@ -1809,7 +1918,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Spot\\": "src/"
+                    "Belt\\Spot\\": "src/",
+                    "Tests\\Belt\\Spot\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1832,20 +1942,20 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2019-02-12T15:08:41+00:00"
+            "time": "2019-02-21T21:54:49+00:00"
         },
         {
             "name": "larabelt/workflow",
-            "version": "2.0.7",
+            "version": "dev-behat",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabelt/workflow.git",
-                "reference": "8c38e877e75852d1201122809f22846e7910746e"
+                "reference": "e048d14829659b8f2f5850ea1162c498d91b1653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabelt/workflow/zipball/8c38e877e75852d1201122809f22846e7910746e",
-                "reference": "8c38e877e75852d1201122809f22846e7910746e",
+                "url": "https://api.github.com/repos/larabelt/workflow/zipball/e048d14829659b8f2f5850ea1162c498d91b1653",
+                "reference": "e048d14829659b8f2f5850ea1162c498d91b1653",
                 "shasum": ""
             },
             "type": "library",
@@ -1854,7 +1964,8 @@
                     "updates"
                 ],
                 "psr-4": {
-                    "Belt\\Workflow\\": "src/"
+                    "Belt\\Workflow\\": "src/",
+                    "Tests\\Belt\\Workflow\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1877,7 +1988,7 @@
                 "larabelt",
                 "laravel"
             ],
-            "time": "2018-11-05T19:30:32+00:00"
+            "time": "2019-02-21T21:54:52+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4020,6 +4131,63 @@
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
             "time": "2019-01-25T14:35:16+00:00"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v4.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "d8476760b04cdf7b499c8718aa437c20a9155103"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/d8476760b04cdf7b499c8718aa437c20a9155103",
+                "reference": "d8476760b04cdf7b499c8718aa437c20a9155103",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/css-selector": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -7128,7 +7296,15 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "larabelt/content": 20,
+        "larabelt/core": 20,
+        "larabelt/elastic": 20,
+        "larabelt/menu": 20,
+        "larabelt/notify": 20,
+        "larabelt/spot": 20,
+        "larabelt/workflow": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
